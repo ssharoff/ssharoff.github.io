@@ -1,13 +1,7 @@
-./img/sharoff-2009-noflash-face.jpg
-
-# Welcome to my home page
-
-  ----------------------- --------------------------------------------------------------
-  **Google Scholar:**     <https://scholar.google.c>o.uk/citations?user=qcnf4QsAAAAJ\>
+  ----------------------- -------------------------------------------------------------
+  **Google Scholar:**     <https://scholar.google.co.uk/citations?user=qcnf4QsAAAAJ>
   **Semantic Scholar:**   <https://www.semanticscholar.org/author/S.-Sharoff/2506104>
-  ----------------------- --------------------------------------------------------------
-
-## My job
+  ----------------------- -------------------------------------------------------------
 
 ## My research interests
 
