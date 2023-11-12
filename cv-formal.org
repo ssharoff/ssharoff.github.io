@@ -1,0 +1,173 @@
+#+TITLE: Prof Serge Sharoff
+#+AUTHOR: 
+#+DATE: \today
+# +LATEX_HEADER: \usepackage{standard}
+#+LATEX_HEADER: \usepackage{times}
+#+LATEX_HEADER: \usepackage{fullpage}
+#+LATEX_HEADER: \usepackage{eurosym}
+
+
+* Current position
+  :PROPERTIES:
+  :CUSTOM_ID: current-position
+  :CLASS: unnumbered
+  :END:
+- Title :: Professor of Language Technology and Digital Humanities,
+- Address :: Centre for Translation Studies\\
+  School of Languages, Cultures and Societies\\
+  University of Leeds\\
+  Leeds, LS2 9JT, UK
+- Tel. :: +44(0)113 343 7287
+- e-mail :: s.sharoff@leeds.ac.uk
+
+* Timeline of my academic history
+  :PROPERTIES:
+  :CUSTOM_ID: timeline-of-my-academic-history
+  :CLASS: unnumbered
+  :END:
+- 2003--now :: Research Fellow, Lecturer, Senior Lecturer, Professor,
+  University of Leeds
+- 2000-2002 :: Alexander von Humboldt Fellow, University of Bielefeld
+- 1990-2000 :: Research Assistant -- Senior Research Fellow, Russian
+  Research Institute for Artificial Intelligence.
+# - 1994-1998 :: Freelance translator (mostly for the Russian Patent
+#   Office).
+
+* Education
+  :PROPERTIES:
+  :CUSTOM_ID: education
+  :CLASS: unnumbered
+  :END:
+- May, 1997 :: PhD in Computer Science, Moscow Lomonosov State
+  University (the thesis title was "An instrumental tool for development
+  of linguistic processors").
+- 1985-1990 :: MSc in mathematics, Urals Gorky State University.
+
+* Research awards
+  :PROPERTIES:
+  :CUSTOM_ID: research-awards
+  :CLASS: unnumbered
+  :END:
+- 2024-2026 :: EU Horizon "Innovative and Inclusive Democratic Spaces for Deliberation and Participation" (PI for Leeds, €539,954)
+- 2020-2022 :: EPSRC "AI tracing for detecting COVID19 misinformation" (PI, £39,954)
+- 2019 :: EPSRC/Alan Turing Institute "Translation Workflow Automation by Determining Text Difficulty" (PI, £33,337), with UN and WTO.
+- 2014-2016 :: InnovateUK grant "Palodiem" (PI, £216,411)
+- 2011-2014 :: EU Marie-Curie grant "HyghTra: High-quality Hybrid Machine Translation" (CoI, €541,575)
+- 2012 :: JISC grant "#IICT: Increasing Interoperability between Corpus Tools" (PI for Leeds, in collaboration with Coventry and Lancaster)
+- 2010-2011 :: AHRC grant "Intellitext: Intelligent Tools for Creating and Analysing Electronic Text Corpora" (CoI, £159,293)
+- 2010-2012 :: EU FP7 grant, "TTC: Terminology Extraction, Translation Tools and Comparable Corpora" (PI for Leeds, €369,786)
+- 2010-2012 :: EU FP7 grant, "Accurat: Machine Translation for Under-resourced languages" (CoI for Leeds, €340,174)
+- 2010-2011 :: EU LLP grant, "Kelly: Keywords for Language Learners" (PI for Leeds, €124,478)
+- 2009 :: Google Research Award for Automatic Web documents classification ($75,000)
+- 2005-2007 :: EPSRC grant "ASSIST: Automated assistance for translators" (CoI, £124,000, in collaboration with Lancaster)
+- 2000-2002 :: Fellowship from the Alexander von Humboldt Foundation, Germany
+- 1997-2000 :: EU INCO-Copernicus grant, "AGILE: Adaptive Multilingual Generation" (CoI)
+
+* Academic publications
+  :PROPERTIES:
+  :CUSTOM_ID: academic-publications
+  :CLASS: unnumbered
+  :END:
+Over 140 academic publications with 4129 citations in total, see a separate list below.
+
+[[https://scholar.google.co.uk/citations?user=qcnf4QsAAAAJ]]
+
+I'm on the editorial board of Language Resources and Register Studies.
+
+* PhD Supervision
+  :PROPERTIES:
+  :CUSTOM_ID: academic-publications-1
+  :CLASS: unnumbered
+  :END:
+18 students supervised to successful completion.
+
+** COMMENT Invited presentations
+   :PROPERTIES:
+   :CUSTOM_ID: invited-presentations
+   :CLASS: unnumbered
+   :END:
+*** Keynote
+    :PROPERTIES:
+    :CUSTOM_ID: keynote
+    :CLASS: unnumbered
+    :END:
+- May 2017 :: Russian Computational Linguistics Conference, Moscow, 400
+  participants.
+
+- April 2017 :: Balto-Slavonic Natural Language Processing, Valencia, 40
+  participants.
+
+- March 2015 :: British Council symposium on Developing Linguistics in
+  South Asia, Islamabad, 80 participants.
+
+*** Invited
+    :PROPERTIES:
+    :CUSTOM_ID: invited
+    :CLASS: unnumbered
+    :END:
+- October 2016 :: Translating Europe Forum, organised by the European
+  Commission, Brussels, 600 participants.
+
+- November 2012 :: Translating and the Computer, London, 150
+  participants.
+
+- September 2012 :: Translation and Interpreting Panel at the British
+  Association for Applied Linguistics Conference, 70 participants.
+
+- April, 2011 :: Microsoft Research Summit, Paris, 300 participants.
+
+* COMMENT Language experience
+  :PROPERTIES:
+  :CUSTOM_ID: language-experience
+  :CLASS: unnumbered
+  :END:
+Russian (native), English (fluent), German (advanced), Chinese (reading
+knowledge), French (intermediate).
+
+Reviewing for conferences:
+
+- ACL :: Meeting for the Association of Computational Linguistics
+
+- COLING :: International Conference on Computational Linguistics
+
+- EACL :: the European ACL Conference
+
+- EMNLP :: Empirical Methods in Natural Language Processing
+
+- CICLING :: Conference on Computational Linguistics
+
+- Corpus :: Corpus Linguistics Conference
+
+- BUCC :: Building and Using Comparable Corpora
+
+- BEA :: Innovative Use of NLP for Building Educational Applications
+
+- HyTra :: Hybrid MT
+
+- Dialogue :: Russian Conference on Computational Linguistics
+
+- VarDial :: Applying NLP Tools to Similar Languages, Varieties and
+  Dialects
+
+- MWE :: Multiword expressions
+
+- BSNLP :: Balto-Slavic NLP
+
+Reviewing for journals
+
+- CL :: Computational Linguistics
+
+- JNLE :: Journal of Natural Language Engineering
+
+- MT :: Machine Translation
+
+- LREV :: Language Resources and Evaluation
+
+- JEL :: Journal of English Linguistics
+
+The editorial board member for TC3 (Translation, Computation, Corpora,
+Cognition) and Register Studies.
+
+External examiner for PhDs in the universities of: York (2012), Basque
+Country (2014), Lancaster (2015), Faisalabad (2015), Tel Aviv (2016),
+Bologna (2018).
