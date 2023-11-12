@@ -1,0 +1,45 @@
+%Serge Sharoff
+%the standard preamble for my texts
+
+%\usepackage{t1enc}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A,T1]{fontenc}
+\usepackage[russian,english]{babel}
+\usepackage{covington}
+\usepackage{pgf}
+\usepackage{hyperref}
+%\usepackage{apalike}
+%\usepackage[doublespacing]{setspace}
+%\usepackage{fullpage}
+
+\let\newItemize=\itemize
+\let\newEnumerate=\enumerate
+\def\itdim{\itemsep=0pt
+  \parskip=0pt
+  \parsep=0pt}
+\renewenvironment{itemize}{\newItemize\itdim}{\endlist}
+\renewenvironment{enumerate}{\newEnumerate\itdim}{\endlist}
+
+
+%avoid widows/orphans
+\clubpenalty=9999
+\widowpenalty=9999
+
+\newcommand{\cf}{cf.~}
+\newcommand{\eg}{e.g.,~}
+\newcommand{\ie}{i.e.,~}
+\newcommand{\reftab}[1]{{Table~\ref{#1}}}
+\newcommand{\reffig}[1]{{Figure~\ref{#1}}}
+\newcommand{\refsec}[1]{{Section~\ref{#1}}}
+\newcommand{\refex}[1]{(\ref{#1})}
+\newcommand{\code}[1]{{\small \texttt{#1}}}
+\newcommand{\smallurl}[1]{{\small \url{#1}}}
+
+%%for Russian:
+%% \newcommand{\R}[1]{{\foreignlanguage{russian}{#1}}}
+
+%%for CJK:
+%%See /usr/share/doc/latex-cjk-common/examples
+%% \usepackage{CJKutf8}
+%% \newcommand{\ZH}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
+
