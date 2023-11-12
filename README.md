@@ -1,30 +1,22 @@
+./img/sharoff-2009-noflash-face.jpg
+
 # Welcome to my home page
 
-+-----------------------------------+-----------------------------------+
-| \[\[                              | pg\]\] \| **Google Scholar:** \|  |
-| ./img/sharoff-2009-noflash-face.j | <https://scholar.google.c>o       |
-|                                   | .uk/citations?user=qcnf4QsAAAAJ\> |
-|   --------                        | ww.semanticscholar.               |
-| --------------- ----------------- | org/author/S.-Sharoff/2506104\]\] |
-|   **Sema                          |                                   |
-| ntic Scholar:**   \[\[<https://w> |                                   |
-|   --------                        |                                   |
-| --------------- ----------------- |                                   |
-+-----------------------------------+-----------------------------------+
+  ----------------------- --------------------------------------------------------------
+  **Google Scholar:**     <https://scholar.google.c>o.uk/citations?user=qcnf4QsAAAAJ\>
+  **Semantic Scholar:**   <https://www.semanticscholar.org/author/S.-Sharoff/2506104>
+  ----------------------- --------------------------------------------------------------
 
 ## My job
 
-I am Professor of Language Technology and Digital Humanities at [the
-Centre for Translation Studies](http://www.leeds.ac.uk/cts/) within [the
-School of Languages, Cultures and
-Societies](http://www.leeds.ac.uk/lcs), [University of
-Leeds](http://www.leeds.ac.uk). My teaching is centred around
-computational tools which can assist translation, lexicography and
-language learning. On the research front I am involved in several
-projects related to corpus collection and annotation, as well as to
-technologies for language learning and translation.
-
 ## My research interests
+
+Artificial Intelligence and more specifically Large Language Models,
+such as ChatGPT, have recently made a profound impact on how we interact
+with the computers by providing the ability to produce new texts in
+response to prompts. Fundamental research in this area is at the core of
+my expertise, with one of my papers on the diversity of texts on the Web
+cited by the GPT creators.
 
 My research interests are related to three domains: linguistics,
 computer science and cognitive science.
