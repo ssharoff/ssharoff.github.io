@@ -1,7 +1,7 @@
-  ----------------------- -------------------------------------------------------------
-  **Google Scholar:**     <https://scholar.google.co.uk/citations?user=qcnf4QsAAAAJ>
-  **Semantic Scholar:**   <https://www.semanticscholar.org/author/S.-Sharoff/2506104>
-  ----------------------- -------------------------------------------------------------
+|                       |                                                             |
+|-----------------------|-------------------------------------------------------------|
+| **Google Scholar:**   | <https://scholar.google.co.uk/citations?user=qcnf4QsAAAAJ>  |
+| **Semantic Scholar:** | <https://www.semanticscholar.org/author/S.-Sharoff/2506104> |
 
 ## My research interests
 
@@ -35,9 +35,10 @@ Another recent development is
 with Lancaster University, which is about an automatic procedure for
 finding translation equivalent using large comparable corpora
 (consisting of texts which are not translations of each other). See a
-[series of workshops](https://comparable.limsi.fr/) and a [recent
-book](http://www.springer.com/cda/content/document/cda_downloaddocument/9783642201271-c1.pdfSGWID=0-0-45-1442068-p174109864)
-on the topic.
+[series of BUCC workshops](https://comparable.limsi.fr/) and a [recent
+book](https://link.springer.com/book/10.1007/978-3-031-31384-4) on the
+topic. [Its introduction](publications/2023-bucc-intro.pdf) is available
+from my list of publications.
 
 My approach in linguistics rests on the assumption that language is the
 resource for exchanging meanings. My interests in linguistics stretch
@@ -83,11 +84,11 @@ foreign languages.
     text-internal perspectives](publications/2021-register.pdf).
     *Register Studies*. 2021
 -   [Serge Sharoff. Functional text dimensions for the annotation of Web
-    corpora](publications/2018-ftd.pdf). *Corpora*, 13(1):65--95, 2018
+    corpora](publications/2018-ftd.pdf). *Corpora*, 13(1):65–95, 2018
 -   [Yu Yuan and Serge Sharoff, Sentence Level Human Translation Quality
     Estimation with Attention-based Neural
     Networks](publications/2020-LREC-htqe.pdf). In Proc International
-    Conference on Language Resources and Evaluation (LREC\'20),
+    Conference on Language Resources and Evaluation (LREC'20),
     Marseilles, May 2020
 
 ### Language adaptation for improving models of lesser-resourced languages
@@ -114,7 +115,7 @@ prediction, etc.
 
 ### Non-parallel resources for translation
 
-Modern Machine Translation is based on \"plagiarising\" large amounts of
+Modern Machine Translation is based on "plagiarising" large amounts of
 existing translations, which usually come from institutions such as the
 United Nations or the European Parliament. This is not enough for many
 language directions or for specific domains, such as biomedicine. What
