@@ -1,0 +1,222 @@
+\documentclass[largefonts]{sciposter}
+
+
+\usepackage{standard}
+\usepackage{multicol}
+\usepackage{url}
+
+\title{Designing and Evaluating \\a Russian Tagset}
+
+\author{Serge Sharoff$^{\star}$,  Mikhail Kopotev$^{\ast}$,  Toma\v{z} Erjavec$^{\dagger}$,  \\
+Anna Feldman$^{\ddagger}$, Dagmar Divjak$^{\diamond}$}
+ 
+\institute{
+$^{\star}$University of Leeds, $^{\ast}$University of Helsinki,$^{\dagger}$Jo\v{z}ef Stefan Institute,  \\
+$^{\ddagger}$Montclair State University,$^{\diamond}$University of Sheffield
+}
+
+\email{s.sharoff@leeds.ac.uk, mihail.kopotev@helsinki.fi, tomaz.erjavec@ijs.si, feldmana@mail.montclair.edu, d.divjak@shef.ac.uk}  
+
+\leftlogo[1.3]{/home/serge/logo-leeds-ijs}
+\rightlogo[1.3]{/home/serge/logo-joint-helsinki-shef-msu}
+
+
+\begin{document}
+
+\conference{{\bf LREC 2008}, 6th Language Resources and Evaluation Conference, 28-29-30 May 2008, Marrakech (Morocco). }
+
+\maketitle
+
+\begin{multicols}{2}
+
+\section{Existing research}
+
+\begin{itemize}
+\item MT in 1950s -- hand-crafted ad-hoc rules
+\item Zalizniak (1977) -- formalisation of Russian morphology 
+\item Mikheev, Segalovich, Sokirko, Starostin -- various implementations of Russian analysis and synthesis
+\item Sokirko, Feldman -- experiments with statistical taggers, but no resources
+\end{itemize}
+
+\section{Problems with Russian}
+
+\paragraph{Free word order and very rich morphology} it is morphology
+that plays a crucial role in signaling the syntactic relationships.
+
+\paragraph{Low number of morpheme forms} The same form in different contexts can be interpreted in different ways:
+
+\begin{examples}
+\item \gll \R{анализ} \R{структуры}
+  analysis structure$_{gen,sg}$
+  \glt `analysis of the structure'
+  \glend
+\item \gll \R{в} \R{эти} \R{структуры}
+ in these structure$_{acc,pl}$
+  \glt `into these structures'
+  \glend
+\item \gll \R{эти} \R{структуры} \R{привлечены} \R{к}
+ these structure$_{nom,pl}$ involve$_{part,pass,perf,past,pl}$ to
+  \glt `these structures are involved in...'
+  \glend
+\end{examples}
+
+\paragraph{No tagset exists} Zalizniak (1977) uses a system of categories (case, gender, number, etc), but not a tagset, \eg \code{NN, NNS, NP}, etc.  Analysis applications do not disambiguate, \eg\R{структуры} $\rightarrow gen,sg;acc,pl;nom,pl$.
+
+\paragraph{Problems with disambiguating large tagsets}  about 50 tags for English vs. 500-2000 tags for Russian.
+
+\section{Tagset principles}
+
+\paragraph{MULTEXT-East (MTE)} A freely available multilingual dataset for
+language engineering research and development. The resources cover a
+large number of mainly Central and Eastern European languages.
+
+\paragraph{MTE morphosyntactic specifications} Main morphosyntactic categories (nouns, verbs, pronouns, \ldots) and their
+allowed attribute-value pairs.  Feature-structures describing
+morphosyntactic properties of words can be mapped to compact strings,
+morphosyntactic descriptions (MSDs). 
+
+\begin{figure}[h]
+
+  \begin{center}
+    \includegraphics[width=0.7\columnwidth]{mapping}
+  \end{center}
+    \code{<span lex='\R{структура}'  class='S=f,gen,inan,sg'>\R{структуры}</span>}
+
+    $\rightarrow$ \R{структуры} \code{Ncfsgn} \R{структура}
+
+    $\rightarrow$ \code{Noun, Type = common, Gender = feminine, Number = singular, Case = genitive, Animate = no} 
+
+\end{figure}
+
+\section{Properties of the tagset}
+\label{sec:properties}
+
+\begin{itemize}
+\item the balance between parameters important for linguists and the
+  possibility of their automatical detection;
+\item the availability of features in existing corpora that can be used
+  for training;
+\item the possibility to share the tagset with other Slavonic languages to
+create, in perspective, a common Slavonic morphological tagset.
+\end{itemize}
+
+\paragraph{The resulting tagset} 12 main categories: noun, verb, adjective, pronoun, adverb, adposition,
+conjunction, numeral, particle, interjection, abbreviation, and residual, having 0-10 attributes each. In total giving 156 attribute-value pairs
+
+\section{Evaluation}
+
+\begin{itemize}
+\item The disambiguated portion of the RNC (about 5 million words)
+\item Three statistical POS taggers: TnT, TreeTagger and SVM Tagger
+\item 10\% of the corpus held out for testing the performance of the taggers
+\item an experiment with ten second year British
+  students of Russian revealed that intermediate level students  are not able to
+spot the errors produced by the taggers: they too seem
+  to analyze forms in isolation.  
+\item Common problems: accusative vs.~nominative; genitive singular vs. nominative/accusative plural for nouns; genitive singular vs.~instrumental for feminine adjectives 
+\end{itemize}
+
+\begin{table}
+  \begin{center}
+    \begin{tabular}{lllll}
+      \hline
+      Accuracy & Overall & Known W & Unknown W\\
+      \hline
+      TnT  & 95.28\% & 96.27\% & 66.64\%\\
+      TT  & 93.50\% & 94.33\% & 62.44\%\\
+      SVMTool  & 92.24\% & 93.26\% & 54.28\%\\
+      \hline
+    \end{tabular}
+
+    Overall accuracy of TnT, TT, and SVMTool, full tagset
+
+\vspace{2cm}
+
+    %%   \end{center}
+    %%   \caption{}
+    %% \label{tab:performance}
+    %% \end{table}
+
+    %% \begin{table}[h]
+    %% \begin{center}
+    \begin{tabular}{lrr}
+      \hline
+      % & \multicolumn{2}{c}{TnT} }\\
+      & known & unknown \\
+      \hline
+      \hline
+      full tag & 90.99 & 56.05 \\
+      \hline \hline
+
+      1: category & 99.02 & 93.61  \\
+      2: type & 98.42& 86.00  \\
+      3: gender & 97.51 & 77.23 \\
+      4: number & 97.89 & 89.26  \\
+      5: case & 93.03 & 80.23 \\
+      %6:animate & 96.84& 69.04\\
+      %7:case2 & 99.02 & 93.61\\
+      \hline
+    \end{tabular}
+
+    Accuracy of TnT  on nouns in \% (full tagset).
+
+\vspace{2cm}
+
+    \begin{tabular}{lrr}
+      \hline
+      % & \multicolumn{2}{c}{TnT} &\multicolumn{2}{c}{TT}\\
+      & known & unknown \\
+      \hline \hline
+      full tag & 96.34 & 73.12 \\
+      \hline \hline
+
+      1: category & 99.00 & 93.74 \\
+      2: type & 99.00& 93.74 \\
+      3: vform & 98.61 & 91.44 \\
+      4: tense & 97.69 & 84.10  \\
+      5: person & 98.93 & 93.33 \\
+      6: number & 98.80 & 93.42  \\
+      7: gender & 98.95 & 93.57 \\
+      8: voice & 98.89 & 93.01 \\
+      9: definiteness & 98.97 & 93.60 \\
+      10: aspect & 96.93 & 75.23 \\
+      11: case & 98.98 & 93.68  \\
+      \hline
+    \end{tabular}
+
+    Accuracy of TnT on verbs in \% (full tagset).
+
+\vspace{2cm}
+
+      \begin{tabular}{lrr}
+        \hline
+        %$ & \multicolumn{2}{c}{TnT} &\multicolumn{2}{c}{TT}\\
+        & known & unknown \\
+        \hline \hline
+        full tag & 89.13 & 80.51 \\
+        \hline \hline
+
+        Tag slot & &\\
+        \hline \hline
+
+        1: category & 97.25 & 91.72 \\
+        2: type & 97.25& 91.72 \\
+        3: degree & 97.24 & 91.72  \\
+        4: gender & 95.67 & 89.77  \\
+        5: number & 97.00 & 90.98 \\
+        6: case & 90.54 & 84.37 \\
+        %7:definiteness & & 87.53 & & \\
+        \hline
+      \end{tabular}
+
+      Accuracy of TnT on adjectives in \% (full tagset).
+  \end{center}
+\end{table}
+
+
+Resources: \url{http://corpus.leeds.ac.uk/mocky/}
+
+\end{multicols}
+
+\end{document}
+
