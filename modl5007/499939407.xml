@@ -1,0 +1,852 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="dictionary.xsl"?>
+<!-- http://corpus.leeds.ac.uk/teaching/corpora/ -->
+<!DOCTYPE TEI.2 PUBLIC "DTD for the lexicographical database" "http://corpus.leeds.ac.uk/tei-lexicon.dtd">
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The database of the bilingual English-Russian dictionary of finding/discovery verbs</title>
+
+				<author>SID: 499939407</author>
+			</titleStmt>
+
+			<publicationStmt>
+				<p>Unpublished</p>
+			</publicationStmt>
+
+			<sourceDesc>
+				<p>Created as a course project for MODL5007.</p>
+				<p>Definitions are my own.</p>
+				<p>Examples are paraphrased from the BNC and the RNC.</p>
+				<p>Translations are my own.</p>
+			</sourceDesc>
+
+		</fileDesc>
+
+		<profileDesc>
+			<langUsage>
+				<language id="en">
+				</language>
+
+				<language id="ru">
+				</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+		
+			<div>
+				<note>
+					<p>
+					In the absence of superscript, I am marking palatalised consonants in the pronounciation guide with ^ (not to be confused with ` which marks the stressed syllable).
+					</p>
+				</note>
+			</div>
+		
+			<div lang="en">
+				<!-- English-Russian -->
+				<entry id="detect" key="detect">
+				   <form>
+					  <orth extent="full">detect</orth>
+				   </form>
+
+				   <gramGrp lang="en">
+					  <pos>V</pos>
+				   </gramGrp>
+
+					<sense n="1">
+					
+						<def>to make a difficult measurement; to register an elusive or subtle object, substance or phenomenon</def>
+											
+						<usg type="register">formal, scholarly, technical, medical</usg>
+						<usg type="obj">presence, change, difference, antibody, DNA, protein, activity, signal, pattern, direction, position, light, sound</usg>
+											
+						<trans>
+							<tr>обнаружить</tr>
+							<eg>
+								<q>Traces of drugs can be detected for some time after you have stopped taking them.</q>
+								<tr>Следы наркотиков можно обнаружить спустя какое-то время, после того, как Вы перестали их принимать.</tr>
+							</eg>						
+						</trans>
+										
+						<trans>
+							<tr>фиксировать</tr>
+							<eg>
+								<q>We detect changes in our environment.</q>
+								<tr>Мы фиксируем изменения в окружающей обстановке.</tr>
+							</eg>
+						</trans>
+					
+					</sense>
+					
+					<sense n="2">
+					
+						<def>to register a threat or a problem</def>
+						
+						<usg type="obj">error, cancer, abnormality, problem</usg>
+						
+						<trans>
+							<tr>обнаружить</tr>
+							<eg>
+								<q>Poison was too easily detected.</q>
+								<tr>Яд было слишком просто обнаружить.</tr>
+							</eg>
+						</trans>
+						
+						<trans>
+							<tr>засечь</tr>
+							<usg type="register">informal</usg>
+							<eg>
+								<q>A fast roundhouse kick is not easy to detect.</q>
+								<tr>Быстрый удар с разворота непросто засечь.</tr>
+							</eg>
+						</trans>
+						
+					</sense>
+					
+					<sense n="3">
+					
+						<def>to sense something, especially other people's mood, motivation or intent</def>
+						
+						<usg type="register">informal</usg>
+						<usg type="style">figurative</usg>
+						<usg type="affect">sarcastic</usg>
+						<usg type="obj">a note, a hint</usg>
+											
+						<trans>
+							<tr>чуять</tr>
+							<eg>
+								<q>I seem to detect something more than uneasiness.</q>
+								<tr>Кажется, я чую тут что-то помимо беспокойства.</tr>
+							</eg>
+						</trans>
+						
+					</sense>
+					
+					<sense n="4">
+					
+						<def>to register the occurence of crimes</def>
+											
+						<usg type="obj">crime, fraud</usg>
+						<usg type="dom">law enforcement</usg>
+						
+						<trans>
+							<tr>регистрировать</tr>
+							<usg type="colloc">преступлений</usg>
+							<usg type="dom">law enforcement</usg>
+							<eg>
+								<q>Cameras have been installed mainly to detect crime and monitor traffic.</q>
+								<tr>Камеры были установлены в прошлом десятилетии для регистрирования преступлений и мониторинга трафика.</tr>
+							</eg>
+						</trans>
+						
+					</sense>
+					
+					<sense n="5">
+					
+						<def>to investigate crime</def>
+						
+						
+						<usg type="obj">crime, fraud</usg>
+						<usg type="dom">law enforcement</usg>
+						<usg type="register">professional slang (police)</usg>
+						<usg type="hint">can be transitive or intransitive</usg>
+											
+						<trans>
+							<tr>расследовать</tr>
+							<usg type="colloc">преступление</usg>
+							<usg type="dom">law enforcement</usg>
+							<eg>
+								<q>We are putting a lot of time and effort and resources into detecting [this crime].</q>
+								<tr>Мы вкладываем много времени, сил и ресурсов в расследование [этого преступления].</tr>
+							</eg>
+						</trans>
+					
+					</sense>
+					
+					<sense n="6">
+					
+						<def>to search for valuable objects using a metal detector</def>
+						
+						<usg type="colloc">metal</usg>
+						<usg type="dom">amateur archaeology, hobby</usg>
+						
+						<trans>
+							<tr>заниматься кладоискательством</tr>
+							<eg>
+								<q>I have been metal detecting now for over twenty years.</q>
+								<tr>Я занимаюсь кладоискательством уже более двадцати лет.</tr>
+							</eg>
+						</trans>
+					
+					</sense>
+					
+					<sense n="7">
+					
+						<def>Something can be detected by a person, an animal, or an instrument.</def>
+						
+						<usg type="colloc">by</usg>
+						<usg type="voice">passive</usg>
+						<usg type="obj">personnel, person, probe, sensor</usg>
+						
+						<trans>
+							<tr>обнаружить кем/чем-л.</tr>
+							<eg>
+								<q>This particular mine could not be detected by the ordinary mine detector.</q>
+								<tr>Эту конкретную мину нельзя было обнаружить миноискателем.</tr>
+							</eg>
+						</trans>
+					
+					</sense>
+					
+					<sense n="8">
+					
+						<def>Something can be detected by a particular method.</def>
+						
+						<usg type="colloc">by</usg>
+						<usg type="voice">passive</usg>
+						<usg type="obj">test, analysis, technique, examination</usg>
+						
+						<trans>
+							<tr>обнаружить чем-л.</tr>
+							<eg>
+								<q>The researchers do not yet know whether the abnormal cells	detected by this	technique always become cancerous</q>
+								<tr>Ученым пока неизвестно, обязательно ли обнаруженные этим методом аномальные клетки становятся раковыми.</tr>
+							</eg>
+						</trans>
+					
+					</sense>
+					
+					<sense n="9">
+					
+						<def>Something can be detected thanks to a specific behaviour or characteristic.</def>
+						
+						<usg type="colloc">by</usg>
+						<usg type="voice">passive</usg>
+						
+						<trans>
+							<tr>обнаружить по чему-л.</tr>
+							<eg>
+								<q>The nightjar is most often detected by its song.</q>
+								<tr>Чаще всего козодоя обнаружают по его песне.</tr>
+							</eg>
+						</trans>
+					
+					</sense>
+				
+				</entry>
+				
+				<entry id="identify" key="identify">
+				   <form>
+					  <orth extent="full">identify</orth>
+				   </form>
+
+				   <gramGrp>
+					  <pos>V</pos>
+				   </gramGrp>
+				
+					<sense n="1">
+					
+						<def>to determine or discover by analysis or investigation</def>
+											
+						<usg type="register">formal, scholarly, business</usg>
+						<usg type="obj">area, need, number, problem</usg>
+											
+						<trans>
+							<tr>определить</tr>
+							<eg>
+								<q>We must identify our target market.</q>
+								<tr>Нам необходимо определить наш целевой рынок.</tr>
+							</eg>						
+						</trans>
+						
+						<trans>
+							<tr>найти</tr>
+							<eg>
+								<q>Indian scientist have identified varieties with modified leaf structure.</q>
+								<tr>Индийские ученые нашли сорта с модифицированной структурой листьев.</tr>
+							</eg>					
+						</trans>
+					
+					</sense>
+								
+					<sense n="2">
+					
+						<def>to recognise something as belonging to a category</def>
+											
+						<usg type="register">formal, scholarly, legal</usg>
+											
+						<trans>
+							<tr>классифицировать</tr>
+							<usg type="register">formal, scholarly</usg>
+							<eg>
+								<q>Their books may never be identified as art criticism.</q>
+								<tr>Их книги могут никогда не классифицироваться как художественная критика.</tr>
+							</eg>						
+						</trans>
+															
+					</sense>
+					
+					<sense n="3">
+					
+						<def>to grant, establish or reveal identity; to mark as unique among other similar things</def>
+											
+						<trans>
+							<tr>опознать</tr>
+							<usg type="register">formal</usg>
+							<eg>
+								<q>A pro can identify the mock burglar alarm, but the genuine article is a real deterrent.</q>
+								<tr>Профессионал опознает фейковую сигнализацию, но настоящая - это реальный сдерживающий фактор.</tr>
+							</eg>						
+						</trans>
+						
+						<trans>
+							<tr>идентифицировать</tr>
+							<eg>
+								<q>Traces of drugs can be detected for some time after you have stopped taking them.</q>
+								<tr>Следы наркотиков можно обнаружить спустя какое-то время, после того, как Вы перестали их принимать.</tr>
+							</eg>						
+						</trans>
+												
+					</sense>
+					
+					<sense n="4">
+					
+						<def>to establish the identity of a person</def>
+						<usg type="obj">person</usg>
+						<trans>
+							<tr>опознать</tr>
+						</trans>
+						
+						<trans>
+							<tr>идентифицировать</tr>
+						</trans>
+						
+						<trans>
+							<tr>установить личность</tr>
+						</trans>
+												
+					</sense>
+					
+					<sense n="5">
+					
+						<def>to associate with something; to assert a similarity or a causal link with something</def>
+											
+						<usg type="register">scholarly (arts)</usg>
+						<usg type="colloc">with</usg>
+											
+						<trans>
+							<usg type="register">scholarly (arts)</usg>
+							<tr>отождествлять с кем/чем-л.</tr>
+							<eg>
+								<q>Christ identifies with us.</q>
+								<tr>Христос отождествляет себя с нами.</tr>
+							</eg>						
+						</trans>
+						
+						<trans>
+							<usg type="register">scholarly (arts), business</usg>
+							<usg type="hint">calque from English, relatively new to the language</usg>
+							<tr>идентифицировать с кем/чем-л.</tr>
+							<eg>
+								<q>identify the product with the manufacturer</q>
+								<tr>идентифицировать товар с производителем</tr>
+							</eg>						
+						</trans>
+								
+					</sense>
+					
+				</entry>
+				
+				<entry id="spot" key="spot">
+					<form>
+						<orth extent="full">spot</orth>
+					</form>
+					<gramGrp>
+						<pos>V</pos>
+						<subc>trans.</subc>
+					</gramGrp>
+					
+					<sense n="1">
+					
+						<def>to notice a person</def>
+											
+						<usg type="register">informal</usg>
+						<usg type="affect">positive</usg>
+						<usg type="obj">man, someone</usg>
+											
+						<trans>
+							<tr>заметить</tr>
+							<eg>
+								<q>Spotting Evelyn, Jackie limped towards her.</q>
+								<tr>Заметив Ивлин, Джеки захромала по направлению к ней.</tr>
+							</eg>						
+						</trans>
+						
+					</sense>
+					
+					<sense n="2">
+					
+						<def>to find something or someone vauable</def>
+											
+						<usg type="register">informal</usg>
+						<usg type="affect">positive</usg>
+						<usg type="obj">talent, potential</usg>
+											
+						<trans>
+							<tr>найти</tr>
+							<eg>
+								<q>Kylie was spotted by casting director Alan Hardy.</q>
+								<tr>Кайли нашел кастинг-директор Элан Харди.</tr>
+							</eg>						
+						</trans>
+						
+					</sense>
+					
+					<sense n="3">
+					
+						<def>to notice a difference</def>
+											
+						<usg type="register">informal</usg>
+						<usg type="colloc">the difference</usg>
+											
+						<trans>
+							<tr>улавливать</tr>
+							<usg type="colloc">разницу</usg>
+							<eg>
+								<q>Lacrosse may also be able to spot the difference between real targets and elaborate mock-ups.</q>
+								<tr>Возможно система "Лакросс" так же способна улавливать разницу между настоящими объектами и хитрыми муляжами.</tr>
+							</eg>						
+						</trans>
+						
+						<trans>
+							<tr>найти отличия</tr>
+							<usg type="colloc">отличия</usg>
+							<eg>
+								<q>Can you spot the difference?</q>
+								<tr>Сможешь найти отличия?</tr>
+							</eg>						
+						</trans>
+					
+					</sense>
+						
+					<sense n="4">
+					
+						<def>to cover with spots</def>
+									
+						<trans>
+							<tr>окрапить</tr>
+							<usg type="register">literary</usg>
+							<usg type="style">figurative</usg>
+							<eg>
+								<q>Upon the water mist floated in a golden veil, spotted with the dancing of a myriad tiny flies.</q>
+								<tr>По воде золотой вуалью плыл туман, окрапленный танцем несчетного количества крохотных мошек.</tr>
+							</eg>						
+						</trans>
+											
+					</sense>
+					
+				</entry>
+			 </div>
+			 <div lang="ru">
+			 <!-- Russian-English -->
+				<entry id="obnaruzhit" key="обнаружить">
+					<form>
+						<orth extent="full">обнаружить</orth>
+						<pron>ʌbnʌ`ruʒət^</pron>
+					</form>
+					<gramGrp>
+						<pos>V</pos>
+						<subc>trans.</subc>
+						<subc>perf.</subc>
+						<subc>2nd conj.</subc>
+					</gramGrp>
+					
+					<sense n="1">
+					
+						<def>to discover something unexpectedly</def>
+											
+						<usg type="affect">surprised, often negative, sometimes sarcastic</usg>
+						<usg type="obj">пропажа, труп, тело, способность, записка, пистолет, склад, тайник</usg>
+											
+						<trans>
+							<tr>discover</tr>
+							<usg type="affect">Lacks the negative affect of discover. Use a 'vertical' strategy - compensate elsewhere in the text.</usg>
+							<eg>
+								<q>Вечером медведь обнаружил пропажу.</q>
+								<tr>In the evening the bear discovered the disappearance.</tr>
+							</eg>						
+						</trans>
+						
+					</sense>
+					
+					<sense n="2">
+					
+						<def>to detect something during a search or examination</def>
+						<usg type="affect">often negative, sometimes sarcastic</usg>
+						<usg type="register">formal, scholarly, technical, medical</usg>
+						<usg type="obj">следы, недостаток, антитела, неисправность, отсутствие, связь</usg>
+					
+						<trans>
+							<tr>detect</tr>
+							<eg>
+								<q>С помощью традиционных методов исследований не удавалось обнаружить различия между вакцинными и вирулентными штаммами возбудителя.</q>
+								<tr>Using traditional research methods, we were unable to detect a difference between the vaccine and the virulent pathogen strains.</tr>
+							</eg>
+						</trans>
+						
+					</sense>
+					
+					<sense n="3">
+					
+						<gramGrp>
+							
+							<subc>3rd pers., pl.</subc>
+							
+						</gramGrp>
+					
+						<def>to find something illicit in a person's possession</def>
+						<usg type="colloc">у {кого-л.}</usg>
+						<usg type="dom">legal, law enforcement</usg>
+					
+						<trans>
+							<tr>find smth. in smb.'s possession</tr>
+							<tr>find smth. in the possession of smb.</tr>
+							<eg>
+								<q>У продавца обнаружен и изъят пистолет.</q>
+								<tr>A gun was ceased after being found in the possession of a sales clerk .</tr>
+							</eg>
+						</trans>
+					
+					</sense>
+
+					<sense n="4">
+					
+						<gramGrp>
+							
+							<subc>3rd pers., pl.</subc>
+							
+						</gramGrp>
+					
+						<def>to diagnose a person with a disease</def>
+						<usg type="colloc">у</usg>
+						<usg type="dom">medical</usg>
+						<usg type="obj">рак, опухоль, порок, признак, вирус, болезнь</usg>
+						
+						<trans>
+							<tr>diagnose</tr>
+							<usg type="colloc">with</usg>
+							<usg type="register">medical</usg>
+							<eg>
+								<q>У него обнаружили рак.</q>
+								<tr>He has been diagnosed with cancer.</tr>
+							</eg>
+						</trans>
+					
+					</sense>
+					
+				</entry>
+				
+				<entry id="opoznat" key="опознать">
+					
+					<form>
+						<orth extent="full">опознать</orth>
+						<pron>ʌpʌ`znat^</pron>
+					</form>
+					
+					<gramGrp>
+						<pos>V</pos>
+						<subc>trans., perf., 1st conj.</subc>
+					</gramGrp>
+						
+					<sense n="1">
+					
+						<def>to identify an object, a place, or a characteristic</def>
+											
+						<usg type="register">formal, scholarly (arts), archaic</usg>
+						<usg type="dom">legal, law enforcement</usg>
+						<usg type="hint">often occurs in the context of crime and/or violence</usg>
+						
+						<trans>
+							<tr>identify</tr>
+							<eg>
+								<q>В каждом квадратике изображен какой-либо схематический рисунок, понятный ребенку и позволяющий опознать этот квадрат.</q>
+								<tr>In each little square there is a schematic drawing that the child can understand and use to identify this square.</tr>
+							</eg>
+						</trans>
+						
+					</sense>
+					
+					<sense n="2">
+					
+						<def>to identify a person who does not reveal their own identity (e.g. a criminal or a corpse)</def>
+						
+							<usg type="register">formal, sombre</usg>
+							<usg type="dom">legal, law enforcement</usg>
+							<usg type="hint">often occurs in the context of crime and/or violence</usg>
+							<usg type="obj">person, body, man, victim</usg>
+						
+						<trans>
+							<tr>identify</tr>
+							<eg>
+								<q>Дмитрий мог опознать их даже в масках.</q>
+								<tr>Dmitry could identify them even with masks on.</tr>
+							</eg>
+						</trans>
+					
+					</sense>
+					
+					<sense n="3">
+					
+						<def>A person can be identified by a distinguishing mark or quality.</def>
+						
+							<usg type="colloc">по</usg>
+							
+						<trans>
+							<tr>identify</tr>
+							<usg type="colloc">by</usg>
+							<usg type="colloc">from</usg>
+							<eg>
+								<q>Японца опознали по зубам -- с помощью стоматологической экспертизы.</q>
+								<tr>The Japanese man was identified by his teeth - from dential records.</tr>
+							</eg>
+						</trans>
+					
+					</sense>
+					
+					<sense n="3">
+					
+						<def>A person can be identified from a picture.</def>
+						
+							<usg type="colloc">по</usg>
+							
+						<trans>
+							<tr>identify</tr>
+							<usg type="colloc">in</usg>
+							<usg type="colloc">from</usg>
+							<eg>
+								<q>Подвергшийся нападению артельщик опознал по фотографии известного одесского вора... </q>
+								<tr>From the photograph, the craftsman who had suffered the assualt identified a famous Odessa theif...</tr>
+							</eg>
+						</trans>
+					
+					</sense>
+					
+					<sense n="4">
+						<def>to understand or recognise something on a profound level</def>
+						
+						<usg type="register">scholarly (arts), literary, archaic, dialect</usg>
+						
+						<trans>
+							<tr>learn</tr>
+							<tr>know</tr>
+							<usg type="register">literary, archaic, dialect</usg>
+							<eg>
+								<q>На своей шкуре опознай, как другие мучаются...</q>
+								<tr>Know for yourself how others suffer...</tr>
+							</eg>
+						</trans>
+						
+						<trans>
+							<tr>know</tr>
+							<tr>recognise</tr>
+							<usg type="register">scholarly (arts), literary</usg>
+							<eg>
+								<q>
+								Казалось бы, всё мечено,
+								Опознано, открыто...
+								</q>
+								<tr>
+								When all seemed marked,
+								All known, all discovered...
+								</tr>
+							</eg>
+						</trans>
+						
+					</sense>
+				
+				</entry>
+				
+				<entry id="zametit" key="заметить">
+				
+					<form>
+						<orth extent="full">заметить</orth>
+						<pron>zʌ`m^ət^ət^j</pron>
+					</form>
+					
+					<gramGrp>
+						<pos>V</pos>
+						<subc>trans., perf., 2nd decl.</subc>
+					</gramGrp>
+					
+					<sense n="1">
+						<def>to notice someone or something</def>
+						
+						<usg type="affect">positive, often humorous</usg>
+						<usg type="register">chatty</usg>
+						<usg type="hint">Very rare in passive participles (otherwise common).</usg>
+						
+						<trans>
+							<tr>notice</tr>
+							<eg>
+								<q>Ну тогда ладно... А то я сейчас заметила, что чищу обувь рыбным паштетом.</q>
+								<tr>Never mind then... Because I've just noticed that I'm shining shoes with fish paste.</tr>
+							</eg>
+						</trans>
+						
+					</sense>
+					
+					<sense n="2">
+						<def>to register something significant, possibly dangerous</def>
+						
+						<usg type="affect">vigilant</usg>
+						
+						<trans>
+							<tr>detect</tr>
+							<eg>
+								<q>Вчера в территориальных водах СССР была замечена китайская подводная лодка.</q>
+								<tr>Yesterday, a Chinese submarine was detected in the territorial waters of the USSR.</tr>
+							</eg>
+						</trans>
+						
+					</sense>
+					
+					<sense n="3">
+						
+						<gramGrp>
+							<subc>past tense</subc>
+						</gramGrp>
+						
+						<def>to make a witty or incisive remark</def>
+						
+						<usg type="affect">matter-of-fact</usg>
+						
+						<trans>
+							<tr>note</tr>
+						</trans>
+						<trans>
+							<tr>point out</tr>
+						</trans>
+						<trans>
+							
+							<tr>remark</tr>
+							
+							<eg>
+								<q>Не беспокойтесь, сержант, -- заметил один из солдат. -- В нашей роте только шесть человек.</q>
+								<tr>Don't worry, sergeant, - one of the soldiers remarked. - There are only six men in our platoon. </tr>
+							</eg>
+						</trans>
+						
+					</sense>
+					
+					<sense n="4">
+						
+						<gramGrp>
+							<subc>1st pers., future tense; 2nd pers., imperative</subc>
+						</gramGrp>
+						
+						<def>a warning that the information about to follow is somewhat digressive</def>
+											
+						<usg type="affect">mild apposition</usg>
+						<usg type="hint">Used to introduce or qualify a clause.</usg>
+								
+						<trans>
+							<usg type="register">moderately formal</usg>
+							<tr>Вear in mind</tr>
+							<eg>
+								<q>Заметим, что, рост ВВП на Украине в 2001 г. составил 9 % при прогнозе МВФ на уровне 3,5 %.</q>
+								<tr>Вear in mind that in 2001 Ukraine's GDP grew by 9% as against the IMF forecast of 3.5%.</tr>
+							</eg>
+						</trans>
+											
+						<trans>
+							<usg type="register">colloquial, dialect</usg>
+							<tr>Mind</tr>
+							<tr>Mind you</tr>
+							<eg>
+								<q>Хрущев, замечу, не пытался все перевернуть.</q>
+								<tr>Khruschev, mind, didn't try to turn everything upside down.</tr>
+							</eg>
+						</trans>
+						
+					</sense>
+					
+					<sense n="5">
+						
+						<gramGrp>
+							<subc>infinitive</subc>
+						</gramGrp>
+						
+						<def>an introduction to an important digression</def>
+											
+						<usg type="affect">mild apposition</usg>
+						<usg type="register">formal</usg>
+						<usg type="colloc">можно, стоит, необходимо</usg>
+						<usg type="hint">Used to introduce or qualify a clause.</usg>
+						
+						<trans>
+							<tr>note</tr>
+							<usg type="colloc">it may be, it should be, it must be</usg>
+							<eg>
+								<q>Необходимо заметить, что благотворительность не заменяет и не исчерпывает собой корпоративную социальную ответственность.</q>
+								<tr>It must be noted, that charity is not a substitute for nor the sole component of corporate social responsibility.</tr>
+							</eg>
+						</trans>
+						
+					</sense>
+					
+					<sense n="6">
+						
+						<gramGrp>
+							<subc>1st. pers., sing., future tense</subc>
+						</gramGrp>
+						
+						<def>an exclamation of disapproval</def>
+											
+						<usg type="affect">disapproval, surprise, hostility</usg>
+						<usg type="register">informal, acceptable</usg>
+						<usg type="colloc">я вам з~</usg>
+						
+						<trans>
+							<tr>I say!</tr>
+							<eg>
+								<q>Ну я вам замечу!</q>
+								<tr>Blimey... I say!</tr>
+							</eg>
+						</trans>
+						
+					</sense>
+					
+					<sense n="7">
+					
+						<gramGrp>
+							<subc>passive participle</subc>
+						</gramGrp>
+						<def>to catch somebody commiting an infraction</def>
+						
+						<usg type="register">formal</usg>
+						<usg type="affect">vigilant, often sarcastic</usg>
+						<usg type="colloc">быть з~ в</usg>
+						
+						<trans>
+							<tr>to be detected</tr>
+							<tr>know</tr>
+							<usg type="register">literary, archaic, dialect</usg>
+							<eg>
+								<q>А наш президент не был замечен в нежелании занимать этот пост.</q>
+								<tr>And our prsident has never been detected to be reluctant to occupy this post.</tr>
+							</eg>
+						</trans>
+						
+					</sense>
+					
+				</entry>
+							
+			</div>
+		</body>
+	</text>
+</TEI.2>
+
