@@ -10,36 +10,40 @@ Artificial Intelligence and more specifically Large Language Models,
 such as ChatGPT, have recently made a profound impact on how we interact
 with the computers by providing the ability to produce new texts in
 response to prompts. Fundamental research in this area is at the core of
-my expertise, with one of my papers on the diversity of texts on the Web
-cited by the GPT creators.
+my expertise, I've been doing this since my own PhD in the 1990s (which
+pre-dated LLMs, but it's still relevant today. One of my papers on the
+<span class="spurious-link"
+target="publications/2020-LREC-anatomy.pdf">*diversity of texts on the
+Web*</span> cited by some of the [GPT creators from
+OpenAI](https://arxiv.org/abs/2212.14578).
 
 My research interests are related to three domains: linguistics,
 computer science and cognitive science.
 
-Probably the most interesting bit in my recent research is
-semi-automatic acquisition of representative corpora from the web, cf.
-the set of available corpora and the procedure described at
+Probably the most interesting bit in my recent research is in digital
+curation of corpora from the web, cf. the set of available large corpora
+and the procedure described at
 <http://corpus.leeds.ac.uk/internet.html>. The current set of resources
 includes multi-million word corpora for Chinese, English, French,
 German, Italian, Polish, Portuguese, Russian and Spanish.
 
 Web corpora can be curated in terms of domains and [genres](webgenres/),
-and also via automatic annotation for parts of speech, syntactic
-relations or named entities. The resources for developing statistical
-models are relatively modest for many languages, so I research methods
-for bootstraping them from related languages, for example, from
+and also via automatic annotation for their linguistic properties, such
+as parts of speech, syntactic relations or named entities. The resources
+for developing statistical models are relatively modest for many
+languages, so I research methods for bootstraping them from related
+languages, for example, from
 [Russian](publications/2011-dialog-sharoff-nivre.pdf) to
 [Ukrainian](publications/2016-HyTra.pdf).
 
-Another recent development is
-[ASSIST](http://ucrel.lancs.ac.uk/projects/assist/), a joint project
-with Lancaster University, which is about an automatic procedure for
-finding translation equivalent using large comparable corpora
-(consisting of texts which are not translations of each other). See a
-[series of BUCC workshops](https://comparable.limsi.fr/) and a [recent
-book](https://link.springer.com/book/10.1007/978-3-031-31384-4) on the
-topic. [Its introduction](publications/2023-bucc-intro.pdf) is available
-from my list of [publications](publications/list.html).
+Another example is [ASSIST](http://ucrel.lancs.ac.uk/projects/assist/),
+a joint project with Lancaster University, which is about an automatic
+procedure for finding translation equivalent using large comparable
+corpora (consisting of texts which are not translations of each other).
+See a [series of BUCC workshops](https://comparable.limsi.fr/) and a
+[recent book](https://link.springer.com/book/10.1007/978-3-031-31384-4)
+on the topic. [Its introduction](publications/2023-bucc-intro.pdf) is
+available from my list of [publications](publications/list.html).
 
 My approach in linguistics rests on the assumption that language is the
 resource for exchanging meanings. My interests in linguistics stretch
