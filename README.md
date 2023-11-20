@@ -85,14 +85,14 @@ foreign languages.
 
 *Background references*:
 
--   [Serge Sharoff. Genre Annotation for the Web: text-external and
+-   Serge Sharoff. [Genre Annotation for the Web: text-external and
     text-internal perspectives](publications/2021-register.pdf).
     *Register Studies*. 2021
--   [Serge Sharoff. Functional text dimensions for the annotation of Web
+-   Serge Sharoff. [Functional text dimensions for the annotation of Web
     corpora](publications/2018-ftd.pdf). *Corpora*, 13(1):65–95, 2018
--   \[\[<file:publications/2020-LREC-htqe.pdf>\]\[Yu Yuan and Serge
-    Sharoff, Sentence Level Human Translation Quality Estimation with
-    Attention-based Neural Networks\]\]. In Proc International
+-   Yu Yuan and Serge Sharoff. [Sentence Level Human Translation Quality
+    Estimation with Attention-based Neural
+    Networks](publications/2020-LREC-htqe.pdf). In Proc International
     Conference on Language Resources and Evaluation (LREC'20),
     Marseilles, May 2020
 
@@ -112,12 +112,12 @@ prediction, etc.
 
 *Background references:*
 
--   [Serge Sharoff. Finding next of kin: Cross-lingual embedding spaces
+-   Serge Sharoff. [Finding next of kin: Cross-lingual embedding spaces
     for related languages](publications/2019-jnle.pdf). *Journal of
     Natural Language Engineering*, 25, 2019
--   \[\[<file:publications/2016-pbml.pdf>\]\[Miguel Rios and Serge
-    Sharoff. Language adaptation for extending post-editing estimates
-    for closely related languages\]\]. *The Prague Bulletin of
+-   Miguel Rios and Serge Sharoff. [Language adaptation for extending
+    post-editing estimates for closely related
+    languages](publications/2016-pbml.pdf). *The Prague Bulletin of
     Mathematical Linguistics*, 106:181-192, 2016
 
 ### Non-parallel resources for translation
@@ -132,13 +132,19 @@ wire streams in different languages?
 
 *Background references:*
 
--   [Serge Sharoff. Know thy corpus! Robust methods for digital curation
+-   Serge Sharoff. [Know thy corpus! Robust methods for digital curation
     of Web corpora](publications/2020-LREC-anatomy.pdf). In Proc LREC,
     Marseilles, May 2020
--   \[\[<file:publications/2019-RANLP.pdf>\]\[Maria Kunilovskaya and
-    Serge Sharoff. Building functionally similar corpus resources for
-    translation studies\]\]. In Proc RANLP, Varna, September 2019
--   \[\[<file:publications/2018-lrec-bucc.pdf>\]\[Pierre Zweigenbaum,
-    Serge Sharoff, and Reinhard Rapp. A multilingual dataset for
-    evaluating parallel sentence extraction from comparable corpora\]\].
-    In Proc LREC, Miyazaki, Japan, May 2018
+-   Maria Kunilovskaya and Serge Sharoff. [Building functionally similar
+    corpus resources for translation
+    studies](publications/2019-RANLP.pdf). In Proc RANLP, Varna,
+    September 2019
+-   Pierre Zweigenbaum, Serge Sharoff, and Reinhard Rapp. [A
+    multilingual dataset for evaluating parallel sentence extraction
+    from comparable corpora](publications/2018-lrec-bucc.pdf) In Proc
+    LREC, Miyazaki, Japan, May 2018
+
+See also a [textbook on Comparable
+Corpora](https://link.springer.com/book/10.1007/978-3-031-31384-4)
+published in the Synthesis Lecture Series. The [introduction to the
+book](publications/2023-bucc-intro.pdf) is available from this website.

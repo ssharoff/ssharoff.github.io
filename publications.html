@@ -1,506 +1,915 @@
-Serge Sharoff, Publications
-   [1]  Dmitri Roussinov and Serge Sharoff. BERT goes off-topic: Investigating the do-
-           main transfer challenge using genre classification. In Findings of the Association
-           for Computational Linguistics: EMNLP 2023, Singapore, December 2023.
-    [2]  Souad Boumechaal and Serge Sharoff. Attitudes, communicative functions, and
-           lexicogrammatical features of anti-vaccine discourse on Telegram. Applied Cor-
-           pus Linguistics, 3, 2023.
-    [3]  Mikhail Lepekhin and Serge Sharoff. FTD at SemEval-2023 task 3: News genre
-           and  propaganda  detection  by  comparing  mono-and  multilingual  models  with
-           fine-tuning  on  additional  data.   In  Proceedings  of  the  The  17th  International
-           Workshop on Semantic Evaluation (SemEval-2023), pages 549&#8211;555, 2023.
-    [4]  Dmitri Roussinov, Serge Sharoff, and Nadezhda Puchnina. Fine-tuning language
-           models to recognize semantic relations.  Language Resources and Evaluation,
-           pages 1&#8211;24, 2023.
-    [5]  Serge Sharoff, Reinhard Rapp, and Pierre Zweigenbaum.  Building and Using
-           Comparable Corpora for Multilingual Natural Language Processing. Synthesis
-           Lectures on Human Language Technologies. Springer Nature, 2023.
-    [6]  Nouran Khallaf, Serge Sharoff, and Rasha Soliman.  Towards Arabic sentence
-           simplification via classification and generative approaches. In Proceedings of the
-           The Seventh Arabic Natural Language Processing Workshop (WANLP), pages
-           43&#8211;52, Abu Dhabi, United Arab Emirates, December 2022.
-    [7]  Valeriy Lobov, Alexandra Ivoylova, and Serge Sharoff.  Applying natural anno-
-           tation and curriculum learning to named entity recognition for under-resourced
-           languages.   In  Proceedings  of  the  29th  International  Conference  on  Compu-
-           tational Linguistics, pages 4468&#8211;4480, Gyeongju, Republic of Korea, October
-           2022. International Committee on Computational Linguistics.
-    [8]  Yuqian Dai, Marc de Kamps, and Serge Sharoff. BERTology for machine trans-
-           lation:  What BERT knows about linguistic difficulties for translation.  In Proc
-           LREC, Marseilles, June 2022.
-    [9]  Mikhail Lepekhin and Serge Sharoff.  Estimating confidence of predictions of
-           individual classifiers and theirensembles for the genre classification task. In Pro-
-           ceedings of the Language Resources and Evaluation Conference, pages 5974&#8211;
-           5982, Marseille, France, June 2022. European Language Resources Association.
-  [10]  Jose Sosa and Serge Sharoff. Multimodal pipeline for collection of misinforma-
-           tion data from telegram.  In Proceedings of the Language Resources and Eval-
-           uation Conference, pages 1480&#8211;1489, Marseille, France, June 2022. European
-           Language Resources Association.
-  [11]  Serge Sharoff. What neural networks know about linguistic complexity. Russian
-           Journal of Linguistics, 26(2):371&#8211;390, 2022.
-                                            1
-
-             [12] Nouran Khallaf and Serge Sharoff. Automatic difficulty classification of Arabic
-                 sentences.   In  Proceedings  of  the  Sixth  Arabic  Natural  Language  Processing
-                 Workshop, pages 105&#8211;114, Kyiv, Ukraine (Virtual), April 2021. Association for
-                 Computational Linguistics.
-             [13] Serge  Sharoff.   Genre  annotation  for  the  web:  text-external  and  text-internal
-                 perspectives. Register studies, 3:1&#8211;32, 2021.
-             [14] Serge  Sharoff.   Topography  of  internet  corpora.   In  Proc  Dialogue,  Russian
-                 International Conference on Computational Linguistics, Moscow, June 2020.
-             [15] Dmitri Roussinov, Serge Sharoff, and Nadezhda Puchnina. Recognizing seman-
-                 tic relations: Error analysis of the use of transformers vs. recurrent path models.
-                 In Proc LREC, Online, May 2020.
-             [16] Serge Sharoff.  Know thy corpus!  Robust methods for digital curation of Web
-                 corpora. In Proc LREC, Online, May 2020.
-             [17] Yu Yuan and Serge Sharoff. Sentence level human translation quality estimation
-                 with attention-based neural networks. In Proc LREC, Online, May 2020.
-             [18] Dmitri  Roussinov,  Serge  Sharoff,  and  Nadezhda  Puchnina.   Recognizing  se-
-                 mantic relations:  Attention-based transformers vs. recurrent models.   In Proc
-                 European Conference on Information Retrieval (ECIR), Lisbon, April 2020.
-             [19] Serge Sharoff.  Finding next of kin: Cross-lingual embedding spaces for related
-                 languages. Journal of Natural Language Engineering, 26:163&#8211;182, 2020.
-             [20] Maria Kunilovskaya and Serge Sharoff. Building functionally similar corpus re-
-                 sources for translation studies. In Proc RANLP, pages 583&#8211;592, Varna, Septem-
-                 ber 2019.
-             [21] Nouran Khallaf, Serge Sharoff, and Michael Ingleby.  Towards an Arabic text
-                 simplification system. In Proc Corpus Linguistics, Cardiff, Jul 2019.
-             [22] Tagir Gadzhiev and Serge Sharoff.  Genre-shift detection using functional text
-                 dimensions.  In Proc Student Research Workshop at Dialogue, Russian Compu-
-                 tational Linguistics Conference, Moscow, June 2019.
-             [23] Mikhail Bulygin and Serge Sharoff.   Applying an automatic FTD classifier to
-                 the annotation of the GICR corpus.   In Proc Dialogue,  Russian International
-                 Conference on Computational Linguistics, 2019.
-             [24] Serge Sharoff.  Language adaptation experiments via cross-lingual embeddings
-                 for related languages. In Proc LREC, Miyazaki, Japan, May 2018.
-             [25] Yu Yuan, Yuze Gao, Yue Zhang, and Serge Sharoff.  Cross-lingual terminology
-                 extraction for translation quality estimation.  In Proc LREC, Miyazaki, Japan,
-                 May 2018.
-                                            2
-
-             [26] Yu Yuan and Serge Sharoff. Investigating the influence of bilingual phraseology
-                 on trainee translation quality. In Proc LREC, Miyazaki, Japan, May 2018.
-             [27] Pierre Zweigenbaum, Serge Sharoff, and Reinhard Rapp. A multilingual dataset
-                 for evaluating parallel sentence extraction from comparable corpora.   In Proc
-                 LREC, Miyazaki, Japan, May 2018.
-             [28] Mikhail Bulygin and Serge Sharoff.   Using machine translation for automatic
-                 genre classification in Arabic.  In Proc Dialogue, Russian International Confer-
-                 ence on Computational Linguistics, 2018.
-             [29] Serge Sharoff.  Functional text dimensions for the annotation of Web corpora.
-                 Corpora, 13(1):65&#8211;95, 2018.
-             [30] Pierre Zweigenbaum, Serge Sharoff, and Reinhard Rapp.  Overview of the sec-
-                 ond BUCC shared task:  Spotting parallel sentences in comparable corpora.  In
-                 Proc Tenth Workshop on Building and Using Comparable Corpora, Vancouver,
-                 August 2017.
-             [31] Serge  Sharoff.    Toward  Pan-Slavic  NLP:  Some  experiments  with  Language
-                 Adaptation.   In Proc Workshop on Balto-Slavic Natural Language Processing
-                 at EACL, Valencia, April 2017.
-             [32] Dagmar Divjak, Serge Sharoff, and Toma&#711;z Erjavec.  Slavic corpus and compu-
-                 tational linguistics. Journal of Slavic Linguistics, 25(2):171&#8211;198, 2017.
-             [33] Reinhard Rapp, Michael Zock, and Serge Sharroff.   New areas of application
-                 of comparable corpora.  In Inguna Skadina, Rob Gaizauskas, Bogdan Babych,
-                 Nikola Ljube&#711;si�c, Dan Tufis, and Andreis Vasiljevs, editors, Using Comparable
-                 Corpora for Under-Resourced Areas of Machine Translation. Springer Verlag,
-                 2017.
-             [34] Serge  Sharoff.   Corpus  and  systemic  functional  linguistics.   In  Tom  Bartlett
-                 and Gerard O&#8217;Grady, editors, The Routledge Handbook of Systemic Functional
-                 Linguistics, pages 533&#8211;546. Routledge, 2017.
-             [35] Serge Sharoff, Dirk Goldhahn, and Uwe Quasthoff. Frequency Dictionary: Rus-
-                 sian, volume 9 of Frequency Dictinaries.   Leipziger Universit�atsverlag, 2017.
-                 Uwe Quasthoff, Sabine Fiedler, Erla Hallsteind�ottir (editors).
-             [36] Yu Yuan, Bogdan Babych, and Serge Sharoff.  Reference-free system for auto-
-                 mated human translation quality estimation.  In Proc Information Systems and
-                 Technologies (CISTI), Lisbon, 2017.
-             [37] Yu Yuan and Serge Sharoff.  Review of &#8216;new directions in empirical translation
-                 process research: Exploring the CRITT TPR-DB&#8217; edited by Michael Carl et al.
-                 Babel, 63(3):450&#8211;456, 2017.
-                                            3
-
-             [38] Yu  Yuan,  Serge  Sharoff,  and  Bogdan  Babych.   MoBiL:  A  hybrid  feature  set
-                 for  automatic  human  translation  quality  assessment.   In  Proc  Tenth  Interna-
-                 tional Conference on Language Resources and Evaluation (LREC&#8217;16), Portoro&#711;z,
-                 Slovenia, May 2016.
-             [39] Pierre Zweigenbaum, Serge Sharoff, and Reinhard Rapp.  Towards preparation
-                 of the second BUCC shared task:  Detecting parallel sentences in comparable
-                 corpora. In Proc Ninth Workshop on Building and Using Comparable Corpora,
-                 Portoroz, Slovenia, May 2016.
-             [40] Noushin Rezapour Asheghi, Serge Sharoff, and Katja Markert.  Crowdsourcing
-                 for web genre annotation.   Language Resources and Evaluation,  pages 1&#8211;39,
-                 2016.
-             [41] Bogdan Babych and Serge Sharoff.  Ukrainian part-of-speech tagger for hybrid
-                 MT: Rapid induction of morphological disambiguation resources from a closely
-                 related language.  In Proc Fifth Workshop on Hybrid Approaches to Translation
-                 (HyTra), 2016.
-             [42] Erika Dalan and Serge Sharoff.  Genre classification for a corpus of academic
-                 webpages. In Proc SIGWAC-X, pages 90&#8211;98, Berlin, 2016.
-             [43] Sophiko  Daraselia  and  Serge  Sharoff.   Enriching  Georgian  dictionary  entries
-                 with frequency information. In Proc EURALEX, Tbilisi, 2016.
-             [44] Roger Evans, Alexander Gelbukh, Gregory Grefenstette, Patrick Hanks, Milo&#711;s
-                 Jakub�<img src="ptmr7t-10.png" alt="i" />&#711;cek,  Diana McCarthy,  Martha Palmer,  Ted Pedersen,  Michael Rundell,
-                 Pavel Rychl`y, Serge Sharoff, and David Tugwell.  Adam kilgarriff&#8217;s legacy to
-                 computational linguistics and beyond. In International Conference on Intelligent
-                 Text Processing and Computational Linguistics, pages 3&#8211;25. Springer, 2016.
-             [45] Reinhard Rapp, Serge Sharoff, and Pierre Zweigenbaum.  Recent advances in
-                 machine translation using comparable corpora. Natural Language Engineering,
-                 22:501&#8211;516, 2016.
-             [46] Miguel Rios and Serge Sharoff. Language adaptation for extending post-editing
-                 estimates for closely related languages.  The Prague Bulletin of Mathematical
-                 Linguistics, 106:181&#8211;192, 2016.
-             [47] Danil Selegey, Tatiana Shavrina, Vladimir Selegey, and Serge Sharoff.   Auto-
-                 matic morphological tagging of Russian social media corpora: training and test-
-                 ing.   In  Proc  Dialogue,  Russian  International  Conference  on  Computational
-                 Linguistics, 2016.
-             [48] Miguel Rios and Serge Sharoff.  Large scale translation quality estimation.  In
-                 Proc Deep Machine Translation Workshop, Prague, September 2015.
-             [49] Miguel Rios and Serge Sharoff.   Obtaining SMT dictionaries for related lan-
-                 guages.  In Proc the Eighth Workshop on Building and Using Comparable Cor-
-                 pora, pages 68&#8211;73, Beijing, China, July 2015.
-                                            4
-
-             [50] Serge Sharoff, Pierre Zweigenbaum, and Reinhard Rapp.  BUCC shared task:
-                 Cross-language document similarity. In Proc Eighth Workshop on Building and
-                 Using Comparable Corpora, pages 74&#8211;78, Beijing, China, July 2015. Associa-
-                 tion for Computational Linguistics.
-             [51] Anisya Katinskaya and Serge Sharoff.  Applying multi-dimensional analysis to
-                 a Russian webcorpus: Searching for evidence of genres.  In Proc BSNLP, Sofia,
-                 2015.
-             [52] M.B. Lagutin, A.Y. Katinskaya, V.P. Selegey, S. Sharoff, and A.A. Sorokin. Au-
-                 tomatic classification of web texts using functional text dimensions.   In Proc
-                 Dialogue, Russian International Conference on Computational Linguistics, vol-
-                 ume 1, pages 398&#8211;413, 2015.
-             [53] Serge Sharoff. Approaching genre classification via syndromes. In Proc Corpus
-                 Linguistics, Lancaster, 2015.
-             [54] Serge Sharoff.  Review of &#8216;Web Corpus Construction&#8217; by Roland Sch�afer and
-                 Felix Bildhauer. Computational Linguistics, 41, 2015.
-             [55] Serge  Sharoff,   Vladimir  Belikov,   Nikolay  Kopylov,   Alexey  Sorokin,   and
-                 Tatyana Shavrina.  Corpus with automatically resolved morphological ambigu-
-                 ity:  towargs  methodology  of  linguistic  research.   In  Proc  Dialogue,  Russian
-                 International Conference on Computational Linguistics, 2015.
-             [56] Noushin Rezapour Asheghi, Katja Markert, and Serge Sharoff. Semi-supervised
-                 graph-based genre classification for web pages. In Proc TextGraphs-9: the work-
-                 shop on Graph-based Methods for Natural Language Processing, pages 39&#8211;47,
-                 Doha, Qatar, October 2014.
-             [57] Marilena Di Bari,  Serge Sharoff,  and Martin Thomas.   Multiple views as aid
-                 to linguistic annotation error analysis.   In Proc LAW VIII - The 8th Linguistic
-                 Annotation Workshop, Dublin, Ireland, August 2014.
-             [58] Ran Xu and Serge Sharoff. Evaluating term extraction methods for interpreters.
-                 In Proc 4th International Workshop on Computational Terminology (Comput-
-                 erm), pages 86&#8211;93, Dublin, Ireland, August 2014.
-             [59] Noushin Rezapour Asheghi, Serge Sharoff, and Katja Markert.  Designing and
-                 evaluating a reliable corpus of web genres via crowd-sourcing.  In Proc Ninth
-                 International Conference on Language Resources and Evaluation, Reykjavik,
-                 Iceland, may 2014.
-             [60] Reinhard  Rapp  and  Serge  Sharoff.    Extracting  multiword  translations  from
-                 aligned comparable documents.   In Proceedings of the 3rd Workshop on Hy-
-                 brid  Approaches  to  Machine  Translation  (HyTra),  pages  87&#8211;95,  Gothenburg,
-                 Sweden, April 2014. Association for Computational Linguistics.
-                                            5
-
-             [61] Nikolay Belikov, Vladimir Kopylov, Vladimir Selegey, and Serge Sharoff. Vari-
-                 ational corpus statistics using author profiles.  In Proc Dialogue, Russian Inter-
-                 national Conference on Computational Linguistics, Bekasovo, 2014.
-             [62] Sophiko Daraselia and Serge Sharoff. Towards creating a large corpus for Geor-
-                 gian. In Proc 7th Biennial IVACS Conference, Newcastle, 2014.
-             [63] Richard Forsyth and Serge Sharoff.  Document dissimilarity within and across
-                 languages: a benchmarking study. Literary and Linguistic Computing, 29:6&#8211;22,
-                 2014.
-             [64] Adam Kilgarriff, Frieda Charalabopoulou, Maria Gavrilidou, Janne Bondi Jo-
-                 hannessen,  Saussan  Khalil,  Sofie  Johansson  Kokkinakis,  Robert  Lew,  Serge
-                 Sharoff,  Ravikiran Vadlapudi,  and Elena Volodina.   Corpus-based vocabulary
-                 lists for language learners for nine languages.  Language Resources and Evalu-
-                 ation, 48(1):121&#8211;163, 2014.
-             [65] Serge Sharoff,  Stefania Spina,  and Sofie Johansson-Kokkinakis.   Introduction
-                 to  the  special  issue  on  resources  and  tools  for  language  learners.   Language
-                 Resources and Evaluation, 48(1):1&#8211;3, 2014.
-             [66] Alexey Sorokin, Anisya Katinskaya, and Serge Sharoff.  Associating symptoms
-                 with syndromes:  Reliable genre annotation for a large Russian webcorpus.  In
-                 Proc Dialogue,  Russian International Conference on Computational Linguis-
-                 tics, Bekasovo, 2014.
-             [67] James Wilson, Serge Sharoff, Paul Stephenson, and Anthony Hartley. Innovative
-                 methods for LSP-teaching:  How we use corpora to teach business Russian.  In
-                 Languages for Specific Purposes in the Digital Era, pages 197&#8211;222. Springer,
-                 2014.
-             [68] Pavel Braslavski, Alexander Beloborodov, Maxim Khalilov, and Serge Sharoff.
-                 English-to-Russian MT evaluation campaign.  In Proc 51st Annual Meeting of
-                 the ACL, pages 262&#8211;267, Sofia, Bulgaria, August 2013.
-             [69] Serge Sharoff, Reinhard Rapp, Pierre Zweigenbaum, and Pascale Fung, editors.
-                 BUCC: Building and Using Comparable Corpora. Springer, 2013.
-             [70] Vladimir Belikov, Nikolay Kopylov, Alexander Piperski, Vladimir Selegey, and
-                 Serge Sharoff.   Corpus as language:  from scalability to register variation.   In
-                 Proc Dialogue,  Russian International Conference on Computational Linguis-
-                 tics, Bekasovo, 2013.
-             [71] Pavel Braslavski, Alexander Beloborodov, Maxim Khalilov, and Serge Sharoff.
-                 ROMIP MT evaluation track 2013: Organizers&#8217; report.  In Proc Dialogue, Rus-
-                 sian International Conference on Computational Linguistics, Bekasovo, 2013.
-             [72] Marilena Di Bari, Serge Sharoff, and Martin Thomas. Sentiml: functional anno-
-                 tation for multilingual sentiment analysis.  In Proc 1st International Workshop
-                 on Collaborative Annotations in Shared Environment:  metadata, vocabularies
-                 and techniques in the Digital Humanities, pages 15&#8211;22, 2013.
-                                            6
-
-             [73] Alexander Piperski, Vladimir Belikov, Nikolay Kopylov, Vladimir Selegey, and
-                 Serge Sharoff.  Big and diverse is beautiful: A large corpus of Russian to study
-                 linguistic variation. In Proc 8th Web as Corpus Workshop (WAC-8), 2013.
-             [74] Serge Sharoff.   Measuring the distance between comparable corpora between
-                 languages.  In Serge Sharoff, Reinhard Rapp, Pierre Zweigenbaum, and Pascale
-                 Fung,  editors,  BUCC: Building and Using Comparable Corpora,  pages 113&#8211;
-                 129. Springer, Berlin/New York, 2013.
-             [75] Serge Sharoff, Reinhard Rapp, and Pierre Zweigenbaum.  Overviewing impor-
-                 tant  aspects  of  the  last  twenty  years  of  research  in  comparable  corpora.    In
-                 Serge Sharoff, Reinhard Rapp, Pierre Zweigenbaum, and Pascale Fung, editors,
-                 BUCC: Building and Using Comparable Corpora, pages 1&#8211;17. Springer, 2013.
-             [76] Serge Sharoff, Elena Umanskaya, and James Wilson.  A frequency dictionary of
-                 Russian: core vocabulary for learners. Routledge, London, 2013.
-             [77] Bogdan Babych,  Kurt Eberle,  Johanna Gei�,  Mireia Ginest�<img src="ptmr7t-10.png" alt="i" />-Rosell,  Anthony
-                 Hartley, Reinhard Rapp, Serge Sharoff, and Martin Thomas. Design of a hybrid
-                 high quality machine translation system.  In Proc Joint Workshop on Exploiting
-                 Synergies between Information Retrieval and Machine Translation (ESIRMT)
-                 and Hybrid Approaches to Machine Translation (HyTra), pages 101&#8211;112, Avi-
-                 gnon, France, 2012.
-             [78] Richard Forsyth and Serge Sharoff.  Quantifying document dissimilarity within
-                 and across languages: a benchmarking trial.  In Proc 6th Inter-Varietal Applied
-                 Corpus Studies (IVACS) group International Conference on Corpora across Lin-
-                 guistics, Leeds, UK, 2012.
-             [79] Tatiana Gornostay, Anita Gojun, Marion Weller, Ulrich Heid, Emmanuel Morin,
-                 B�eatrice  Daille,  Helena  Blancafort,  Serge  Sharoff,  and  Claude  M�echoulam.
-                 Terminology  extraction,  translation  tools  and  comparable  corpora:   Ttc  con-
-                 cept, midterm progress and achieved results.  In Workshop on Creating Cross-
-                 language Resources for Disconnected Languages and Styles at LREC, Istanbul,
-                 2012.
-             [80] Reinhard Rapp,  Serge Sharoff,  and Bogdan Babych.   Identifying word trans-
-                 lations  from  comparable  documents  without  a  seed  lexicon.   In  Proc  Eighth
-                 Language Resources and Evaluation Conference, LREC, Istanbul, 2012.
-             [81] Serge  Sharoff  and  Anthony  Hartley.   Lexicography,  terminology  and  ontolo-
-                 gies. In Alexander Mehler, Laurent Romary, and Dafydd Gibbon, editors, Hand-
-                 book of Technical Communication (HAL 8), pages 317&#8211;346. Mouton de Gruyter,
-                 Berlin, 2012.
-             [82] Siva Reddy and Serge Sharoff.  Cross language POS taggers (and other tools)
-                 for Indian languages: An experiment with Kannada using Telugu resources.  In
-                 Proc IJCNLP&#8217;11, Chiang Mai, Thailand, November 2011.
-                                            7
-
-             [83] Helena  Blancafort,   Ulrich  Heid,   Tatiana  Gornostay,   Claude  M�echoulam,
-                 B�eatrice Daille, and Serge Sharoff.  User-centred views on terminology extrac-
-                 tion tools:  Usage scenarios and integration into MT and CAT tools.   In Proc
-                 TRALOGY Conference &#8221;Translation Careers and Technologies:  Convergence
-                 Points for the Future&#8221;, 2011.
-             [84] Richard Forsyth and Serge Sharoff.   From crawled collections to comparable
-                 corpora:  An  approach  based  on  automatic  archetype  identification.   In  Proc
-                 Corpus Linguistics Conference, Birmingham, 2011.
-             [85] Serge  Sharoff  and  Joakim  Nivre.   The  proper  place  of  men  and  machines  in
-                 language technology: Processing Russian without any linguistic knowledge.  In
-                 Proc Dialogue,  Russian International Conference on Computational Linguis-
-                 tics, Bekasovo, 2011.
-             [86] James Wilson, Serge Sharoff, and Paul Stephenson.   &#8220;Value added teaching&#8221;:
-                 corpus-based methods for LSP teaching.  In N. Talav�an, E. Mart�<img src="ptmr7t-10.png" alt="i" />n Monje, and
-                 F. Palaz�on, editors, Technological Innovation in the Teaching and Processing of
-                 LSPs. Madrid, 2011.
-             [87] James Wilson, Anthony Hartley, Serge Sharoff, and Paul Stephenson. Advanced
-                 corpus solutions for humanities researchers.   In Proc Advanced Corpus Solu-
-                 tions, PACLIC 24, pages 36&#8211;43, Tohoku University, November 2010.
-             [88] Serge Sharoff.  Balancing form and function in corpus research.  International
-                 Journal of Corpus Linguistics, 15(2):412&#8211;417, September 2010.
-             [89] Paul  Rayson,  Scott  Piao,  Serge  Sharoff,  Stefan  Evert,  and  Begonia  Villada
-                 Moir�on.   Multiword expressions:  hard going or plain sailing.   Language Re-
-                 sources and Evaluation Journal, 44:1&#8211;7, January 2010.
-             [90] Alexander Mehler, Serge Sharoff, and Marina Santini, editors.  Genres on the
-                 Web: Computational Models and Empirical Studies. Springer, Berlin/New York,
-                 2010.
-             [91] Helena  Blancafort,  B�eatrice  Daille,  Tatiana  Gornostay,  Ulrich  Heid,  Claude
-                 M�echoulam, and Serge Sharoff.  TTC: Terminology extraction, translation tools
-                 and comparable corpora. In Proc EURALEX2010, Leeuwarden, 5-6 July 2010.
-             [92] Yunhua  Qu,  Nan  Zhang,  Serge  Sharoff,  Yuting  Yang,  Ruoyuan  Gao,  and
-                 Chengzhi  Xu.    Using  an  integrated  feature  set  to  generalize  and  justify  the
-                 chinese-to-english transferring rule of &#8220;zhe&#8221; aspect.  Journal of Computer Sci-
-                 ence and Technology (PRC), 2010.
-             [93] Marina Santini, Alexander Mehler, and Serge Sharoff.  Riding the rough waves
-                 of  genre  on  the  web.   In  Alexander  Mehler,  Serge  Sharoff,  and  Marina  San-
-                 tini, editors, Genres on the Web: Computational Models and Empirical Studies.
-                 Springer, Berlin/New York, 2010.
-                                            8
-
-             [94] Serge Sharoff.  Analysing similarities and differences between corpora.  In Proc
-                 7th Conference of Language Technologies (Jezikovne Tehnologije),  Ljubljana,
-                 2010.
-             [95] Serge Sharoff.  In the garden and in the jungle:  Comparing genres in the BNC
-                 and Internet.  In Alexander Mehler, Serge Sharoff, and Marina Santini, editors,
-                 Genres on the Web: Computational Models and Empirical Studies, pages 149&#8211;
-                 166. Springer, Berlin/New York, 2010.
-             [96] Serge Sharoff, Zhili Wu, and Katja Markert.  The Web library of Babel:  eval-
-                 uating genre collections.  In Proc Seventh Language Resources and Evaluation
-                 Conference, LREC, Malta, 2010.
-             [97] Zhili Wu, Katja Markert, and Serge Sharoff.  Fine-grained genre classification
-                 using structural learning algorithms. In Proc ACL 2010, Uppsala, 2010.
-             [98] Bogdan Babych, Anthony Hartley, and Serge Sharoff.  Evaluation-guided pre-
-                 editing  of  source  text:   improving  mt-tractability  of  light  verb  constructions.
-                 In  Proc  13th  European  Association  for  Machine  Translation,  pages  36&#8211;43,
-                 Barcelona, May 2009.
-             [99] Eric Atwell, Latifa Al-Sulaiti, and Serge Sharoff. Arabic and arab english in the
-                 arab world.  In Proc CL2009 International Conference on Corpus Linguistics,
-                 2009.
-            [100] Olga  Lyashevskaya  and  Serge  Sharoff.      Chastotny  slovar  sovremennogo
-                 russkogo yazyka. Azbukovnik, Moscow, 2009.
-            [101] Marina Santini, Georg Rehm, Serge Sharoff, and Alexander Mehler. Automatic
-                 genre identification:  Issues and prospects.   Journal for Language Technology
-                 and Computational Linguistics, 24(1), 2009.
-            [102] Marina Santini and Serge Sharoff.  Web genre benchmark under construction.
-                 Journal for Language Technology and Computational Linguistics, 25(1):125&#8211;
-                 141, 2009.
-            [103] Serge Sharoff, Bogdan Babych, and Anthony Hartley.   &#8216;irrefragable answers&#8217;:
-                 using  comparable  corpora  to  retrieve  translation  equivalents.    Language  Re-
-                 sources and Evaluation Journal, 43:15&#8211;25, 2009.
-            [104] Bogdan Babych, Anthony Hartley, and Serge Sharoff. Generalising lexical trans-
-                 lation  strategies  for  MT  using  comparable  corpora.   In  Proc  Sixth  Language
-                 Resources and Evaluation Conference, LREC, Marrakech, 2008.
-            [105] Marco Baroni, Francis Chantree, Adam Kilgarriff, and Serge Sharoff. Cleaneval:
-                 a competition for cleaning web pages.  In Proc Sixth Language Resources and
-                 Evaluation Conference, LREC, pages 638&#8211;643, Marrakech, 2008.
-                                            9
-
-            [106] Svitlana Kurella, Anthony Hartley, and Serge Sharoff.  Corpus-based tools for
-                 computer-assisted acquisition of reading abilities in cognate languages. In Proc
-                 of the Sixth Language Resources and Evaluation Conference, LREC, Marrakech,
-                 2008.
-            [107] Svitlana Kurella, Serge Sharoff, and Anthony Hartley.  Rhetorical text structure
-                 in acquiring reading skills in L3.  In Proc of Teaching and Language Corpora
-                 Conference, TaLC 2008, Lisbon, 2008.
-            [108] Olga Mudraya, Scott S. L. Piao, Paul Rayson, Serge Sharoff, Bogdan Babych,
-                 and Laura L�ofberg.  Automatic extraction of translation equivalents of phrasal
-                 and light verbs in English and Russian.  In S. Granger and F. Meunier, editors,
-                 Phraseology: an interdisciplinary perspective, pages 293&#8211;309. John Benjamins,
-                 2008.
-            [109] Serge Sharoff, Mikhail Kopotev, Toma&#711;z Erjavec, Anna Feldman, and Dagmar
-                 Divjak.   Designing and evaluating a Russian tagset.   In Proc Sixth Language
-                 Resources and Evaluation Conference, LREC, Marrakech, 2008.
-            [110] Serge Sharoff, Svitlana Kurella, and Anthony Hartley.  Seeking needles in the
-                 Web haystack:  finding texts suitable for language learners.   In Proc Teaching
-                 and Language Corpora Conference, TaLC 2008, Lisbon, 2008.
-            [111] Bogdan Babych, Anthony Hartley, and Serge Sharoff. A dynamic dictionary for
-                 discovering indirect translation equivalents.   In Translating and the Computer
-                 29. Proceedings of the Twenty-ninth International Conference on Translating
-                 and the Computer, 29-30 November 2007, Londres, pages 1&#8211;21, 2007.
-            [112] Bogdan Babych, Anthony Hartley, and Serge Sharoff.  Translating from under-
-                 resourced languages: comparing direct transfer against pivot translation. In Proc
-                 MT Summit XI, pages 412&#8211;418, Copenhagen, 2007.
-            [113] Bogdan Babych, Anthony Hartley, Serge Sharoff, and Olga Mudraya. Assisting
-                 translators in indirect lexical transfer. In Proc 45th Annual Meeting of the ACL,
-                 pages 739&#8211;746, Prague, 2007.
-            [114] Judy Delin, Catherine Barnes, Stephen Lillford, and Serge Sharoff.  Linguistic
-                 support  for  concept  selection  decisions.   AIEDAM:  Artificial  Intelligence  for
-                 Engineering Design, Analysis and Manufacturing, 21:123&#8211;135, 2007.
-            [115] Nick Pendar and Serge Sharoff.  Supervised lexical acquisition for persian from
-                 a web corpus.  In Proc Computational Approaches to Arabic Script-based Lan-
-                 guages, pages 106&#8211;113, Stanford, 2007.
-            [116] Serge Sharoff.  Central planning vs. free market:  comparing the distribution of
-                 topics and genres in the Russian National Corpus and Internet.   In Proc Dia-
-                 logue, Russian International Conference on Computational Linguistics, pages
-                 573&#8211;581, Bekasovo, 2007.
-                                            10
-
-            [117] Serge Sharoff.  Classifying web corpora into domain and genre using automatic
-                 feature  identification.   In  Proc  Web  as  Corpus  Workshop,  Louvain-la-Neuve,
-                 2007.
-            [118] Serge Sharoff and Alina Secara.  Who is talking to whom?  Linguistic cues for
-                 engaging with the audience.  CoDesign, International Journal of CoCreation in
-                 Design and the Arts, 3(2):175&#8211;182, 2007.
-            [119] Dragos� Ciobanu, Anthony Hartley, and Serge Sharoff.  Using richly annotated
-                 trilingual language resources for acquiring reading skills in a foreign language.
-                 In Proc Fifth Language Resources and Evaluation Conference, LREC, Genoa,
-                 2006.
-            [120] Serge Sharoff. Creating general-purpose corpora using automated search engine
-                 queries. In Marco Baroni and Silvia Bernardini, editors, WaCky! Working papers
-                 on the Web as Corpus. Gedit, Bologna, 2006.
-            [121] Serge Sharoff.  How to handle lexical semantics in SFL: a corpus study of pur-
-                 poses for using size adjectives. In Geoff Thompson and Susan Hunston, editors,
-                 System and Corpus: exploring connections, pages 184&#8211;205. Equinox, 2006.
-            [122] Serge Sharoff.   Open-source corpora:  using the net to fish for linguistic data.
-                 International Journal of Corpus Linguistics, 11(4):435&#8211;462, 2006.
-            [123] Serge Sharoff.   Translation as problem solving:  uses of comparable corpora.
-                 In Proc Third International Workshop on Language Resources for Translation
-                 Work, Research and Training at LREC, pages 24&#8211;28, Genoa, 2006.
-            [124] Serge Sharoff.  A uniform interface to large-scale linguistic resources.  In Proc
-                 Fifth Language Resources and Evaluation Conference, LREC, pages 539&#8211;542,
-                 Genoa, 2006.
-            [125] Serge Sharoff, Bogdan Babych, and Anthony Hartley.  Using collocations from
-                 comparable corpora to find translation equivalents.  In Proc Fifth Language Re-
-                 sources and Evaluation Conference, LREC, pages 465&#8211;470, Genoa, 2006.
-            [126] Serge Sharoff, Bogdan Babych, and Anthony Hartley.  Using comparable cor-
-                 pora to solve problems difficult for human translators.   In Proc International
-                 Confenrence on Computational Linguistics and Association of Computational
-                 Linguistics, COLING-ACL 2006, pages 739&#8211;746, Sydney, 2006.
-            [127] Serge Sharoff, Bogdan Babych, Paul Rayson, Olga Mudraya, and Scott Piao.
-                 ASSIST: Automated semantic assistance for translators.  In Companion Volume
-                 to  Proc  European  Association  of  Computational  Linguistics,  pages  139&#8211;142,
-                 Trento, 2006.
-            [128] Dragos� Ciobanu, Anthony Hartley, and Serge Sharoff.  Acquiring reading skills
-                 in  a  foreign  language  in  a  multilingual,  corpus-based  environment.   In  Proc
-                 Use of New Technologies in Foreign Language Teaching (UNTELE 2005), Com-
-                 piegne, 2005.
-                                            11
-
-            [129] D. Dobrovol&#8217;skij, A. Kretov, and S. Sharoff.  A corpus of parallel texts:  archi-
-                 tecture and usage parameters.  In Russian National Corpus: 2003-2005. Results
-                 and perspectives. Indrik, 2005. (in Russian).
-            [130] Serge Sharoff. The communicative potential of verbs of &#8220;away-from&#8221; motion in
-                 English, German and Russian. Functions of language, 12(2):205&#8211;240, 2005.
-            [131] Serge Sharoff.   Methods and tools for development of the Russian Reference
-                 Corpus.   In Dawn Archer, Andrew Wilson, and Paul Rayson, editors, Corpus
-                 Linguistics Around the World, pages 167&#8211;180. Rodopi, Amsterdam, 2005.
-            [132] Serge  Sharoff.    Phenomenology  and  cognitive  science.    In  S.  Franchi  and
-                 G. Guzeldere, editors, Mechanical Bodies, Computational Minds, pages 471&#8211;
-                 487. MIT Press, Cambridge, 2005.
-            [133] Serge Sharoff.  Harnessing the lawless: using comparable corpora to find trans-
-                 lation equivalents. Journal of Applied Linguistics, 1(3):333&#8211;350, 2004.
-            [134] Serge Sharoff.  Towards basic categories for describing properties of texts in a
-                 corpus.  In Proc Forth Language Resources and Evaluation Conference, LREC,
-                 Lisbon, 2004.
-            [135] Serge Sharoff. What is at stake: a case study of Russian expressions starting with
-                 a preposition.   In Proc ACL04 Workshop Multiword Expressions:  Integrating
-                 Processing, pages 17&#8211;23, Barcelona, 2004.
-            [136] Serge Sharoff, Anthony Hartley, and Peter Llewellyn-Jones.  Sentence genera-
-                 tion in British Sign Language. In Extended abstracts of posters presented at the
-                 Third International Conference on Natural Language Generation, pages 40&#8211;43,
-                 Brighton, 2004.
-            [137] Serge Sharoff.   K sozdaniyu predstavitelnogo corpus sovremennogo russkogo
-                 yazyka. In Proc Dialogue, Russian International Conference on Computational
-                 Linguistics, pages 1&#8211;5, Bekasovo, 2003. (in Russian).
-            [138] Serge Sharoff.   Predstavitel&#8217;nyj corpus russkogo jazyka v kontekste mirovogo
-                 opyta. NTI, series 2, 5:8&#8211;19, 2003.
-            [139] Serge Sharoff.  &#8216;when i use a word, it means just what i choose it to mean&#8217;.  In
-                 C. Inchaurralde and C. Flor�en, editors, Interaction and cognition in linguistics,
-                 pages 277&#8211;293. Peter Lang, 2003.
-            [140] Serge Sharoff.   Meaning as use:  exploitation of aligned corpora for the con-
-                 trastive study of lexical semantics. In Proc Language Resources and Evaluation
-                 Conference (LREC), pages 447&#8211;452, May 2002. Las Palmas, Spain.
-            [141] Dafydd Gibbon, Thorsten Trippel, and Serge Sharoff.  Concordancing for par-
-                 allel spoken language corpora.   In Proc Eurospeech 2001,  pages 2059&#8211;2062,
-                 2001.
-                                            12
-
-            [142] Serge Sharoff. Lexis: between the grammar and the domain model. In A. Melby
-                 and A. Lommel, editors, Selected papers presented at the 26th LACUS Forum,
-                 pages 369&#8211;380. LACUS, Chapel Hill, NC, 2000.
-            [143] Serge Sharoff and Vlad Zhigalov. Register-domain separation as a methodology
-                 for development of natural language interfaces to databases. In Angela Sasse and
-                 Chris Johnson, editors, Proc Human&#8211;Computer Interaction &#8212; INTERACT&#8217;99,
-                 IFIP TC.13, 1999.
-            [144] John A. Bateman and Serge Sharoff.  Multilingual grammars and multilingual
-                 lexicons for multilingual text generation.   In Multilinguality in the lexicon II,
-                 ECAI&#8217;98 Workshop, pages 1&#8211;8, Brighton, UK, 1998. European Conference on
-                 Artificial Intelligence.
-            [145] Irina Kononenko and Serge Sharoff.  Understanding short texts with integration
-                 of knowledge representation methods.   In D. Bjorner,  M. Broy,  and I.V. Pot-
-                 tosin, editors, Perspectives of System Informatics, volume Vol. 1181 of Springer
-                 Lecture Notes in Computer Science, pages 111&#8211;121. Springer Verlag, 1996.
-            [146] Serge Sharoff and Lena Sokolova. Contrastive analysis of software manuals. In
-                 Proc MULSAIC&#8217;96, workshop at ECAI&#8217;96, pages 57&#8211;60, 1996.
-            [147] Serge Sharoff. Phenomenology and cognitive science. The Stanford Humanities
-                 Review, 4(2):190&#8211;206, 1995.
-            [148] Serge Sharoff and Lena Sokolova.  Analysis of rhetorical structures in technical
-                 manuals and their multilingual generation.  In Proceedings of the Workshop on
-                 Multilingual Generation (IJCAI&#8217;95), pages 119&#8211;128, Montr�eal, 1995.
-            [149] Serge  Sharoff.   System  for  development  of  linguistic  processors:  Snoop.   In
-                 Proc East-West Conference on Artificial Intelligence, pages 184&#8211;188, Moscow,
-                 September 1993.
-                                            13
-
-
+<div id="refs" class="references csl-bib-body hanging-indent"
+role="doc-bibliography">
+<div id="ref-asheghi14" class="csl-entry" role="doc-biblioentry">
+Asheghi, Noushin Rezapour, Serge Sharoff, and Katja Markert. 2014.
+<span>“Designing and Evaluating a Reliable Corpus of Web Genres via
+Crowd-Sourcing.”</span> In <em>Proc Ninth International Conference on
+Language Resources and Evaluation</em>. Reykjavik, Iceland.
+</div>
+<div id="ref-asheghi16" class="csl-entry" role="doc-biblioentry">
+———. 2016. <span>“Crowdsourcing for Web Genre Annotation.”</span>
+<em>Language Resources and Evaluation</em>, 1–39.
+</div>
+<div id="ref-atwell09" class="csl-entry" role="doc-biblioentry">
+Atwell, Eric, Latifa Al-Sulaiti, and Serge Sharoff. 2009. <span>“Arabic
+and Arab English in the Arab World.”</span> In <em>Proc Cl2009
+International Conference on Corpus Linguistics</em>.
+</div>
+<div id="ref-babych12hytra" class="csl-entry" role="doc-biblioentry">
+Babych, Bogdan, Kurt Eberle, Johanna Geiß, Mireia Ginestí-Rosell,
+Anthony Hartley, Reinhard Rapp, Serge Sharoff, and Martin Thomas. 2012.
+<span>“Design of a Hybrid High Quality Machine Translation
+System.”</span> In <em>Proc Joint Workshop on Exploiting Synergies
+Between Information Retrieval and Machine Translation (ESIRMT) and
+Hybrid Approaches to Machine Translation (HyTra)</em>, 101–12. Avignon,
+France.
+</div>
+<div id="ref-babych07aslib" class="csl-entry" role="doc-biblioentry">
+Babych, Bogdan, Anthony Hartley, and Serge Sharoff. 2007a. <span>“A
+Dynamic Dictionary for Discovering Indirect Translation
+Equivalents.”</span> In <em>Translating and the Computer 29. Proceedings
+of the Twenty-Ninth International Conference on Translating and the
+Computer, 29-30 November 2007, Londres</em>, 1–21.
+</div>
+<div id="ref-babych07-mtsummit" class="csl-entry"
+role="doc-biblioentry">
+———. 2007b. <span>“Translating from Under-Resourced Languages: Comparing
+Direct Transfer Against Pivot Translation.”</span> In <em>Proc MT Summit
+XI</em>, 412–18. Copenhagen.
+</div>
+<div id="ref-babych08lrec" class="csl-entry" role="doc-biblioentry">
+———. 2008. <span>“Generalising Lexical Translation Strategies for
+<span>MT</span> Using Comparable Corpora.”</span> In <em>Proc Sixth
+Language Resources and Evaluation Conference, <span>LREC</span></em>.
+Marrakech.
+</div>
+<div id="ref-babych09evaluation" class="csl-entry"
+role="doc-biblioentry">
+———. 2009. <span>“Evaluation-Guided Pre-Editing of Source Text:
+Improving MT-Tractability of Light Verb Constructions.”</span> In
+<em>Proc 13th European Association for Machine Translation</em>, 36–43.
+Barcelona.
+</div>
+<div id="ref-babych07acl" class="csl-entry" role="doc-biblioentry">
+Babych, Bogdan, Anthony Hartley, Serge Sharoff, and Olga Mudraya. 2007.
+<span>“Assisting Translators in Indirect Lexical Transfer.”</span> In
+<em>Proc 45<span
+class="math inline"><sup><em>t</em><em>h</em></sup></span> Annual
+Meeting of the ACL</em>, 739–46. Prague.
+</div>
+<div id="ref-babych16ukrainian" class="csl-entry"
+role="doc-biblioentry">
+Babych, Bogdan, and Serge Sharoff. 2016. <span>“Ukrainian Part-of-Speech
+Tagger for Hybrid <span>MT</span>: Rapid Induction of Morphological
+Disambiguation Resources from a Closely Related Language.”</span> In
+<em>Proc Fifth Workshop on Hybrid Approaches to Translation
+(HyTra)</em>.
+</div>
+<div id="ref-baroni08" class="csl-entry" role="doc-biblioentry">
+Baroni, Marco, Francis Chantree, Adam Kilgarriff, and Serge Sharoff.
+2008. <span>“Cleaneval: A Competition for Cleaning Web Pages.”</span> In
+<em>Proc Sixth Language Resources and Evaluation Conference,
+<span>LREC</span></em>, 638–43. Marrakech.
+</div>
+<div id="ref-bateman98" class="csl-entry" role="doc-biblioentry">
+Bateman, John A., and Serge Sharoff. 1998. <span>“Multilingual Grammars
+and Multilingual Lexicons for Multilingual Text Generation.”</span> In
+<em>Multilinguality in the Lexicon <span>II</span></em>, 1–8. ECAI’98
+Workshop. Brighton, UK: European Conference on Artificial Intelligence.
+</div>
+<div id="ref-belikov14" class="csl-entry" role="doc-biblioentry">
+Belikov, Nikolay, Vladimir Kopylov, Vladimir Selegey, and Serge Sharoff.
+2014. <span>“Variational Corpus Statistics Using Author
+Profiles.”</span> In <em>Proc Dialogue, Russian International Conference
+on Computational Linguistics</em>. Bekasovo.
+</div>
+<div id="ref-belikov13" class="csl-entry" role="doc-biblioentry">
+Belikov, Vladimir, Nikolay Kopylov, Alexander Piperski, Vladimir
+Selegey, and Serge Sharoff. 2013. <span>“Corpus as Language: From
+Scalability to Register Variation.”</span> In <em>Proc Dialogue, Russian
+International Conference on Computational Linguistics</em>. Bekasovo.
+</div>
+<div id="ref-blancafort10" class="csl-entry" role="doc-biblioentry">
+Blancafort, Helena, Béatrice Daille, Tatiana Gornostay, Ulrich Heid,
+Claude Méchoulam, and Serge Sharoff. 2010. <span>“<span>TTC</span>:
+Terminology Extraction, Translation Tools and Comparable
+Corpora.”</span> In <em>Proc Euralex2010</em>. Leeuwarden.
+</div>
+<div id="ref-blancafort11tralogy" class="csl-entry"
+role="doc-biblioentry">
+Blancafort, Helena, Ulrich Heid, Tatiana Gornostay, Claude Méchoulam,
+Béatrice Daille, and Serge Sharoff. 2011. <span>“User-Centred Views on
+Terminology Extraction Tools: Usage Scenarios and Integration into
+<span>MT</span> and <span>CAT</span> Tools.”</span> In <em>Proc TRALOGY
+Conference "Translation Careers and Technologies: Convergence Points for
+the Future"</em>.
+</div>
+<div id="ref-boumechaal23covid" class="csl-entry"
+role="doc-biblioentry">
+Boumechaal, Souad, and Serge Sharoff. 2023. <span>“Attitudes,
+Communicative Functions, and Lexicogrammatical Features of Anti-Vaccine
+Discourse on <span>Telegram</span>.”</span> <em>Applied Corpus
+Linguistics</em> 3.
+</div>
+<div id="ref-braslavski13" class="csl-entry" role="doc-biblioentry">
+Braslavski, Pavel, Alexander Beloborodov, Maxim Khalilov, and Serge
+Sharoff. 2013a. <span>“<span class="nocase">English-to-Russian</span>
+<span>MT</span> Evaluation Campaign.”</span> In <em>Proc <span
+class="math inline">51<sup><em>s</em><em>t</em></sup></span> Annual
+Meeting of the ACL</em>, 262–67. Sofia, Bulgaria.
+</div>
+<div id="ref-braslavski13dialog" class="csl-entry"
+role="doc-biblioentry">
+———. 2013b. <span>“<span>ROMIP</span> <span>MT</span> Evaluation Track
+2013: Organizers’ Report.”</span> In <em>Proc Dialogue, Russian
+International Conference on Computational Linguistics</em>. Bekasovo.
+</div>
+<div id="ref-bulygin18" class="csl-entry" role="doc-biblioentry">
+Bulygin, Mikhail, and Serge Sharoff. 2018. <span>“Using Machine
+Translation for Automatic Genre Classification in
+<span>Arabic</span>.”</span> In <em>Proc Dialogue, Russian International
+Conference on Computational Linguistics</em>.
+</div>
+<div id="ref-bulygin19" class="csl-entry" role="doc-biblioentry">
+———. 2019. <span>“Applying an Automatic <span>FTD</span> Classifier to
+the Annotation of the <span>GICR</span> Corpus.”</span> In <em>Proc
+Dialogue, Russian International Conference on Computational
+Linguistics</em>.
+</div>
+<div id="ref-ciobanu05" class="csl-entry" role="doc-biblioentry">
+Ciobanu, Dragoş, Anthony Hartley, and Serge Sharoff. 2005.
+<span>“Acquiring Reading Skills in a Foreign Language in a Multilingual,
+Corpus-Based Environment.”</span> In <em>Proc Use of New Technologies in
+Foreign Language Teaching (UNTELE 2005)</em>. Compiegne.
+</div>
+<div id="ref-ciobanu06" class="csl-entry" role="doc-biblioentry">
+———. 2006. <span>“Using Richly Annotated Trilingual Language Resources
+for Acquiring Reading Skills in a Foreign Language.”</span> In <em>Proc
+Fifth Language Resources and Evaluation Conference,
+<span>LREC</span></em>. Genoa.
+</div>
+<div id="ref-dai22bertology" class="csl-entry" role="doc-biblioentry">
+Dai, Yuqian, Marc de Kamps, and Serge Sharoff. 2022.
+<span>“<span>BERT</span>ology for Machine Translation: What
+<span>BERT</span> Knows about Linguistic Difficulties for
+Translation.”</span> In <em>Proc LREC</em>. Marseilles.
+</div>
+<div id="ref-dalan16" class="csl-entry" role="doc-biblioentry">
+Dalan, Erika, and Serge Sharoff. 2016. <span>“Genre Classification for a
+Corpus of Academic Webpages.”</span> In <em>Proc SIGWAC-x</em>, 90–98.
+Berlin.
+</div>
+<div id="ref-daraselia14" class="csl-entry" role="doc-biblioentry">
+Daraselia, Sophiko, and Serge Sharoff. 2014. <span>“Towards Creating a
+Large Corpus for <span>Georgian</span>.”</span> In <em>Proc <span
+class="math inline">7<sup><em>t</em><em>h</em></sup></span> Biennial
+IVACS Conference</em>. Newcastle.
+</div>
+<div id="ref-daraselia16" class="csl-entry" role="doc-biblioentry">
+———. 2016. <span>“Enriching <span>Georgian</span> Dictionary Entries
+with Frequency Information.”</span> In <em>Proc EURALEX</em>. Tbilisi.
+</div>
+<div id="ref-delin07" class="csl-entry" role="doc-biblioentry">
+Delin, Judy, Catherine Barnes, Stephen Lillford, and Serge Sharoff.
+2007. <span>“Linguistic Support for Concept Selection Decisions.”</span>
+<em>AIEDAM: Artificial Intelligence for Engineering Design, Analysis and
+Manufacturing</em> 21: 123–35.
+</div>
+<div id="ref-dibari13" class="csl-entry" role="doc-biblioentry">
+Di Bari, Marilena, Serge Sharoff, and Martin Thomas. 2013.
+<span>“SentiML: Functional Annotation for Multilingual Sentiment
+Analysis.”</span> In <em>Proc 1st International Workshop on
+Collaborative Annotations in Shared Environment: Metadata, Vocabularies
+and Techniques in the Digital Humanities</em>, 15–22.
+</div>
+<div id="ref-dibari14" class="csl-entry" role="doc-biblioentry">
+———. 2014. <span>“Multiple Views as Aid to Linguistic Annotation Error
+Analysis.”</span> In <em>Proc LAW VIII - the 8th Linguistic Annotation
+Workshop</em>. Dublin, Ireland.
+</div>
+<div id="ref-divjak17" class="csl-entry" role="doc-biblioentry">
+Divjak, Dagmar, Serge Sharoff, and Tomaž Erjavec. 2017. <span>“Slavic
+Corpus and Computational Linguistics.”</span> <em>Journal of Slavic
+Linguistics</em> 25 (2): 171–98.
+</div>
+<div id="ref-dobrovolskij05" class="csl-entry" role="doc-biblioentry">
+Dobrovol’skij, D., A. Kretov, and S. Sharoff. 2005. <span>“A Corpus of
+Parallel Texts: Architecture and Usage Parameters.”</span> In
+<em>Russian National Corpus: 2003-2005. Results and Perspectives</em>.
+Indrik. <a
+href="http://www.ruscorpora.ru/sbornik2005/17dobrovolsky.pdf">http://www.ruscorpora.ru/sbornik2005/17dobrovolsky.pdf</a>.
+</div>
+<div id="ref-evans16" class="csl-entry" role="doc-biblioentry">
+Evans, Roger, Alexander Gelbukh, Gregory Grefenstette, Patrick Hanks,
+Miloš Jakubı́ček, Diana McCarthy, Martha Palmer, et al. 2016. <span>“Adam
+Kilgarriff’s Legacy to Computational Linguistics and Beyond.”</span> In
+<em>International Conference on Intelligent Text Processing and
+Computational Linguistics</em>, 3–25. Springer.
+</div>
+<div id="ref-forsyth11" class="csl-entry" role="doc-biblioentry">
+Forsyth, Richard, and Serge Sharoff. 2011. <span>“From Crawled
+Collections to Comparable Corpora: An Approach Based on Automatic
+Archetype Identification.”</span> In <em>Proc Corpus Linguistics
+Conference</em>. Birmingham.
+</div>
+<div id="ref-forsyth12ivacs" class="csl-entry" role="doc-biblioentry">
+———. 2012. <span>“Quantifying Document Dissimilarity Within and Across
+Languages: A Benchmarking Trial.”</span> In <em>Proc 6th Inter-Varietal
+Applied Corpus Studies (IVACS) Group International Conference on Corpora
+Across Linguistics</em>. Leeds, UK.
+</div>
+<div id="ref-forsyth14" class="csl-entry" role="doc-biblioentry">
+———. 2014. <span>“Document Dissimilarity Within and Across Languages: A
+Benchmarking Study.”</span> <em>Literary and Linguistic Computing</em>
+29: 6–22.
+</div>
+<div id="ref-gadzhiev19" class="csl-entry" role="doc-biblioentry">
+Gadzhiev, Tagir, and Serge Sharoff. 2019. <span>“Genre-Shift Detection
+Using Functional Text Dimensions.”</span> In <em>Proc Student Research
+Workshop at Dialogue, Russian Computational Linguistics Conference</em>.
+Moscow.
+</div>
+<div id="ref-gibbon01" class="csl-entry" role="doc-biblioentry">
+Gibbon, Dafydd, Thorsten Trippel, and Serge Sharoff. 2001.
+<span>“Concordancing for Parallel Spoken Language Corpora.”</span> In
+<em>Proc Eurospeech 2001</em>, 2059–62.
+</div>
+<div id="ref-gornostay12" class="csl-entry" role="doc-biblioentry">
+Gornostay, Tatiana, Anita Gojun, Marion Weller, Ulrich Heid, Emmanuel
+Morin, Béatrice Daille, Helena Blancafort, Serge Sharoff, and Claude
+Méchoulam. 2012. <span>“Terminology Extraction, Translation Tools and
+Comparable Corpora: TTC Concept, Midterm Progress and Achieved
+Results.”</span> In <em>Workshop on Creating Cross-Language Resources
+for Disconnected Languages and Styles at LREC</em>. Istanbul.
+</div>
+<div id="ref-katinskaya15" class="csl-entry" role="doc-biblioentry">
+Katinskaya, Anisya, and Serge Sharoff. 2015. <span>“Applying
+Multi-Dimensional Analysis to a <span>Russian</span> Webcorpus:
+Searching for Evidence of Genres.”</span> In <em>Proc BSNLP</em>. Sofia.
+</div>
+<div id="ref-khallaf21difficulty" class="csl-entry"
+role="doc-biblioentry">
+Khallaf, Nouran, and Serge Sharoff. 2021. <span>“Automatic Difficulty
+Classification of <span>A</span>rabic Sentences.”</span> In
+<em>Proceedings of the Sixth Arabic Natural Language Processing
+Workshop</em>, 105–14. Kyiv, Ukraine (Virtual): Association for
+Computational Linguistics. <a
+href="https://www.aclweb.org/anthology/2021.wanlp-1.11">https://www.aclweb.org/anthology/2021.wanlp-1.11</a>.
+</div>
+<div id="ref-khallaf19" class="csl-entry" role="doc-biblioentry">
+Khallaf, Nouran, Serge Sharoff, and Michael Ingleby. 2019.
+<span>“Towards an <span>Arabic</span> Text Simplification
+System.”</span> In <em>Proc Corpus Linguistics</em>. Cardiff.
+</div>
+<div id="ref-khallaf22simplification" class="csl-entry"
+role="doc-biblioentry">
+Khallaf, Nouran, Serge Sharoff, and Rasha Soliman. 2022. <span>“Towards
+<span>Arabic</span> Sentence Simplification via Classification and
+Generative Approaches.”</span> In <em>Proceedings of the the Seventh
+Arabic Natural Language Processing Workshop (WANLP)</em>, 43–52. Abu
+Dhabi, United Arab Emirates.
+</div>
+<div id="ref-kilgarriff14lrej" class="csl-entry" role="doc-biblioentry">
+Kilgarriff, Adam, Frieda Charalabopoulou, Maria Gavrilidou, Janne Bondi
+Johannessen, Saussan Khalil, Sofie Johansson Kokkinakis, Robert Lew,
+Serge Sharoff, Ravikiran Vadlapudi, and Elena Volodina. 2014.
+<span>“Corpus-Based Vocabulary Lists for Language Learners for Nine
+Languages.”</span> <em>Language Resources and Evaluation</em> 48 (1):
+121–63.
+</div>
+<div id="ref-kononenko96" class="csl-entry" role="doc-biblioentry">
+Kononenko, Irina, and Serge Sharoff. 1996. <span>“Understanding Short
+Texts with Integration of Knowledge Representation Methods.”</span> In
+<em>Perspectives of System Informatics</em>, edited by D. Bjorner, M.
+Broy, and I. V. Pottosin, Vol. 1181:111–21. Springer Lecture Notes in
+Computer Science. Springer Verlag.
+</div>
+<div id="ref-kunilovskaya19" class="csl-entry" role="doc-biblioentry">
+Kunilovskaya, Maria, and Serge Sharoff. 2019. <span>“Building
+Functionally Similar Corpus Resources for Translation Studies.”</span>
+In <em>Proc RANLP</em>, 583–92. Varna.
+</div>
+<div id="ref-kurella08lrec" class="csl-entry" role="doc-biblioentry">
+Kurella, Svitlana, Anthony Hartley, and Serge Sharoff. 2008.
+<span>“Corpus-Based Tools for Computer-Assisted Acquisition of Reading
+Abilities in Cognate Languages.”</span> In <em>Proc of the Sixth
+Language Resources and Evaluation Conference, <span>LREC</span></em>.
+Marrakech.
+</div>
+<div id="ref-kurella08talc" class="csl-entry" role="doc-biblioentry">
+Kurella, Svitlana, Serge Sharoff, and Anthony Hartley. 2008.
+<span>“Rhetorical Text Structure in Acquiring Reading Skills in
+<span>L3</span>.”</span> In <em>Proc of Teaching and Language Corpora
+Conference, <span>TaLC</span> 2008</em>. Lisbon.
+</div>
+<div id="ref-lagutin15" class="csl-entry" role="doc-biblioentry">
+Lagutin, M. B., A. Y. Katinskaya, V. P. Selegey, S. Sharoff, and A. A.
+Sorokin. 2015. <span>“Automatic Classification of Web Texts Using
+Functional Text Dimensions.”</span> In <em>Proc Dialogue, Russian
+International Conference on Computational Linguistics</em>, 1:398–413.
+</div>
+<div id="ref-lepehin22ensembles" class="csl-entry"
+role="doc-biblioentry">
+Lepekhin, Mikhail, and Serge Sharoff. 2022. <span>“Estimating Confidence
+of Predictions of Individual Classifiers and TheirEnsembles for the
+Genre Classification Task.”</span> In <em>Proceedings of the Language
+Resources and Evaluation Conference</em>, 5974–82. Marseille, France:
+European Language Resources Association. <a
+href="https://aclanthology.org/2022.lrec-1.642">https://aclanthology.org/2022.lrec-1.642</a>.
+</div>
+<div id="ref-lepekhin23semeval" class="csl-entry"
+role="doc-biblioentry">
+———. 2023. <span>“<span>FTD</span> at <span>SemEval</span>-2023 Task 3:
+News Genre and Propaganda Detection by Comparing Mono-and Multilingual
+Models with Fine-Tuning on Additional Data.”</span> In <em>Proceedings
+of the the 17th International Workshop on Semantic Evaluation
+(SemEval-2023)</em>, 549–55.
+</div>
+<div id="ref-lobov22ner" class="csl-entry" role="doc-biblioentry">
+Lobov, Valeriy, Alexandra Ivoylova, and Serge Sharoff. 2022.
+<span>“Applying Natural Annotation and Curriculum Learning to Named
+Entity Recognition for Under-Resourced Languages.”</span> In
+<em>Proceedings of the 29th International Conference on Computational
+Linguistics</em>, 4468–80. Gyeongju, Republic of Korea: International
+Committee on Computational Linguistics. <a
+href="https://aclanthology.org/2022.coling-1.394">https://aclanthology.org/2022.coling-1.394</a>.
+</div>
+<div id="ref-ljashevskaja09chast" class="csl-entry"
+role="doc-biblioentry">
+Lyashevskaya, Olga, and Serge Sharoff. 2009. <em>Chastotny Slovar
+Sovremennogo Russkogo Yazyka</em>. Moscow: Azbukovnik.
+</div>
+<div id="ref-Mehler10book" class="csl-entry" role="doc-biblioentry">
+Mehler, Alexander, Serge Sharoff, and Marina Santini, eds. 2010.
+<em>Genres on the Web: Computational Models and Empirical Studies</em>.
+Berlin/New York: Springer.
+</div>
+<div id="ref-mudraya08" class="csl-entry" role="doc-biblioentry">
+Mudraya, Olga, Scott S. L. Piao, Paul Rayson, Serge Sharoff, Bogdan
+Babych, and Laura Löfberg. 2008. <span>“Automatic Extraction of
+Translation Equivalents of Phrasal and Light Verbs in
+<span>E</span>nglish and <span>R</span>ussian.”</span> In
+<em>Phraseology: An Interdisciplinary Perspective</em>, edited by S.
+Granger and F. Meunier, 293–309. John Benjamins.
+</div>
+<div id="ref-pendar07" class="csl-entry" role="doc-biblioentry">
+Pendar, Nick, and Serge Sharoff. 2007. <span>“Supervised Lexical
+Acquisition for Persian from a Web Corpus.”</span> In <em>Proc
+Computational Approaches to Arabic Script-Based Languages</em>, 106–13.
+Stanford.
+</div>
+<div id="ref-piperski13" class="csl-entry" role="doc-biblioentry">
+Piperski, Alexander, Vladimir Belikov, Nikolay Kopylov, Vladimir
+Selegey, and Serge Sharoff. 2013. <span>“Big and Diverse Is Beautiful: A
+Large Corpus of <span>Russian</span> to Study Linguistic
+Variation.”</span> In <em>Proc <span
+class="math inline">8<sup><em>t</em><em>h</em></sup></span> Web as
+Corpus Workshop (WAC-8)</em>.
+</div>
+<div id="ref-yunhua10" class="csl-entry" role="doc-biblioentry">
+Qu, Yunhua, Nan Zhang, Serge Sharoff, Yuting Yang, Ruoyuan Gao, and
+Chengzhi Xu. 2010. <span>“Using an Integrated Feature Set to Generalize
+and Justify the Chinese-to-English Transferring Rule of
+<span>‘ZHE’</span> Aspect.”</span> <em>Journal of Computer Science and
+Technology (PRC)</em>.
+</div>
+<div id="ref-rapp14" class="csl-entry" role="doc-biblioentry">
+Rapp, Reinhard, and Serge Sharoff. 2014. <span>“Extracting Multiword
+Translations from Aligned Comparable Documents.”</span> In
+<em>Proceedings of the 3rd Workshop on Hybrid Approaches to Machine
+Translation (HyTra)</em>, 87–95. Gothenburg, Sweden: Association for
+Computational Linguistics. <a
+href="http://www.aclweb.org/anthology/W14-1016">http://www.aclweb.org/anthology/W14-1016</a>.
+</div>
+<div id="ref-rapp12lrec" class="csl-entry" role="doc-biblioentry">
+Rapp, Reinhard, Serge Sharoff, and Bogdan Babych. 2012.
+<span>“Identifying Word Translations from Comparable Documents Without a
+Seed Lexicon.”</span> In <em>Proc Eighth Language Resources and
+Evaluation Conference, <span>LREC</span></em>. Istanbul.
+</div>
+<div id="ref-rapp16nle" class="csl-entry" role="doc-biblioentry">
+Rapp, Reinhard, Serge Sharoff, and Pierre Zweigenbaum. 2016.
+<span>“Recent Advances in Machine Translation Using Comparable
+Corpora.”</span> <em>Natural Language Engineering</em> 22: 501–16.
+</div>
+<div id="ref-rapp17accurat" class="csl-entry" role="doc-biblioentry">
+Rapp, Reinhard, Michael Zock, and Serge Sharroff. 2017. <span>“New Areas
+of Application of Comparable Corpora.”</span> In <em>Using Comparable
+Corpora for Under-Resourced Areas of Machine Translation</em>, edited by
+Inguna Skadina, Rob Gaizauskas, Bogdan Babych, Nikola Ljubešić, Dan
+Tufis, and Andreis Vasiljevs. Springer Verlag.
+</div>
+<div id="ref-rayson10mwe" class="csl-entry" role="doc-biblioentry">
+Rayson, Paul, Scott Piao, Serge Sharoff, Stefan Evert, and Begonia
+Villada Moirón. 2010. <span>“Multiword Expressions: Hard Going or Plain
+Sailing.”</span> <em>Language Resources and Evaluation Journal</em> 44:
+1–7.
+</div>
+<div id="ref-reddy11kannada" class="csl-entry" role="doc-biblioentry">
+Reddy, Siva, and Serge Sharoff. 2011. <span>“Cross Language
+<span>POS</span> Taggers (and Other Tools) for <span>Indian</span>
+Languages: An Experiment with <span>Kannada</span> Using
+<span>Telugu</span> Resources.”</span> In <em>Proc IJCNLP’11</em>.
+Chiang Mai, Thailand.
+</div>
+<div id="ref-asheghi14textgraph" class="csl-entry"
+role="doc-biblioentry">
+Rezapour Asheghi, Noushin, Katja Markert, and Serge Sharoff. 2014.
+<span>“Semi-Supervised Graph-Based Genre Classification for Web
+Pages.”</span> In <em>Proc TextGraphs-9: The Workshop on Graph-Based
+Methods for Natural Language Processing</em>, 39–47. Doha, Qatar.
+</div>
+<div id="ref-rios15deepmt" class="csl-entry" role="doc-biblioentry">
+Rios, Miguel, and Serge Sharoff. 2015a. <span>“Large Scale Translation
+Quality Estimation.”</span> In <em>Proc Deep Machine Translation
+Workshop</em>. Prague.
+</div>
+<div id="ref-rios15bucc" class="csl-entry" role="doc-biblioentry">
+———. 2015b. <span>“Obtaining <span>SMT</span> Dictionaries for Related
+Languages.”</span> In <em>Proc the Eighth Workshop on Building and Using
+Comparable Corpora</em>, 68–73. Beijing, China.
+</div>
+<div id="ref-rios16" class="csl-entry" role="doc-biblioentry">
+———. 2016. <span>“Language Adaptation for Extending Post-Editing
+Estimates for Closely Related Languages.”</span> <em>The Prague Bulletin
+of Mathematical Linguistics</em> 106: 181–92.
+</div>
+<div id="ref-roussinov23emnlp" class="csl-entry" role="doc-biblioentry">
+Roussinov, Dmitri, and Serge Sharoff. 2023. <span>“<span>BERT</span>
+Goes Off-Topic: Investigating the Domain Transfer Challenge Using Genre
+Classification.”</span> In <em>Findings of the Association for
+Computational Linguistics: EMNLP 2023</em>. Singapore.
+</div>
+<div id="ref-roussinov20" class="csl-entry" role="doc-biblioentry">
+Roussinov, Dmitri, Serge Sharoff, and Nadezhda Puchnina. 2020a.
+<span>“Recognizing Semantic Relations: Attention-Based Transformers Vs.
+Recurrent Models.”</span> In <em>Proc European Conference on Information
+Retrieval (ECIR)</em>. Lisbon.
+</div>
+<div id="ref-roussinov20lrec" class="csl-entry" role="doc-biblioentry">
+———. 2020b. <span>“Recognizing Semantic Relations: Error Analysis of the
+Use of Transformers Vs. Recurrent Path Models.”</span> In <em>Proc
+LREC</em>. Online.
+</div>
+<div id="ref-roussinov23lrev" class="csl-entry" role="doc-biblioentry">
+———. 2023. <span>“Fine-Tuning Language Models to Recognize Semantic
+Relations.”</span> <em>Language Resources and Evaluation</em>, 1–24.
+</div>
+<div id="ref-santini10genreintro" class="csl-entry"
+role="doc-biblioentry">
+Santini, Marina, Alexander Mehler, and Serge Sharoff. 2010.
+<span>“Riding the Rough Waves of Genre on the Web.”</span> In <em>Genres
+on the Web: Computational Models and Empirical Studies</em>, edited by
+Alexander Mehler, Serge Sharoff, and Marina Santini. Berlin/New York:
+Springer.
+</div>
+<div id="ref-jlcl09" class="csl-entry" role="doc-biblioentry">
+Santini, Marina, Georg Rehm, Serge Sharoff, and Alexander Mehler. 2009.
+<span>“Automatic Genre Identification: Issues and Prospects.”</span>
+<em>Journal for Language Technology and Computational Linguistics</em>
+24 (1).
+</div>
+<div id="ref-santinisharoff09" class="csl-entry" role="doc-biblioentry">
+Santini, Marina, and Serge Sharoff. 2009. <span>“Web Genre Benchmark
+Under Construction.”</span> <em>Journal for Language Technology and
+Computational Linguistics</em> 25 (1): 125–41.
+</div>
+<div id="ref-selegey16" class="csl-entry" role="doc-biblioentry">
+Selegey, Danil, Tatiana Shavrina, Vladimir Selegey, and Serge Sharoff.
+2016. <span>“Automatic Morphological Tagging of <span>Russian</span>
+Social Media Corpora: Training and Testing.”</span> In <em>Proc
+Dialogue, Russian International Conference on Computational
+Linguistics</em>.
+</div>
+<div id="ref-sharoff93" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge. 1993. <span>“System for Development of Linguistic
+Processors: SNOOP.”</span> In <em>Proc East-West Conference on
+Artificial Intelligence</em>, 184–88. Moscow.
+</div>
+<div id="ref-sharoff95" class="csl-entry" role="doc-biblioentry">
+———. 1995. <span>“Phenomenology and Cognitive Science.”</span> <em>The
+Stanford Humanities Review</em> 4 (2): 190–206. <a
+href="http://www.stanford.edu/group/SHR/4-2/text/sharoff.html">http://www.stanford.edu/group/SHR/4-2/text/sharoff.html</a>.
+</div>
+<div id="ref-sharoff00" class="csl-entry" role="doc-biblioentry">
+———. 2000. <span>“Lexis: Between the Grammar and the Domain
+Model.”</span> In <em>Selected Papers Presented at the 26th LACUS
+Forum</em>, edited by A. Melby and A. Lommel, 369–80. Chapel Hill, NC:
+LACUS.
+</div>
+<div id="ref-sharoff02" class="csl-entry" role="doc-biblioentry">
+———. 2002. <span>“Meaning as Use: Exploitation of Aligned Corpora for
+the Contrastive Study of Lexical Semantics.”</span> In <em>Proc Language
+Resources and Evaluation Conference (LREC)</em>, 447–52.
+</div>
+<div id="ref-sharoff03bokr" class="csl-entry" role="doc-biblioentry">
+———. 2003a. <span>“K Sozdaniyu Predstavitelnogo Corpus Sovremennogo
+Russkogo Yazyka.”</span> In <em>Proc Dialogue, Russian International
+Conference on Computational Linguistics</em>, 1–5. Bekasovo. <a
+href="https://www.dialog-21.ru/media/2688/sharov.pdf">https://www.dialog-21.ru/media/2688/sharov.pdf</a>.
+</div>
+<div id="ref-sharoff03nti" class="csl-entry" role="doc-biblioentry">
+———. 2003b. <span>“Predstavitel’nyj Corpus Russkogo Jazyka v Kontekste
+Mirovogo Opyta.”</span> <em>NTI, Series 2</em> 5: 8–19.
+</div>
+<div id="ref-sharoff03" class="csl-entry" role="doc-biblioentry">
+———. 2003c. <span>“<span>‘When i Use a Word, It Means Just What i Choose
+It to Mean’</span>.”</span> In <em>Interaction and Cognition in
+Linguistics</em>, edited by C. Inchaurralde and C. Florén, 277–93. Peter
+Lang.
+</div>
+<div id="ref-sharoff04jal" class="csl-entry" role="doc-biblioentry">
+———. 2004a. <span>“Harnessing the Lawless: Using Comparable Corpora to
+Find Translation Equivalents.”</span> <em>Journal of Applied
+Linguistics</em> 1 (3): 333–50.
+</div>
+<div id="ref-sharoff04lrec" class="csl-entry" role="doc-biblioentry">
+———. 2004b. <span>“Towards Basic Categories for Describing Properties of
+Texts in a Corpus.”</span> In <em>Proc Forth Language Resources and
+Evaluation Conference, <span>LREC</span></em>. Lisbon.
+</div>
+<div id="ref-sharoff04mwe" class="csl-entry" role="doc-biblioentry">
+———. 2004c. <span>“What Is at Stake: A Case Study of
+<span>Russian</span> Expressions Starting with a Preposition.”</span> In
+<em>Proc Acl04 Workshop Multiword Expressions: Integrating
+Processing</em>, 17–23. Barcelona.
+</div>
+<div id="ref-sharoff05-bokr" class="csl-entry" role="doc-biblioentry">
+———. 2005a. <span>“Methods and Tools for Development of the
+<span>R</span>ussian <span>R</span>eference <span>C</span>orpus.”</span>
+In <em>Corpus Linguistics Around the World</em>, edited by Dawn Archer,
+Andrew Wilson, and Paul Rayson, 167–80. Amsterdam: Rodopi.
+</div>
+<div id="ref-sharoff05phenom" class="csl-entry" role="doc-biblioentry">
+———. 2005b. <span>“Phenomenology and Cognitive Science.”</span> In
+<em>Mechanical Bodies, Computational Minds</em>, edited by S. Franchi
+and G. Guzeldere, 471–87. Cambridge: MIT Press. <a
+href="http://www.stanford.edu/group/SHR/4-2/text/sharoff.html">http://www.stanford.edu/group/SHR/4-2/text/sharoff.html</a>.
+</div>
+<div id="ref-sharoff05-motion" class="csl-entry" role="doc-biblioentry">
+———. 2005c. <span>“The Communicative Potential of Verbs of
+<span>‘Away-from’</span> Motion in <span>English</span>,
+<span>German</span> and <span>Russian</span>.”</span> <em>Functions of
+Language</em> 12 (2): 205–40.
+</div>
+<div id="ref-sharoff06lrec" class="csl-entry" role="doc-biblioentry">
+———. 2006a. <span>“A Uniform Interface to Large-Scale Linguistic
+Resources.”</span> In <em>Proc Fifth Language Resources and Evaluation
+Conference, <span>LREC</span></em>, 539–42. Genoa.
+</div>
+<div id="ref-sharoff06wacky" class="csl-entry" role="doc-biblioentry">
+———. 2006b. <span>“Creating General-Purpose Corpora Using Automated
+Search Engine Queries.”</span> In <em>WaCky! Working Papers on the Web
+as Corpus</em>, edited by Marco Baroni and Silvia Bernardini. Bologna:
+Gedit.
+</div>
+<div id="ref-sharoff06sfl" class="csl-entry" role="doc-biblioentry">
+———. 2006c. <span>“How to Handle Lexical Semantics in <span>SFL</span>:
+A Corpus Study of Purposes for Using Size Adjectives.”</span> In
+<em>System and Corpus: Exploring Connections</em>, edited by Geoff
+Thompson and Susan Hunston, 184–205. Equinox.
+</div>
+<div id="ref-sharoff06ijcl" class="csl-entry" role="doc-biblioentry">
+———. 2006d. <span>“Open-Source Corpora: Using the Net to Fish for
+Linguistic Data.”</span> <em>International Journal of Corpus
+Linguistics</em> 11 (4): 435–62.
+</div>
+<div id="ref-sharoff06lr4trans" class="csl-entry"
+role="doc-biblioentry">
+———. 2006e. <span>“Translation as Problem Solving: Uses of Comparable
+Corpora.”</span> In <em>Proc Third International Workshop on Language
+Resources for Translation Work, Research and Training at
+<span>LREC</span></em>, 24–28. Genoa.
+</div>
+<div id="ref-sharoff07planning" class="csl-entry"
+role="doc-biblioentry">
+———. 2007a. <span>“Central Planning Vs. Free Market: Comparing the
+Distribution of Topics and Genres in the <span>Russian</span>
+<span>National</span> <span>Corpus</span> and
+<span>Internet</span>.”</span> In <em>Proc Dialogue, Russian
+International Conference on Computational Linguistics</em>, 573–81.
+Bekasovo.
+</div>
+<div id="ref-sharoff07wac" class="csl-entry" role="doc-biblioentry">
+———. 2007b. <span>“Classifying Web Corpora into Domain and Genre Using
+Automatic Feature Identification.”</span> In <em>Proc Web as Corpus
+Workshop</em>. Louvain-la-Neuve.
+</div>
+<div id="ref-sharoff10ljubljana" class="csl-entry"
+role="doc-biblioentry">
+———. 2010a. <span>“Analysing Similarities and Differences Between
+Corpora.”</span> In <em>Proc 7th Conference of Language Technologies
+(Jezikovne Tehnologije)</em>. Ljubljana.
+</div>
+<div id="ref-sharoff10ijcl" class="csl-entry" role="doc-biblioentry">
+———. 2010b. <span>“Balancing Form and Function in Corpus
+Research.”</span> <em>International Journal of Corpus Linguistics</em>
+15 (2): 412–17.
+</div>
+<div id="ref-sharoff10webgenres" class="csl-entry"
+role="doc-biblioentry">
+———. 2010c. <span>“In the Garden and in the Jungle: Comparing Genres in
+the <span>BNC</span> and <span>Internet</span>.”</span> In <em>Genres on
+the Web: Computational Models and Empirical Studies</em>, edited by
+Alexander Mehler, Serge Sharoff, and Marina Santini, 149–66. Berlin/New
+York: Springer.
+</div>
+<div id="ref-sharoff13bucc" class="csl-entry" role="doc-biblioentry">
+———. 2013. <span>“Measuring the Distance Between Comparable Corpora
+Between Languages.”</span> In <em><span>BUCC</span>: Building and Using
+Comparable Corpora</em>, edited by Serge Sharoff, Reinhard Rapp, Pierre
+Zweigenbaum, and Pascale Fung, 113–29. Berlin/New York: Springer.
+</div>
+<div id="ref-sharoff15lancaster" class="csl-entry"
+role="doc-biblioentry">
+———. 2015a. <span>“Approaching Genre Classification via
+Syndromes.”</span> In <em>Proc Corpus Linguistics</em>. Lancaster.
+</div>
+<div id="ref-sharoff15coli" class="csl-entry" role="doc-biblioentry">
+———. 2015b. <span>“Review of <span>‘<span>Web</span> <span>Corpus</span>
+<span>Construction</span>’</span> by <span>Roland</span>
+<span>Schäfer</span> and <span>Felix</span>
+<span>Bildhauer</span>.”</span> <em>Computational Linguistics</em> 41.
+</div>
+<div id="ref-sharoff17rh" class="csl-entry" role="doc-biblioentry">
+———. 2017a. <span>“Corpus and Systemic Functional Linguistics.”</span>
+In <em>The Routledge Handbook of Systemic Functional Linguistics</em>,
+edited by Tom Bartlett and Gerard O’Grady, 533–46. Routledge. <a
+href="https://doi.org/10.4324/9781315413891.ch33">https://doi.org/10.4324/9781315413891.ch33</a>.
+</div>
+<div id="ref-sharoff17bsnlp" class="csl-entry" role="doc-biblioentry">
+———. 2017b. <span>“Toward <span>Pan-Slavic</span> <span>NLP</span>: Some
+Experiments with <span>Language</span> <span>Adaptation</span>.”</span>
+In <em>Proc Workshop on Balto-Slavic Natural Language Processing at
+EACL</em>. Valencia.
+</div>
+<div id="ref-sharoff18genres" class="csl-entry" role="doc-biblioentry">
+———. 2018a. <span>“Functional Text Dimensions for the Annotation of
+<span>Web</span> Corpora.”</span> <em>Corpora</em> 13 (1): 65–95.
+</div>
+<div id="ref-sharoff18lgadapt" class="csl-entry" role="doc-biblioentry">
+———. 2018b. <span>“Language Adaptation Experiments via Cross-Lingual
+Embeddings for Related Languages.”</span> In <em>Proc LREC</em>.
+Miyazaki, Japan.
+</div>
+<div id="ref-sharoff20jnle" class="csl-entry" role="doc-biblioentry">
+———. 2020a. <span>“Finding Next of Kin: Cross-Lingual Embedding Spaces
+for Related Languages.”</span> <em>Journal of Natural Language
+Engineering</em> 26: 163–82.
+</div>
+<div id="ref-sharoff20topography" class="csl-entry"
+role="doc-biblioentry">
+———. 2020b. <span>“Topography of Internet Corpora.”</span> In <em>Proc
+Dialogue, Russian International Conference on Computational
+Linguistics</em>. Moscow.
+</div>
+<div id="ref-sharoff20" class="csl-entry" role="doc-biblioentry">
+———. 2020c. <span>“Know Thy Corpus! <span>Robust</span> Methods for
+Digital Curation of <span>Web</span> Corpora.”</span> In <em>Proc
+LREC</em>. Online.
+</div>
+<div id="ref-sharoff21rs" class="csl-entry" role="doc-biblioentry">
+———. 2021. <span>“Genre Annotation for the Web: Text-External and
+Text-Internal Perspectives.”</span> <em>Register Studies</em> 3: 1–32.
+</div>
+<div id="ref-sharoff22complexity" class="csl-entry"
+role="doc-biblioentry">
+———. 2022. <span>“What Neural Networks Know about Linguistic
+Complexity.”</span> <em>Russian Journal of Linguistics</em> 26 (2):
+371–90. <a
+href="https://journals.rudn.ru/linguistics/article/view/31329">https://journals.rudn.ru/linguistics/article/view/31329</a>.
+</div>
+<div id="ref-sharoff06lrec-assist" class="csl-entry"
+role="doc-biblioentry">
+Sharoff, Serge, Bogdan Babych, and Anthony Hartley. 2006a. <span>“Using
+Collocations from Comparable Corpora to Find Translation
+Equivalents.”</span> In <em>Proc Fifth Language Resources and Evaluation
+Conference, <span>LREC</span></em>, 465–70. Genoa.
+</div>
+<div id="ref-sharoff06acl" class="csl-entry" role="doc-biblioentry">
+———. 2006b. <span>“Using Comparable Corpora to Solve Problems Difficult
+for Human Translators.”</span> In <em>Proc International Confenrence on
+Computational Linguistics and Association of Computational Linguistics,
+<span>COLING-ACL</span> 2006</em>, 739–46. Sydney.
+</div>
+<div id="ref-sharoff08lre" class="csl-entry" role="doc-biblioentry">
+———. 2009. <span>“<span>‘Irrefragable Answers’</span>: Using Comparable
+Corpora to Retrieve Translation Equivalents.”</span> <em>Language
+Resources and Evaluation Journal</em> 43: 15–25.
+</div>
+<div id="ref-sharoff06eacl" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, Bogdan Babych, Paul Rayson, Olga Mudraya, and Scott
+Piao. 2006. <span>“<span>ASSIST</span>: Automated Semantic Assistance
+for Translators.”</span> In <em>Companion Volume to Proc European
+Association of Computational Linguistics</em>, 139–42. Trento.
+</div>
+<div id="ref-sharoff15morph" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, Vladimir Belikov, Nikolay Kopylov, Alexey Sorokin, and
+Tatyana Shavrina. 2015. <span>“Corpus with Automatically Resolved
+Morphological Ambiguity: Towargs Methodology of Linguistic
+Research.”</span> In <em>Proc Dialogue, Russian International Conference
+on Computational Linguistics</em>.
+</div>
+<div id="ref-sharoff17frequen" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, Dirk Goldhahn, and Uwe Quasthoff. 2017. <em>Frequency
+Dictionary: <span>Russian</span></em>. Vol. 9. Frequency Dictinaries.
+Leipziger Universitätsverlag.
+</div>
+<div id="ref-sharoff12hal" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, and Anthony Hartley. 2012. <span>“Lexicography,
+Terminology and Ontologies.”</span> In <em>Handbook of Technical
+Communication (HAL 8)</em>, edited by Alexander Mehler, Laurent Romary,
+and Dafydd Gibbon, 317–46. Berlin: Mouton de Gruyter.
+</div>
+<div id="ref-sharoff04nlg" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, Anthony Hartley, and Peter Llewellyn-Jones. 2004.
+<span>“Sentence Generation in <span>British Sign
+Language</span>.”</span> In <em>Extended Abstracts of Posters Presented
+at the Third International Conference on Natural Language
+Generation</em>, 40–43. Brighton.
+</div>
+<div id="ref-sharoff08lrec-mocky" class="csl-entry"
+role="doc-biblioentry">
+Sharoff, Serge, Mikhail Kopotev, Tomaž Erjavec, Anna Feldman, and Dagmar
+Divjak. 2008. <span>“Designing and Evaluating a <span>Russian</span>
+Tagset.”</span> In <em>Proc Sixth Language Resources and Evaluation
+Conference, <span>LREC</span></em>. Marrakech.
+</div>
+<div id="ref-sharoff08talc" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, Svitlana Kurella, and Anthony Hartley. 2008.
+<span>“Seeking Needles in the <span>W</span>eb Haystack: Finding Texts
+Suitable for Language Learners.”</span> In <em>Proc Teaching and
+Language Corpora Conference, <span>TaLC</span> 2008</em>. Lisbon.
+</div>
+<div id="ref-sharoff11dialog" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, and Joakim Nivre. 2011. <span>“The Proper Place of Men
+and Machines in Language Technology: Processing <span>Russian</span>
+Without Any Linguistic Knowledge.”</span> In <em>Proc Dialogue, Russian
+International Conference on Computational Linguistics</em>. Bekasovo.
+</div>
+<div id="ref-sharoff13buccoverview" class="csl-entry"
+role="doc-biblioentry">
+Sharoff, Serge, Reinhard Rapp, and Pierre Zweigenbaum. 2013.
+<span>“Overviewing Important Aspects of the Last Twenty Years of
+Research in Comparable Corpora.”</span> In <em><span>BUCC</span>:
+Building and Using Comparable Corpora</em>, edited by Serge Sharoff,
+Reinhard Rapp, Pierre Zweigenbaum, and Pascale Fung, 1–17. Springer.
+</div>
+<div id="ref-sharoff23bucc" class="csl-entry" role="doc-biblioentry">
+———. 2023. <em>Building and Using Comparable Corpora for Multilingual
+Natural Language Processing</em>. Synthesis Lectures on Human Language
+Technologies. Springer Nature. <a
+href="https://link.springer.com/book/9783031313837">https://link.springer.com/book/9783031313837</a>.
+</div>
+<div id="ref-sharoff13edited" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, Reinhard Rapp, Pierre Zweigenbaum, and Pascale Fung,
+eds. 2013. <em><span>BUCC</span>: Building and Using Comparable
+Corpora</em>. Springer.
+</div>
+<div id="ref-sharoffsecara07" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, and Alina Secara. 2007. <span>“Who Is Talking to Whom?
+<span>L</span>inguistic Cues for Engaging with the Audience.”</span>
+<em>CoDesign, International Journal of CoCreation in Design and the
+Arts</em> 3 (2): 175–82.
+</div>
+<div id="ref-sharoff95rst" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, and Lena Sokolova. 1995. <span>“Analysis of Rhetorical
+Structures in Technical Manuals and Their Multilingual
+Generation.”</span> In <em>Proceedings of the Workshop on Multilingual
+Generation (IJCAI’95)</em>, 119–28. Montréal.
+</div>
+<div id="ref-sharoff96" class="csl-entry" role="doc-biblioentry">
+———. 1996. <span>“Contrastive Analysis of Software Manuals.”</span> In
+<em>Proc MULSAIC’96, Workshop at ECAI’96</em>, 57–60.
+</div>
+<div id="ref-sharoff14lrej" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, Stefania Spina, and Sofie Johansson-Kokkinakis. 2014.
+<span>“Introduction to the Special Issue on Resources and Tools for
+Language Learners.”</span> <em>Language Resources and Evaluation</em> 48
+(1): 1–3.
+</div>
+<div id="ref-sharoff13russian" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, Elena Umanskaya, and James Wilson. 2013. <em>A Frequency
+Dictionary of <span>Russian</span>: Core Vocabulary for Learners</em>.
+London: Routledge.
+</div>
+<div id="ref-sharoff10lrec" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, Zhili Wu, and Katja Markert. 2010. <span>“The
+<span>Web</span> Library of <span>Babel</span>: Evaluating Genre
+Collections.”</span> In <em>Proc Seventh Language Resources and
+Evaluation Conference, <span>LREC</span></em>. Malta.
+</div>
+<div id="ref-sharoff99" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, and Vlad Zhigalov. 1999. <span>“Register-Domain
+Separation as a Methodology for Development of Natural Language
+Interfaces to Databases.”</span> In <em>Proc Human–Computer Interaction
+— INTERACT’99, IFIP TC.13</em>, edited by Angela Sasse and Chris
+Johnson.
+</div>
+<div id="ref-sharoff15shared" class="csl-entry" role="doc-biblioentry">
+Sharoff, Serge, Pierre Zweigenbaum, and Reinhard Rapp. 2015.
+<span>“<span>BUCC</span> Shared Task: Cross-Language Document
+Similarity.”</span> In <em>Proc Eighth Workshop on Building and Using
+Comparable Corpora</em>, 74–78. Beijing, China: Association for
+Computational Linguistics.
+</div>
+<div id="ref-sorokin14" class="csl-entry" role="doc-biblioentry">
+Sorokin, Alexey, Anisya Katinskaya, and Serge Sharoff. 2014.
+<span>“Associating Symptoms with Syndromes: Reliable Genre Annotation
+for a Large <span>Russian</span> Webcorpus.”</span> In <em>Proc
+Dialogue, Russian International Conference on Computational
+Linguistics</em>. Bekasovo.
+</div>
+<div id="ref-sosa22telegram" class="csl-entry" role="doc-biblioentry">
+Sosa, Jose, and Serge Sharoff. 2022. <span>“Multimodal Pipeline for
+Collection of Misinformation Data from Telegram.”</span> In
+<em>Proceedings of the Language Resources and Evaluation
+Conference</em>, 1480–89. Marseille, France: European Language Resources
+Association. <a
+href="https://aclanthology.org/2022.lrec-1.159">https://aclanthology.org/2022.lrec-1.159</a>.
+</div>
+<div id="ref-wilson10paclic" class="csl-entry" role="doc-biblioentry">
+Wilson, James, Anthony Hartley, Serge Sharoff, and Paul Stephenson.
+2010. <span>“Advanced Corpus Solutions for Humanities
+Researchers.”</span> In <em>Proc Advanced Corpus Solutions, PACLIC
+24</em>, 36–43. Tohoku University.
+</div>
+<div id="ref-wilson11tislid" class="csl-entry" role="doc-biblioentry">
+Wilson, James, Serge Sharoff, and Paul Stephenson. 2011.
+<span>“<span>‘<span>Value</span> Added Teaching’</span>: Corpus-Based
+Methods for <span>LSP</span> Teaching.”</span> In <em>Technological
+Innovation in the Teaching and Processing of LSPs</em>, edited by N.
+Talaván, E. Martín Monje, and F. Palazón. Madrid.
+</div>
+<div id="ref-wilson14" class="csl-entry" role="doc-biblioentry">
+Wilson, James, Serge Sharoff, Paul Stephenson, and Anthony Hartley.
+2014. <span>“Innovative Methods for <span>LSP</span>-Teaching: How We
+Use Corpora to Teach Business <span>Russian</span>.”</span> In
+<em>Languages for Specific Purposes in the Digital Era</em>, 197–222.
+Springer.
+</div>
+<div id="ref-wu10acl" class="csl-entry" role="doc-biblioentry">
+Wu, Zhili, Katja Markert, and Serge Sharoff. 2010. <span>“Fine-Grained
+Genre Classification Using Structural Learning Algorithms.”</span> In
+<em>Proc ACL 2010</em>. Uppsala.
+</div>
+<div id="ref-xu14" class="csl-entry" role="doc-biblioentry">
+Xu, Ran, and Serge Sharoff. 2014. <span>“Evaluating Term Extraction
+Methods for Interpreters.”</span> In <em>Proc 4th International Workshop
+on Computational Terminology (Computerm)</em>, 86–93. Dublin, Ireland.
+</div>
+<div id="ref-yuan17" class="csl-entry" role="doc-biblioentry">
+Yuan, Yu, Bogdan Babych, and Serge Sharoff. 2017. <span>“Reference-Free
+System for Automated Human Translation Quality Estimation.”</span> In
+<em>Proc Information Systems and Technologies (CISTI)</em>. Lisbon.
+</div>
+<div id="ref-yuan18term" class="csl-entry" role="doc-biblioentry">
+Yuan, Yu, Yuze Gao, Yue Zhang, and Serge Sharoff. 2018.
+<span>“Cross-Lingual Terminology Extraction for Translation Quality
+Estimation.”</span> In <em>Proc LREC</em>. Miyazaki, Japan.
+</div>
+<div id="ref-yuan17review" class="csl-entry" role="doc-biblioentry">
+Yuan, Yu, and Serge Sharoff. 2017. <span>“Review of <span>‘New
+Directions in Empirical Translation Process Research: Exploring the
+<span>CRITT</span> <span>TPR-DB</span>’</span> Edited by
+<span>Michael</span> <span>Carl</span> Et Al.”</span> <em>Babel</em> 63
+(3): 450–56.
+</div>
+<div id="ref-yuan18lrec" class="csl-entry" role="doc-biblioentry">
+———. 2018. <span>“Investigating the Influence of Bilingual Phraseology
+on Trainee Translation Quality.”</span> In <em>Proc LREC</em>. Miyazaki,
+Japan.
+</div>
+<div id="ref-yuan20" class="csl-entry" role="doc-biblioentry">
+———. 2020. <span>“Sentence Level Human Translation Quality Estimation
+with Attention-Based Neural Networks.”</span> In <em>Proc LREC</em>.
+Online.
+</div>
+<div id="ref-yuan16" class="csl-entry" role="doc-biblioentry">
+Yuan, Yu, Serge Sharoff, and Bogdan Babych. 2016.
+<span>“<span>MoBiL</span>: A Hybrid Feature Set for Automatic Human
+Translation Quality Assessment.”</span> In <em>Proc Tenth International
+Conference on Language Resources and Evaluation (LREC’16)</em>.
+Portorož, Slovenia.
+</div>
+<div id="ref-zweigenbaum16shared" class="csl-entry"
+role="doc-biblioentry">
+Zweigenbaum, Pierre, Serge Sharoff, and Reinhard Rapp. 2016.
+<span>“Towards Preparation of the Second <span>BUCC</span> Shared Task:
+Detecting Parallel Sentences in Comparable Corpora.”</span> In <em>Proc
+Ninth Workshop on Building and Using Comparable Corpora</em>. Portoroz,
+Slovenia.
+</div>
+<div id="ref-zweigenbaum17shared" class="csl-entry"
+role="doc-biblioentry">
+———. 2017. <span>“Overview of the Second <span>BUCC</span> Shared Task:
+Spotting Parallel Sentences in Comparable Corpora.”</span> In <em>Proc
+Tenth Workshop on Building and Using Comparable Corpora</em>. Vancouver.
+</div>
+<div id="ref-zweigenbaum18shared" class="csl-entry"
+role="doc-biblioentry">
+———. 2018. <span>“A Multilingual Dataset for Evaluating Parallel
+Sentence Extraction from Comparable Corpora.”</span> In <em>Proc
+LREC</em>. Miyazaki, Japan.
+</div>
+</div>

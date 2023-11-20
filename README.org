@@ -81,16 +81,9 @@ foreign languages.
 
 /Background references/:
 
-- [[file:publications/2021-register.pdf][Serge Sharoff. Genre Annotation
-  for the Web: text-external and text-internal perspectives]]. /Register
-  Studies/. 2021
-- [[file:publications/2018-ftd.pdf][Serge Sharoff. Functional text
-  dimensions for the annotation of Web corpora]]. /Corpora/,
-  13(1):65--95, 2018
-- [[file:publications/2020-LREC-htqe.pdf][Yu Yuan and Serge Sharoff,
-  Sentence Level Human Translation Quality Estimation with
-  Attention-based Neural Networks]]. In Proc International Conference on
-  Language Resources and Evaluation (LREC'20), Marseilles, May 2020
+- Serge Sharoff. [[file:publications/2021-register.pdf][Genre Annotation for the Web: text-external and text-internal perspectives]]. /Register Studies/. 2021
+- Serge Sharoff. [[file:publications/2018-ftd.pdf][Functional text dimensions for the annotation of Web corpora]]. /Corpora/, 13(1):65--95, 2018
+- Yu Yuan and Serge Sharoff. [[file:publications/2020-LREC-htqe.pdf][Sentence Level Human Translation Quality Estimation with Attention-based Neural Networks]]. In Proc International Conference on Language Resources and Evaluation (LREC'20), Marseilles, May 2020
 
 *** Language adaptation for improving models of lesser-resourced
 languages
@@ -109,13 +102,8 @@ prediction, etc.
 
 /Background references:/
 
-- [[file:publications/2019-jnle.pdf][Serge Sharoff. Finding next of kin:
-  Cross-lingual embedding spaces for related languages]]. /Journal of
-  Natural Language Engineering/, 25, 2019
-- [[file:publications/2016-pbml.pdf][Miguel Rios and Serge Sharoff.
-  Language adaptation for extending post-editing estimates for closely
-  related languages]]. /The Prague Bulletin of Mathematical
-  Linguistics/, 106:181-192, 2016
+- Serge Sharoff. [[file:publications/2019-jnle.pdf][Finding next of kin: Cross-lingual embedding spaces for related languages]]. /Journal of Natural Language Engineering/, 25, 2019
+- Miguel Rios and Serge Sharoff. [[file:publications/2016-pbml.pdf][Language adaptation for extending post-editing estimates for closely  related languages]]. /The Prague Bulletin of Mathematical Linguistics/, 106:181-192, 2016
 
 *** Non-parallel resources for translation
     :PROPERTIES:
@@ -131,13 +119,8 @@ wire streams in different languages?
 
 /Background references:/
 
-- [[file:publications/2020-LREC-anatomy.pdf][Serge Sharoff. Know thy
-  corpus! Robust methods for digital curation of Web corpora]]. In Proc
-  LREC, Marseilles, May 2020
-- [[file:publications/2019-RANLP.pdf][Maria Kunilovskaya and Serge
-  Sharoff. Building functionally similar corpus resources for
-  translation studies]]. In Proc RANLP, Varna, September 2019
-- [[file:publications/2018-lrec-bucc.pdf][Pierre Zweigenbaum, Serge
-  Sharoff, and Reinhard Rapp. A multilingual dataset for evaluating
-  parallel sentence extraction from comparable corpora]]. In Proc LREC,
-  Miyazaki, Japan, May 2018
+- Serge Sharoff. [[file:publications/2020-LREC-anatomy.pdf][Know thy   corpus! Robust methods for digital curation of Web corpora]]. In Proc  LREC, Marseilles, May 2020
+- Maria Kunilovskaya and Serge Sharoff. [[file:publications/2019-RANLP.pdf][Building functionally similar corpus resources for  translation studies]]. In Proc RANLP, Varna, September 2019
+- Pierre Zweigenbaum, Serge Sharoff, and Reinhard Rapp. [[file:publications/2018-lrec-bucc.pdf][A multilingual dataset for evaluating  parallel sentence extraction from comparable corpora]] In Proc LREC, Miyazaki, Japan, May 2018
+
+See also a [[https://link.springer.com/book/10.1007/978-3-031-31384-4][textbook on Comparable Corpora]] published in the Synthesis Lecture Series. The [[file:publications/2023-bucc-intro.pdf][introduction to the book]] is available from this website.
