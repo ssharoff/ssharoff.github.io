@@ -1,3 +1,4 @@
+-   [./2023-applied-covid.pdf](./2023-applied-covid.pdf)
 -   [./2023-bucc-intro.pdf](./2023-bucc-intro.pdf)
 -   [./2022-rusling.pdf](./2022-rusling.pdf)
 -   [./2022-lrec-telegram.pdf](./2022-lrec-telegram.pdf)
