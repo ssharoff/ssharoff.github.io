@@ -24,9 +24,10 @@ computer science and cognitive science.
 Probably the most interesting bit in my recent research is in digital
 curation of corpora from the web, cf. the set of available large corpora
 and the procedure described at
-<http://corpus.leeds.ac.uk/internet.html>. The current set of resources
-includes multi-million word corpora for Chinese, English, French,
-German, Italian, Polish, Portuguese, Russian and Spanish.
+<http://corpus.leeds.ac.uk/internet.html>, see [the full
+paper](../publications/2006-ijcl-proof.pdf). The current set of
+resources includes multi-million word corpora for Chinese, English,
+French, German, Italian, Polish, Portuguese, Russian and Spanish.
 
 Web corpora can be curated in terms of domains and [genres](webgenres/),
 and also via automatic annotation for their linguistic properties, such
@@ -53,20 +54,24 @@ things in different ways in different languages) to corpus linguistics
 (how to study real uses of words in their contexts) to computational
 linguistics (how to dewsign computational models for natural language
 understanding and generation). See also the page with my tools for
-[corpus collection and
-processing](http://corpus.leeds.ac.uk/internet.html).
+[corpus collection and processing](../webgenres/)
 
 My interests in [communication studies](communication.html) focus on
 social practices of communities of language speakers, which result in
 creation and maintenance of meanings in the intersubjective space of
-people conducting communication.
+people conducting communication. This is directly relevant to
+understanding when and how large language models are likely to fail in
+the form of biases and hallucinations, because via pre-training on very
+large corpora the LLMs have acquired very good knowledge of linguistic
+resources used for communication without understanding the conditions
+under which the corresponding texts have been produced.
 
 The most convenient access to the list of my publications is via [Google
-Scholar](https://scholar.google.co.uk/citations?user=qcnf4QsAAAAJ).
+Scholar](https://scholar.google.com/citations?user=qcnf4QsAAAAJ&view_op=list_works&sortby=pubdate).
 
 See my formal [CV](cv-formal.pdf) as well as my [academic
 genealogy](lineage.html) (the list through my supervisors can be traced
-back to Poisson and Gauss).
+back to Leibniz, Poisson and Gauss).
 
 ## PhD projects
 
