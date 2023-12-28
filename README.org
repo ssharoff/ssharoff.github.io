@@ -10,7 +10,8 @@ Artificial Intelligence and more specifically Large Language Models,
 such as ChatGPT, have recently made a profound impact on how we interact
 with the computers by providing the ability to produce new texts in
 response to prompts. Fundamental research in this area is at the core of
-my expertise, I've been doing this since my own PhD in the 1990s (which pre-dated LLMs, but it's still relevant today. One of my papers on the [[publications/2020-LREC-anatomy.pdf][diversity of texts on the Web]] cited by some of the [[https://arxiv.org/abs/2212.14578][GPT creators from OpenAI]].
+my expertise, I've been doing this since my own PhD in the 1990s. This pre-dated LLMs, but the idea of linking [[../publications/1999-interact.pdf][language to meanings]] remains the same.
+One of my recent papers on the [[publications/2020-LREC-anatomy.pdf][diversity of texts on the Web]] has been cited by some of the [[https://arxiv.org/abs/2212.14578][GPT creators from OpenAI]].
 
 My research interests are related to three domains: linguistics, computer science and cognitive science.
 
@@ -85,8 +86,7 @@ foreign languages.
 - Serge Sharoff. [[file:publications/2018-ftd.pdf][Functional text dimensions for the annotation of Web corpora]]. /Corpora/, 13(1):65--95, 2018
 - Yu Yuan and Serge Sharoff. [[file:publications/2020-LREC-htqe.pdf][Sentence Level Human Translation Quality Estimation with Attention-based Neural Networks]]. In Proc International Conference on Language Resources and Evaluation (LREC'20), Marseilles, May 2020
 
-*** Language adaptation for improving models of lesser-resourced
-languages
+*** Language adaptation for improving models of lesser-resourced languages
     :PROPERTIES:
     :CUSTOM_ID: language-adaptation-for-improving-models-of-lesser-resourced-languages
     :END:
@@ -123,4 +123,4 @@ wire streams in different languages?
 - Maria Kunilovskaya and Serge Sharoff. [[file:publications/2019-RANLP.pdf][Building functionally similar corpus resources for  translation studies]]. In Proc RANLP, Varna, September 2019
 - Pierre Zweigenbaum, Serge Sharoff, and Reinhard Rapp. [[file:publications/2018-lrec-bucc.pdf][A multilingual dataset for evaluating  parallel sentence extraction from comparable corpora]] In Proc LREC, Miyazaki, Japan, May 2018
 
-See also a [[https://link.springer.com/book/10.1007/978-3-031-31384-4][textbook on Comparable Corpora]] published in the Synthesis Lecture Series. The [[file:publications/2023-bucc-intro.pdf][introduction to the book]] is available from this website.
+I have also prepared a [[https://link.springer.com/book/10.1007/978-3-031-31384-4][textbook on Comparable Corpora]] published in the Synthesis Lecture Series. The [[file:publications/2023-bucc-intro.pdf][introduction to the book]] is available.

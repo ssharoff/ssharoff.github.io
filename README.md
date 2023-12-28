@@ -10,11 +10,12 @@ Artificial Intelligence and more specifically Large Language Models,
 such as ChatGPT, have recently made a profound impact on how we interact
 with the computers by providing the ability to produce new texts in
 response to prompts. Fundamental research in this area is at the core of
-my expertise, I've been doing this since my own PhD in the 1990s (which
-pre-dated LLMs, but it's still relevant today. One of my papers on the
-<span class="spurious-link"
+my expertise, I've been doing this since my own PhD in the 1990s. This
+pre-dated LLMs, but the idea of linking [language to
+meanings](../publications/1999-interact.pdf) remains the same. One of my
+recent papers on the <span class="spurious-link"
 target="publications/2020-LREC-anatomy.pdf">*diversity of texts on the
-Web*</span> cited by some of the [GPT creators from
+Web*</span> has been cited by some of the [GPT creators from
 OpenAI](https://arxiv.org/abs/2212.14578).
 
 My research interests are related to three domains: linguistics,
@@ -96,9 +97,7 @@ foreign languages.
     Conference on Language Resources and Evaluation (LREC'20),
     Marseilles, May 2020
 
-### Language adaptation for improving models of lesser-resourced
-
-languages
+### Language adaptation for improving models of lesser-resourced languages
 
 A translation model needs to be applicable to a large number of
 languages, while the training resources or linguistic models are often
@@ -144,7 +143,7 @@ wire streams in different languages?
     from comparable corpora](publications/2018-lrec-bucc.pdf) In Proc
     LREC, Miyazaki, Japan, May 2018
 
-See also a [textbook on Comparable
+I have also prepared a [textbook on Comparable
 Corpora](https://link.springer.com/book/10.1007/978-3-031-31384-4)
 published in the Synthesis Lecture Series. The [introduction to the
-book](publications/2023-bucc-intro.pdf) is available from this website.
+book](publications/2023-bucc-intro.pdf) is available.
