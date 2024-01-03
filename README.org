@@ -11,7 +11,7 @@ such as ChatGPT, have recently made a profound impact on how we interact
 with the computers by providing the ability to produce new texts in
 response to prompts. Fundamental research in this area is at the core of
 my expertise, I've been doing this since my own PhD in the 1990s. This pre-dated LLMs, but the idea of linking [[../publications/1999-interact.pdf][language to meanings]] remains the same.
-One of my recent papers on the [[publications/2020-LREC-anatomy.pdf][diversity of texts on the Web]] has been cited by some of the [[https://arxiv.org/abs/2212.14578][GPT creators from OpenAI]]. See also [[GPT-collection][my collection of curious cases]] of testing ChatGPT in a range of scenarios.
+One of my recent papers on the [[publications/2020-LREC-anatomy.pdf][diversity of texts on the Web]] has been cited by some of the [[https://arxiv.org/abs/2212.14578][GPT creators from OpenAI]]. See also [[GPT-collection.html][my collection of curious cases]] of testing ChatGPT in a range of scenarios.
 
 My research interests are related to three domains: linguistics, computer science and cognitive science.
 
