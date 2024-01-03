@@ -13,12 +13,11 @@ response to prompts. Fundamental research in this area is at the core of
 my expertise, I've been doing this since my own PhD in the 1990s. This
 pre-dated LLMs, but the idea of linking [language to
 meanings](../publications/1999-interact.pdf) remains the same. One of my
-recent papers on the <span class="spurious-link"
-target="publications/2020-LREC-anatomy.pdf">*diversity of texts on the
-Web*</span> has been cited by some of the [GPT creators from
-OpenAI](https://arxiv.org/abs/2212.14578). See also <span
-class="spurious-link" target="GPT-collection.html">*my collection of
-curious cases*</span> of testing ChatGPT in a range of scenarios.
+recent papers on the [diversity of texts on the
+Web](./publications/2020-LREC-anatomy.pdf) has been cited by some of the
+[GPT creators from OpenAI](https://arxiv.org/abs/2212.14578). See also
+[my collection of curious cases](./GPT-collection.html) of testing
+ChatGPT in a range of scenarios.
 
 My research interests are related to three domains: linguistics,
 computer science and cognitive science.
