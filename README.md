@@ -16,7 +16,9 @@ meanings](../publications/1999-interact.pdf) remains the same. One of my
 recent papers on the <span class="spurious-link"
 target="publications/2020-LREC-anatomy.pdf">*diversity of texts on the
 Web*</span> has been cited by some of the [GPT creators from
-OpenAI](https://arxiv.org/abs/2212.14578).
+OpenAI](https://arxiv.org/abs/2212.14578). See also <span
+class="spurious-link" target="GPT-collection">*my collection of curious
+cases*</span> of testing ChatGPT in a range of scenarios.
 
 My research interests are related to three domains: linguistics,
 computer science and cognitive science.
