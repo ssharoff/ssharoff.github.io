@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-01-04 Thu 12:23 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Towards better understanding of  COVID 19 misinformation flow using Artificial Intelligence based tools</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Serge Sharoff, Gary Graham, Neil Winn" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<style>*{font-size: large;}</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Towards better understanding of  COVID 19 misinformation flow using Artificial Intelligence based tools</h1>
+<dl class="org-dl">
+<dt>Principal Investigator</dt><dd>Serge Sharoff</dd>
+<dt>Co-Investigators</dt><dd>Gary Graham, Neil Winn, Christina Philips</dd>
+<dt>Data Annotation RA</dt><dd>Souad Boumechaal</dd>
+<dt>Data Collection RA</dt><dd>Jose Sosa Martinez</dd>
+<dt>Data Classification RA</dt><dd>Daniel Valdenegro Ibarra</dd>
+<dt>NHS contacts</dt><dd>Graham Prestwich, Aejaz Zahid</dd>
+<dt> </dt><dd><b>Funded by the EPSRC IAA pathway funding</b></dd>
+<dt> </dt><dd>See the repository at <a href="https://github.com/ssharoff/covid19misinfo">https://github.com/ssharoff/covid19misinfo</a></dd>
+</dl>
+
+
+<div id="outline-container-project-aims" class="outline-2">
+<h2 id="project-aims"><span class="section-number-2">1</span> Project aims</h2>
+<div class="outline-text-2" id="text-project-aims">
+<p>
+We started with a pilot study to address a central problem
+of public interpretation of scientific communication throughout the COVID-19 crisis. Scientific research is presented
+initially as evidence in peer reviewed research papers, and then it is
+used to guide policy making with the key facts and risks disseminated
+through various public communication channels, such as parliamentary
+debates, government policy, mass media, and social media. Part of the
+pilot study was citizens' involvement through panel discussions which
+raised concerns related to COVID-19 misinformation and its dire
+consequences on health.  
+Consequently, the pilot study evolved into the current project with the aim of deploying Artificial Intelligence
+(AI) to identify demographic, social, and political factors behind the
+increasing spread of COVID 19 misinformation on social media.
+</p>
+</div>
+</div>
+
+<div id="outline-container-research-methodology" class="outline-2">
+<h2 id="research-methodology"><span class="section-number-2">2</span> Research Methodology</h2>
+<div class="outline-text-2" id="text-research-methodology">
+<p>
+To train statistical models for predicting properties of social media
+profiles sharing misinformation and the characteristics of shared
+messages, we collected data about messages and accounts from Twitter,
+Telegram, and Facebook. The data collection process started in August
+2021 on a daily basis for a period of seven months. We used hashtags and
+keywords to identify COVID related messages. Over this period, we
+collected 1201582 tweets of which 140115 tweets were COVID-related.
+Telegram data covered both text messages, images, and videos &#x2013; with
+955838 English messages and 40882 images.
+</p>
+
+<p>
+The collected data was filtered and further analysed through a human
+annotation process. This stage allowed us to highlight the topics
+frequently discussed in COVID-related misinformation, and the
+characteristics of the language used to construct compelling messages.
+The annotation focused on understanding the intended meaning of messages
+through identifying the choice of keywords, how they fuel certain
+emotions and how they depict specific events such as lockdown, vaccines,
+and Covid related measures. The annotators identified 7 common
+categories that capture topics of 1742 annotated Twitter messages from
+different points of time. These categories are: Anti-vaccine, Politics,
+Conspiracy, Unreliable Scientific Sources, False Latest Update, Common
+Concerns, Irrelevant.
+</p>
+
+<p>
+A crucial part of the project was the authentic involvement of citizens
+throughout the stages of the study. We held three discussion panels that
+comprised a diverse representation of the population. The first two
+panels were set up on November 9th, 2021. The aim of these sessions was
+to explain the project aims to the participants and present them with
+the data collected and annotated. The second panel took place on the
+23<sup>rd</sup> of February 2022 in which preliminary results were shared with
+the participants. These public engagements stimulated rich discussions
+about factors shaping the topic of trust in misinformation. The
+participants indicated that age, beliefs, and other psychological
+factors such as emotive language might be a possible explanation for
+trust in COVID misinformation. The citizens' perspectives were critical
+throughout the various stages of the project as they informed the
+development of the automatic prediction model.
+</p>
+</div>
+</div>
+
+<div id="outline-container-key-findings" class="outline-2">
+<h2 id="key-findings"><span class="section-number-2">3</span> Key findings</h2>
+<div class="outline-text-2" id="text-key-findings">
+</div>
+
+<div id="outline-container-org6381ddb" class="outline-3">
+<h3 id="org6381ddb"><span class="section-number-3">3.1</span> General communication</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+In the first part of the project, we have estimated the distribution of topics across corpora, such as the COVID-19 Open Research Dataset (CORD), government communication from the UK and US, British newspapers (The Guardian, The Telegraph and The Sun), as well as general public discussion in Twitter and Reddit.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 1:</span> Collected raw corpora</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Source</th>
+<th scope="col" class="org-left">Time span</th>
+<th scope="col" class="org-left">#Texts</th>
+<th scope="col" class="org-left">#Words</th>
+<th scope="col" class="org-right">AWL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><b>Research papers:</b> CORD19</td>
+<td class="org-left">1922&#x2013;2021</td>
+<td class="org-left">183,185</td>
+<td class="org-left">678,679,071</td>
+<td class="org-right">3,705</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left"><b>Authority sources:</b> CDC FAQ</td>
+<td class="org-left">2020-08</td>
+<td class="org-left">645</td>
+<td class="org-left">29,375</td>
+<td class="org-right">46</td>
+</tr>
+
+<tr>
+<td class="org-left">News from gov.uk</td>
+<td class="org-left">2020-01&#x2013;2021-03</td>
+<td class="org-left">1,576</td>
+<td class="org-left">1,165,237</td>
+<td class="org-right">739</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left"><b>News reporting:</b> The Sun</td>
+<td class="org-left">2020-01&#x2013;2021-03</td>
+<td class="org-left">21,704</td>
+<td class="org-left">14,724,045</td>
+<td class="org-right">678</td>
+</tr>
+
+<tr>
+<td class="org-left">The Telegraph</td>
+<td class="org-left">2020-01&#x2013;2021-03</td>
+<td class="org-left">16,510</td>
+<td class="org-left">20,991,551</td>
+<td class="org-right">970</td>
+</tr>
+
+<tr>
+<td class="org-left">The Guardian</td>
+<td class="org-left">2020-01&#x2013;2021-03</td>
+<td class="org-left">28,766</td>
+<td class="org-left">20,825,021</td>
+<td class="org-right">724</td>
+</tr>
+
+<tr>
+<td class="org-left">World Economic Forum</td>
+<td class="org-left">2020-01&#x2013;2021-03</td>
+<td class="org-left">2,528</td>
+<td class="org-left">2,440,099</td>
+<td class="org-right">965</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left"><b>Social Media:</b> Reddit</td>
+<td class="org-left">2020-02&#x2013;2020-07</td>
+<td class="org-left">107,973</td>
+<td class="org-left">7,711,589</td>
+<td class="org-right">71</td>
+</tr>
+
+<tr>
+<td class="org-left">Twitter</td>
+<td class="org-left">2019-12&#x2013;2021-01</td>
+<td class="org-left">30,016,828</td>
+<td class="org-left">688,073,844</td>
+<td class="org-right">23</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+The topic model detects the prevalence of some topics, such as the use of face masks, across the genres, while the sentiment classification model demonstrates variation in the attitude towards such topics:
+</p>
+
+<p>
+\small
+</p>
+<dl class="org-dl">
+<dt>2010-09 The Annals of Occupational Hygiene</dt><dd><i>masks tested in the study had 40–90% instantaneous penetration levels against polydisperse NaCl aerosols employed in the respirator test protocol at 5.5 cm/s. Results show that common fabric materials may provide marginal protection against nanoparticle-sized viruses.</i> &rarr; <code>Function: academic, Face masks: not needed</code></dd>
+<dt>2020-04-20 NY Times</dt><dd><i>The C.D.C. has recommended that all Americans wear cloth masks if they go out in public.</i> &rarr; <code>Function: recommendation, Region: USA, Face masks: support</code></dd>
+<dt>2020-04-30  Gov.UK News</dt><dd><i>Today, we're publishing our PPE plan: being clear who needs PPE, when they need it and who does not. &#x2026; the best way to protect yourself and to protect others is to regularly wash your hands. And of course the most important way to protect yourself is to stay at home. Because a front door is better than any face mask.</i> &rarr; <code>Function: recommendation, Region: UK, Face masks: not needed</code></dd>
+<dt>2020-02-09, The Daily Telegraph</dt><dd><i>Increasing numbers of commuters on the London Underground are now wearing face masks, twitchily keeping watch on the respiratory condition of those around them.</i> &rarr; <code>Function: reporting, Region: UK, Face masks: support</code></dd>
+<dt>2020-02-11, Twitter</dt><dd><i>I told yall I'm anti vaxx but I'm not stupid like the ppl in the world. I'm the type who wears face masks when I'm in public.</i> &rarr; <code>Function: opinion, Region: USA, Face masks: support</code></dd>
+<dt>2020-05-03 Reddit</dt><dd><i>With the lockdown being extended indefinitely, I'd like to have myself personalised face masks, something more stylish and durable. Current set of disposable masks don't last very long. Looking to support someone local to South London.</i> &rarr; <code>Function: request, Region: UK, Face masks: support</code></dd>
+</dl>
+</div>
+</div>
+
+
+<div id="outline-container-org77f361c" class="outline-3">
+<h3 id="org77f361c"><span class="section-number-3">3.2</span> Misinformation</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+  The automatic model considered the following parameters: Age, gender,
+and far-right ideologies predicted from accounts, while topic, emotional
+content, true/false information, functional style, vagueness, and
+far-right ideologies were predicted from text messages. The classifiers'
+statistical findings show that the demographic factor is crucial in
+COVID misinformation flow. First, users aged between 35 and 54 years
+share more false information, whereas those under 25 share very little
+misinformation. Gender (Female, Male, Brand) was classified in relation
+to COVID misinformation messages. This correlation reveals that males
+share significantly more false information than females and brands. We
+presented this finding with the research participants in the second
+citizen panel (23<sup>rd</sup> February 2022) to seek their views. The
+participants suggested that isolation, accessibility, fear and the
+source of information also shape how people from certain age groups
+trust the content they are exposed to on social media.
+</p>
+
+<p>
+Given the importance of the geographic location to how the global
+pandemic was experienced and contained. The automatic classifier
+identified the US (United States) and the UK (United Kingdom) at the top
+of the list followed by India, Canada and South Africa. To further
+examine the impact of beliefs on COVID misinformation flow, data about
+political ideology, in particular, far-right thinking was trained to
+develop a classifier. The results of the predictions show that
+far-right-leaning accounts share more COVID misinformation. Correlating
+this prediction with the topic classifier further demonstrates that
+vaccine misinformation tends to be promoted by far-right accounts.
+</p>
+
+<p>
+Other interesting findings relate to the content of the message
+characterising COVID misinformation circulating on social media
+platforms. The automatic classifier related to style indicates that
+misinformation on social media uses a particular strategy of writing.
+For persuasive effects, the functional style of misinformation is more
+frequently expressed in fake academic writing or as mythical narrative
+stories.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: Funded by the EPSRC IAA pathway funding</p>
+<p class="author">Author: Serge Sharoff, Gary Graham, Neil Winn</p>
+<p class="date">Created: 2024-01-04 Thu 12:23</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
