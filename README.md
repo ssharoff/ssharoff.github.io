@@ -39,6 +39,15 @@ languages, for example, from
 [Russian](publications/2011-dialog-sharoff-nivre.pdf) to
 [Ukrainian](publications/2016-HyTra.pdf).
 
+Another aspect of Web corpus curation concerns developing frequency
+lists. While it is easy to count the number of times each word occurs in
+a corpus, this can lead to undesirable frequency bursts, as a word can
+be used too often in a small number of files. Please check my [reliable
+frequency lists](./frqc/) obtained for several corpora and several
+languages. See also the [pedagogical frequency lists](./kelly/) produced
+as the outcome of the [Kelly
+project](https://spraakbanken.gu.se/en/projects/kelly).
+
 Another example is [ASSIST](http://ucrel.lancs.ac.uk/projects/assist/),
 a joint project with Lancaster University, which is about an automatic
 procedure for finding translation equivalent using large comparable

@@ -1,363 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-01-09 Tue 21:25 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Robust frequency lists</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Serge Sharoff" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Robust frequency lists</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#know-thy-corpus">1. Know thy corpus!</a></li>
+<li><a href="#robust-methods">2. Robust methods</a></li>
+<li><a href="#scripts">3. Scripts</a></li>
+<li><a href="#frequency-lists">4. Frequency lists</a>
+<ul>
+<li><a href="#english">4.1. English</a>
+<ul>
+<li><a href="#lists-of-word-forms">4.1.1. Lists of word forms:</a></li>
+</ul>
+</li>
+<li><a href="#russian">4.2. Russian</a></li>
+<li><a href="#wikipedia-lists">4.3. Wikipedia lists</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 <blockquote>
-<p>Nothing in Nature is random… A thing appears random only through the
-incompleteness of our knowledge. —Spinoza, Ethics I</p>
+<p>
+Nothing in Nature is random&#x2026; A thing appears random only through the
+incompleteness of our knowledge. &#x2014;Spinoza, Ethics I
+</p>
 </blockquote>
-<h1 id="know-thy-corpus">Know thy corpus!</h1>
-<p>Frequency lists determine the probability estimates for words in
-language models. They are also widely used in lexicography, corpus
+
+<div id="outline-container-know-thy-corpus" class="outline-2">
+<h2 id="know-thy-corpus"><span class="section-number-2">1</span> Know thy corpus!</h2>
+<div class="outline-text-2" id="text-know-thy-corpus">
+<p>
+Frequency lists determine the probability estimates for words in
+language models.  They are also widely used in lexicography, corpus
 linguistics and language education studies. However, word frequency
 lists coming from different corpora differ considerably in spite of
 relatively small changes in their composition, because some words can
 become too frequent in a relatively small number of texts specific to
 this corpus, so their frequency counts provide unreliable information
 about their expected frequency. Adam Kilgarriff referred to them as
-<em>whelks</em>, a rare word, which can become topical if a text is
-about whelks. The whelks of the British National Corpus (BNC) are
-medical terms, as seen in the following two extracts from the BNC
-frequency list:</p>
-<ol>
-<li><em>foods, lighting, sciences, anglo, emerge, contacts,
-<strong>gastric</strong>, desirable, 1950s, gender, poland, picking,
-suggestions, enjoying, laughter</em></li>
-<li><em>incidentally, sticking, angrily, speeds, drum, spine, realm,
-<strong>mucosa</strong>, heather, allegedly, rested, builders, lid,
-invention, blowing</em></li>
+<i>whelks</i>, a rare word, which can become topical if a text is about
+whelks. The whelks of the British National Corpus (BNC) are medical
+terms, as seen in the following two extracts from the BNC frequency
+list:
+</p>
+
+<ol class="org-ol">
+<li><i>foods, lighting, sciences, anglo, emerge, contacts, <b>gastric</b>, desirable, 1950s, gender, poland, picking, suggestions, enjoying, laughter</i></li>
+<li><i>incidentally, sticking, angrily, speeds, drum, spine, realm, <b>mucosa</b>, heather, allegedly, rested, builders, lid, invention, blowing</i></li>
 </ol>
-<p>where the frequency of <em>gastric</em> is ranked higher than
-<em>desirable</em> and <em>mucosa</em> is ranked higher than
-<em>builders</em>. Only a small proportion of BNC texts are taken from
-the Journal of Gastroentorology and Hepatology (this is less than 0.8%
-of the BNC, 713 thousand tokens). However, the frequency bursts of words
-from this domain propel them into the core lexicon.</p>
-<p>No corpus is immune to whelks. For example, the frequency of
-<em>Texas</em> in the LDC Gigaword corpus is greater than that of such
-common words as <em>long</em> or <em>car</em>. In the Wikipedia dump,
-which was used to train BERT, <em>pomeranian</em> is more frequent than
-<em>hypothetical</em> or <em>centrally</em>.</p>
-<p>Robust lists for a number of languages and corpora are listed in the
-<a href="#frequency-lists">Frequency lists</a> section below.</p>
-<h1 id="robust-methods">Robust methods</h1>
-<p>The tools in this repository can produce robust frequency lists by
-using document-level measures to filter out frequency bursts using
-methods from robust statistics. The method which this study found to be
-more useful is based on <em>huberM</em> and <em>S//n</em> estimators of
-expected values.</p>
-<p>In short, we determine robust estimates of how many times a word
-<strong>is likely</strong> to occur in a document of this corpus. With
-this value we clip (Winsorise) its frequency to our predicted robust
-estimate if the frequency exceeds the estimate in the case of a
-frequency burst in this document. This helps in describing the frequency
-distributions from different corpora by making more reliable predictions
-of how common the words and their constructions are, and in inferring
-the significant differences in the lexicons of different text
-collections, e.g., detecting problems in a given corpus, how a Web crawl
-is different from the BNC, etc. For the rationale and the methodology,
-see:</p>
-<pre class="example"><code>@InProceedings{sharoff20,
+
+<p>
+where the frequency of <i>gastric</i> is ranked higher than <i>desirable</i> and
+<i>mucosa</i> is ranked higher than <i>builders</i>. Only a small proportion of
+BNC texts are taken from the Journal of Gastroentorology and
+Hepatology (this is less than 0.8% of the BNC, 713 thousand
+tokens). However, the frequency bursts of words from this domain
+propel them into the core lexicon.
+</p>
+
+<p>
+No corpus is immune to whelks. For example, the frequency of <i>Texas</i>
+in the LDC Gigaword corpus is greater than that of such common words
+as <i>long</i> or <i>car</i>. In the Wikipedia dump, which was used to train BERT, <i>pomeranian</i> is more frequent than <i>hypothetical</i> or <i>centrally</i>.
+</p>
+
+<p>
+Robust lists for a number of languages and corpora are listed in the
+<a href="#frequency-lists">Frequency lists</a> section below.
+</p>
+</div>
+</div>
+
+<div id="outline-container-robust-methods" class="outline-2">
+<h2 id="robust-methods"><span class="section-number-2">2</span> Robust methods</h2>
+<div class="outline-text-2" id="text-robust-methods">
+<p>
+The tools in <a href="https://spraakbanken.gu.se/en/projects/kelly">this repository</a> can produce robust frequency lists by using
+document-level measures to filter out frequency bursts using methods
+from robust statistics. The method which this study found to be more
+useful is based on <i>huberM</i> and <i>S//n</i> estimators of expected values.
+</p>
+
+<p>
+In short, we determine robust estimates of how many times a word <b>is
+likely</b> to occur in a document of this corpus. With this value we clip
+(Winsorise) its frequency to our predicted robust estimate if the
+frequency exceeds the estimate in the case of a frequency burst in this
+document. This helps in describing the frequency distributions from
+different corpora by making more reliable predictions of how common the
+words and their constructions are, and in inferring the significant
+differences in the lexicons of different text collections, e.g.,
+detecting problems in a given corpus, how a Web crawl is different from
+the BNC, etc. For the rationale and the methodology, see:
+</p>
+
+<pre class="example" id="org98e7904">
+@InProceedings{sharoff20,
   author =   {Serge Sharoff},
   title =    {Know thy corpus! Robust methods for digital curation of Web corpora},
   booktitle = {Proc LREC},
   year =     2020,
   month =    {May},
   address =      {Marseilles}}
-</code></pre>
-<p><a
-href="https://aclanthology.org/2020.lrec-1.298/">https://aclanthology.org/2020.lrec-1.298/</a></p>
-<h1 id="scripts">Scripts</h1>
-<p>The starting point for building a robust frequency list is a document
-level frequency list, e.g.,</p>
-<pre class="example"><code>correct 1 8309
+</pre>
+
+<p>
+<a href="https://aclanthology.org/2020.lrec-1.298/">https://aclanthology.org/2020.lrec-1.298/</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-scripts" class="outline-2">
+<h2 id="scripts"><span class="section-number-2">3</span> Scripts</h2>
+<div class="outline-text-2" id="text-scripts">
+<p>
+The starting point for building a robust frequency list is a document
+level frequency list, e.g.,
+</p>
+
+<pre class="example" id="org3af7439">
+correct 1 8309
 correct 1 20116
 gastric 1 62338
 gastric 17 59681
-</code></pre>
-<p>In this example, <em>correct</em> occurs once in two documents (with
-the lengths of 8309 and 20116 words), while <em>gastric</em> occurs once
-in one document and 17 times in another one. This is an outlying
-observation which can be detected using methods from robust
-statistics.</p>
-<p>A list of this kind is produced by taking a corpus in the form of a
-single file with one document per line, e.g.</p>
-<pre class="example"><code>... invariably , even when we have needed to correct or update details in our reports ,
+</pre>
+
+<p>
+In this example, <i>correct</i> occurs once in two documents (with the
+lengths of 8309 and 20116 words), while <i>gastric</i> occurs once in one
+document and 17 times in another one. This is an outlying observation
+which can be detected using methods from robust statistics.
+</p>
+
+<p>
+A list of this kind is produced by taking a corpus in the form of a
+single file with one document per line, e.g.
+</p>
+
+<pre class="example" id="orgdf964f7">
+... invariably , even when we have needed to correct or update details in our reports ,
 ... diffuse into the gastric lumen , so the presence of any iron in fasting gastric juice
-</code></pre>
-<p>and running:</p>
-<p><code class="verbatim">frq-line.py corpus.ol
-&gt;corpus-doc.num</code></p>
-<p>If you have access to a computer cluster with many computing nodes,
+</pre>
+
+<p>
+and running:
+</p>
+
+<p>
+<code>frq-line.py corpus.ol &gt;corpus-doc.num</code>
+</p>
+
+<p>
+If you have access to a computer cluster with many computing nodes,
 this list can be produced for a large corpus much faster by running
-<code class="verbatim">split -l XX corpus.ol</code> first to split the
-corpus into chunks with a fixed number of documents (XX), so that the
-document level frequency lists can be computed in parallel. After that
-the separate frequency lists can be combined by running <code
-class="verbatim">sort x*.num &gt;corpus-doc.num</code></p>
-<p>Finally <code class="verbatim">robustpython.py</code> can be used to
-compute the robust frequency list:</p>
-<p><code class="verbatim">xzcat bnc-doc.num.xz | python3 robustpython.py
-5 | sort -nsrk3,3 &gt;bnc-clean.num</code></p>
-<p>The parameter is the document level frequency threshold, i.e., the
-words for the frequency list need to occur in at least 5 documents in
-this example.</p>
-<p>For each word (or another object of counting, such as lemma or
-n-gram), <code class="verbatim">robustpython.py</code> outputs in
-tab-separated format: 1. the word itself, 1. the raw frequency, 2. the
-adjusted robust frequency value counted for all documents with
-Winsorisation, 3. the number of documents subject to Winsorisation, and
-4. the document frequency. For example, a sample of frequencies from the
-BNC lists looks like:</p>
-<table>
+<code>split -l XX corpus.ol</code> first to split the corpus into chunks with a fixed
+number of documents (XX), so that the document level frequency lists
+can be computed in parallel. After that the separate frequency lists
+can be combined by running <code>sort x*.num &gt;corpus-doc.num</code>
+</p>
+
+<p>
+Finally <code>robustpython.py</code> can be used to compute the robust frequency
+list:
+</p>
+
+<p>
+<code>xzcat bnc-doc.num.xz | python3 robustpython.py 5 | sort -nsrk3,3 &gt;bnc-clean.num</code>
+</p>
+
+<p>
+The parameter is the document level frequency threshold, i.e., the words
+for the frequency list need to occur in at least 5 documents in this
+example.
+</p>
+
+<p>
+For each word (or another object of counting, such as lemma or n-gram),
+<code>robustpython.py</code> outputs in tab-separated format: 1. the word
+itself, 1. the raw frequency, 2. the adjusted robust frequency value
+counted for all documents with Winsorisation, 3. the number of documents
+subject to Winsorisation, and 4. the document frequency.  For example, a sample of frequencies from the BNC lists looks like:
+</p>
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
 <thead>
-<tr class="header">
-<th>Word</th>
-<th>Raw</th>
-<th>Adjusted</th>
-<th>Clipped</th>
-<th>Total Doc</th>
+<tr>
+<th scope="col" class="org-left">Word</th>
+<th scope="col" class="org-right">Raw</th>
+<th scope="col" class="org-right">Adjusted</th>
+<th scope="col" class="org-right">Clipped</th>
+<th scope="col" class="org-right">Total Doc</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>correct</td>
-<td>6706</td>
-<td>5500</td>
-<td>263</td>
-<td>1925</td>
+<tr>
+<td class="org-left">correct</td>
+<td class="org-right">6706</td>
+<td class="org-right">5500</td>
+<td class="org-right">263</td>
+<td class="org-right">1925</td>
 </tr>
-<tr class="even">
-<td>desirable</td>
-<td>2084</td>
-<td>1858</td>
-<td>125</td>
-<td>975</td>
+
+<tr>
+<td class="org-left">desirable</td>
+<td class="org-right">2084</td>
+<td class="org-right">1858</td>
+<td class="org-right">125</td>
+<td class="org-right">975</td>
 </tr>
-<tr class="odd">
-<td>gastric</td>
-<td>2085</td>
-<td>154</td>
-<td>16</td>
-<td>70</td>
+
+<tr>
+<td class="org-left">gastric</td>
+<td class="org-right">2085</td>
+<td class="org-right">154</td>
+<td class="org-right">16</td>
+<td class="org-right">70</td>
 </tr>
 </tbody>
 </table>
-<p>The <code class="verbatim">Raw</code> frequency column counts the raw
-number of occurrences, <code class="verbatim">Adjusted</code> is the
-same count with clipped outlier observations, <code
-class="verbatim">Clipped</code> is the number of documents in which this
-happened, <code class="verbatim">Total</code> is the overall number of
-documents in which this word occurred in this corpus.</p>
-<p>The most significant changes in the frequency list before and after
-robust estimation (produced by the Perl script <code
-class="verbatim">compare_fq_lists.pl</code> in the repository) from the
-BNC are as follows:</p>
-<table>
+
+<p>
+The <code>Raw</code> frequency column counts the raw number of occurrences, <code>Adjusted</code> is the same count with clipped outlier observations, <code>Clipped</code> is the number of documents in which this happened, <code>Total</code> is the overall number of documents in which this word occurred in this corpus.
+</p>
+
+<p>
+The most significant changes in the frequency list before and after
+robust estimation (produced by the Perl script <code>compare_fq_lists.pl</code> in
+the repository) from the BNC are as follows:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
 <thead>
-<tr class="header">
-<th>Word</th>
-<th>Raw</th>
-<th>Robust</th>
-<th>LL-score</th>
+<tr>
+<th scope="col" class="org-left">Word</th>
+<th scope="col" class="org-right">Raw</th>
+<th scope="col" class="org-right">Robust</th>
+<th scope="col" class="org-right">LL-score</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>hon</td>
-<td>10709</td>
-<td>378</td>
-<td>2890</td>
+<tr>
+<td class="org-left">hon</td>
+<td class="org-right">10709</td>
+<td class="org-right">378</td>
+<td class="org-right">2890</td>
 </tr>
-<tr class="even">
-<td>lifespan</td>
-<td>3854</td>
-<td>110</td>
-<td>1139</td>
+
+<tr>
+<td class="org-left">lifespan</td>
+<td class="org-right">3854</td>
+<td class="org-right">110</td>
+<td class="org-right">1139</td>
 </tr>
-<tr class="odd">
-<td>darlington</td>
-<td>5606</td>
-<td>426</td>
-<td>875</td>
+
+<tr>
+<td class="org-left">darlington</td>
+<td class="org-right">5606</td>
+<td class="org-right">426</td>
+<td class="org-right">875</td>
 </tr>
-<tr class="even">
-<td>inc</td>
-<td>6584</td>
-<td>794</td>
-<td>527</td>
+
+<tr>
+<td class="org-left">inc</td>
+<td class="org-right">6584</td>
+<td class="org-right">794</td>
+<td class="org-right">527</td>
 </tr>
-<tr class="odd">
-<td>taped</td>
-<td>4151</td>
-<td>460</td>
-<td>389</td>
+
+<tr>
+<td class="org-left">taped</td>
+<td class="org-right">4151</td>
+<td class="org-right">460</td>
+<td class="org-right">389</td>
 </tr>
-<tr class="even">
-<td>athelstan</td>
-<td>1061</td>
-<td>15</td>
-<td>385</td>
+
+<tr>
+<td class="org-left">athelstan</td>
+<td class="org-right">1061</td>
+<td class="org-right">15</td>
+<td class="org-right">385</td>
 </tr>
-<tr class="odd">
-<td>gastric</td>
-<td>2085</td>
-<td>154</td>
-<td>335</td>
+
+<tr>
+<td class="org-left">gastric</td>
+<td class="org-right">2085</td>
+<td class="org-right">154</td>
+<td class="org-right">335</td>
 </tr>
-<tr class="even">
-<td>theda</td>
-<td>838</td>
-<td>9</td>
-<td>320</td>
+
+<tr>
+<td class="org-left">theda</td>
+<td class="org-right">838</td>
+<td class="org-right">9</td>
+<td class="org-right">320</td>
 </tr>
-<tr class="odd">
-<td>robyn</td>
-<td>1206</td>
-<td>46</td>
-<td>313</td>
+
+<tr>
+<td class="org-left">robyn</td>
+<td class="org-right">1206</td>
+<td class="org-right">46</td>
+<td class="org-right">313</td>
 </tr>
-<tr class="even">
-<td>middlesbrough</td>
-<td>3620</td>
-<td>488</td>
-<td>227</td>
+
+<tr>
+<td class="org-left">middlesbrough</td>
+<td class="org-right">3620</td>
+<td class="org-right">488</td>
+<td class="org-right">227</td>
 </tr>
-<tr class="odd">
-<td>infinitive</td>
-<td>721</td>
-<td>22</td>
-<td>208</td>
+
+<tr>
+<td class="org-left">infinitive</td>
+<td class="org-right">721</td>
+<td class="org-right">22</td>
+<td class="org-right">208</td>
 </tr>
-<tr class="even">
-<td>jenna</td>
-<td>668</td>
-<td>19</td>
-<td>198</td>
+
+<tr>
+<td class="org-left">jenna</td>
+<td class="org-right">668</td>
+<td class="org-right">19</td>
+<td class="org-right">198</td>
 </tr>
-<tr class="odd">
-<td>minton</td>
-<td>760</td>
-<td>29</td>
-<td>197</td>
+
+<tr>
+<td class="org-left">minton</td>
+<td class="org-right">760</td>
+<td class="org-right">29</td>
+<td class="org-right">197</td>
 </tr>
-<tr class="even">
-<td>ronni</td>
-<td>538</td>
-<td>8</td>
-<td>193</td>
+
+<tr>
+<td class="org-left">ronni</td>
+<td class="org-right">538</td>
+<td class="org-right">8</td>
+<td class="org-right">193</td>
 </tr>
-<tr class="odd">
-<td>corbett</td>
-<td>1541</td>
-<td>144</td>
-<td>188</td>
+
+<tr>
+<td class="org-left">corbett</td>
+<td class="org-right">1541</td>
+<td class="org-right">144</td>
+<td class="org-right">188</td>
 </tr>
-<tr class="even">
-<td>colonic</td>
-<td>830</td>
-<td>42</td>
-<td>183</td>
+
+<tr>
+<td class="org-left">colonic</td>
+<td class="org-right">830</td>
+<td class="org-right">42</td>
+<td class="org-right">183</td>
 </tr>
-<tr class="odd">
-<td>…</td>
-<td></td>
-<td></td>
-<td></td>
+
+<tr>
+<td class="org-left">&#x2026;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
 </tr>
-<tr class="even">
-<td>mucosa</td>
-<td>1041</td>
-<td>133</td>
-<td>74</td>
+
+<tr>
+<td class="org-left">mucosa</td>
+<td class="org-right">1041</td>
+<td class="org-right">133</td>
+<td class="org-right">74</td>
 </tr>
 </tbody>
 </table>
-<p>For example, <em>Athelstan, Darlington</em> or /<a
-href="http://corpus.leeds.ac.uk/cgi-bin/cqp.pl?q=Theda&amp;c=BNC&amp;t=150">Theda</a>
-are person names in some of the BNC texts (e.g., from "The remains of
-the day" for <em>Darlington</em>), while the frequency busts of
-<em>Hon</em> (which takes it to the top 1000 most frequent words) is
-down to long lists like: <em>The Princess Margaret, Countess of Snowdon
-was represented by the <strong>Hon</strong> Mrs Wills at the Memorial
-Service for Colonel the <strong>Hon</strong> Sir Gordon Palmer.</em></p>
-<p>For information about the log-likelihood score see <a
-href="http://ucrel.lancs.ac.uk/llwizard.html">http://ucrel.lancs.ac.uk/llwizard.html</a></p>
-<h1 id="frequency-lists">Frequency lists</h1>
-<h2 id="english">English</h2>
-<h3 id="lists-of-word-forms">Lists of word forms:</h3>
-<ol>
-<li><span class="spurious-link"
-target="bnc-clean2.tsv"><em>BNC.</em></span> This is from the classic <a
-href="http://www.natcorp.ox.ac.uk/">British National Corpus.</a></li>
-<li><span class="spurious-link"
-target="ukwac-clean2.tsv.xz"><em>ukWac.</em></span> A corpus from the <a
-href="https://wacky.sslmit.unibo.it/doku.php">Wacky family.</a></li>
-<li><span class="spurious-link"
-target="wiki-en-clean2.tsv.xz"><em>Wikipedia.</em></span></li>
-<li><span class="spurious-link"
-target="openwebtext-clean2.tsv.xz"><em>OpenWebText.</em></span> This is
-a clone of OpenAI's corpus collected from upvoted links <a
-href="https://github.com/jcpeterson/openwebtext">OpenWebText.</a></li>
-<li><span class="spurious-link"
-target="ccnet-en-200-clean2-biwt.tsv.xz"><em>CCNET.</em></span> This is
-the English corpus from the Common Crawl cleaned for XLM-R, see <a
-href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.494.pdf">the
-paper.</a></li>
+
+<p>
+For example, <i>Athelstan, Darlington</i> or /<a href="http://corpus.leeds.ac.uk/cgi-bin/cqp.pl?q=Theda&amp;c=BNC&amp;t=150">Theda</a>
+are person names in some of the BNC texts (e.g., from "The remains of the
+day" for <i>Darlington</i>), while the frequency busts of <i>Hon</i> (which takes
+it to the top 1000 most frequent words) is down to long lists like: /The
+Princess Margaret, Countess of Snowdon was represented by the <b>Hon</b> Mrs
+Wills at the Memorial Service for Colonel the <b>Hon</b> Sir Gordon Palmer./
+</p>
+
+<p>
+For information about the log-likelihood score see
+<a href="http://ucrel.lancs.ac.uk/llwizard.html">http://ucrel.lancs.ac.uk/llwizard.html</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-frequency-lists" class="outline-2">
+<h2 id="frequency-lists"><span class="section-number-2">4</span> Frequency lists</h2>
+<div class="outline-text-2" id="text-frequency-lists">
+</div>
+<div id="outline-container-english" class="outline-3">
+<h3 id="english"><span class="section-number-3">4.1</span> English</h3>
+<div class="outline-text-3" id="text-english">
+</div>
+<div id="outline-container-lists-of-word-forms" class="outline-4">
+<h4 id="lists-of-word-forms"><span class="section-number-4">4.1.1</span> Lists of word forms:</h4>
+<div class="outline-text-4" id="text-lists-of-word-forms">
+<ol class="org-ol">
+<li><a href="./bnc-clean2.tsv">BNC.</a> This  is from the classic <a href="http://www.natcorp.ox.ac.uk/">British National Corpus.</a></li>
+<li><a href="./ukwac-clean2.tsv.xz">ukWac.</a> A corpus from the <a href="https://wacky.sslmit.unibo.it/doku.php">Wacky family.</a></li>
+<li><a href="./wiki-en-clean2.tsv.xz">Wikipedia.</a></li>
+<li><a href="./openwebtext-clean2.tsv.xz">OpenWebText.</a> This is a clone of OpenAI's corpus collected from upvoted links <a href="https://github.com/jcpeterson/openwebtext">OpenWebText.</a></li>
+<li><a href="./ccnet-en-200-clean2-biwt.tsv.xz">CCNET.</a> This is the English corpus from the Common Crawl cleaned for XLM-R, see <a href="https://aclanthology.org/2020.lrec-1.494/">their paper.</a></li>
 </ol>
-<h2 id="russian">Russian</h2>
-<p>Lists of <strong>lemmas</strong> with POS codes:</p>
-<ol>
-<li><span class="spurious-link"
-target="ru/rnc-orig.out.lpos-clean2-biwt.tsv.xz"><em>Russian National
-Corpus.</em></span> You can compare this to the raw RNC frequencies in
-the classic list of <a
-href="http://dict.ruslang.ru/freq.php">Lyashevskaya and Sharoff,
-2009.</a></li>
-<li><span class="spurious-link"
-target="ru/ruTenTen.vert.xz.lpos-clean2-biwt.tsv.xz"><em>ruTenTen.</em></span>
-A popular corpus from the <a
-href="https://www.sketchengine.eu/rutenten-russian-corpus/">SketchEngine.</a></li>
-<li><span class="spurious-link"
-target="ru/ruwac.out.gz.lpos-clean2-biwt.tsv.xz"><em>ruWac.</em></span>
-A corpus from the <a href="https://wacky.sslmit.unibo.it/doku.php">Wacky
-family.</a></li>
-<li><span class="spurious-link"
-target="ru/gicr-news.out.xz.lpos-clean2-biwt.tsv.xz"><em>GICR.</em></span>
-This is the news component of the <a
-href="http://www.webcorpora.ru/en/">General Internet Corpus of
-Russian.</a></li>
-<li><span class="spurious-link"
-target="ru/ru-maximus.xz.lpos-clean2-biwt.num.xz"><em>Aranea
-Maximus.</em></span> A large Aranea Web crawl for Russian, see <a
-href="https://link.springer.com/article/10.1007/s10579-020-09487-4">the
-paper</a> describing its properties.</li>
-<li><span class="spurious-link"
-target="ru/ccnet-ru-3-100-clean2-biwt.tsv.xz"><em>CCNet-Russian</em></span>.
-The Russian part of the Common Crawl cleaned for XLM-R, see <a
-href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.494.pdf">the
-paper.</a></li>
+</div>
+</div>
+</div>
+
+<div id="outline-container-russian" class="outline-3">
+<h3 id="russian"><span class="section-number-3">4.2</span> Russian</h3>
+<div class="outline-text-3" id="text-russian">
+<p>
+Lists of <b>lemmas</b> with POS codes:
+</p>
+
+<ol class="org-ol">
+<li><a href="./ru/rnc-orig.out.lpos-clean2-biwt.tsv.xz">Russian National Corpus.</a> You can compare this to the raw RNC frequencies in the classic list of <a href="http://dict.ruslang.ru/freq.php">Lyashevskaya and Sharoff, 2009.</a></li>
+<li><a href="./ru/ruTenTen.vert.xz.lpos-clean2-biwt.tsv.xz">ruTenTen.</a> A popular corpus from the <a href="https://www.sketchengine.eu/rutenten-russian-corpus/">SketchEngine.</a></li>
+<li><a href="./ru/ruwac.out.gz.lpos-clean2-biwt.tsv.xz">ruWac.</a> A corpus from the <a href="https://wacky.sslmit.unibo.it/doku.php">Wacky family.</a></li>
+<li><a href="./ru/gicr-news.out.xz.lpos-clean2-biwt.tsv.xz">GICR.</a> This is the news component of the <a href="http://www.webcorpora.ru/en/">General Internet Corpus of Russian.</a></li>
+<li><a href="./ru/ru-maximus.xz.lpos-clean2-biwt.num.xz">Aranea Maximus.</a> A large Aranea Web crawl for Russian, see <a href="https://link.springer.com/article/10.1007/s10579-020-09487-4">the paper</a> describing its properties.</li>
+<li><a href="./ru/ccnet-ru-3-100-clean2-biwt.tsv.xz">CCNet-Russian</a>. The Russian part of the Common Crawl cleaned for XLM-R, see <a href="https://aclanthology.org/2020.lrec-1.494/">their paper.</a></li>
 </ol>
-<p>The POS codes in the Russian National Corpus have not been unified
-with the remaining corpora. For example, <strong><sub>s</sub></strong>
-is the code for nouns in the RNC while it is
-<strong><sub>n</sub></strong> in other corpora.</p>
-<h2 id="wikipedia-lists">Wikipedia lists</h2>
-<p>Robust frequency filtering helps in removing various artifacts of
-Wikipedia processing, e.g., unreasonably frequent <em>pomeranian,
-montane, spurred, substrates, encompassed, italianate, prelate,
-attaining</em> in the BERT BPE lexicon.</p>
-<ul>
-<li><a
-href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-ar-robust.tsv">Arabic</a></li>
-<li><a
-href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-cs-robust.tsv">Czech</a></li>
-<li><a
-href="http://corpus.leeds.ac.uk/frqc/robust/wiki-en-clean2.num">English</a></li>
-<li><a
-href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-it.tsv">Italian</a></li>
-<li><a
-href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-pl.tsv">Polish</a></li>
-<li><a
-href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-ru-robust.tsv">Russian</a></li>
-<li><a
-href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-uk-robust.tsv">Ukrainian</a></li>
+
+<p>
+The POS codes in the Russian National Corpus have not been unified with the remaining corpora. For example, <b>_s</b> is the code for nouns in the RNC while it is <b>_n</b> in other corpora.
+</p>
+</div>
+</div>
+
+<div id="outline-container-wikipedia-lists" class="outline-3">
+<h3 id="wikipedia-lists"><span class="section-number-3">4.3</span> Wikipedia lists</h3>
+<div class="outline-text-3" id="text-wikipedia-lists">
+<p>
+Robust frequency filtering helps in removing various artifacts of
+Wikipedia processing, e.g., unreasonably frequent <i>pomeranian, montane,
+spurred, substrates, encompassed, italianate, prelate, attaining</i> in the
+BERT BPE lexicon.
+</p>
+
+<ul class="org-ul">
+<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-ar-robust.tsv">Arabic</a></li>
+<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-cs-robust.tsv">Czech</a></li>
+<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wiki-en-clean2.num">English</a></li>
+<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-it.tsv">Italian</a></li>
+<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-pl.tsv">Polish</a></li>
+<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-ru-robust.tsv">Russian</a></li>
+<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-uk-robust.tsv">Ukrainian</a></li>
 </ul>
-<p>ccnet-en-200-clean2-biwt.tsv.xz</p>
-<p>openwebtext-robust-R.tsv.xz</p>
+
+<p>
+ccnet-en-200-clean2-biwt.tsv.xz
+</p>
+
+<p>
+openwebtext-robust-R.tsv.xz
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Serge Sharoff</p>
+<p class="date">Created: 2024-01-09 Tue 21:25</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

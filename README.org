@@ -28,6 +28,9 @@ developing statistical models are relatively modest for many languages,
 so I research methods for bootstraping them from related languages, for
 example, from [[file:publications/2011-dialog-sharoff-nivre.pdf][Russian]] to [[file:publications/2016-HyTra.pdf][Ukrainian]].
 
+Another aspect of Web corpus curation concerns developing frequency lists. While it is easy to count the number of times each word occurs in a corpus, this can lead to undesirable frequency bursts, as a word can be used too often in a small number of files. Please check my [[./frqc/][reliable frequency lists]]
+obtained for several corpora and several languages. See also the [[./kelly/][pedagogical frequency lists]] produced as the outcome of the [[https://spraakbanken.gu.se/en/projects/kelly][Kelly project]].
+
 Another example is [[http://ucrel.lancs.ac.uk/projects/assist/][ASSIST]], a joint project
 with Lancaster University, which is about an automatic procedure for
 finding translation equivalent using large comparable corpora

@@ -1,5 +1,5 @@
 #+TITLE: Robust frequency lists
-#+AUTHOR: 
+#+AUTHOR: Serge Sharoff
 #+DATE: 
 #+OPTIONS: toc:t
 
@@ -46,7 +46,7 @@ Robust lists for a number of languages and corpora are listed in the
   :PROPERTIES:
   :CUSTOM_ID: robust-methods
   :END:
-The tools in this repository can produce robust frequency lists by using
+The tools in [[https://spraakbanken.gu.se/en/projects/kelly][this repository]] can produce robust frequency lists by using
 document-level measures to filter out frequency bursts using methods
 from robust statistics. The method which this study found to be more
 useful is based on /huberM/ and /S//n/ estimators of expected values.
@@ -183,14 +183,11 @@ For information about the log-likelihood score see
     :PROPERTIES:
     :CUSTOM_ID: lists-of-word-forms
     :END:
-1. [[bnc-clean2.tsv][BNC.]] This  is from the classic [[http://www.natcorp.ox.ac.uk/][British National Corpus.]]
-2. [[ukwac-clean2.tsv.xz][ukWac.]] A corpus from the [[https://wacky.sslmit.unibo.it/doku.php][Wacky family.]]
-3. [[wiki-en-clean2.tsv.xz][Wikipedia.]]
-4. [[openwebtext-clean2.tsv.xz][OpenWebText.]]
-   This is a clone of OpenAI's corpus collected from upvoted links
-   [[https://github.com/jcpeterson/openwebtext][OpenWebText.]]
-5. [[ccnet-en-200-clean2-biwt.tsv.xz][CCNET.]]  This is the English corpus from the Common Crawl cleaned for XLM-R,
-   see [[http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.494.pdf][the paper.]]
+1. [[./bnc-clean2.tsv][BNC.]] This  is from the classic [[http://www.natcorp.ox.ac.uk/][British National Corpus.]]
+2. [[./ukwac-clean2.tsv.xz][ukWac.]] A corpus from the [[https://wacky.sslmit.unibo.it/doku.php][Wacky family.]]
+3. [[./wiki-en-clean2.tsv.xz][Wikipedia.]]
+4. [[./openwebtext-clean2.tsv.xz][OpenWebText.]] This is a clone of OpenAI's corpus collected from upvoted links [[https://github.com/jcpeterson/openwebtext][OpenWebText.]]
+5. [[./ccnet-en-200-clean2-biwt.tsv.xz][CCNET.]] This is the English corpus from the Common Crawl cleaned for XLM-R, see [[https://aclanthology.org/2020.lrec-1.494/][their paper.]]
 
 ** Russian
    :PROPERTIES:
@@ -198,13 +195,12 @@ For information about the log-likelihood score see
    :END:
 Lists of *lemmas* with POS codes:
 
-1. [[ru/rnc-orig.out.lpos-clean2-biwt.tsv.xz][Russian National Corpus.]] You can compare this to the raw RNC frequencies in the classic list of [[http://dict.ruslang.ru/freq.php][Lyashevskaya and Sharoff, 2009.]]
-2. [[ru/ruTenTen.vert.xz.lpos-clean2-biwt.tsv.xz][ruTenTen.]] A popular corpus from the [[https://www.sketchengine.eu/rutenten-russian-corpus/][SketchEngine.]]
-3. [[ru/ruwac.out.gz.lpos-clean2-biwt.tsv.xz][ruWac.]] A corpus from the [[https://wacky.sslmit.unibo.it/doku.php][Wacky family.]]
-4. [[ru/gicr-news.out.xz.lpos-clean2-biwt.tsv.xz][GICR.]] This is the news component of the [[http://www.webcorpora.ru/en/][General Internet Corpus of Russian.]]
-5. [[ru/ru-maximus.xz.lpos-clean2-biwt.num.xz][Aranea Maximus.]] A large Aranea Web crawl for Russian, see [[https://link.springer.com/article/10.1007/s10579-020-09487-4][the paper]] describing its properties.
-6. [[ru/ccnet-ru-3-100-clean2-biwt.tsv.xz][CCNet-Russian]]. The Russian part of the Common Crawl cleaned for XLM-R,
-   see [[http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.494.pdf][the paper.]]
+1. [[./ru/rnc-orig.out.lpos-clean2-biwt.tsv.xz][Russian National Corpus.]] You can compare this to the raw RNC frequencies in the classic list of [[http://dict.ruslang.ru/freq.php][Lyashevskaya and Sharoff, 2009.]]
+2. [[./ru/ruTenTen.vert.xz.lpos-clean2-biwt.tsv.xz][ruTenTen.]] A popular corpus from the [[https://www.sketchengine.eu/rutenten-russian-corpus/][SketchEngine.]]
+3. [[./ru/ruwac.out.gz.lpos-clean2-biwt.tsv.xz][ruWac.]] A corpus from the [[https://wacky.sslmit.unibo.it/doku.php][Wacky family.]]
+4. [[./ru/gicr-news.out.xz.lpos-clean2-biwt.tsv.xz][GICR.]] This is the news component of the [[http://www.webcorpora.ru/en/][General Internet Corpus of Russian.]]
+5. [[./ru/ru-maximus.xz.lpos-clean2-biwt.num.xz][Aranea Maximus.]] A large Aranea Web crawl for Russian, see [[https://link.springer.com/article/10.1007/s10579-020-09487-4][the paper]] describing its properties.
+6. [[./ru/ccnet-ru-3-100-clean2-biwt.tsv.xz][CCNet-Russian]]. The Russian part of the Common Crawl cleaned for XLM-R, see [[https://aclanthology.org/2020.lrec-1.494/][their paper.]]
 
 The POS codes in the Russian National Corpus have not been unified with the remaining corpora. For example, *_s* is the code for nouns in the RNC while it is *_n* in other corpora.
 
