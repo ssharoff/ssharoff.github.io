@@ -1,5 +1,5 @@
 #+TITLE: iDEM: Innovative and Inclusive Democratic Spaces for Deliberation and Participation*
-#+AUTHOR: Funded by  EU Horizon
+#+AUTHOR: Serge Sharoff
 #+DATE: 2024-2026
 #+OPTIONS: toc:nil
 #+LATEX_HEADER: \usepackage{times}
@@ -8,27 +8,23 @@
 
  + Principal Investigator at Leeds :: Serge Sharoff
  + Co-Investigator at Leeds :: Carlo Eugeni
+ + Funding ::  EU Horizon
+ + Time frame :: 2024-2026
 
-| *Participant No. ** | *Participant organisation name*                                                   | *Country* |
-| 1 (Coordinator)     | Universitat Pompeu Fabra (UPF)                                                    | ES        |
-| 2                   | University of Leeds (UOL)                                                         | UK        |
-| 3                   | CFS GmbH (CAPITO)                                                                 | AT        |
-| 4                   | NEXUS INSTITUT FUR KOOPERATIONS                                                   | DE        |
-|                     |                                                                                   |           |
-|                     | MANAGEMENT UND INTERDISZIPLINARE                                                  |           |
-|                     |                                                                                   |           |
-|                     | FORSCHUNG GMBH (NEXUS)                                                            |           |
-| 5                   | Organización de entidades en favor de las personas con                            | ES        |
-|                     |                                                                                   |           |
-|                     | Discapacidad Intelectual de la Comunidad de Madrid (Plena Inclusión Madrid) (PIM) |           |
-| 6                   | The National Microelectronics Applications Centre Ltd (MAC)                       | IE        |
-| 7                   | Anffas Nazionale (ANFFAS)                                                         | IT        |
-| 8                   | Fundación Cibervoluntarios (CIB)                                                  | ES        |
-| 9                   | Actionaid International Italia Onlus (AAIT)                                       | IT        |
-| 10                  | Institut Municipal de Persones amb Discapacitat (IMPD)                            | ES        |
-| 11                  | Sindicatura de Greuges de Barcelona (Barcelona                                    | ES        |
-|                     |                                                                                   |           |
-|                     | Ombudsman's Office) (BOO)                                                         |           |
+| *Participant organisation name*                                                   | *Country* |
+| (Coordinator) Universitat Pompeu Fabra (UPF)                                      | ES        |
+| University of Leeds (UOL)                                                         | UK        |
+| CFS GmbH (CAPITO)                                                                 | AT        |
+| NEXUS INSTITUT FUR KOOPERATIONS MANAGEMENT UND                                                  | DE        |
+|  INTERDISZIPLINARE FORSCHUNG GMBH (NEXUS)                                                            |           |
+| Organización de entidades en favor de las personas con                            | ES        |
+| Discapacidad Intelectual de la Comunidad de Madrid (Plena Inclusión Madrid) (PIM) |           |
+| The National Microelectronics Applications Centre Ltd (MAC)                       | IE        |
+| Anffas Nazionale (ANFFAS)                                                         | IT        |
+| Fundación Cibervoluntarios (CIB)                                                  | ES        |
+| Actionaid International Italia Onlus (AAIT)                                       | IT        |
+| Institut Municipal de Persones amb Discapacitat (IMPD)                            | ES        |
+| Sindicatura de Greuges de Barcelona (Barcelona Ombudsman's Office)                                    | ES        |
 
 
 * Project aims
