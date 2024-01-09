@@ -1,0 +1,49 @@
+#+TITLE: iDEM: Innovative and Inclusive Democratic Spaces for Deliberation and Participation*
+#+AUTHOR: Funded by  EU Horizon
+#+DATE: 2024-2026
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{times}
+#+LATEX_HEADER: \usepackage{apalike}
+#+HTML_HEAD_EXTRA: <style>*{font-size: large;}</style>
+
+ + Principal Investigator at Leeds :: Serge Sharoff
+ + Co-Investigator at Leeds :: Carlo Eugeni
+
+| *Participant No. ** | *Participant organisation name*                                                   | *Country* |
+| 1 (Coordinator)     | Universitat Pompeu Fabra (UPF)                                                    | ES        |
+| 2                   | University of Leeds (UOL)                                                         | UK        |
+| 3                   | CFS GmbH (CAPITO)                                                                 | AT        |
+| 4                   | NEXUS INSTITUT FUR KOOPERATIONS                                                   | DE        |
+|                     |                                                                                   |           |
+|                     | MANAGEMENT UND INTERDISZIPLINARE                                                  |           |
+|                     |                                                                                   |           |
+|                     | FORSCHUNG GMBH (NEXUS)                                                            |           |
+| 5                   | Organización de entidades en favor de las personas con                            | ES        |
+|                     |                                                                                   |           |
+|                     | Discapacidad Intelectual de la Comunidad de Madrid (Plena Inclusión Madrid) (PIM) |           |
+| 6                   | The National Microelectronics Applications Centre Ltd (MAC)                       | IE        |
+| 7                   | Anffas Nazionale (ANFFAS)                                                         | IT        |
+| 8                   | Fundación Cibervoluntarios (CIB)                                                  | ES        |
+| 9                   | Actionaid International Italia Onlus (AAIT)                                       | IT        |
+| 10                  | Institut Municipal de Persones amb Discapacitat (IMPD)                            | ES        |
+| 11                  | Sindicatura de Greuges de Barcelona (Barcelona                                    | ES        |
+|                     |                                                                                   |           |
+|                     | Ombudsman's Office) (BOO)                                                         |           |
+
+
+* Project aims
+iDEM aims at addressing the barriers in deliberative and participatory
+democratic practices through a thorough intersectional analysis of
+conditions under which the existing structures of power limit
+participation of marginalised and vulnerable communities who might have
+limited skills in reading, writing or understanding a fairly complex
+language required for deliberative and participatory processes. Our
+vision in this project is to improve this situation by developing
+artificial intelligence and natural language processing models
+to make democratic spaces more inclusive and accessible for all. The
+democratic spaces to be proposed and implemented in realistic use cases
+will allow debate between different sectors of the society. This will be
+the first study to investigate artificial intelligence and natural
+language processing methods as enablers in addressing political
+inequality for deliberation and participation in democratic spaces.
+
