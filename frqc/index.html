@@ -1,0 +1,363 @@
+<blockquote>
+<p>Nothing in Nature is random… A thing appears random only through the
+incompleteness of our knowledge. —Spinoza, Ethics I</p>
+</blockquote>
+<h1 id="know-thy-corpus">Know thy corpus!</h1>
+<p>Frequency lists determine the probability estimates for words in
+language models. They are also widely used in lexicography, corpus
+linguistics and language education studies. However, word frequency
+lists coming from different corpora differ considerably in spite of
+relatively small changes in their composition, because some words can
+become too frequent in a relatively small number of texts specific to
+this corpus, so their frequency counts provide unreliable information
+about their expected frequency. Adam Kilgarriff referred to them as
+<em>whelks</em>, a rare word, which can become topical if a text is
+about whelks. The whelks of the British National Corpus (BNC) are
+medical terms, as seen in the following two extracts from the BNC
+frequency list:</p>
+<ol>
+<li><em>foods, lighting, sciences, anglo, emerge, contacts,
+<strong>gastric</strong>, desirable, 1950s, gender, poland, picking,
+suggestions, enjoying, laughter</em></li>
+<li><em>incidentally, sticking, angrily, speeds, drum, spine, realm,
+<strong>mucosa</strong>, heather, allegedly, rested, builders, lid,
+invention, blowing</em></li>
+</ol>
+<p>where the frequency of <em>gastric</em> is ranked higher than
+<em>desirable</em> and <em>mucosa</em> is ranked higher than
+<em>builders</em>. Only a small proportion of BNC texts are taken from
+the Journal of Gastroentorology and Hepatology (this is less than 0.8%
+of the BNC, 713 thousand tokens). However, the frequency bursts of words
+from this domain propel them into the core lexicon.</p>
+<p>No corpus is immune to whelks. For example, the frequency of
+<em>Texas</em> in the LDC Gigaword corpus is greater than that of such
+common words as <em>long</em> or <em>car</em>. In the Wikipedia dump,
+which was used to train BERT, <em>pomeranian</em> is more frequent than
+<em>hypothetical</em> or <em>centrally</em>.</p>
+<p>Robust lists for a number of languages and corpora are listed in the
+<a href="#frequency-lists">Frequency lists</a> section below.</p>
+<h1 id="robust-methods">Robust methods</h1>
+<p>The tools in this repository can produce robust frequency lists by
+using document-level measures to filter out frequency bursts using
+methods from robust statistics. The method which this study found to be
+more useful is based on <em>huberM</em> and <em>S//n</em> estimators of
+expected values.</p>
+<p>In short, we determine robust estimates of how many times a word
+<strong>is likely</strong> to occur in a document of this corpus. With
+this value we clip (Winsorise) its frequency to our predicted robust
+estimate if the frequency exceeds the estimate in the case of a
+frequency burst in this document. This helps in describing the frequency
+distributions from different corpora by making more reliable predictions
+of how common the words and their constructions are, and in inferring
+the significant differences in the lexicons of different text
+collections, e.g., detecting problems in a given corpus, how a Web crawl
+is different from the BNC, etc. For the rationale and the methodology,
+see:</p>
+<pre class="example"><code>@InProceedings{sharoff20,
+  author =   {Serge Sharoff},
+  title =    {Know thy corpus! Robust methods for digital curation of Web corpora},
+  booktitle = {Proc LREC},
+  year =     2020,
+  month =    {May},
+  address =      {Marseilles}}
+</code></pre>
+<p><a
+href="https://aclanthology.org/2020.lrec-1.298/">https://aclanthology.org/2020.lrec-1.298/</a></p>
+<h1 id="scripts">Scripts</h1>
+<p>The starting point for building a robust frequency list is a document
+level frequency list, e.g.,</p>
+<pre class="example"><code>correct 1 8309
+correct 1 20116
+gastric 1 62338
+gastric 17 59681
+</code></pre>
+<p>In this example, <em>correct</em> occurs once in two documents (with
+the lengths of 8309 and 20116 words), while <em>gastric</em> occurs once
+in one document and 17 times in another one. This is an outlying
+observation which can be detected using methods from robust
+statistics.</p>
+<p>A list of this kind is produced by taking a corpus in the form of a
+single file with one document per line, e.g.</p>
+<pre class="example"><code>... invariably , even when we have needed to correct or update details in our reports ,
+... diffuse into the gastric lumen , so the presence of any iron in fasting gastric juice
+</code></pre>
+<p>and running:</p>
+<p><code class="verbatim">frq-line.py corpus.ol
+&gt;corpus-doc.num</code></p>
+<p>If you have access to a computer cluster with many computing nodes,
+this list can be produced for a large corpus much faster by running
+<code class="verbatim">split -l XX corpus.ol</code> first to split the
+corpus into chunks with a fixed number of documents (XX), so that the
+document level frequency lists can be computed in parallel. After that
+the separate frequency lists can be combined by running <code
+class="verbatim">sort x*.num &gt;corpus-doc.num</code></p>
+<p>Finally <code class="verbatim">robustpython.py</code> can be used to
+compute the robust frequency list:</p>
+<p><code class="verbatim">xzcat bnc-doc.num.xz | python3 robustpython.py
+5 | sort -nsrk3,3 &gt;bnc-clean.num</code></p>
+<p>The parameter is the document level frequency threshold, i.e., the
+words for the frequency list need to occur in at least 5 documents in
+this example.</p>
+<p>For each word (or another object of counting, such as lemma or
+n-gram), <code class="verbatim">robustpython.py</code> outputs in
+tab-separated format: 1. the word itself, 1. the raw frequency, 2. the
+adjusted robust frequency value counted for all documents with
+Winsorisation, 3. the number of documents subject to Winsorisation, and
+4. the document frequency. For example, a sample of frequencies from the
+BNC lists looks like:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Word</th>
+<th>Raw</th>
+<th>Adjusted</th>
+<th>Clipped</th>
+<th>Total Doc</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>correct</td>
+<td>6706</td>
+<td>5500</td>
+<td>263</td>
+<td>1925</td>
+</tr>
+<tr class="even">
+<td>desirable</td>
+<td>2084</td>
+<td>1858</td>
+<td>125</td>
+<td>975</td>
+</tr>
+<tr class="odd">
+<td>gastric</td>
+<td>2085</td>
+<td>154</td>
+<td>16</td>
+<td>70</td>
+</tr>
+</tbody>
+</table>
+<p>The <code class="verbatim">Raw</code> frequency column counts the raw
+number of occurrences, <code class="verbatim">Adjusted</code> is the
+same count with clipped outlier observations, <code
+class="verbatim">Clipped</code> is the number of documents in which this
+happened, <code class="verbatim">Total</code> is the overall number of
+documents in which this word occurred in this corpus.</p>
+<p>The most significant changes in the frequency list before and after
+robust estimation (produced by the Perl script <code
+class="verbatim">compare_fq_lists.pl</code> in the repository) from the
+BNC are as follows:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Word</th>
+<th>Raw</th>
+<th>Robust</th>
+<th>LL-score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>hon</td>
+<td>10709</td>
+<td>378</td>
+<td>2890</td>
+</tr>
+<tr class="even">
+<td>lifespan</td>
+<td>3854</td>
+<td>110</td>
+<td>1139</td>
+</tr>
+<tr class="odd">
+<td>darlington</td>
+<td>5606</td>
+<td>426</td>
+<td>875</td>
+</tr>
+<tr class="even">
+<td>inc</td>
+<td>6584</td>
+<td>794</td>
+<td>527</td>
+</tr>
+<tr class="odd">
+<td>taped</td>
+<td>4151</td>
+<td>460</td>
+<td>389</td>
+</tr>
+<tr class="even">
+<td>athelstan</td>
+<td>1061</td>
+<td>15</td>
+<td>385</td>
+</tr>
+<tr class="odd">
+<td>gastric</td>
+<td>2085</td>
+<td>154</td>
+<td>335</td>
+</tr>
+<tr class="even">
+<td>theda</td>
+<td>838</td>
+<td>9</td>
+<td>320</td>
+</tr>
+<tr class="odd">
+<td>robyn</td>
+<td>1206</td>
+<td>46</td>
+<td>313</td>
+</tr>
+<tr class="even">
+<td>middlesbrough</td>
+<td>3620</td>
+<td>488</td>
+<td>227</td>
+</tr>
+<tr class="odd">
+<td>infinitive</td>
+<td>721</td>
+<td>22</td>
+<td>208</td>
+</tr>
+<tr class="even">
+<td>jenna</td>
+<td>668</td>
+<td>19</td>
+<td>198</td>
+</tr>
+<tr class="odd">
+<td>minton</td>
+<td>760</td>
+<td>29</td>
+<td>197</td>
+</tr>
+<tr class="even">
+<td>ronni</td>
+<td>538</td>
+<td>8</td>
+<td>193</td>
+</tr>
+<tr class="odd">
+<td>corbett</td>
+<td>1541</td>
+<td>144</td>
+<td>188</td>
+</tr>
+<tr class="even">
+<td>colonic</td>
+<td>830</td>
+<td>42</td>
+<td>183</td>
+</tr>
+<tr class="odd">
+<td>…</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>mucosa</td>
+<td>1041</td>
+<td>133</td>
+<td>74</td>
+</tr>
+</tbody>
+</table>
+<p>For example, <em>Athelstan, Darlington</em> or /<a
+href="http://corpus.leeds.ac.uk/cgi-bin/cqp.pl?q=Theda&amp;c=BNC&amp;t=150">Theda</a>
+are person names in some of the BNC texts (e.g., from "The remains of
+the day" for <em>Darlington</em>), while the frequency busts of
+<em>Hon</em> (which takes it to the top 1000 most frequent words) is
+down to long lists like: <em>The Princess Margaret, Countess of Snowdon
+was represented by the <strong>Hon</strong> Mrs Wills at the Memorial
+Service for Colonel the <strong>Hon</strong> Sir Gordon Palmer.</em></p>
+<p>For information about the log-likelihood score see <a
+href="http://ucrel.lancs.ac.uk/llwizard.html">http://ucrel.lancs.ac.uk/llwizard.html</a></p>
+<h1 id="frequency-lists">Frequency lists</h1>
+<h2 id="english">English</h2>
+<h3 id="lists-of-word-forms">Lists of word forms:</h3>
+<ol>
+<li><span class="spurious-link"
+target="bnc-clean2.tsv"><em>BNC.</em></span> This is from the classic <a
+href="http://www.natcorp.ox.ac.uk/">British National Corpus.</a></li>
+<li><span class="spurious-link"
+target="ukwac-clean2.tsv.xz"><em>ukWac.</em></span> A corpus from the <a
+href="https://wacky.sslmit.unibo.it/doku.php">Wacky family.</a></li>
+<li><span class="spurious-link"
+target="wiki-en-clean2.tsv.xz"><em>Wikipedia.</em></span></li>
+<li><span class="spurious-link"
+target="openwebtext-clean2.tsv.xz"><em>OpenWebText.</em></span> This is
+a clone of OpenAI's corpus collected from upvoted links <a
+href="https://github.com/jcpeterson/openwebtext">OpenWebText.</a></li>
+<li><span class="spurious-link"
+target="ccnet-en-200-clean2-biwt.tsv.xz"><em>CCNET.</em></span> This is
+the English corpus from the Common Crawl cleaned for XLM-R, see <a
+href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.494.pdf">the
+paper.</a></li>
+</ol>
+<h2 id="russian">Russian</h2>
+<p>Lists of <strong>lemmas</strong> with POS codes:</p>
+<ol>
+<li><span class="spurious-link"
+target="ru/rnc-orig.out.lpos-clean2-biwt.tsv.xz"><em>Russian National
+Corpus.</em></span> You can compare this to the raw RNC frequencies in
+the classic list of <a
+href="http://dict.ruslang.ru/freq.php">Lyashevskaya and Sharoff,
+2009.</a></li>
+<li><span class="spurious-link"
+target="ru/ruTenTen.vert.xz.lpos-clean2-biwt.tsv.xz"><em>ruTenTen.</em></span>
+A popular corpus from the <a
+href="https://www.sketchengine.eu/rutenten-russian-corpus/">SketchEngine.</a></li>
+<li><span class="spurious-link"
+target="ru/ruwac.out.gz.lpos-clean2-biwt.tsv.xz"><em>ruWac.</em></span>
+A corpus from the <a href="https://wacky.sslmit.unibo.it/doku.php">Wacky
+family.</a></li>
+<li><span class="spurious-link"
+target="ru/gicr-news.out.xz.lpos-clean2-biwt.tsv.xz"><em>GICR.</em></span>
+This is the news component of the <a
+href="http://www.webcorpora.ru/en/">General Internet Corpus of
+Russian.</a></li>
+<li><span class="spurious-link"
+target="ru/ru-maximus.xz.lpos-clean2-biwt.num.xz"><em>Aranea
+Maximus.</em></span> A large Aranea Web crawl for Russian, see <a
+href="https://link.springer.com/article/10.1007/s10579-020-09487-4">the
+paper</a> describing its properties.</li>
+<li><span class="spurious-link"
+target="ru/ccnet-ru-3-100-clean2-biwt.tsv.xz"><em>CCNet-Russian</em></span>.
+The Russian part of the Common Crawl cleaned for XLM-R, see <a
+href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.494.pdf">the
+paper.</a></li>
+</ol>
+<p>The POS codes in the Russian National Corpus have not been unified
+with the remaining corpora. For example, <strong><sub>s</sub></strong>
+is the code for nouns in the RNC while it is
+<strong><sub>n</sub></strong> in other corpora.</p>
+<h2 id="wikipedia-lists">Wikipedia lists</h2>
+<p>Robust frequency filtering helps in removing various artifacts of
+Wikipedia processing, e.g., unreasonably frequent <em>pomeranian,
+montane, spurred, substrates, encompassed, italianate, prelate,
+attaining</em> in the BERT BPE lexicon.</p>
+<ul>
+<li><a
+href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-ar-robust.tsv">Arabic</a></li>
+<li><a
+href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-cs-robust.tsv">Czech</a></li>
+<li><a
+href="http://corpus.leeds.ac.uk/frqc/robust/wiki-en-clean2.num">English</a></li>
+<li><a
+href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-it.tsv">Italian</a></li>
+<li><a
+href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-pl.tsv">Polish</a></li>
+<li><a
+href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-ru-robust.tsv">Russian</a></li>
+<li><a
+href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-uk-robust.tsv">Ukrainian</a></li>
+</ul>
+<p>ccnet-en-200-clean2-biwt.tsv.xz</p>
+<p>openwebtext-robust-R.tsv.xz</p>
