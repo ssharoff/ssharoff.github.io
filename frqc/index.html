@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-01-09 Tue 21:25 -->
+<!-- 2024-01-15 Mon 11:52 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Robust frequency lists</title>
@@ -315,7 +315,7 @@ detecting problems in a given corpus, how a Web crawl is different from
 the BNC, etc. For the rationale and the methodology, see:
 </p>
 
-<pre class="example" id="org98e7904">
+<pre class="example" id="org31a9e63">
 @InProceedings{sharoff20,
   author =   {Serge Sharoff},
   title =    {Know thy corpus! Robust methods for digital curation of Web corpora},
@@ -339,7 +339,7 @@ The starting point for building a robust frequency list is a document
 level frequency list, e.g.,
 </p>
 
-<pre class="example" id="org3af7439">
+<pre class="example" id="orged850e6">
 correct 1 8309
 correct 1 20116
 gastric 1 62338
@@ -347,18 +347,14 @@ gastric 17 59681
 </pre>
 
 <p>
-In this example, <i>correct</i> occurs once in two documents (with the
-lengths of 8309 and 20116 words), while <i>gastric</i> occurs once in one
-document and 17 times in another one. This is an outlying observation
-which can be detected using methods from robust statistics.
+In this artificial example, <i>correct</i> occurs once in two documents (with the lengths of 8309 and 20116 words), while <i>gastric</i> occurs once in one document and 17 times in another one (the document with the length of 59681). The latter is an outlying observation which can be detected using methods from robust statistics.
 </p>
 
 <p>
-A list of this kind is produced by taking a corpus in the form of a
-single file with one document per line, e.g.
+A list of this kind can be produced by taking a corpus in the form of a single file with one document per line, e.g.
 </p>
 
-<pre class="example" id="orgdf964f7">
+<pre class="example" id="org90f853e">
 ... invariably , even when we have needed to correct or update details in our reports ,
 ... diffuse into the gastric lumen , so the presence of any iron in fasting gastric juice
 </pre>
@@ -368,16 +364,25 @@ and running:
 </p>
 
 <p>
-<code>frq-line.py corpus.ol &gt;corpus-doc.num</code>
+<code>frq-line.py corpus.ol | sort &gt;corpus-doc.num</code>
 </p>
 
 <p>
 If you have access to a computer cluster with many computing nodes,
-this list can be produced for a large corpus much faster by running
-<code>split -l XX corpus.ol</code> first to split the corpus into chunks with a fixed
-number of documents (XX), so that the document level frequency lists
-can be computed in parallel. After that the separate frequency lists
-can be combined by running <code>sort x*.num &gt;corpus-doc.num</code>
+this list can be produced for a large corpus much faster by running:
+</p>
+
+<p>
+<code>split -l XX corpus.ol</code>
+</p>
+
+<p>
+first to split the corpus into multiple files with a fixed
+number of documents (XX), so that the document level frequency lists for each file can be computed in parallel. After that the separate frequency lists can be combined by running
+</p>
+
+<p>
+<code>sort x*.num &gt;corpus-doc.num</code>
 </p>
 
 <p>
@@ -386,7 +391,7 @@ list:
 </p>
 
 <p>
-<code>xzcat bnc-doc.num.xz | python3 robustpython.py 5 | sort -nsrk3,3 &gt;bnc-clean.num</code>
+<code>python3 robustpython.py 5 &lt;corpus-doc.num | sort -nsrk3,3 &gt;corpus-robust.num</code>
 </p>
 
 <p>
@@ -402,7 +407,6 @@ itself, 1. the raw frequency, 2. the adjusted robust frequency value
 counted for all documents with Winsorisation, 3. the number of documents
 subject to Winsorisation, and 4. the document frequency.  For example, a sample of frequencies from the BNC lists looks like:
 </p>
-
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -455,7 +459,7 @@ subject to Winsorisation, and 4. the document frequency.  For example, a sample 
 </table>
 
 <p>
-The <code>Raw</code> frequency column counts the raw number of occurrences, <code>Adjusted</code> is the same count with clipped outlier observations, <code>Clipped</code> is the number of documents in which this happened, <code>Total</code> is the overall number of documents in which this word occurred in this corpus.
+The <code>Raw</code> frequency column counts the raw number of occurrences, <code>Adjusted</code> is the same count with clipped outlier observations, <code>Clipped</code> is the number of documents in which this happened, <code>Total</code> is the overall number of documents in which this word occurred in this corpus. By discarding outlying observations, we can estimate a better rank for <i>gastric</i> by using the Adjusted frequency list.
 </p>
 
 <p>
@@ -614,16 +618,12 @@ the repository) from the BNC are as follows:
 </table>
 
 <p>
-For example, <i>Athelstan, Darlington</i> or /<a href="http://corpus.leeds.ac.uk/cgi-bin/cqp.pl?q=Theda&amp;c=BNC&amp;t=150">Theda</a>
-are person names in some of the BNC texts (e.g., from "The remains of the
-day" for <i>Darlington</i>), while the frequency busts of <i>Hon</i> (which takes
-it to the top 1000 most frequent words) is down to long lists like: /The
-Princess Margaret, Countess of Snowdon was represented by the <b>Hon</b> Mrs
-Wills at the Memorial Service for Colonel the <b>Hon</b> Sir Gordon Palmer./
+For example, <i>Athelstan, Darlington</i> or <i><a href="http://corpus.leeds.ac.uk/cgi-bin/cqp.pl?q=Theda&amp;c=BNC&amp;t=150">Theda</a></i> are person names in some of the BNC texts (e.g., from "The remains of the day" for <i>Darlington</i>), while the frequency busts of <i>Hon</i> (which takes it to the top 1000 most frequent words in the BNC) is down to its frequent repetition in contexts like:
+<i>The Princess Margaret was represented by the <b>Hon</b> Mrs Wills at the Memorial Service for Colonel the <b>Hon</b> Sir Gordon Palmer.</i>
 </p>
 
 <p>
-For information about the log-likelihood score see
+For information about the log-likelihood score in keyword detection see
 <a href="http://ucrel.lancs.ac.uk/llwizard.html">http://ucrel.lancs.ac.uk/llwizard.html</a>
 </p>
 </div>
@@ -644,7 +644,7 @@ For information about the log-likelihood score see
 <li><a href="./bnc-clean2.tsv">BNC.</a> This  is from the classic <a href="http://www.natcorp.ox.ac.uk/">British National Corpus.</a></li>
 <li><a href="./ukwac-clean2.tsv.xz">ukWac.</a> A corpus from the <a href="https://wacky.sslmit.unibo.it/doku.php">Wacky family.</a></li>
 <li><a href="./wiki-en-clean2.tsv.xz">Wikipedia.</a></li>
-<li><a href="./openwebtext-clean2.tsv.xz">OpenWebText.</a> This is a clone of OpenAI's corpus collected from upvoted links <a href="https://github.com/jcpeterson/openwebtext">OpenWebText.</a></li>
+<li><a href="./openwebtext-clean2.tsv.xz">OpenWebText.</a> This is a clone of OpenAI's corpus used for training GPT-2, collected from upvoted links from Reddit, see <a href="https://github.com/jcpeterson/openwebtext">OpenWebText.</a></li>
 <li><a href="./ccnet-en-200-clean2-biwt.tsv.xz">CCNET.</a> This is the English corpus from the Common Crawl cleaned for XLM-R, see <a href="https://aclanthology.org/2020.lrec-1.494/">their paper.</a></li>
 </ol>
 </div>
@@ -684,13 +684,14 @@ BERT BPE lexicon.
 </p>
 
 <ul class="org-ul">
-<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-ar-robust.tsv">Arabic</a></li>
-<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-cs-robust.tsv">Czech</a></li>
-<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wiki-en-clean2.num">English</a></li>
-<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-it.tsv">Italian</a></li>
-<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-pl.tsv">Polish</a></li>
-<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-ru-robust.tsv">Russian</a></li>
-<li><a href="http://corpus.leeds.ac.uk/frqc/robust/wikipedia-uk-robust.tsv">Ukrainian</a></li>
+<li><a href="./wiki/ar-frq-clean1.tsv.xz">Arabic</a></li>
+<li><a href="./wiki/be.-clean2-biwt.tsv.xz">Belarusian</a></li>
+<li><a href="./wiki/cs-frq-clean1.tsv.xz">Czech</a></li>
+<li><a href="./wiki/wiki-en-clean2.tsv.xz">English</a></li>
+<li><a href="./wiki/it-frq-clean1.tsv.xz">Italian</a></li>
+<li><a href="./wiki/pl-frq-clean1.tsv.xz">Polish</a></li>
+<li><a href="./wiki/ru.-clean2-biwt.tsv.xz">Russian</a></li>
+<li><a href="./wiki/uk.-clean2-biwt.tsv.xz">Ukrainian</a></li>
 </ul>
 
 <p>
@@ -706,7 +707,7 @@ openwebtext-robust-R.tsv.xz
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Serge Sharoff</p>
-<p class="date">Created: 2024-01-09 Tue 21:25</p>
+<p class="date">Created: 2024-01-15 Mon 11:52</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

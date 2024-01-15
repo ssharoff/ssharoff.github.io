@@ -88,13 +88,9 @@ gastric 1 62338
 gastric 17 59681
 #+end_example
 
-In this example, /correct/ occurs once in two documents (with the
-lengths of 8309 and 20116 words), while /gastric/ occurs once in one
-document and 17 times in another one. This is an outlying observation
-which can be detected using methods from robust statistics.
+In this artificial example, /correct/ occurs once in two documents (with the lengths of 8309 and 20116 words), while /gastric/ occurs once in one document and 17 times in another one (the document with the length of 59681). The latter is an outlying observation which can be detected using methods from robust statistics.
 
-A list of this kind is produced by taking a corpus in the form of a
-single file with one document per line, e.g.
+A list of this kind can be produced by taking a corpus in the form of a single file with one document per line, e.g.
 
 #+begin_example
 ... invariably , even when we have needed to correct or update details in our reports ,
@@ -103,19 +99,22 @@ single file with one document per line, e.g.
 
 and running:
 
-=frq-line.py corpus.ol >corpus-doc.num=
+=frq-line.py corpus.ol | sort >corpus-doc.num=
 
 If you have access to a computer cluster with many computing nodes,
-this list can be produced for a large corpus much faster by running
-=split -l XX corpus.ol= first to split the corpus into chunks with a fixed
-number of documents (XX), so that the document level frequency lists
-can be computed in parallel. After that the separate frequency lists
-can be combined by running =sort x*.num >corpus-doc.num=
+this list can be produced for a large corpus much faster by running:
+
+=split -l XX corpus.ol=
+
+first to split the corpus into multiple files with a fixed
+number of documents (XX), so that the document level frequency lists for each file can be computed in parallel. After that the separate frequency lists can be combined by running
+
+=sort x*.num >corpus-doc.num=
 
 Finally =robustpython.py= can be used to compute the robust frequency
 list:
 
-=xzcat bnc-doc.num.xz | python3 robustpython.py 5 | sort -nsrk3,3 >bnc-clean.num=
+=python3 robustpython.py 5 <corpus-doc.num | sort -nsrk3,3 >corpus-robust.num=
 
 The parameter is the document level frequency threshold, i.e., the words
 for the frequency list need to occur in at least 5 documents in this
@@ -126,7 +125,6 @@ For each word (or another object of counting, such as lemma or n-gram),
 itself, 1. the raw frequency, 2. the adjusted robust frequency value
 counted for all documents with Winsorisation, 3. the number of documents
 subject to Winsorisation, and 4. the document frequency.  For example, a sample of frequencies from the BNC lists looks like:
-
  
 | Word      | Raw  | Adjusted | Clipped | Total Doc |
 |-----------+------+------+-----+------|
@@ -134,7 +132,7 @@ subject to Winsorisation, and 4. the document frequency.  For example, a sample 
 | desirable | 2084 | 1858 | 125 |  975 |
 | gastric   | 2085 |  154 |  16 |   70 |
 
-The =Raw= frequency column counts the raw number of occurrences, =Adjusted= is the same count with clipped outlier observations, =Clipped= is the number of documents in which this happened, =Total= is the overall number of documents in which this word occurred in this corpus.
+The =Raw= frequency column counts the raw number of occurrences, =Adjusted= is the same count with clipped outlier observations, =Clipped= is the number of documents in which this happened, =Total= is the overall number of documents in which this word occurred in this corpus. By discarding outlying observations, we can estimate a better rank for /gastric/ by using the Adjusted frequency list.
 
 The most significant changes in the frequency list before and after
 robust estimation (produced by the Perl script =compare_fq_lists.pl= in
@@ -161,14 +159,10 @@ the repository) from the BNC are as follows:
 | ...           |       |        |          |
 | mucosa        | 1041  | 133    | 74       |
 
-For example, /Athelstan, Darlington/ or /[[http://corpus.leeds.ac.uk/cgi-bin/cqp.pl?q=Theda&c=BNC&t=150][Theda]]
-are person names in some of the BNC texts (e.g., from "The remains of the
-day" for /Darlington/), while the frequency busts of /Hon/ (which takes
-it to the top 1000 most frequent words) is down to long lists like: /The
-Princess Margaret, Countess of Snowdon was represented by the *Hon* Mrs
-Wills at the Memorial Service for Colonel the *Hon* Sir Gordon Palmer./
+For example, /Athelstan, Darlington/ or /[[http://corpus.leeds.ac.uk/cgi-bin/cqp.pl?q=Theda&c=BNC&t=150][Theda]]/ are person names in some of the BNC texts (e.g., from "The remains of the day" for /Darlington/), while the frequency busts of /Hon/ (which takes it to the top 1000 most frequent words in the BNC) is down to its frequent repetition in contexts like:
+/The Princess Margaret was represented by the *Hon* Mrs Wills at the Memorial Service for Colonel the *Hon* Sir Gordon Palmer./
 
-For information about the log-likelihood score see
+For information about the log-likelihood score in keyword detection see
 [[http://ucrel.lancs.ac.uk/llwizard.html]]
 
 * Frequency lists
@@ -186,7 +180,7 @@ For information about the log-likelihood score see
 1. [[./bnc-clean2.tsv][BNC.]] This  is from the classic [[http://www.natcorp.ox.ac.uk/][British National Corpus.]]
 2. [[./ukwac-clean2.tsv.xz][ukWac.]] A corpus from the [[https://wacky.sslmit.unibo.it/doku.php][Wacky family.]]
 3. [[./wiki-en-clean2.tsv.xz][Wikipedia.]]
-4. [[./openwebtext-clean2.tsv.xz][OpenWebText.]] This is a clone of OpenAI's corpus collected from upvoted links [[https://github.com/jcpeterson/openwebtext][OpenWebText.]]
+4. [[./openwebtext-clean2.tsv.xz][OpenWebText.]] This is a clone of OpenAI's corpus used for training GPT-2, collected from upvoted links from Reddit, see [[https://github.com/jcpeterson/openwebtext][OpenWebText.]]
 5. [[./ccnet-en-200-clean2-biwt.tsv.xz][CCNET.]] This is the English corpus from the Common Crawl cleaned for XLM-R, see [[https://aclanthology.org/2020.lrec-1.494/][their paper.]]
 
 ** Russian
@@ -213,14 +207,16 @@ Wikipedia processing, e.g., unreasonably frequent /pomeranian, montane,
 spurred, substrates, encompassed, italianate, prelate, attaining/ in the
 BERT BPE lexicon.
 
-- [[http://corpus.leeds.ac.uk/frqc/robust/wikipedia-ar-robust.tsv][Arabic]]
-- [[http://corpus.leeds.ac.uk/frqc/robust/wikipedia-cs-robust.tsv][Czech]]
-- [[http://corpus.leeds.ac.uk/frqc/robust/wiki-en-clean2.num][English]]
-- [[http://corpus.leeds.ac.uk/frqc/robust/wikipedia-it.tsv][Italian]]
-- [[http://corpus.leeds.ac.uk/frqc/robust/wikipedia-pl.tsv][Polish]]
-- [[http://corpus.leeds.ac.uk/frqc/robust/wikipedia-ru-robust.tsv][Russian]]
-- [[http://corpus.leeds.ac.uk/frqc/robust/wikipedia-uk-robust.tsv][Ukrainian]]
+- [[./wiki/ar-frq-clean1.tsv.xz][Arabic]]
+- [[./wiki/be.-clean2-biwt.tsv.xz][Belarusian]]
+- [[./wiki/cs-frq-clean1.tsv.xz][Czech]]
+- [[./wiki/wiki-en-clean2.tsv.xz][English]]
+- [[./wiki/it-frq-clean1.tsv.xz][Italian]]
+- [[./wiki/pl-frq-clean1.tsv.xz][Polish]]
+- [[./wiki/ru.-clean2-biwt.tsv.xz][Russian]]
+- [[./wiki/uk.-clean2-biwt.tsv.xz][Ukrainian]]
 
 ccnet-en-200-clean2-biwt.tsv.xz
 
 openwebtext-robust-R.tsv.xz
+
