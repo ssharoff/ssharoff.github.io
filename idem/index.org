@@ -11,22 +11,6 @@
  + Funding ::  EU Horizon
  + Time frame :: 2024-2026
 
-| *Participant organisation name*                                                   | *Country* |
-| (Coordinator) Universitat Pompeu Fabra (UPF)                                      | ES        |
-| University of Leeds (UOL)                                                         | UK        |
-| CFS GmbH (CAPITO)                                                                 | AT        |
-| NEXUS INSTITUT FUR KOOPERATIONS MANAGEMENT UND                                                  | DE        |
-|  INTERDISZIPLINARE FORSCHUNG GMBH (NEXUS)                                                            |           |
-| Organización de entidades en favor de las personas con                            | ES        |
-| Discapacidad Intelectual de la Comunidad de Madrid (Plena Inclusión Madrid) (PIM) |           |
-| The National Microelectronics Applications Centre Ltd (MAC)                       | IE        |
-| Anffas Nazionale (ANFFAS)                                                         | IT        |
-| Fundación Cibervoluntarios (CIB)                                                  | ES        |
-| Actionaid International Italia Onlus (AAIT)                                       | IT        |
-| Institut Municipal de Persones amb Discapacitat (IMPD)                            | ES        |
-| Sindicatura de Greuges de Barcelona (Barcelona Ombudsman's Office)                                    | ES        |
-
-
 * Project aims
 iDEM aims at addressing the barriers in deliberative and participatory
 democratic practices through a thorough intersectional analysis of
@@ -43,3 +27,33 @@ the first study to investigate artificial intelligence and natural
 language processing methods as enablers in addressing political
 inequality for deliberation and participation in democratic spaces.
 
+* Our specific aims in WP3
+Our specific aim concerns development of Language Technology. This WP will research, develop and deliver the iDEM text simplification system and services. This will include investigating mechanisms:
+
+ 1. to identify complex linguistic phenomena in the specific context of the project,
+ 2. to implement automatic transformation aiming at reducing the complexity of the information presentation making it more accessible to specific audiences,
+ 3. to implement a text generation assistant in the content of deliberative democracy, and
+ 4. to integrate the components into an open-API cloud-based web-services platform to deliver the iDEM services and Text-simplification App.
+
+The WP will apply Deep Learning techniques to make the methods applicable to a range of different audiences, languages and domains. The solutions (algorithms and language resources) will be implemented as a freely available library for easy integration into Internet-based deliberative and participatory democratic spaces.
+
+
+
+* Participants
+| *Participant organisation name*                                                   | *Country* |
+| (Coordinator) Universitat Pompeu Fabra (UPF)                                      | ES        |
+| University of Leeds (UOL)                                                         | UK        |
+| CFS GmbH (CAPITO)                                                                 | AT        |
+| NEXUS INSTITUT FUR KOOPERATIONS MANAGEMENT UND                                                  | DE        |
+|  INTERDISZIPLINARE FORSCHUNG GMBH (NEXUS)                                                            |           |
+| Organización de entidades en favor de las personas con                            | ES        |
+| Discapacidad Intelectual de la Comunidad de Madrid (Plena Inclusión Madrid) (PIM) |           |
+| The National Microelectronics Applications Centre Ltd (MAC)                       | IE        |
+| Anffas Nazionale (ANFFAS)                                                         | IT        |
+| Fundación Cibervoluntarios (CIB)                                                  | ES        |
+| Actionaid International Italia Onlus (AAIT)                                       | IT        |
+| Institut Municipal de Persones amb Discapacitat (IMPD)                            | ES        |
+| Sindicatura de Greuges de Barcelona (Barcelona Ombudsman's Office)                                    | ES        |
+
+
+  
