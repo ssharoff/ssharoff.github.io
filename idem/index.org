@@ -1,4 +1,4 @@
-#+TITLE: iDEM: Innovative and Inclusive Democratic Spaces for Deliberation and Participation*
+#+TITLE: iDEM: Innovative and Inclusive Democratic Spaces for Deliberation and Participation
 #+AUTHOR: Serge Sharoff
 #+DATE: 2024-2026
 #+OPTIONS: toc:nil

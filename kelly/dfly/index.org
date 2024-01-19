@@ -1,0 +1,18 @@
+#+TITLE: Difficulty resources
+#+AUTHOR: Serge Sharoff
+#+OPTIONS: toc:nil
+
+[[https://www.vikidia.org/][Vikidia]]: Wikipedia for 8-13yr old kids
+
+#+ATTR_LATEX: :align rrrl
+| Entries | >50 words | Words      | Languages |
+|---------+-----------+------------+-----------|
+| 4,489   |      2232 | 671,897    | [[./vikidia-en.ol.xz][en]] |
+| 40,750  |     38064 | 15,411,238 | [[./vikidia-fr.ol.xz][fr]]    |
+| 515     |       155 | 28,451     | ca        |
+| 6,324   |      3790 | 1,016,066  | es        |
+| 9,482   |      3390 | 839,184    | it        |
+|  265    |       87  | 15,555     | [[./vikidia-ru.ol.xz][ru]]    |
+
+
+Cambridge Readability dataset: [[./Readability_cup.ol.xz]]
