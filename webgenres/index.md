@@ -2,7 +2,15 @@
 
 **Serge Sharoff**
 
-The jungle metaphor is quite common in genre studies. The subtitle of
+There are many different kinds of documents on the web, from games to
+shopping pages to journalism to blogs. Different sorts of page have
+quite different uses and characteristics. A query for \`Venice' results
+in pages of various types, referring to recent news, information about
+history, guidebooks, hotel lists, opinions about hotels and restaurants,
+etc.
+
+However, an attempt to produce an exhaustive list of genres leads to the
+jungle metaphor, which is common in genre studies. The subtitle of
 [David Lee's](http://llt.msu.edu/vol5num3/lee/) seminal paper on genre
 classification is \`navigating a path through the BNC jungle'. According
 to [Adam
@@ -11,11 +19,17 @@ the BNC is a jungle only when compared to smaller Brown-type corpora,
 while it looks more like an English garden when compared to the Web . A
 corpus from the web can easily surpass the BNC in size, see 160 million
 words of [I EN](http://wackybook.sslmit.unibo.it/pdfs/sharoff.pdf) or 2
-billion words of ukWac (<http://wacky.sslmit.unibo.it/>).
+billion words of ukWac (<http://wacky.sslmit.unibo.it/>). Large Language
+Models, such as GPT or Llama, are trained on extremely large corpora
+such as [PILE](https://huggingface.co/datasets/EleutherAI/pile)
+amounting to about 500 billion words.
 
 However, we know little about the domains and genres of texts in corpora
-collected in this way. This webpage lists resources that make I-EN, I-RU
-(a web corpus of Russian) and ukWac a bit similar to the BNC.
+collected from the Web. This webpage lists tools and resources that can
+help in comparing corpora similar to the BNC. TLDR: my reliable genre
+classifier is available from [the Huggingface
+repository](https://huggingface.co/ssharoff/genres), see [the paper
+describing its application](https://aclanthology.org/2020.lrec-1.298/).
 
 Below I report two ways of approaching the question of genre
 classification. One involves a traditional **typology** of typical genre
@@ -28,13 +42,14 @@ texts are positioned between reporting and entertaining texts.
 
 ## Topology for text classification
 
-The topological approach is described in my forthcoming paper:
+The topological approach is described in my paper:
 
 Serge Sharoff, (2018) Functional Text Dimensions for annotation of Web
 corpora. In *Corpora*, **31**:2 [PDF](/publications/2018-ftd.pdf)
 
-The automatic classification model is based on a pre-trained transformer
-as hosted on HuggingFace: <https://huggingface.co/ssharoff/genres>.
+The best automatic classification model is based on a pre-trained
+transformer as hosted on HuggingFace:
+<https://huggingface.co/ssharoff/genres>.
 
 In the end the Web corpora can be classified to provide data on their
 composition:
@@ -45,8 +60,8 @@ composition:
 3.  [Aranea Russian](thub-rumaius.genres.xz)
 4.  [English TenTen](ententen.pred.genres.xz)
 
-The training resources consist in multi-annotated webpages for Russian
-and English (along with translations of some pages into Chinese, French
+The training resources consist in multi-annotated webpages for English
+and Russian (along with translations of some pages into Chinese, French
 and German) as described in the following table:
 
 |                 |                |        |         |                                                |
