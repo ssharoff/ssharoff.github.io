@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-01-23 Tue 15:57 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Introductions to the Digital Humanities</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Serge Sharoff" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Introductions to the Digital Humanities</h1>
+<div class="abstract" id="org54f3dfe">
+
+</div>
+
+<div id="outline-container-org4ab78f6" class="outline-2">
+<h2 id="org4ab78f6"><span class="section-number-2">1</span> Introductions to Python</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgaa0e4b5" class="outline-3">
+<h3 id="orgaa0e4b5"><span class="section-number-3">1.1</span> Python for linguists</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li><a href="./Hovy-for_linguists.pdf">Dirk Hovy's Python for Linguists</a>  (<a href="http://www.dirkhovy.com/portfolio/papers/download/pfl_handout.pdf">Original</a>)</li>
+<li>Digiling <a href="https://learn.digiling.eu/">https://learn.digiling.eu/</a></li>
+<li><a href="http://www.nltk.org/book/">http://www.nltk.org/book/</a></li>
+</ul>
+
+<p>
+Sample tasks you can start with while looking into the basic introductions: 
+</p>
+<ul class="org-ul">
+<li>make a frequency list from a document,</li>
+<li>convert Wikipedia to text, see <a href="https://github.com/attardi/wikiextractor">WikiExtractor</a>,</li>
+<li>extract only text from a Web page, see <a href="https://trafilatura.readthedocs.io/en/latest/">Trafilatura</a>,</li>
+<li>convert a tmx file to a parallel corpus,</li>
+<li>add POS tags or Named entities to a text, for example, <a href="https://huggingface.co/elastic/distilbert-base-uncased-finetuned-conll03-english">the CONLL03 model</a>,</li>
+<li>predict the genre for a text, see <a href="https://huggingface.co/ssharoff/genres">my Genre model</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org3019d55" class="outline-3">
+<h3 id="org3019d55"><span class="section-number-3">1.2</span> General introductions</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>N8 Research Computing course: <a href="https://n8cir.org.uk/events/event-resource/python-humanities/">https://n8cir.org.uk/events/event-resource/python-humanities/</a></li>
+<li>Microsoft YouTube videos <a href="https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6">https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6</a></li>
+<li><a href="./NSA-comp3321.pdf">NSA-designed course</a> (original <a href="https://ia902805.us.archive.org/7/items/comp3321/comp3321.pdf">https://ia902805.us.archive.org/7/items/comp3321/comp3321.pdf</a>). Useful stuff starts from p. 14.</li>
+<li>How to think like a computer scientist: <a href="https://greenteapress.com/wp/think-python-2e/">Version 1</a> or <a href="http://openbookproject.net/thinkcs/python/english3e/">Version 2</a></li>
+<li>Collection of tutorials from <a href="https://pythonbasics.org">https://pythonbasics.org</a></li>
+<li>Real Python tutorials <a href="https://realpython.com">https://realpython.com</a>.  Lots of examples of real uses, including <a href="https://realpython.com/courses/python-beginner-tips/">Tips for learning Python</a>, <a href="https://realpython.com/pandas-python-explore-dataset/">datasets</a>, <a href="https://realpython.com/courses/python-dictionary-iteration/">dictionary iteration</a>, <a href="https://realpython.com/invalid-syntax-python/">common syntax errors</a>, <a href="https://realpython.com/courses/python-strings/">string processing</a>, <a href="https://realpython.com/beautiful-soup-web-scraper-python/">building a Web scraper</a>, <a href="https://realpython.com/mobile-app-kivy-python/">building a mobile app</a>, <a href="https://realpython.com/natural-language-processing-spacy-python/">NLP using spacy</a></li>
+<li><a href="https://thonny.org">Thonny IDE</a></li>
+<li>Running simple python code line-by-line  <a href="http://pythontutor.com/">http://pythontutor.com/</a></li>
+<li>A collection of links to various python libraries <a href="https://github.com/vinta/awesome-python">https://github.com/vinta/awesome-python</a></li>
+<li>Reference implementations of various algorithms <a href="https://github.com/TheAlgorithms/Python/blob/master/DIRECTORY.md">https://github.com/TheAlgorithms/Python/blob/master/DIRECTORY.md</a></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgac7dcb2" class="outline-3">
+<h3 id="orgac7dcb2"><span class="section-number-3">1.3</span> More specific frameworks</h3>
+<div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li>The simplest way of making predictions using BERT: <a href="https://simpletransformers.ai/">https://simpletransformers.ai/</a></li>
+<li><a href="https://www.machinelearningplus.com/nlp/gensim-tutorial/">https://www.machinelearningplus.com/nlp/gensim-tutorial/</a></li>
+<li>A DataCamp course <a href="https://www.datacamp.com/community/open-courses/kaggle-python-tutorial-on-machine-learning">Kaggle on Python</a></li>
+<li>A Morgan&amp;Claypool book <a href="https://doi.org/10.2200/S00762ED1V01Y201703HLT037">Neural Network Methods for Natural Language Processing</a></li>
+<li>Chatbots
+<ul class="org-ul">
+<li><a href="https://pytorch.org/tutorials/beginner/chatbot_tutorial.html">https://pytorch.org/tutorials/beginner/chatbot_tutorial.html</a></li>
+<li><a href="https://github.com/alexis-jacq/Pytorch-ChatBot">https://github.com/alexis-jacq/Pytorch-ChatBot</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org80dfa79" class="outline-3">
+<h3 id="org80dfa79"><span class="section-number-3">1.4</span> Recommended python intro sources</h3>
+<div class="outline-text-3" id="text-1-4">
+<ul class="org-ul">
+<li>Google Python Class, exercises on parsing Baby Names <a href="https://developers.google.com/edu/python">https://developers.google.com/edu/python</a></li>
+<li>Lots of courses at Udemy, somne free, <a href="https://www.udemy.com/topic/python/">https://www.udemy.com/topic/python/</a></li>
+<li>CodeCademy, many about data science, <a href="https://www.codecademy.com/catalog/language/python">https://www.codecademy.com/catalog/language/python</a> with a nice example of simple topic models <a href="https://www.codecademy.com/resources/blog/taylor-swift-lyrics-machine-learning/">https://www.codecademy.com/resources/blog/taylor-swift-lyrics-machine-learning/</a></li>
+<li><a href="https://learnpython.org">https://learnpython.org</a></li>
+<li>A directory of intros <a href="https://wiki.python.org/moin/BeginnersGuide">https://wiki.python.org/moin/BeginnersGuide</a></li>
+<li>Courses from <a href="https://www.edx.org/learn/python">https://www.edx.org/learn/python</a> or <a href="https://www.coursera.org/courses?query=python">https://www.coursera.org/courses?query=python</a>
+<ul class="org-ul">
+<li>Language-related examples are <a href="https://www.edx.org/course/introducing-text-analytics">https://www.edx.org/course/introducing-text-analytics</a> or <a href="https://www.coursera.org/specializations/natural-language-processing">https://www.coursera.org/specializations/natural-language-processing</a></li>
+</ul></li>
+<li>Courses from <a href="https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/">https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/</a> including Automate the Boring Stuff with Python by Al Sweigart <a href="https://www.youtube.com/watch?v=1F_OgqRuSdI&amp;list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW">https://www.youtube.com/watch?v=1F_OgqRuSdI&amp;list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW</a></li>
+<li>Learn Python in 1 hour by the author of Pragmatic AI <a href="https://www.youtube.com/watch?v=ie-hjFXlxTs">https://www.youtube.com/watch?v=ie-hjFXlxTs</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgec8ff5b" class="outline-2">
+<h2 id="orgec8ff5b"><span class="section-number-2">2</span> NLP intros</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgbdb64ef" class="outline-3">
+<h3 id="orgbdb64ef"><span class="section-number-3">2.1</span> A well-designed online intro course</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li><a href="https://lena-voita.github.io/nlp_course.html">https://lena-voita.github.io/nlp_course.html</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org55b019a" class="outline-3">
+<h3 id="org55b019a"><span class="section-number-3">2.2</span> A network of NLP students:</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li><a href="https://nlpwithfriends.com/guidelines/">https://nlpwithfriends.com/guidelines/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4f7b350" class="outline-3">
+<h3 id="org4f7b350"><span class="section-number-3">2.3</span> A course on transformers</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li><a href="https://huggingface.co/course/chapter1">https://huggingface.co/course/chapter1</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgef0041a" class="outline-3">
+<h3 id="orgef0041a"><span class="section-number-3">2.4</span> Interpreting NLP predictions</h3>
+<div class="outline-text-3" id="text-2-4">
+<ul class="org-ul">
+<li><a href="https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/">https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/</a></li>
+<li><a href="https://github.com/cdpierse/transformers-interpret">https://github.com/cdpierse/transformers-interpret</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org61d048b" class="outline-3">
+<h3 id="org61d048b"><span class="section-number-3">2.5</span> Non-computing intro</h3>
+<div class="outline-text-3" id="text-2-5">
+<ul class="org-ul">
+<li><a href="./2021-franzosi-emory.pdf">Franzosi's course at Emory</a> (<a href="http://sociology.emory.edu/home/documents/syllabi/soc190-franzosi-spring2021.pdf">Original</a>)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org214dbd0" class="outline-2">
+<h2 id="org214dbd0"><span class="section-number-2">3</span> General advice</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orge1785ad" class="outline-3">
+<h3 id="orge1785ad"><span class="section-number-3">3.1</span> Machine Learning advice</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li>Ten quick tips for machine learning in computational biology: applicable to NLP as well<br />
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5721660/pdf/13040_2017_Article_155.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5721660/pdf/13040_2017_Article_155.pdf</a></li>
+<li>Elements of Statistical Learning by Hastie, Tibshirani and Friedman<br />
+<a href="https://hastie.su.domains/Papers/ESLII.pdf">https://hastie.su.domains/Papers/ESLII.pdf</a></li>
+<li>Intro into Logistic Regression<br />
+<a href="https://github.com/AbhibhavS/Modelling-the-Logistic-Regression">https://github.com/AbhibhavS/Modelling-the-Logistic-Regression</a><br />
+<a href="https://towardsdatascience.com/logistic-regression-explained-from-scratch-visually-mathematically-and-programmatically-eb83520fdf9a">https://towardsdatascience.com/logistic-regression-explained-from-scratch-visually-mathematically-and-programmatically-eb83520fdf9a</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgab38351" class="outline-3">
+<h3 id="orgab38351"><span class="section-number-3">3.2</span> Ethics and AI</h3>
+<div class="outline-text-3" id="text-3-2">
+<ul class="org-ul">
+<li><a href="https://n8cir.org.uk/events/event-resource/comp-ethics/">https://n8cir.org.uk/events/event-resource/comp-ethics/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org436e2a6" class="outline-3">
+<h3 id="org436e2a6"><span class="section-number-3">3.3</span> From Lena Voita's intro</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+Learn to think as a researcher:
+</p>
+<ul class="org-ul">
+<li>find flaws in an approach,</li>
+<li>think why/when something can help,</li>
+<li>come up with ways to improve,</li>
+<li>learn about previous attempts.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgee6c12e" class="outline-2">
+<h2 id="orgee6c12e"><span class="section-number-2">4</span> General AI intro's</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li>An accessible explanation of the limits of LLMs: <a href="https://bigthink.com/the-future/artificial-general-intelligence-true-ai/">https://bigthink.com/the-future/artificial-general-intelligence-true-ai/</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Serge Sharoff</p>
+<p class="date">Created: 2024-01-23 Tue 15:57</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

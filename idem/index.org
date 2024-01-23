@@ -28,7 +28,9 @@ language processing methods as enablers in addressing political
 inequality for deliberation and participation in democratic spaces.
 
 * Our specific aims in WP3
-Our specific aim concerns development of Language Technology. This WP will research, develop and deliver the iDEM text simplification system and services. This will include investigating mechanisms:
+The University of Leeds leads WP3, Advanced Human Language Technology for non-discriminatory and inclusive democratic spaces
+  
+This WP will research, develop and deliver the iDEM text simplification system and services. This will include investigating mechanisms:
 
  1. to identify complex linguistic phenomena in the specific context of the project,
  2. to implement automatic transformation aiming at reducing the complexity of the information presentation making it more accessible to specific audiences,
@@ -37,6 +39,16 @@ Our specific aim concerns development of Language Technology. This WP will resea
 
 The WP will apply Deep Learning techniques to make the methods applicable to a range of different audiences, languages and domains. The solutions (algorithms and language resources) will be implemented as a freely available library for easy integration into Internet-based deliberative and participatory democratic spaces.
 
+  + T3.1 :: Text Difficulty Assessment and Classification Tool.
+    *M1-M30.* Lead: UOLeeds. Participants: UPF, CAPITO
+  + T3.2 :: Multilingual Adaptable Text Simplification System.
+    *M1-M30.* Lead: UPF. Participants: UOLeeds, CAPITO
+  + T3.3 :: Intrinsic and Expert Evaluation.
+    M6-M31. Lead: CAPITO, Participants: UOLeeds, UPF, ANFFAS, PIM, IMPD
+  + T3.4 :: Text Generation Assistant.
+    M12-M34. Lead: UPF, Participants: PIM, ANFFAS, IMPD, UOLeeds
+  + T3.5 :: Service Implementation.
+    M6-M36. Lead: MAC. Participants: CAPITO, UOLeeds, UPF
 
 
 * Participants

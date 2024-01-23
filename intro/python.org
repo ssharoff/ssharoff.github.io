@@ -1,0 +1,89 @@
+#+TITLE: Introductions to the Digital Humanities
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{standard}
+#+LATEX_HEADER: \usepackage{apalike}
+#+BEGIN_abstract
+#+END_abstract
+
+* Introductions to Python
+** Python for linguists
+  + [[./Hovy-for_linguists.pdf][Dirk Hovy's Python for Linguists]]  ([[http://www.dirkhovy.com/portfolio/papers/download/pfl_handout.pdf][Original]])
+  + Digiling https://learn.digiling.eu/
+  + http://www.nltk.org/book/
+
+  Sample tasks you can start with while looking into the basic introductions: 
+  + make a frequency list from a document,
+  + convert Wikipedia to text, see [[https://github.com/attardi/wikiextractor][WikiExtractor]],
+  + extract only text from a Web page, see [[https://trafilatura.readthedocs.io/en/latest/][Trafilatura]],
+  + convert a tmx file to a parallel corpus,
+  + add POS tags or Named entities to a text, for example, [[https://huggingface.co/elastic/distilbert-base-uncased-finetuned-conll03-english][the CONLL03 model]],
+  + predict the genre for a text, see [[https://huggingface.co/ssharoff/genres][my Genre model]]
+
+** General introductions
+  + N8 Research Computing course: https://n8cir.org.uk/events/event-resource/python-humanities/
+  + Microsoft YouTube videos https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6
+  + [[./NSA-comp3321.pdf][NSA-designed course]] (original [[https://ia902805.us.archive.org/7/items/comp3321/comp3321.pdf]]). Useful stuff starts from p. 14.
+  + How to think like a computer scientist: [[https://greenteapress.com/wp/think-python-2e/][Version 1]] or [[http://openbookproject.net/thinkcs/python/english3e/][Version 2]]
+  + Collection of tutorials from https://pythonbasics.org
+  + Real Python tutorials [[https://realpython.com]].  Lots of examples of real uses, including [[https://realpython.com/courses/python-beginner-tips/][Tips for learning Python]], [[https://realpython.com/pandas-python-explore-dataset/][datasets]], [[https://realpython.com/courses/python-dictionary-iteration/][dictionary iteration]], [[https://realpython.com/invalid-syntax-python/][common syntax errors]], [[https://realpython.com/courses/python-strings/][string processing]], [[https://realpython.com/beautiful-soup-web-scraper-python/][building a Web scraper]], [[https://realpython.com/mobile-app-kivy-python/][building a mobile app]], [[https://realpython.com/natural-language-processing-spacy-python/][NLP using spacy]]
+  + [[https://thonny.org][Thonny IDE]]
+  + Running simple python code line-by-line  http://pythontutor.com/
+  + A collection of links to various python libraries https://github.com/vinta/awesome-python
+  + Reference implementations of various algorithms https://github.com/TheAlgorithms/Python/blob/master/DIRECTORY.md
+
+
+** More specific frameworks
+   + The simplest way of making predictions using BERT: https://simpletransformers.ai/
+   +  https://www.machinelearningplus.com/nlp/gensim-tutorial/
+   + A DataCamp course [[https://www.datacamp.com/community/open-courses/kaggle-python-tutorial-on-machine-learning][Kaggle on Python]]
+   + A Morgan&Claypool book [[https://doi.org/10.2200/S00762ED1V01Y201703HLT037][Neural Network Methods for Natural Language Processing]]
+   + Chatbots
+     + https://pytorch.org/tutorials/beginner/chatbot_tutorial.html
+     + https://github.com/alexis-jacq/Pytorch-ChatBot
+
+** Recommended python intro sources
+  + Google Python Class, exercises on parsing Baby Names https://developers.google.com/edu/python
+  + Lots of courses at Udemy, somne free, https://www.udemy.com/topic/python/
+  + CodeCademy, many about data science, https://www.codecademy.com/catalog/language/python with a nice example of simple topic models https://www.codecademy.com/resources/blog/taylor-swift-lyrics-machine-learning/
+  + https://learnpython.org
+  + A directory of intros https://wiki.python.org/moin/BeginnersGuide
+  + Courses from https://www.edx.org/learn/python or https://www.coursera.org/courses?query=python
+    + Language-related examples are https://www.edx.org/course/introducing-text-analytics or https://www.coursera.org/specializations/natural-language-processing
+  + Courses from https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/ including Automate the Boring Stuff with Python by Al Sweigart https://www.youtube.com/watch?v=1F_OgqRuSdI&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW
+  + Learn Python in 1 hour by the author of Pragmatic AI https://www.youtube.com/watch?v=ie-hjFXlxTs
+
+* NLP intros
+** A well-designed online intro course
+   + https://lena-voita.github.io/nlp_course.html
+** A network of NLP students:
+   + https://nlpwithfriends.com/guidelines/
+** A course on transformers 
+   + https://huggingface.co/course/chapter1
+** Interpreting NLP predictions
+   + https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/
+   + https://github.com/cdpierse/transformers-interpret
+** Non-computing intro
+   + [[./2021-franzosi-emory.pdf][Franzosi's course at Emory]] ([[http://sociology.emory.edu/home/documents/syllabi/soc190-franzosi-spring2021.pdf][Original]])
+* General advice
+** Machine Learning advice
+   + Ten quick tips for machine learning in computational biology: applicable to NLP as well\\
+     https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5721660/pdf/13040_2017_Article_155.pdf
+   + Elements of Statistical Learning by Hastie, Tibshirani and Friedman\\
+     https://hastie.su.domains/Papers/ESLII.pdf
+   + Intro into Logistic Regression\\
+     https://github.com/AbhibhavS/Modelling-the-Logistic-Regression\\
+     https://towardsdatascience.com/logistic-regression-explained-from-scratch-visually-mathematically-and-programmatically-eb83520fdf9a
+** Ethics and AI
+   + https://n8cir.org.uk/events/event-resource/comp-ethics/
+** From Lena Voita's intro
+Learn to think as a researcher:
+   + find flaws in an approach,
+   + think why/when something can help,
+   + come up with ways to improve,
+   + learn about previous attempts.
+
+* General AI intro's
+  + An accessible explanation of the limits of LLMs: https://bigthink.com/the-future/artificial-general-intelligence-true-ai/
+
+# bibliography:references.bib,serge.bib
+# bibliographystyle:apalike
