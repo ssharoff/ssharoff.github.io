@@ -56,9 +56,12 @@ composition:
 
 1.  [BNC](tfhub-bnc.pred.xz). The BNC is NOT a Web corpus. However, it
     is useful to compare the Web corpora to its composition.
-2.  [Aranea English](thub-enmaius.genres.xz)
-3.  [Aranea Russian](thub-rumaius.genres.xz)
-4.  [English TenTen](ententen.pred.genres.xz)
+2.  [ukWaC](tfhub-ukwac.pred.xz). These are the genres of ukWac, a Web
+    corpus from the .uk domain collected in 2006, which offers a modern
+    sample of British English.
+3.  [Aranea English](thub-enmaius.genres.xz)
+4.  [Aranea Russian](thub-rumaius.genres.xz)
+5.  [English TenTen](ententen.pred.genres.xz)
 
 The training resources consist in multi-annotated webpages for English
 and Russian (along with translations of some pages into Chinese, French

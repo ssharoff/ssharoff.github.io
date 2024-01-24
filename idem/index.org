@@ -6,13 +6,14 @@
 #+LATEX_HEADER: \usepackage{apalike}
 #+HTML_HEAD_EXTRA: <style>*{font-size: large;}</style>
 
+ + Project Co-Ordinator :: Horacio Saggion, Universitat Pompeu Fabra (UPF)
  + Principal Investigator at Leeds :: Serge Sharoff
  + Co-Investigator at Leeds :: Carlo Eugeni
  + Funding ::  EU Horizon
  + Time frame :: 2024-2026
 
-* Project aims
-iDEM aims at addressing the barriers in deliberative and participatory
+* Overall project aims
+iDEM aims at addressing the linguistic  barriers in deliberative and participatory
 democratic practices through a thorough intersectional analysis of
 conditions under which the existing structures of power limit
 participation of marginalised and vulnerable communities who might have
