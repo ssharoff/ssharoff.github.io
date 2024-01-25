@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-08-14 Mon 21:07 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Разговорник турецкий</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<style>*{font-size: x-large;}</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Разговорник турецкий</h1>
+<div id="outline-container-orgf45bfda" class="outline-2">
+<h2 id="orgf45bfda"><span class="section-number-2">1</span> Числа</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org8ade9de" class="outline-3">
+<h3 id="org8ade9de"><span class="section-number-3">1.1</span> Счёт</h3>
+<div class="outline-text-3" id="text-1-1">
+<ol class="org-ol">
+<li>bir</li>
+<li>iki</li>
+<li>üç</li>
+<li>dört</li>
+<li>beş</li>
+<li>altı</li>
+<li>yedi</li>
+<li>sekiz</li>
+<li>dokuz</li>
+<li>on; (11 &rarr; on bir&#x2026;)</li>
+<li value="20">yirmi (21 &rarr; yirmi bir)</li>
+<li value="30">otuz</li>
+<li value="40">kırk</li>
+<li value="50">elli</li>
+<li value="60">altmış</li>
+<li value="70">yetmiş</li>
+<li value="80">seksen</li>
+<li value="90">doksan</li>
+<li value="100">yüz (200 &rarr; iki yüz)</li>
+<li value="1000">bin</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgb4e3e78" class="outline-3">
+<h3 id="orgb4e3e78"><span class="section-number-3">1.2</span> Магазин</h3>
+<div class="outline-text-3" id="text-1-2">
+<dl class="org-dl">
+<dt>дешево</dt><dd>ucuz</dd>
+<dt>дорого</dt><dd>pahalı</dd>
+<dt>не хочу</dt><dd>istemiyorum</dd>
+<dt>откройте</dt><dd>aç</dd>
+<dt>причёска</dt><dd>saç kesimi</dd>
+<dt>скидка будет?</dt><dd>indirim yapacak mısın?</dd>
+<dt>сколько стоит</dt><dd>kaç para? ne kadar?</dd>
+<dt>я вернусь</dt><dd>geri döneceğim</dd>
+</dl>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc441b34" class="outline-2">
+<h2 id="orgc441b34"><span class="section-number-2">2</span> Размер</h2>
+<div class="outline-text-2" id="text-2">
+<dl class="org-dl">
+<dt>больше</dt><dd>çok</dd>
+<dt>большо́й</dt><dd>büyük</dd>
+<dt>высо́кий</dt><dd>yüksek</dd>
+<dt>длинный</dt><dd>uzun</dd>
+<dt>короткий</dt><dd>kısa</dd>
+<dt>легки́й</dt><dd>hafif</dd>
+<dt>ма́ленький</dt><dd>küçük</dd>
+<dt>меньше</dt><dd>az</dd>
+<dt>приблизи́тельно</dt><dd>yaklaşık olarak</dd>
+<dt>сре́дний</dt><dd>ortalama</dd>
+<dt>тяжелый</dt><dd>ağır</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org82f2ac0" class="outline-2">
+<h2 id="org82f2ac0"><span class="section-number-2">3</span> Коммуникация</h2>
+<div class="outline-text-2" id="text-3">
+<dl class="org-dl">
+<dt>господи́н</dt><dd>bey, beyefendi</dd>
+<dt>госпожа́</dt><dd>hanım, hanımefendi</dd>
+<dt>грязный</dt><dd>kirli</dd>
+<dt>да</dt><dd>evet, var</dd>
+<dt>дайте нам карту</dt><dd>bize haritayı ver</dd>
+<dt>до свида́ния</dt><dd>güle güle, hoşça kal</dd>
+<dt>доброе утро</dt><dd>günaydın</dd>
+<dt>добрый вечер</dt><dd>tünaydın, iyi akşamlar</dd>
+<dt>запрещено</dt><dd>yasaktır</dd>
+<dt>извините</dt><dd>üzgünüm, üzgünüz</dd>
+<dt>как поживаете</dt><dd>nasılsınız</dd>
+<dt>нам пора идти</dt><dd>gitmeliyiz</dd>
+<dt>не за что</dt><dd>rica ederim</dd>
+<dt>неправильно</dt><dd>yanlış</dd>
+<dt>нет</dt><dd>değil, hayır, yok</dd>
+<dt>норма́льно, OK</dt><dd>tamam</dd>
+<dt>плохой</dt><dd>kötü, çürük</dd>
+<dt>пожа́луйста</dt><dd>lütfen</dd>
+<dt>прекрасная погода</dt><dd>güzel hava</dd>
+<dt>приве́т</dt><dd>merhaba</dd>
+<dt>приглаше́ние</dt><dd>davetiye</dd>
+<dt>прия́тно</dt><dd>güzel</dd>
+<dt>приятно познакомиться</dt><dd>memnun oldum</dd>
+<dt>про́сьба</dt><dd>istek</dd>
+<dt>проща́ние</dt><dd>veda</dd>
+<dt>простите</dt><dd>afedersiniz, özür dilerim</dd>
+<dt>разрешите?</dt><dd>yapabilir miyim?</dd>
+<dt>спаси́бо</dt><dd>teşekkürler</dd>
+<dt>увидимся позже</dt><dd>sonra görüşürüz</dd>
+<dt>хороший</dt><dd>iyi, yararlı</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgbd4393b" class="outline-2">
+<h2 id="orgbd4393b"><span class="section-number-2">4</span> Еда</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orgbbd25f1" class="outline-3">
+<h3 id="orgbbd25f1"><span class="section-number-3">4.1</span> Питьё</h3>
+<div class="outline-text-3" id="text-4-1">
+<dl class="org-dl">
+<dt>буты́лка</dt><dd>şişe</dd>
+<dt>вода́</dt><dd>su</dd>
+<dt>молоко́</dt><dd>süt</dd>
+<dt>налива́ть</dt><dd>dökmek</dd>
+<dt>напи́ток</dt><dd>meşrubat</dd>
+<dt>пить</dt><dd>içmek</dd>
+<dt>пьяный</dt><dd>sarhoş</dd>
+<dt>сок</dt><dd>suyu</dd>
+<dt>Тост!</dt><dd>şerefe!</dd>
+<dt>тре́звый</dt><dd>ayık</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-org1b96b75" class="outline-3">
+<h3 id="org1b96b75"><span class="section-number-3">4.2</span> Ресторан</h3>
+<div class="outline-text-3" id="text-4-2">
+<dl class="org-dl">
+<dt>Очень вкусно</dt><dd>Çok lezizdi</dd>
+<dt>Счёт, пожалуйста</dt><dd>Hesap lütfen</dd>
+<dt>баранина</dt><dd>koyun, kuzu</dd>
+<dt>вку́сный</dt><dd>lezzetli, tadı güzel</dd>
+<dt>вилка</dt><dd>çatal</dd>
+<dt>говядина</dt><dd>dana</dd>
+<dt>голо́дный</dt><dd>aç, karnı aç</dd>
+<dt>горя́чий</dt><dd>sıcak</dd>
+<dt>гриль</dt><dd>ocak</dd>
+<dt>еда́</dt><dd>yemek</dd>
+<dt>жа́реный</dt><dd>kızarmış</dd>
+<dt>жир</dt><dd>yağlı</dd>
+<dt>ку́рица</dt><dd>tavuk</dd>
+<dt>кусо́чек</dt><dd>lokma</dd>
+<dt>лихия</dt><dd>akya</dd>
+<dt>моло́чный</dt><dd>sütlü</dd>
+<dt>моро́женое</dt><dd>dondurma</dd>
+<dt>мя́со</dt><dd>et</dd>
+<dt>нож</dt><dd>bıçak</dd>
+<dt>оливковое ма́сло</dt><dd>zeytin yağı</dd>
+<dt>о́стрый</dt><dd>baharatlı</dd>
+<dt>обе́д</dt><dd>öğle yemeği</dd>
+<dt>оре́х</dt><dd>ceviz</dd>
+<dt>почки</dt><dd>böbrek</dd>
+<dt>нут</dt><dd>nohut</dd>
+<dt>пека́рня</dt><dd>fırın, pastane</dd>
+<dt>пиро́г</dt><dd>börek, gözleme</dd>
+<dt>са́хар</dt><dd>şeker</dd>
+<dt>сала́т</dt><dd>salata</dd>
+<dt>сардина</dt><dd>sardalya</dd>
+<dt>све́жий</dt><dd>taze gıda</dd>
+<dt>свини́на</dt><dd>domuz eti</dd>
+<dt>сла́дкий</dt><dd>tatlı</dd>
+<dt>сливочное ма́сло</dt><dd>tereyağı</dd>
+<dt>сли́вочный</dt><dd>kaymaklı</dd>
+<dt>сосиска</dt><dd>sucuk</dd>
+<dt>соль</dt><dd>tuz</dd>
+<dt>суп</dt><dd>çorba</dd>
+<dt>сы́тый</dt><dd>tokum</dd>
+<dt>сыр</dt><dd>peynir</dd>
+<dt>сыро́й</dt><dd>çiğ</dd>
+<dt>у́жин</dt><dd>akşam yemeği</dd>
+<dt>у́ксус</dt><dd>sirke</dd>
+<dt>хлеб</dt><dd>ekmek</dd>
+<dt>ча́шка</dt><dd>bardak</dd>
+<dt>язык</dt><dd>dil</dd>
+<dt>яйцо́</dt><dd>yumurta</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-org9024c17" class="outline-3">
+<h3 id="org9024c17"><span class="section-number-3">4.3</span> Фрукты и овощи</h3>
+<div class="outline-text-3" id="text-4-3">
+<dl class="org-dl">
+<dt>арбу́з</dt><dd>karpuz</dd>
+<dt>баклажан</dt><dd>patlıcan</dd>
+<dt>бана́н</dt><dd>muz</dd>
+<dt>виноград</dt><dd>üzüm</dd>
+<dt>гриб</dt><dd>mantar</dd>
+<dt>груша</dt><dd>armutlar</dd>
+<dt>ды́ня</dt><dd>kavun</dd>
+<dt>капу́ста</dt><dd>lahana</dd>
+<dt>карто́фель</dt><dd>patates</dd>
+<dt>лук</dt><dd>soğan</dd>
+<dt>морко́вь</dt><dd>havuç</dd>
+<dt>о́вощ</dt><dd>sebze</dd>
+<dt>огуре́ц</dt><dd>salatalık</dd>
+<dt>пе́рец</dt><dd>dolmalık biber</dd>
+<dt>пе́рсик</dt><dd>şeftali</dd>
+<dt>помидо́р</dt><dd>domates</dd>
+<dt>свекла́</dt><dd>pancar kökü</dd>
+<dt>фрукт</dt><dd>meyve</dd>
+<dt>цукини</dt><dd>kabak</dd>
+<dt>я́блоко</dt><dd>elma</dd>
+<dt>я́года</dt><dd>dut</dd>
+</dl>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgcc768b5" class="outline-2">
+<h2 id="orgcc768b5"><span class="section-number-2">5</span> Город</h2>
+<div class="outline-text-2" id="text-5">
+<dl class="org-dl">
+<dt>банкома́т</dt><dd>bankamatik</dd>
+<dt>го́род</dt><dd>şehir</dd>
+<dt>мост</dt><dd>köprü</dd>
+<dt>переу́лок</dt><dd>dar sokak</dd>
+<dt>у́лица</dt><dd>sokak</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgdf57fac" class="outline-2">
+<h2 id="orgdf57fac"><span class="section-number-2">6</span> Время</h2>
+<div class="outline-text-2" id="text-6">
+<dl class="org-dl">
+<dt>вечер</dt><dd>akşam</dd>
+<dt>воскресе́нье</dt><dd>Pazar</dd>
+<dt>всегда́</dt><dd>her zaman</dd>
+<dt>вчера́</dt><dd>dün</dd>
+<dt>выходно́й</dt><dd>bayram, tatil</dd>
+<dt>год</dt><dd>yıl</dd>
+<dt>день</dt><dd>gün</dd>
+<dt>до</dt><dd>önce</dd>
+<dt>до́лго</dt><dd>uzun</dd>
+<dt>за́втра</dt><dd>yarın</dd>
+<dt>когда́?</dt><dd>ne zaman?</dd>
+<dt>мину́та</dt><dd>dakika</dd>
+<dt>нача́ло</dt><dd>başlangıç</dd>
+<dt>недо́лго</dt><dd>kısa bir zaman</dd>
+<dt>ночь</dt><dd>gece</dd>
+<dt>по́зже</dt><dd>sonra</dd>
+<dt>по́лночь</dt><dd>gece yarısı</dd>
+<dt>полчаса́</dt><dd>yarım saat</dd>
+<dt>пото́м</dt><dd>sonra</dd>
+<dt>приблизи́тельно</dt><dd>yaklaşık, takriben</dd>
+<dt>про́шлый</dt><dd>son kez</dd>
+<dt>ра́но</dt><dd>erken</dd>
+<dt>сего́дня</dt><dd>bugün</dd>
+<dt>сейча́с</dt><dd>şimdi</dd>
+<dt>ско́ро</dt><dd>yakında</dd>
+<dt>снача́ла</dt><dd>önce</dd>
+<dt>сра́зу</dt><dd>hemen</dd>
+<dt>суббо́та</dt><dd>Cumartesi</dd>
+<dt>у́тро</dt><dd>sabah</dd>
+<dt>ча́сто</dt><dd>sık sık, çoğu kez</dd>
+<dt>час</dt><dd>saat</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-org840d2b7" class="outline-2">
+<h2 id="org840d2b7"><span class="section-number-2">7</span> Транспорт</h2>
+<div class="outline-text-2" id="text-7">
+<dl class="org-dl">
+<dt>близко</dt><dd>yakın</dd>
+<dt>быстро</dt><dd>çabuk, hızlı</dd>
+<dt>восто́к</dt><dd>doğu</dd>
+<dt>далеко</dt><dd>uzakta</dd>
+<dt>за́пад</dt><dd>batı</dd>
+<dt>кора́бль</dt><dd>gemi</dd>
+<dt>ло́дка</dt><dd>tekne</dd>
+<dt>маши́на</dt><dd>araba</dd>
+<dt>медленно</dt><dd>yavaş</dd>
+<dt>ме́сто</dt><dd>yer</dd>
+<dt>пое́здка</dt><dd>yolculuk</dd>
+<dt>отправление</dt><dd>ayrılış</dd>
+<dt>отправляется</dt><dd>kalkıyor</dd>
+<dt>се́вер</dt><dd>kuzey</dd>
+<dt>юг</dt><dd>güney</dd>
+<dt>я опоздал</dt><dd>gecikirim</dd>
+</dl>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2023-08-14 Mon 21:07</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
