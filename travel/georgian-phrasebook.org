@@ -1,0 +1,279 @@
+#+TITLE: Разговорник грузинский
+#+AUTHOR: 
+#+DATE: 
+#+HTML_HEAD_EXTRA: <style>*{font-size: x-large;}</style>
+# +LATEX_CLASS_OPTIONS: [10pt,twocolumn]
+# +LATEX_HEADER: \usepackage{fullpage}
+#+LATEX_HEADER: \usepackage[margin=0.7cm]{geometry}
+
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \defaultfontfeatures{Renderer=Basic,Ligatures={TeX}}
+#+LATEX_HEADER: \setmainfont{DejaVu Serif}
+# +LATEX_HEADER: \setmainfont{Times New Roman}
+#+LATEX_HEADER: \usepackage[english,russian]{babel}
+#+LATEX_HEADER: \usepackage{paralist}
+#+LATEX_HEADER: \let\enumerate\compactenum
+#+LATEX_HEADER: \let\description\compactdesc
+
+#+LATEX_HEADER: \usepackage{multicol}
+
+#+LATEX: \setlength{\columnsep}{8pt}
+#+LATEX: \begin{multicols}{3}
+* Числа
+ 1. ერთი (ehr-tee)
+ 2. ორი (oh-ree)
+ 3. სამი (sah-mee)
+ 4. ოთხი (oht-khee)
+ 5. ხუთი (khoo-tee)
+ 6. ექვსი (ehk-vsee)
+ 7. შვიდი (shvee-dee)
+ 8. რვა (rvah)
+ 9. ცხრა (tskhrah)
+ 10. ათი (ah-tee)
+ 11. თერთმეტი (tehrt-meh-t'ee)
+ 12. თორმეტი (tohr-meh-t'ee)
+ 13. ცამეტი (tsah-meh-t'ee)
+ 14. თოთხმეტი (toht-khmeh-t'ee)
+ 15. თხუთმეტი (tkhoot-meh-t'ee)
+ 16. თექვსმეტი (tehk-vsmeh-t'ee)
+ 17. ჩვიდმეტი (chveed-meh-t'ee)
+ 18. თრვამეტი (trvah-meh-t'ee)
+ 19. ცხრამეტი (tskhrah-meh-t'ee)
+ 20. ოცი (oh-tsee)
+ 21. ოცდაერთი (ohts-dah-ehr-tee)
+ 30. [@30] ოცდაათი (ohts-dah-ah-tee)
+ 40. [@40] ორმოცი (ohr-moh-tsee)
+ 50. [@50] ორმოცდაათი (ohr-mohts-dah-ah-tee)
+ 60. [@60] სამოცი (sah-moh-tsee)
+ 70. [@70] სამოცდაათი (sah-mohts-dah-ah-tee) 
+ 80. [@80] ოთხმოცი (oht-khmoh-tsee)
+ 90. [@90] ოთხმოცდაათი (oht-khmohts-dah-ah-tee)
+ 100. [@100] ასი (ah-see)
+ 1000. [@1000] ათასი (ah-tah-see)
+
+* Коммуникация
+ + господи́н :: ბატონი
+ + госпожа́ :: ქალბატონი
+ + да :: კი, ჰო
+ + до свида́ния :: ნახვამდის
+ + доброе утро :: დილა მშვიდობისა (dee-lah mshvee-doh-bee-sah)
+ + добрый вечер :: საღამო მშვიდობისა (sah-ghah-moh mshvee-doh-bee-sah)
+ + запрещено :: აკრძალული (ak’rdzaluli)
+ + здравствуйте :: გამარჯობა
+ + извините :: ბოდიში (boh-dee-shee) `apologies', მაპატიე (mah-p'aht-ee-yeh) `forgive me', ვწუხვარ (v-ts'ukh-var) `I am sad'
+ + как поживаете? :: როგორა ხართ? (roh-goh-rah khahrt?)
+ + нам пора идти :: ჩვენი წასვლის დროა (chveni ts’asvlis droa)
+ + не за что :: არაფრის (ah-rah-prees)
+ + нет :: არა (ah-rah)
+ + норма́льно, OK :: კარგი (k'ahr-gee)
+ + плохой :: ცუდი (tsu-dee)
+ + пожа́луйста :: თუ შეიძლება (too sheh-eedz-leh-bah) `please', გთხოვთ (გთხოვთ); არაფრის. (ah-rah-prees) `welcome'
+ + правильно :: სწორია (s-ts'ohr-ee-ah)
+ + прекрасная погода :: მშვენიერი ამინდი (mshvenieree ameendee)
+ + приглаше́ние :: მოწვევა (mots’veva)
+ + прия́тно :: კმაყოფილი ვარ (k’maq’opili var)
+ + приятно познакомиться :: ძალიან სასიამოვნოა (dzah-lee-ahn sah-see-ah-mohv-noh-ah)
+ + про́сьба :: მოთხოვნა (motkhovna)
+ + разрешите? :: შემიძლია? (shemidzlia?), უკაცრავად (oo-k'ahts-rah-vahd)
+ + спокойной ночи :: ძილი ნებისა. (dzee-lee neh-bee-sah)
+ + спаси́бо :: მადლობა
+ + увидимся позже :: მოგვიანებით გნახავ (mogvianebit gnakhav)
+
+* Вопросы
+ + где? :: სად (sahd)
+ + как? :: როგორ (roh-gohr)
+ + когда́? :: როდის (roh-dees)
+ + кто? :: ვინ (veen)
+ + почему? :: რატომ (rah-t'ohm)
+ + сколько? :: რამდენი (rahm-deh-nee)
+ + что? :: რა (rah)
+
+* Еда
+** Питьё
+ + буты́лка :: ბოთლი (botli)
+ + вино́ ::  ღვინო
+ + вода́ ::    წყალი (ts’q’ali)	       
+ + молоко́ ::  რძე (rdze)
+ + напи́ток :: სასმელი (sasmeli)
+ + пьяный ::  მთვრალი (mtvrali), ნასვამი (nasvami) 
+ + сок ::     წვენი (ts’veni)
+ + Тост! ::   სადღეგრძელო! (sadghegrdzelo!)  
+ + тре́звый :: ფხიზელი (pkhizeli)   
+
+** Ресторан
+ + Очень вкусно :: ძალიან გემრიელია (dzalian gemrielia)
+ + Счёт, пожалуйста :: ინვოისი გთხოვთ (invoisi gtkhovt)  
+ + баранина :: ცხვრის ხორცი (tskhvris khortsi)
+ + вку́сный :: გემრიელი (gemrieli)	   
+ + вилка :: ჩანგალი (changali)	   
+ + говядина ::  საქონლის ხორცი (sakonlis khortsi) 
+ + голо́дный :: მშიერი (mshieri)	   
+ + горя́чий :: ცხელი (tskheli)	   
+ + гриль :: გრილი 
+ + грязный :: ბინძური (bindzuri)	   
+ + еда́ :: საჭმელი (sach’meli)	   
+ + жа́реный :: შემწვარი (shemts’vari)	   
+ + жир :: ცხიმი (tskhimi)	   
+ + ку́рица :: ქათამი (katami)	   
+ + кусо́чек :: ცალი (tsali)		   
+ + моло́чный :: რძიანი (rdziani)	   
+ + моро́женое :: ნაყინი (naq’ini)	   
+ + мя́со :: ხორცი (khortsi)	   
+ + нож :: დანა (dana)		   
+ + оливковое ма́сло :: ზეითუნის ზეთი (zeitunis zeti)	   
+ + о́стрый :: ცხარე (cxare)
+ + обе́д :: სადილი (sadili)
+ + оре́х :: грецкий კაკალი (k’ak’ali)	   
+ + почки :: თირკმელები (tirk’melebi)	   
+ + нут :: ?? წიწილა (ts’its’ila)	   
+ + пека́рня :: საცხობი (satskhobi)	   
+ + пиро́г :: ღვეზელი (ghvezeli)	   
+ + са́хар :: შაქარი (shakari)	   
+ + сала́т :: სალათი
+ + све́жий :: ახალი (akhali)	   
+ + свини́на :: ღორის ხორცი (ghoris khortsi)   
+ + сла́дкий :: ტკბილი (t’k’bili)	   
+ + сливочное ма́сло :: კარაქი (k’araki)	   
+ + сли́вочный :: კრემისებრი (k’remisebri)	   
+ + сосиска :: ძეხვი (dzekhvi), კალბასი
+ + соль :: მარილი (marili)	   
+ + суп :: სუპი (sup’i)
+ + сы́тый :: კარგად იკვებება (k’argad ik’vebeba)
+ + сыр :: ყველი (q’veli)	   
+ + сыро́й :: ნედლი (nedli)	   
+ + у́жин :: სადილი (sadili), ვახშამი (vakhshami)	   
+ + у́ксус :: ძმარი (dzmari)	   
+ + хлеб :: პური (p’uri)		   
+ + ча́шка :: ჭიქა (ch’ika)
+ + шашлык :: მწვადი (mtsvadi)
+ + язык :: ენა (ena)
+ + яйцо́ :: კვერცხი (k’vertskhi)	   
+
+** Фрукты и овощи
+ + арбу́з :: საზამთრო (sazamtro)   
+ + баклажан :: ბადრიჯანი
+ + бана́н :: ბანანი
+ + виноград :: ყურძენი (q’urdzeni) 
+ + гриб :: სოკო (sok’o)     
+ + груша :: მსხალი (mskhali)   
+ + ды́ня :: ნესვი (nesvi)     
+ + капу́ста :: კომბოსტო (k’ombost’o)
+ + карто́фель :: კარტოფილი
+ + лук :: ხახვი (xaxvi)
+ + морко́вь :: სტაფილო (st’apilo)  
+ + о́вощ :: ბოსტნეული (bost’neuli)
+ + огуре́ц :: კიტრი (k’it’ri)   
+ + пе́рец :: `chili' წიწაკა (ts’its’ak’a), პილპილი (ṗilṗili)
+ + пе́рсик :: ატამი (at’ami)    
+ + помидо́р :: პომიდორი
+ + свекла́ :: ჭარხალი (ch’arkhali)
+ + фрукт :: ხილი (khili)     
+ + цукини :: ყაბაყი
+ + я́блоко :: ვაშლი (vashli)    
+ + я́года :: კენკრა (k’enk’ra)  
+
+* Магазин
+ + дешево :: იაფად (iapad)		     
+ + дорого :: ძვირი (dzviri)
+ + не хочу :: არ მინდა (ar minda)	     
+ + откройте :: Გააღე (gaghe)
+ + скидка будет? :: ფასდაკლება იქნება? (pasdak’leba ikneba?)
+ + сколько стоит? :: რა ღირს? (ra ghirs?)
+ + я вернусь :: დავბრუნდები (davbrundebi)
+* Размер
+ + больше :: მეტი (met’i)
+ + большо́й :: დიდი (didi)	      
+ + высо́кий :: მაღალი (maghali)    
+ + длинный :: გრძელი (grdzeli)    
+ + короткий :: მოკლე (mok’le)     
+ + легки́й :: მსუბუქი (msubuki)
+ + ма́ленький :: პატარა (p’at’ara)   
+ + меньше :: ნაკლები (nak’lebi)   
+ + приблизи́тельно :: დაახლოებით (daakhloebit)
+ + тяжелый :: მძიმე (mdzime)     
+
+* Город
+ + банкома́т :: ბანკომატი
+ + го́род :: ქალაქი (kalaki)
+ + деревня :: სოფელი (sopeli)
+ + мост :: ხიდი (khidi)      
+ + переу́лок :: შესახვევი (shesakhvevi)
+ + у́лица :: ქუჩა (kucha)      
+* Время
+ + вечер :: საღამო (saghamo)	   
+ + воскресе́нье :: კვირა (k’vira)	   	   
+ + всегда́ :: ყოველთვის (q’oveltvis)	   
+ + вчера́ :: გუშინ (gushin)	   	   
+ + выходно́й :: დასვენების დღე (dasvenebis dghe)   
+ + год :: წელი (ts’eli)	   	   
+ + день :: დღე (dghe)		   
+ + до :: მდე (mde)		   
+ + до́лго :: გრძელი (grdzeli)	   
+ + за́втра :: ხვალ (khval)	   	   
+ + мину́та :: წუთი (ts’uti)	   	   
+ + нача́ло :: დასაწყისი (dasatsq̇isi)
+ + недо́лго :: დიდხანს არა (didkhans ara)	   
+ + ночь :: ღამე (ghame)	   	   
+ + по́зже :: მოგვიანებით (mogvianebit)	   
+ + по́лночь :: შუაღამე (shuaghame)	   
+ + пото́м :: მერე (mere)		   
+ + приблизи́тельно  :: დაახლოებით (daakhloebit)
+ + про́шлый ::  წარსული (ts’arsuli)	   
+ + ра́но :: ადრე (adre)
+ + сего́дня :: დღეს (dghes)	   	   
+ + сейча́с :: ახლა (akhla)
+ + ско́ро :: მალე (male)
+ + сра́зу :: სასწრაფოდ (sasts’rapod)	   
+ + суббо́та :: შაბათი
+ + у́тро :: დილა (dila)
+ + ча́сто :: ხშირად (khshirad)
+ + час :: საათი (saati)
+* Транспорт 
+ + близко :: 
+ + быстро :: 
+ + восто́к :: 
+ + далеко :: 
+ + за́пад :: 
+ + кора́бль :: 
+ + ло́дка :: 
+ + маши́на :: 
+ + медленно :: 
+ + ме́сто :: 
+ + пое́здка :: 
+ + отправление :: 
+ + отправляется :: 
+ + се́вер :: 
+ + юг :: 
+ + я опоздал :: 
+
+* Погода
+ + бу́ря :: ქარიშხალი (karishkhali)
+ + ве́тер :: ქარი (kari)	      
+ + град :: სეტყვა (set’q’va)
+ + гроза́ :: ელჭექი (elč̣eki)
+ + гром :: ქუხილი (kukhili)
+ + дождь :: წვიმა (ts’vima)
+ + жара́ :: სიცხე (sicxe)
+ + кли́мат :: კლიმატი
+ + лед :: ყინული (q’inuli)
+ + лу́жа :: გუბე (gube)
+ + мо́кро :: სველი (sveli)
+ + мо́лния :: ელვა (elva)
+ + моро́з :: გაყინვა (gaq’inva)
+ + о́блако :: ღრუბელი (ghrubeli)
+ + пого́да :: ამინდი (amindi)
+ + прогно́з :: პროგნოზი
+ + прохла́дный :: ?? გაცივება (gatsiveba)
+ + ра́дуга :: ცისარტყელა (tsisart’q’ela)
+ + снег :: თოვლი (tovli)
+ + со́лнце :: მზე (mze)
+ + су́хо :: მშრალი (mshrali)
+ + температу́ра :: ტემპერატურა
+ + тёплый :: თბილი
+ + тума́н :: ნისლი (nisli)
+ + холо́дный :: ცივი (tsivi)
+ + я́сный :: ნათელი (nateli)
+
+
+#+LATEX: \end{multicols}
+
