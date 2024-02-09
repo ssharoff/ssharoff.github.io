@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-01-25 Thu 10:24 -->
+<!-- 2024-02-09 Fri 20:45 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Difficulty resources</title>
@@ -288,14 +288,101 @@
 </tbody>
 </table>
 
+<p>
+For training the tools for recognising Vikidia from the standard Wikipedia texts I've created a set of files which match the respective entries in the standard Wikipedias as closely as possible in their topics and formatting. This also means selecting subsets of each Wikipedia entry, so that the models cannot rely on the heuristics that short articles are always from Vikidia:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Languages</th>
+<th scope="col" class="org-right">Wiki: texts</th>
+<th scope="col" class="org-right">Median word length</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">Vikidia: texts</th>
+<th scope="col" class="org-right">Median word length</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><a href="./test-en.dat.xz">en</a></td>
+<td class="org-right">1734</td>
+<td class="org-right">185</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">1913</td>
+<td class="org-right">139</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="./test-ca.dat.xz">ca</a></td>
+<td class="org-right">125</td>
+<td class="org-right">104</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">125</td>
+<td class="org-right">77</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="./test-es.dat.xz">es</a></td>
+<td class="org-right">2739</td>
+<td class="org-right">145</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">2738</td>
+<td class="org-right">136</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="./test-fr.dat.xz">fr</a></td>
+<td class="org-right">2000</td>
+<td class="org-right">143</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">2000</td>
+<td class="org-right">140</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="./test-it.dat.xz">it</a></td>
+<td class="org-right">2457</td>
+<td class="org-right">177</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">2456</td>
+<td class="org-right">135</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="./test-ru.dat.xz">ru</a></td>
+<td class="org-right">104</td>
+<td class="org-right">75</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">104</td>
+<td class="org-right">54</td>
+</tr>
+</tbody>
+</table>
+
 
 <p>
-Cambridge Readability dataset: <a href="./Readability_cup.ol.xz">./Readability_cup.ol.xz</a>
+Cambridge Readability dataset converted to the one-line format: <a href="./Readability_cup.ol.xz">./Readability_cup.ol.xz</a>
 </p>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Serge Sharoff</p>
-<p class="date">Created: 2024-01-25 Thu 10:25</p>
+<p class="date">Created: 2024-02-09 Fri 20:45</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

@@ -14,5 +14,16 @@
 | 9,482   |      3390 | 839,184    | [[./vikidia-it.ol.xz][it]]    |
 |  265    |       87  | 15,555     | [[./vikidia-ru.ol.xz][ru]]    |
 
+For training the tools for recognising Vikidia from the standard Wikipedia texts I've created a set of files which match the respective entries in the standard Wikipedias as closely as possible in their topics and formatting. This also means selecting subsets of each Wikipedia entry, so that the models cannot rely on the heuristics that short articles are always from Vikidia:
 
-Cambridge Readability dataset: [[./Readability_cup.ol.xz]]
+| Languages | Wiki: texts | Median word length |   | Vikidia: texts | Median word length |
+|-----------+-------------+--------------------+---+----------------+--------------------|
+| [[./test-en.dat.xz][en]]        |        1734 |                185 |   |           1913 |                139 |
+| [[./test-ca.dat.xz][ca]]        |         125 |                104 |   |            125 |                 77 |
+| [[./test-es.dat.xz][es]]        |        2739 |                145 |   |           2738 |                136 |
+| [[./test-fr.dat.xz][fr]]        |        2000 |                143 |   |           2000 |                140 |
+| [[./test-it.dat.xz][it]]        |        2457 |                177 |   |           2456 |                135 |
+| [[./test-ru.dat.xz][ru]]        |         104 |                 75 |   |            104 |                 54 |
+
+
+Cambridge Readability dataset converted to the one-line format: [[./Readability_cup.ol.xz]]
