@@ -15,10 +15,39 @@
 - Title :: Professor of Language Technology and Digital Humanities,
 - Address :: Centre for Translation Studies\\
   School of Languages, Cultures and Societies\\
+  Faculty of Arts, Humanities and Cultures\\
   University of Leeds\\
   Leeds, LS2 9JT, UK
 - Tel. :: +44(0)113 343 7287
 - e-mail :: s.sharoff@leeds.ac.uk
+
+* My research interests
+Artificial Intelligence and more specifically Large Language Models,
+such as ChatGPT, have recently made a profound impact on how we interact
+with the computers by providing the ability to produce new texts in
+response to prompts. Fundamental research in this area is at the core of
+my expertise, I've been doing this since my own PhD in the 1990s. This pre-dated LLMs, but the idea of linking language to meanings remains the same.
+
+My current research interests focus on the relationship between linguistic structures and language technology, such as the capability of language technology to understand stylistic properties of texts beyond the keywords, how to use language technology to help language learners and professional translators, how to interpret the inner blackboxes of large language models via linguistic structures.
+* Research awards
+  :PROPERTIES:
+  :CUSTOM_ID: research-awards
+  :CLASS: unnumbered
+  :END:
+- 2024-2026 :: EU Horizon "Innovative and Inclusive Democratic Spaces for Deliberation and Participation" (PI for Leeds, €539,954)
+- 2020-2022 :: EPSRC "AI tracing for detecting COVID19 misinformation" (PI, £39,954)
+- 2019 :: EPSRC/Alan Turing Institute "Translation Workflow Automation by Determining Text Difficulty" (PI, £33,337), with UN and WTO.
+- 2014-2016 :: InnovateUK grant "Palodiem" (PI, £216,411)
+- 2011-2014 :: EU Marie-Curie grant "HyghTra: High-quality Hybrid Machine Translation" (CoI, €541,575)
+- 2012 :: JISC grant "#IICT: Increasing Interoperability between Corpus Tools" (PI for Leeds, in collaboration with Coventry and Lancaster)
+- 2010-2011 :: AHRC grant "Intellitext: Intelligent Tools for Creating and Analysing Electronic Text Corpora" (CoI, £159,293)
+- 2010-2012 :: EU FP7 grant, "TTC: Terminology Extraction, Translation Tools and Comparable Corpora" (PI for Leeds, €369,786)
+- 2010-2012 :: EU FP7 grant, "Accurat: Machine Translation for Under-resourced languages" (CoI for Leeds, €340,174)
+- 2010-2011 :: EU LLP grant, "Kelly: Keywords for Language Learners" (PI for Leeds, €124,478)
+- 2009 :: Google Research Award for Automatic Web documents classification ($75,000)
+- 2005-2007 :: EPSRC grant "ASSIST: Automated assistance for translators" (CoI, £124,000, in collaboration with Lancaster)
+- 2000-2002 :: Fellowship from the Alexander von Humboldt Foundation, Germany
+- 1997-2000 :: EU INCO-Copernicus grant, "AGILE: Adaptive Multilingual Generation" (CoI)
 
 * Timeline of my academic history
   :PROPERTIES:
@@ -43,26 +72,6 @@
   of linguistic processors").
 - 1985-1990 :: MSc in mathematics, Urals Gorky State University.
 
-* Research awards
-  :PROPERTIES:
-  :CUSTOM_ID: research-awards
-  :CLASS: unnumbered
-  :END:
-- 2024-2026 :: EU Horizon "Innovative and Inclusive Democratic Spaces for Deliberation and Participation" (PI for Leeds, €539,954)
-- 2020-2022 :: EPSRC "AI tracing for detecting COVID19 misinformation" (PI, £39,954)
-- 2019 :: EPSRC/Alan Turing Institute "Translation Workflow Automation by Determining Text Difficulty" (PI, £33,337), with UN and WTO.
-- 2014-2016 :: InnovateUK grant "Palodiem" (PI, £216,411)
-- 2011-2014 :: EU Marie-Curie grant "HyghTra: High-quality Hybrid Machine Translation" (CoI, €541,575)
-- 2012 :: JISC grant "#IICT: Increasing Interoperability between Corpus Tools" (PI for Leeds, in collaboration with Coventry and Lancaster)
-- 2010-2011 :: AHRC grant "Intellitext: Intelligent Tools for Creating and Analysing Electronic Text Corpora" (CoI, £159,293)
-- 2010-2012 :: EU FP7 grant, "TTC: Terminology Extraction, Translation Tools and Comparable Corpora" (PI for Leeds, €369,786)
-- 2010-2012 :: EU FP7 grant, "Accurat: Machine Translation for Under-resourced languages" (CoI for Leeds, €340,174)
-- 2010-2011 :: EU LLP grant, "Kelly: Keywords for Language Learners" (PI for Leeds, €124,478)
-- 2009 :: Google Research Award for Automatic Web documents classification ($75,000)
-- 2005-2007 :: EPSRC grant "ASSIST: Automated assistance for translators" (CoI, £124,000, in collaboration with Lancaster)
-- 2000-2002 :: Fellowship from the Alexander von Humboldt Foundation, Germany
-- 1997-2000 :: EU INCO-Copernicus grant, "AGILE: Adaptive Multilingual Generation" (CoI)
-
 * Academic publications
   :PROPERTIES:
   :CUSTOM_ID: academic-publications
@@ -79,7 +88,7 @@ I'm on the editorial board of Language Resources and Register Studies.
   :CUSTOM_ID: academic-publications-1
   :CLASS: unnumbered
   :END:
-18 students supervised to successful completion.
+19 students supervised to successful completion.
 
 ** COMMENT Invited presentations
    :PROPERTIES:
