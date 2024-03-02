@@ -24,7 +24,7 @@
 * My research interests
 Artificial Intelligence and more specifically Large Language Models,
 such as ChatGPT, have recently made a profound impact on how we interact
-with the computers by providing the ability to produce new texts in
+with the computer by providing the ability to produce new texts in
 response to prompts. Fundamental research in this area is at the core of
 my expertise, I've been doing this since my own PhD in the 1990s. This pre-dated LLMs, but the idea of linking language to meanings remains the same.
 
