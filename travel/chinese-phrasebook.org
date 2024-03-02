@@ -1,4 +1,4 @@
-#+TITLE: Разговорник грузинский
+#+TITLE: Разговорник китайский
 #+AUTHOR: 
 #+DATE: 
 #+HTML_HEAD_EXTRA: <style>*{font-size: x-large;}</style>
@@ -7,10 +7,11 @@
 #+LATEX_HEADER: \usepackage[margin=0.7cm]{geometry}
 
 #+LATEX_HEADER: \usepackage{fontspec}
-#+LATEX_HEADER: \defaultfontfeatures{Renderer=Basic,Ligatures={TeX}}
-#+LATEX_HEADER: \setmainfont{DejaVu Serif}
-# +LATEX_HEADER: \setmainfont{Times New Roman}
-#+LATEX_HEADER: \usepackage[english,russian]{babel}
+#+LATEX_HEADER: \setmainfont{Noto Serif}
+#+LATEX_HEADER: \usepackage{xeCJK}
+#+LATEX_HEADER: \setCJKmainfont{Arial Unicode MS}
+# +LATEX_HEADER: \setmainfont{DejaVu Serif}
+# +LATEX_HEADER: \usepackage[english,russian]{babel}
 #+LATEX_HEADER: \usepackage{paralist}
 #+LATEX_HEADER: \let\enumerate\compactenum
 #+LATEX_HEADER: \let\description\compactdesc
@@ -20,42 +21,38 @@
 #+LATEX: \setlength{\columnsep}{8pt}
 #+LATEX: \begin{multicols}{3}
 * Коммуникация
- + господи́н :: 
- + госпожа́ :: 
- + да :: 
  + до свида́ния :: 再见. Zàijiàn
  + доброе утро :: 早安. Zǎo'ān.
  + добрый вечер :: 晚上好. Wǎnshàng hǎo.
- + запрещено :: 
+ + запрещено :: 禁止 Jìnzhǐ
  + здравствуйте :: 你好. Nǐ hǎo
- + извините :: 
+ + извините :: 对不起. Duìbuqǐ.
  + как поживаете? :: 你好吗？ Nǐ hǎo ma?
- + нам пора идти :: 
+ + нам пора идти :: 我们该走了. Wǒmen gāi zǒule.
  + не за что :: 不客气. Bú kèqi.
  + нет :: 不 bù
  + норма́льно, OK :: 还不错. Hái búcuò.
- + плохой :: 
- + пожа́луйста :: 请. Qǐng.
+ + плохой :: 坏的 Huài de
+ + пожа́луйста :: 请 Qǐng
  + правильно :: 对 duì
- + прекрасная погода :: 
- + приглаше́ние :: 
- + прия́тно :: 
- + приятно познакомиться :: 很高兴. Hěn gāoxìng; 幸会. Xìng huì.
+ + прекрасная погода :: 天气好 Tiānqì hǎo
+ + приглаше́ние :: 邀请 Yāoqǐng
+ + прия́тно :: 很高兴. Hěn gāoxìng.
+ + приятно познакомиться :: ; 幸会. Xìng huì.
  + про́сьба :: 请问.  qǐng wèn.
- + разрешите? :: 
+ + разрешите? :: 你会允许我吗？ Nǐ huì yǔnxǔ wǒ ma?
  + спокойной ночи :: 晚安. Wǎn'ān.
  + спаси́бо :: 谢谢. Xièxie.
- + увидимся позже :: 
+ + увидимся позже :: 回头见 Huítóu jiàn
 
 * Вопросы
  + где? :: 在哪里？ zài nǎlǐ?
  + как? :: 怎么说？ zěnme?
- + когда́? :: 
- + кто? :: 
- + почему? :: 
- + сколько? :: 
- + что? :: 
-
+ + когда́? ::  什么时候？ Shénme shíhòu?
+ + кто? ::    谁？ Shéi?
+ + почему? :: 为什么？ Wèishéme?	   
+ + сколько? : 多少钱？ Duōshǎo qián?
+ + что? ::    什么？ Shénme?
 * Еда
 ** Питьё
  + буты́лка :: 
