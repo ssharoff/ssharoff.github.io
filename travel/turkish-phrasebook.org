@@ -1,0 +1,239 @@
+#+TITLE: Разговорник турецкий
+#+AUTHOR: 
+#+DATE: 
+#+HTML_HEAD_EXTRA: <style>*{font-size: x-large;}</style>
+# +LATEX_CLASS_OPTIONS: [10pt,twocolumn]
+# +LATEX_HEADER: \usepackage{fullpage}
+#+LATEX_HEADER: \usepackage[margin=1cm]{geometry}
+
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \defaultfontfeatures{Renderer=Basic,Ligatures={TeX}}
+# +LATEX_HEADER: \setmainfont{CMU Serif}
+#+LATEX_HEADER: \setmainfont{Times New Roman}
+#+LATEX_HEADER: \usepackage[english,russian]{babel}
+#+LATEX_HEADER: \usepackage{paralist}
+#+LATEX_HEADER: \let\enumerate\compactenum
+#+LATEX_HEADER: \let\description\compactdesc
+
+#+LATEX_HEADER: \usepackage{multicol}
+
+#+LATEX: \setlength{\columnsep}{9pt}
+#+LATEX: \begin{multicols}{3}
+* Числа
+** Счёт
+ 1. bir
+ 2. iki
+ 3. üç
+ 4. dört
+ 5. beş
+ 6. altı
+ 7. yedi 
+ 8. sekiz
+ 9. dokuz
+ 10. on; (11 \to on bir...)
+ 20. [@20] yirmi (21 \to yirmi bir)
+ 30. [@30] otuz
+ 40. [@40] kırk
+ 50. [@50] elli
+ 60. [@60] altmış
+ 70. [@70] yetmiş
+ 80. [@80] seksen
+ 90. [@90] doksan
+ 100. [@100] yüz (200 \to iki yüz)
+ 1000. [@1000] bin
+** Магазин
+ + дешево :: ucuz
+ + дорого :: pahalı
+ + не хочу :: istemiyorum
+ + откройте :: aç
+ + причёска :: saç kesimi
+ + скидка будет? :: indirim yapacak mısın?
+ + сколько стоит :: kaç para? ne kadar?
+ + я вернусь :: geri döneceğim
+
+* Размер
+ + больше :: çok
+ + большо́й :: büyük
+ + высо́кий :: yüksek
+ + длинный :: uzun
+ + короткий :: kısa
+ + легки́й :: hafif
+ + ма́ленький :: küçük
+ + меньше :: az 
+ + приблизи́тельно :: yaklaşık olarak
+ + сре́дний :: ortalama
+ + тяжелый :: ağır
+* Коммуникация
+ + господи́н :: bey, beyefendi
+ + госпожа́ :: hanım, hanımefendi
+ + грязный :: kirli
+ + да :: evet, var
+ + дайте нам карту :: bize haritayı ver
+ + до свида́ния :: güle güle, hoşça kal
+ + доброе утро :: günaydın
+ + добрый вечер :: tünaydın, iyi akşamlar
+ + запрещено :: yasaktır
+ + извините :: üzgünüm, üzgünüz
+ + как поживаете :: nasılsınız
+ + нам пора идти :: gitmeliyiz
+ + не за что :: rica ederim
+ + неправильно :: yanlış
+ + нет :: değil, hayır, yok
+ + норма́льно, OK :: tamam
+ + плохой :: kötü, çürük
+ + пожа́луйста :: lütfen
+ + прекрасная погода :: güzel hava
+ + приве́т :: merhaba
+ + приглаше́ние :: davetiye
+ + прия́тно :: güzel
+ + приятно познакомиться :: memnun oldum
+ + про́сьба :: istek
+ + проща́ние :: veda
+ + простите :: afedersiniz, özür dilerim
+ + разрешите? :: yapabilir miyim?
+ + спаси́бо :: teşekkürler
+ + увидимся позже :: sonra görüşürüz
+ + хороший :: iyi, yararlı
+* Еда
+** Питьё
+ + буты́лка :: şişe
+ + вода́ :: su
+ + молоко́ :: süt
+ + налива́ть :: dökmek
+ + напи́ток :: meşrubat
+ + пить :: içmek
+ + пьяный :: sarhoş
+ + сок :: suyu
+ + Тост! :: şerefe!
+ + тре́звый :: ayık
+
+** Ресторан
+ + Очень вкусно :: Çok lezizdi
+ + Счёт, пожалуйста :: Hesap lütfen
+ + баранина :: koyun, kuzu
+ + вку́сный :: lezzetli, tadı güzel
+ + вилка :: çatal
+ + говядина :: dana
+ + голо́дный :: aç, karnı aç
+ + горя́чий :: sıcak
+ + гриль :: ocak
+ + еда́ :: yemek
+ + жа́реный :: kızarmış
+ + жир :: yağlı
+ + ку́рица :: tavuk
+ + кусо́чек :: lokma
+ + лихия :: akya
+ + моло́чный :: sütlü 
+ + моро́женое :: dondurma
+ + мя́со :: et
+ + нож :: bıçak
+ + оливковое ма́сло :: zeytin yağı
+ + о́стрый :: baharatlı
+ + обе́д :: öğle yemeği
+ + оре́х :: ceviz
+ + почки :: böbrek
+ + нут :: nohut
+ + пека́рня ::  fırın, pastane
+ + пиро́г :: börek, gözleme
+ + са́хар :: şeker
+ + сала́т :: salata
+ + сардина :: sardalya
+ + све́жий :: taze gıda
+ + свини́на :: domuz eti
+ + сла́дкий :: tatlı
+ + сливочное ма́сло :: tereyağı
+ + сли́вочный :: kaymaklı
+ + сосиска :: sucuk
+ + соль :: tuz
+ + суп :: çorba
+ + сы́тый :: tokum
+ + сыр :: peynir
+ + сыро́й :: çiğ
+ + у́жин :: akşam yemeği
+ + у́ксус :: sirke
+ + хлеб :: ekmek
+ + ча́шка :: bardak
+ + язык :: dil
+ + яйцо́ :: yumurta
+
+** Фрукты и овощи
+ + арбу́з :: karpuz
+ + баклажан :: patlıcan
+ + бана́н :: muz
+ + виноград :: üzüm
+ + гриб :: mantar
+ + груша :: armutlar
+ + ды́ня :: kavun
+ + капу́ста :: lahana
+ + карто́фель :: patates
+ + лук :: soğan
+ + морко́вь :: havuç
+ + о́вощ :: sebze
+ + огуре́ц :: salatalık
+ + пе́рец :: dolmalık biber
+ + пе́рсик :: şeftali
+ + помидо́р :: domates
+ + свекла́ :: pancar kökü
+ + фрукт :: meyve
+ + цукини :: kabak
+ + я́блоко :: elma
+ + я́года :: dut
+
+* Город
+ + банкома́т :: bankamatik
+ + го́род :: şehir
+ + мост :: köprü
+ + переу́лок :: dar sokak
+ + у́лица :: sokak
+* Время
+ + вечер :: akşam
+ + воскресе́нье :: Pazar
+ + всегда́ :: her zaman
+ + вчера́ :: dün
+ + выходно́й :: bayram, tatil
+ + год :: yıl
+ + день :: gün
+ + до :: önce
+ + до́лго :: uzun
+ + за́втра :: yarın
+ + когда́? :: ne zaman?
+ + мину́та :: dakika
+ + нача́ло :: başlangıç
+ + недо́лго :: kısa bir zaman
+ + ночь :: gece
+ + по́зже :: sonra
+ + по́лночь :: gece yarısı
+ + полчаса́ :: yarım saat
+ + пото́м :: sonra
+ + приблизи́тельно :: yaklaşık, takriben
+ + про́шлый :: son kez
+ + ра́но :: erken
+ + сего́дня :: bugün
+ + сейча́с :: şimdi
+ + ско́ро :: yakında
+ + снача́ла :: önce
+ + сра́зу :: hemen
+ + суббо́та :: Cumartesi
+ + у́тро :: sabah
+ + ча́сто :: sık sık, çoğu kez
+ + час :: saat
+
+* Транспорт 
+ + близко :: yakın
+ + быстро :: çabuk, hızlı
+ + восто́к :: doğu
+ + далеко :: uzakta
+ + за́пад :: batı
+ + кора́бль :: gemi
+ + ло́дка :: tekne
+ + маши́на :: araba
+ + медленно :: yavaş
+ + ме́сто :: yer
+ + пое́здка :: yolculuk
+ + отправление :: ayrılış
+ + отправляется :: kalkıyor
+ + се́вер :: kuzey
+ + юг :: güney
+ + я опоздал :: gecikirim
+
+#+LATEX: \end{multicols}

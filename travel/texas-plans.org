@@ -1,0 +1,52 @@
+#+TITLE: 
+#+AUTHOR: 
+#+DATE: 
+#+LATEX_HEADER: \usepackage{tikzsymbols}
+
+* 02 April: Arrival to Houston [0/3]
+ + [ ] Relax \Laughey[1.4]
+ + [ ] Ocean and Galverston??
+ + [ ] James Turrell installation at Rice University https://maps.app.goo.gl/5HBaRqT1DdDmigVn8
+
+* 03 April: Houston to Fort Worth 4:30 [0/3]
+ + [ ] Houston: MFAH https://maps.app.goo.gl/hw1aeuzNY4boavoP7
+ + [ ] The Menil Collection https://maps.app.goo.gl/Sy32UimozZbHnBh67
+ + [ ] ??
+
+* 04 April: Fort Worth [0/4]
+ + [ ] Fort Worth: Cattle Raisers https://maps.app.goo.gl/Kx7SnfgVrcMRZSTQ6
+ + [ ] Cattle running (11am and 4pm) https://maps.app.goo.gl/61rVq4xKvdYgCbYV7
+ + [ ] Modern Art Museum of Fort Worth https://maps.app.goo.gl/poPHbewqtzUMJgS98
+ + [ ] Amon Carter Museum of American Art  https://maps.app.goo.gl/g5MJZ3ZLkmAfZr1J7
+
+* 05 April: Fort Worth to Fort Davis 8:00 [0/3]
+ + [ ] Cleburne: Big Bear Native American Museum https://maps.app.goo.gl/QUxuCWy6gwq41wTJ6
+ + [ ] Annie Riggs Museum and Saloon https://maps.app.goo.gl/cyJvjwF5YHY4Na8S6
+ + [ ] McDonald observatory (9pm start) https://maps.app.goo.gl/jXnXH7dh5nbpumVM7
+   
+* 06 April: Fort Davis to Dallas 8:00 [0/4]
+ + [ ] Marfa: The Chinati Foundation https://maps.app.goo.gl/M3wMu81XX9SgTFAe6
+ + [ ] Museum of the Big Bend https://maps.app.goo.gl/ccrArZi7cAfqQpZC8
+ + [ ] Odessa: Petroleum museum https://maps.app.goo.gl/spPufkhyytkb7t9u8
+ + [ ] OR Museum of the Americas http://www.museumoftheamericas.com/
+
+* 07 April: Dallas [0/3]
+ + [ ] Dallas: Art fair https://maps.app.goo.gl/3ooYY8p3cNireARa6
+ + [ ] Dallas Farmers Market https://maps.app.goo.gl/Rq5USXZddjjjiLok8
+ + [ ] Deep Vellum https://maps.app.goo.gl/exYAKSs9Swzeu93w7
+
+* 08 April: Dallas to San Antonio: 5:00 [0/4]
+ + [ ] Solar eclipse
+ + [ ] Fredericksburg https://maps.app.goo.gl/JKwMU6MG7BW23gNE8
+ + [ ] Museum of Western Art https://maps.app.goo.gl/NzCKRp1jTtwVvT5J6
+ + [ ] Alamo historic missions https://maps.app.goo.gl/8wYCCN72ukSXV6bH7
+
+* 09 April: San Antonio to Houston: 5:00 [0/3]
+ + [ ] San Antonio: Natural Bridge Caverns https://maps.app.goo.gl/bEo2cr5Ay6Y4nMxi8
+ + [ ] Port Aransas: ocean, museum https://maps.app.goo.gl/7odyDA8iHMkomiPMA
+ + [ ] Aransas National Wildlife Refuge https://maps.app.goo.gl/ifHzVnA9AEPVQZd5A
+
+* 10 April: Houston [0/2]
+ + [ ] NASA https://maps.app.goo.gl/wQ8LmtZypyjJXTYG9
+ + [ ] Departure at 18:45, car return 16:00
+
