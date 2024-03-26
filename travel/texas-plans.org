@@ -50,3 +50,17 @@
  + [ ] NASA https://maps.app.goo.gl/wQ8LmtZypyjJXTYG9
  + [ ] Departure at 18:45, car return 16:00
 
+* Mexican Food [0/8]
+    + [ ] Carne asada -- thin-cut marinated beef steak
+    + [ ] Fajitas -- thinly sliced meat on a comal skillet
+    + [ ] Fideo -- Tomato soup with short noodles
+    + [ ] Menudo -- spicy stew made from tripe
+    + [ ] Nopal -- (prickly pears) - edible cactus
+    + [ ] Pozole -- nixtamalized maize and meat stew
+    + [ ] Tasajo -- thin-cut beef steak or pork, partially cured
+    + [ ] Tinga -- shredded meat in a smoky chipotle sauce
+* Texas BBQ [0/4]
+    + [ ] Hill Country: dry rub brisket
+    + [ ] West:  cowboy style over an open pit
+    + [ ] South: 12 hours in an underground pit
+    + [ ] East: pork with boudin, okra and banana pudding
