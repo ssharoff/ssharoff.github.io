@@ -12,19 +12,21 @@
 * 03 April: Houston to Fort Worth 4:30 [0/3]
  + [ ] Houston: MFAH https://maps.app.goo.gl/hw1aeuzNY4boavoP7
  + [ ] Menil Collection https://maps.app.goo.gl/Sy32UimozZbHnBh67
- + [ ] Rotko Chapel https://maps.app.goo.gl/RoBYqfLkYVAaDKMPAThe
+ + [ ] Rothko Chapel https://maps.app.goo.gl/RoBYqfLkYVAaDKMPAThe
  + [ ] ??Caddo Mounds  https://maps.app.goo.gl/wP3cqymuZHJcVFZN9 
  + [ ] ??Tyler for BBQ  https://maps.app.goo.gl/zQFEyso28doo5fHn9
  + [ ] ?? B4 BBQ and Boba https://maps.app.goo.gl/robDsCHU9hS5pYrg7
    
 * 04 April: Fort Worth [0/4]
- + [ ] Fort Worth: Cattle Raisers https://maps.app.goo.gl/Kx7SnfgVrcMRZSTQ6
+ + [ ] Fort Worth: Cattle Raisers Museum https://maps.app.goo.gl/Kx7SnfgVrcMRZSTQ6
  + [ ] Cattle running (11am and 4pm) https://maps.app.goo.gl/61rVq4xKvdYgCbYV7
  + [ ] Modern Art Museum of Fort Worth https://maps.app.goo.gl/poPHbewqtzUMJgS98
+ + [ ] Kimbell Art Museum https://maps.app.goo.gl/7d3xK1gjWqWYm1Ag7
  + [ ] Amon Carter Museum of American Art  https://maps.app.goo.gl/g5MJZ3ZLkmAfZr1J7
 
 * 05 April: Fort Worth to Fort Davis 8:00 [0/3]
  + [ ] Cleburne: Big Bear Native American Museum https://maps.app.goo.gl/QUxuCWy6gwq41wTJ6
+ + [ ] Eldorado snack at Wagon Wheel Cafe: https://maps.app.goo.gl/AB3nzfkMEfJfB3M27
  + [ ] Annie Riggs Museum and Saloon https://maps.app.goo.gl/cyJvjwF5YHY4Na8S6
  + [ ] McDonald observatory (9pm start) https://maps.app.goo.gl/jXnXH7dh5nbpumVM7
    
@@ -32,6 +34,7 @@
  + [ ] Marfa: The Chinati Foundation https://maps.app.goo.gl/M3wMu81XX9SgTFAe6
  + [ ] Museum of the Big Bend https://maps.app.goo.gl/ccrArZi7cAfqQpZC8
  + [ ] Odessa: Petroleum museum https://maps.app.goo.gl/spPufkhyytkb7t9u8
+ + [ ] Odessa: Candilejas Mexican https://maps.app.goo.gl/M26tB4EPqKaNtSdS9
  + [ ] OR Museum of the Americas http://www.museumoftheamericas.com/
 
 * 07 April: Dallas [0/3]
@@ -42,12 +45,14 @@
 * 08 April: Dallas to San Antonio: 5:00 [0/4]
  + [ ] Solar eclipse
  + [ ] Fredericksburg https://maps.app.goo.gl/JKwMU6MG7BW23gNE8
+ + [ ] Mexican Taqueria in F'burg https://maps.app.goo.gl/rgH6vwTRxkTs3Pdn6
  + [ ] Museum of Western Art https://maps.app.goo.gl/NzCKRp1jTtwVvT5J6
  + [ ] Alamo historic missions https://maps.app.goo.gl/8wYCCN72ukSXV6bH7
 
 * 09 April: San Antonio to Houston: 5:00 [0/3]
  + [ ] San Antonio: Natural Bridge Caverns https://maps.app.goo.gl/bEo2cr5Ay6Y4nMxi8
  + [ ] Port Aransas: ocean, museum https://maps.app.goo.gl/7odyDA8iHMkomiPMA
+ + [ ] Coach's Pub and Grub https://maps.app.goo.gl/XujSTBH5hJudXjky5
  + [ ] Aransas National Wildlife Refuge https://maps.app.goo.gl/ifHzVnA9AEPVQZd5A
 
 * 10 April: Houston [0/2]
@@ -61,6 +66,7 @@
     + [ ] Menudo -- spicy stew made from tripe
     + [ ] Nopal -- (prickly pears) - edible cactus
     + [ ] Pozole -- nixtamalized maize and meat stew
+    + [ ] Tamales -- steamed rolls in cornmeal dough
     + [ ] Tasajo -- thin-cut beef steak or pork, partially cured
     + [ ] Tinga -- shredded meat in a smoky chipotle sauce
 * Texas BBQ [0/4]
