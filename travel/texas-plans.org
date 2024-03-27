@@ -1,17 +1,20 @@
 #+TITLE: 
 #+AUTHOR: 
 #+DATE: 
+#+OPTIONS: toc:nil
 #+LATEX_HEADER: \usepackage{tikzsymbols}
 
 * 02 April: Arrival to Houston [0/3]
  + [ ] Relax \Laughey[1.4]
  + [ ] Ocean and Galverston??
- + [ ] James Turrell installation at Rice University https://maps.app.goo.gl/5HBaRqT1DdDmigVn8
+ + [ ] Sunset at James Turrell installation at Rice University https://maps.app.goo.gl/5HBaRqT1DdDmigVn8
 
 * 03 April: Houston to Fort Worth 4:30 [0/3]
  + [ ] Houston: MFAH https://maps.app.goo.gl/hw1aeuzNY4boavoP7
- + [ ] The Menil Collection https://maps.app.goo.gl/Sy32UimozZbHnBh67
+ + [ ] Menil Collection https://maps.app.goo.gl/Sy32UimozZbHnBh67
  + [ ] Rotko Chapel https://maps.app.goo.gl/RoBYqfLkYVAaDKMPAThe
+ + [ ] ??Caddo Mounds  https://maps.app.goo.gl/wP3cqymuZHJcVFZN9 
+ + [ ] ??Tyler for BBQ  https://maps.app.goo.gl/zQFEyso28doo5fHn9
 
 * 04 April: Fort Worth [0/4]
  + [ ] Fort Worth: Cattle Raisers https://maps.app.goo.gl/Kx7SnfgVrcMRZSTQ6
