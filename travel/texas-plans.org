@@ -9,7 +9,7 @@
  + [ ] Ocean and Galverston?? https://maps.app.goo.gl/woNnHB2ab4DBqtKv5
  + [ ] Sunset at James Turrell installation at Rice University https://maps.app.goo.gl/5HBaRqT1DdDmigVn8
 
-* 03 April: Houston to Fort Worth 4:30 [0/3]
+* 03 April: Houston to Fort Worth 4:30 [0/7]
  + [ ] Houston: MFAH https://maps.app.goo.gl/hw1aeuzNY4boavoP7
  + [ ] Menil Collection https://maps.app.goo.gl/Sy32UimozZbHnBh67
  + [ ] Rothko Chapel https://maps.app.goo.gl/RoBYqfLkYVAaDKMPAThe
@@ -18,7 +18,7 @@
  + [ ] ?? B4 BBQ and Boba https://maps.app.goo.gl/robDsCHU9hS5pYrg7
  + [ ] ?? Mexican Munchies https://maps.app.goo.gl/fEZAw1TT9Npx3VS77
    
-* 04 April: Fort Worth [0/4]
+* 04 April: Fort Worth [0/7]
  + [ ] Fort Worth: Cattle Raisers Museum https://maps.app.goo.gl/Kx7SnfgVrcMRZSTQ6
  + [ ] Bureau of Engraving and Printing https://maps.app.goo.gl/1hUXWhcd8Qss6i7Z8
  + [ ] Cattle running (11:30am and 4pm) https://maps.app.goo.gl/61rVq4xKvdYgCbYV7
@@ -27,13 +27,13 @@
  + [ ] Amon Carter Museum of American Art  https://maps.app.goo.gl/g5MJZ3ZLkmAfZr1J7
  + [ ] Fort Worth Water Gardens https://maps.app.goo.gl/rPzPejNFhjiLREf39
 
-* 05 April: Fort Worth to Fort Davis 8:00 [0/3]
+* 05 April: Fort Worth to Fort Davis 8:00 [0/4]
  + [ ] Cleburne: Big Bear Native American Museum https://maps.app.goo.gl/QUxuCWy6gwq41wTJ6
  + [ ] Eldorado snack at Wagon Wheel Cafe: https://maps.app.goo.gl/AB3nzfkMEfJfB3M27
  + [ ] Annie Riggs Museum and Saloon https://maps.app.goo.gl/cyJvjwF5YHY4Na8S6
  + [ ] McDonald observatory (9pm start) https://maps.app.goo.gl/jXnXH7dh5nbpumVM7
    
-* 06 April: Fort Davis to Dallas 8:00 [0/4]
+* 06 April: Fort Davis to Dallas 8:00 [0/5]
  + [ ] Marfa: The Chinati Foundation https://maps.app.goo.gl/M3wMu81XX9SgTFAe6
  + [ ] Museum of the Big Bend https://maps.app.goo.gl/ccrArZi7cAfqQpZC8
  + [ ] Odessa: Petroleum museum https://maps.app.goo.gl/spPufkhyytkb7t9u8
@@ -45,7 +45,7 @@
  + [ ] Dallas Farmers Market https://maps.app.goo.gl/Rq5USXZddjjjiLok8
  + [ ] Deep Vellum https://maps.app.goo.gl/exYAKSs9Swzeu93w7
 
-* 08 April: Dallas to San Antonio: 5:00 [0/4]
+* 08 April: Dallas to San Antonio: 5:00 [0/6]
  + [ ] Solar eclipse
  + [ ] Fredericksburg https://maps.app.goo.gl/JKwMU6MG7BW23gNE8
  + [ ] Mexican Taqueria in F'burg https://maps.app.goo.gl/rgH6vwTRxkTs3Pdn6
@@ -54,7 +54,7 @@
  + [ ] Museum of Western Art https://maps.app.goo.gl/NzCKRp1jTtwVvT5J6
  + [ ] Alamo historic missions https://maps.app.goo.gl/8wYCCN72ukSXV6bH7
 
-* 09 April: San Antonio to Houston: 5:00 [0/3]
+* 09 April: San Antonio to Houston: 5:00 [0/4]
  + [ ] San Antonio: Natural Bridge Caverns https://maps.app.goo.gl/bEo2cr5Ay6Y4nMxi8
  + [ ] Port Aransas: ocean, museum https://maps.app.goo.gl/7odyDA8iHMkomiPMA
  + [ ] Coach's Pub and Grub https://maps.app.goo.gl/XujSTBH5hJudXjky5
