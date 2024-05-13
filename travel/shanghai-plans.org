@@ -23,7 +23,7 @@
  + [ ] Teaching
  + [ ] dinner??
    
-* 12 September: Fort Davis to Dallas 8:00 [0/5]
+* 12 September:  [0/5]
  + [ ] Shanghai
 
 * 13 September:  [0/3]
@@ -35,10 +35,13 @@
 * 15 September: Qufu [0/4]
  + [ ] ??
 
-* 16 September: Beijing [0/2]
+* 16 September: Beijing Centre [0/2]
+ + [ ] Palace Museum
+ + [ ] National Art Museum
  + [ ] ??
 
-* 17 September: Beijing [0/2]
+* 17 September: Beijing West [0/2]
+ + [ ] Capital Museum
  + [ ] ??
 
 * 18 September: Beijing [0/2]
