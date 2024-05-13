@@ -57,6 +57,13 @@
  + [ ] ??
 
 * Shanghai Food [0/8]
-    + [ ] ??
+    + [ ] Xiǎolóngbāo \ZH{小笼包} dumplings
+    + [ ] \ZH{兰州拉面} Lánzhōu lāmiàn), hand-pulled noodles
+    + ??
 * Beijing Food [0/4]
+    + [ ] home-style noodles and baozi,
+    + [ ] Peking Duck (\ZH{北京烤鸭}
+    + [ ] fried sauce noodles (\ZH{炸酱面}
+    + [ ] cabbage dishes, \ZH{醋溜卷心菜} - vinegar cabbage
+    + [ ] jiǎozi \ZH{饺子} dumplings
     + [ ] ??
