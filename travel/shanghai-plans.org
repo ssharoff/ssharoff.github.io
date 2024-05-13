@@ -1,0 +1,59 @@
+#+TITLE: 
+#+AUTHOR: 
+#+DATE: 
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{tikzsymbols}
+
+#+LATEX_HEADER: \usepackage{CJKutf8}
+#+LATEX_HEADER: \newcommand{\ZH}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
+#+LATEX_HEADER: \newcommand{\ZHT}[1]{\begin{CJK}{UTF8}{bsmi}#1\end{CJK}}
+
+
+* 08 September: Arrival to Shanghai [0/3]
+ + [ ] Relax \Laughey[1.4]
+ + [ ] ??
+* 09 September:  [0/7]
+ + [ ] Teaching
+ + [ ] dinner??
+
+* 10 September:  [0/7]
+ + [ ] Shanghai
+
+* 11 September:  [0/4]
+ + [ ] Teaching
+ + [ ] dinner??
+   
+* 12 September: Fort Davis to Dallas 8:00 [0/5]
+ + [ ] Shanghai
+
+* 13 September:  [0/3]
+ + [ ] Shanghai: https://en.wikivoyage.org/wiki/Shanghai/Zhujiajiao
+
+* 14 September: Shanghai to Qufu [0/6]
+ + [ ] https://en.wikivoyage.org/wiki/Qufu
+
+* 15 September: Qufu [0/4]
+ + [ ] ??
+
+* 16 September: Beijing [0/2]
+ + [ ] ??
+
+* 17 September: Beijing [0/2]
+ + [ ] ??
+
+* 18 September: Beijing [0/2]
+ + [ ] ??
+
+* 19 September: Beijing to Shanghai [0/2]
+ + [ ] ??
+
+* 20 September: Shanghai [0/2]
+ + [ ] teaching
+
+* 21 September: Suzhou [0/2]
+ + [ ] ??
+
+* Shanghai Food [0/8]
+    + [ ] ??
+* Beijing Food [0/4]
+    + [ ] ??
