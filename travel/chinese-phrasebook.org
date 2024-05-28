@@ -239,6 +239,17 @@
  + холо́дный :: 
  + я́сный :: 
 
+* Associations
+ + 彔 :: filter (/green/)
+ + 爪 :: claw (/colour/)
+ + 巴 :: knealing/snake (/colour/)
+ + 疒 :: bed for the /sick/
+ + 丙 :: /third/ of stems
+ + 目 :: /eye/ (眼睛)
+ + 艮 :: look back /eye/
+ + 自 :: nose (鼻)
+ + 丌 :: pedestal
+ + 青 :: growing + flesh
+ + 夂 :: sole of foot
 
 #+LATEX: \end{multicols}
-
