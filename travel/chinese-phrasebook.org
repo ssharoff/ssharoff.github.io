@@ -241,9 +241,9 @@
 
 * Associations
  + 彔 :: filter (/green/)
- + 爪 :: claw (/colour/)
+ + 爪 :: claw (/colour/ 色)
  + 巴 :: knealing/snake (/colour/)
- + 疒 :: bed for the /sick/
+ + 疒 :: bed for the /sick/ 病
  + 丙 :: /third/ of stems
  + 目 :: /eye/ (眼睛)
  + 艮 :: look back /eye/
