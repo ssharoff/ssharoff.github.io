@@ -53,7 +53,7 @@ creation and maintenance of meanings in the intersubjective space of
 people conducting communication. This is directly relevant to understanding when and how large language models are likely to fail in the form of biases and hallucinations, because via pre-training on very large corpora the LLMs have acquired very good knowledge of linguistic resources used for communication without understanding the conditions under which the corresponding texts have been produced.
 
 The most convenient access to the list of my publications is via
-[[https://scholar.google.com/citations?user=qcnf4QsAAAAJ&view_op=list_works&sortby=pubdate][Google Scholar]].
+[[https://scholar.google.com/citations?user=qcnf4QsAAAAJ&view_op=list_works&sortby=pubdate][Google Scholar]]. The list of my available publications is also available from [[./publications/][this page]].
 
 See my formal [[file:cv-formal.pdf][CV]] as well as my
 [[file:lineage.html][academic genealogy]] (the list through my

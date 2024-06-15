@@ -78,6 +78,8 @@ under which the corresponding texts have been produced.
 
 The most convenient access to the list of my publications is via [Google
 Scholar](https://scholar.google.com/citations?user=qcnf4QsAAAAJ&view_op=list_works&sortby=pubdate).
+The list of my available publications is also available from [this
+page](./publications/).
 
 See my formal [CV](cv-formal.pdf) as well as my [academic
 genealogy](lineage.html) (the list through my supervisors can be traced

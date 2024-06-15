@@ -1,3 +1,4 @@
+-   [./2024-SociolinguisticVariation.pdf](./2024-SociolinguisticVariation.pdf)
 -   [./2024-deLite.pdf](./2024-deLite.pdf)
 -   [./2023-EMNLP-Genres.pdf](./2023-EMNLP-Genres.pdf)
 -   [./2023-applied-covid.pdf](./2023-applied-covid.pdf)
