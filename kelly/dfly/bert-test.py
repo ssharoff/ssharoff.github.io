@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
+# the script tests the predictions obtained from running ./bert-train.py
 
 import time
 teststart=int(time.time())
@@ -9,11 +10,12 @@ import numpy as np
 import sys
 
 mname = sys.argv[1] # the pytorch model
-language = sys.argv[2] # the language name
+fname = sys.argv[2] # the test file name, formatted as Label\tText
 
 label_dict = {'vikidia': 0, 'wiki': 1}
-df = pd.read_csv(f'test-{language}.dat.xz',sep='\t',names=['class','text'] , dtype={'class': str, 'text': str}, keep_default_na=False)
+df = pd.read_csv(fname,sep='\t',names=['class','text'] , dtype={'class': str, 'text': str}, keep_default_na=False)
 texts = df.text.values.tolist()
+# sanity check to prevent errors down the pipeline
 for i,l in enumerate(texts):
     if not isinstance(l, str):
         print(f'Error in line {i+1}, type={type(l)}, line="{l}"', file=sys.stderr)
@@ -25,8 +27,8 @@ for i,v in enumerate(df.label.values.tolist()):
 
 import torch
 from transformers import BertTokenizer
-from torch.utils.data import TensorDataset
-
+from torch.utils.data import TensorDataset, DataLoader
+from sklearn.metrics import f1_score, confusion_matrix
 from transformers import BertForSequenceClassification
 
 model = BertForSequenceClassification.from_pretrained("bert-base-multilingual-cased",
@@ -34,12 +36,6 @@ model = BertForSequenceClassification.from_pretrained("bert-base-multilingual-ca
                                                       output_attentions=False,
                                                       output_hidden_states=False)
 
-
-from torch.utils.data import DataLoader, RandomSampler
-
-from sklearn.metrics import f1_score, confusion_matrix
-# import matplotlib.pyplot as plt
-# import seaborn as sns
 
 def f1_score_func(preds, labels):
     preds_flat = np.argmax(preds, axis=1).flatten()
@@ -143,17 +139,15 @@ labels_predict = torch.tensor(df.label.values.tolist())
 dataset_predict = TensorDataset(input_ids_predict, attention_masks_predict, labels_predict)
 
 
-batch_size = 3
-
+batch_size = 5
 dataloader_predict = DataLoader(dataset_predict,
-                              sampler=RandomSampler(dataset_predict),
                               batch_size=batch_size)
 
 predict_loss, predictions, true_predict = evaluate(dataloader_predict)
 predict_f1 = f1_score_func(predictions, true_predict)
 
-print(f'Testing {language} in {int(time.time())-teststart} sec')
-print(f'Predictions loss: {predict_loss}')
+print(f'Processing {fname} in {int(time.time())-teststart} sec')
+print(f'Prediction loss: {predict_loss}')
 print(f'F1 Score (Weighted): {predict_f1}')
 plot_confusion_matrix(predictions, true_predict, label_dict)
 metrics_per_class(predictions, true_predict, label_dict)

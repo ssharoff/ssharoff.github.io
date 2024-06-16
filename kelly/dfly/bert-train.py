@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
+# The scripts trains a BERT model for predicting classes from a one-line dataset:
+# CLASS\tTEXT
 
 import time
 starttime=int(time.time())
