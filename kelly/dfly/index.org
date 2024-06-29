@@ -14,7 +14,9 @@
 | 9,482   |      3390 | 839,184    | [[./vikidia-it.ol.xz][it]]    |
 |  265    |       87  | 15,555     | [[./vikidia-ru.ol.xz][ru]]    |
 
-For training the tools for recognising Vikidia from the standard Wikipedia texts I've created a set of files which match the respective entries in the standard Wikipedias as closely as possible in their topics and formatting. This also means selecting subsets of each Wikipedia entry, so that the models cannot rely on the heuristics that short articles are always from Vikidia:
+For training the tools for recognising Vikidia from the standard Wikipedia texts I've created a set of files which match the respective entries in the standard Wikipedias as closely as possible in their topics and formatting. This also means selecting subsets of each Wikipedia entry, so that the models cannot rely on the heuristics that short articles are always from Vikidia.
+
+This is the set of test files:
 
 | Languages | Wiki: texts | Median word length |   | Vikidia: texts | Median word length |
 |-----------+-------------+--------------------+---+----------------+--------------------|
@@ -25,5 +27,14 @@ For training the tools for recognising Vikidia from the standard Wikipedia texts
 | [[./test-it.dat.xz][it]]        |        2457 |                177 |   |           2456 |                135 |
 | [[./test-ru.dat.xz][ru]]        |         104 |                 75 |   |            104 |                 54 |
 
+The format of the dataset is the same:
+| vikidia  | Mountain A mountain is a rise in the earth's surface. The definition of how tall a mountain is varies, but .. |
+| wiki    | Nervous system Living arthropods have paired main nerve cords running along their bodies below the gut ... |
 
-Cambridge Readability dataset converted to the one-line format: [[./Readability_cup.ol.xz]]
+A multilingual BERT model can be trained using [[./bert-train.py]] and [[./wv-en-train.dat.xz][the training file]] as:
+~python3 bert-train.py wv-en-train.dat.xz~
+
+After that the accuracy can be tested using [[./bert-test.py]] across languages as 
+~python3 bert-test.py MODEL.pth TEST.dat.xz~
+
+You can also use these scripts with the Cambridge Readability dataset, which has been converted to the one-line format: [[./Readability_cup.ol.xz]]
