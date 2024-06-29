@@ -10,8 +10,8 @@ Artificial Intelligence and more specifically Large Language Models,
 such as ChatGPT, have recently made a profound impact on how we interact
 with the computers by providing the ability to produce new texts in
 response to prompts. Fundamental research in this area is at the core of
-my expertise, I've been doing this since my own PhD in the 1990s. This pre-dated LLMs, but the idea of linking [[../publications/1999-interact.pdf][language to meanings]] remains the same.
-One of my recent papers on the [[./publications/2020-LREC-anatomy.pdf][diversity of texts on the Web]] has been cited by some of the [[https://arxiv.org/abs/2212.14578][GPT creators from OpenAI]]. See also [[./GPT-collection.html][my collection of curious cases]] of testing ChatGPT in a range of scenarios.
+my expertise, I've been doing this since my own PhD in the 1990s. This pre-dated LLMs, but that's the same idea of linking [[../publications/1999-interact.pdf][language to meanings]] (the topic of my PhD was on a general language model for converting prompts to SQL).
+Back to 2020s, one of my recent papers on the [[./publications/2020-LREC-anatomy.pdf][diversity of texts on the Web]] has been cited by some of the [[https://arxiv.org/abs/2212.14578][GPT creators from OpenAI]]. See also [[./GPT-collection.html][my collection of curious cases]] of testing ChatGPT in a range of scenarios.
 
 My research interests are related to three domains: linguistics, computer science and cognitive science.
 
@@ -53,7 +53,7 @@ creation and maintenance of meanings in the intersubjective space of
 people conducting communication, primarily in the context of [[http://www.isfla.org/Systemics/definition.html][Halliday's Systemic-Functional Linguistics]]. This is directly relevant to understanding when and how large language models are likely to fail in the form of biases and hallucinations, because via pre-training on very large corpora the LLMs have acquired very good knowledge of linguistic resources used for communication without understanding the conditions under which the corresponding texts have been produced.
 
 The most convenient access to the list of my publications is via
-[[https://scholar.google.com/citations?user=qcnf4QsAAAAJ&view_op=list_works&sortby=pubdate][Google Scholar]]. The list of my available publications is also available from [[./publications/][this page]].
+[[https://scholar.google.com/citations?user=qcnf4QsAAAAJ&view_op=list_works&sortby=pubdate][Google Scholar]]. The list of my publications is also available from [[./publications/][this page]].
 
 See my formal [[file:cv-formal.pdf][CV]] as well as my
 [[file:lineage.html][academic genealogy]] (the list through my

@@ -11,9 +11,10 @@ such as ChatGPT, have recently made a profound impact on how we interact
 with the computers by providing the ability to produce new texts in
 response to prompts. Fundamental research in this area is at the core of
 my expertise, I've been doing this since my own PhD in the 1990s. This
-pre-dated LLMs, but the idea of linking [language to
-meanings](../publications/1999-interact.pdf) remains the same. One of my
-recent papers on the [diversity of texts on the
+pre-dated LLMs, but that's the same idea of linking [language to
+meanings](../publications/1999-interact.pdf) (the topic of my PhD was on
+a general language model for converting prompts to SQL). Back to 2020s,
+one of my recent papers on the [diversity of texts on the
 Web](./publications/2020-LREC-anatomy.pdf) has been cited by some of the
 [GPT creators from OpenAI](https://arxiv.org/abs/2212.14578). See also
 [my collection of curious cases](./GPT-collection.html) of testing
@@ -82,7 +83,7 @@ been produced.
 
 The most convenient access to the list of my publications is via [Google
 Scholar](https://scholar.google.com/citations?user=qcnf4QsAAAAJ&view_op=list_works&sortby=pubdate).
-The list of my available publications is also available from [this
+The list of my publications is also available from [this
 page](./publications/).
 
 See my formal [CV](cv-formal.pdf) as well as my [academic
