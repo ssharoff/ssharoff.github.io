@@ -26,9 +26,9 @@ Probably the most interesting bit in my recent research is in digital
 curation of corpora from the web, cf. the set of available large corpora
 and the procedure described at
 <http://corpus.leeds.ac.uk/internet.html>, see [the full
-paper](../publications/2006-ijcl-proof.pdf). The current set of
-resources includes multi-million word corpora for Chinese, English,
-French, German, Italian, Polish, Portuguese, Russian and Spanish.
+paper](./publications/2006-ijcl-proof.pdf). The current set of resources
+includes multi-million word corpora for Chinese, English, French,
+German, Italian, Polish, Portuguese, Russian and Spanish.
 
 Web corpora can be curated in terms of domains and [genres](webgenres/),
 and also via automatic annotation for their linguistic properties, such
@@ -37,15 +37,16 @@ for developing statistical models are relatively modest for many
 languages, so I research methods for bootstraping them from related
 languages, for example, from
 [Russian](publications/2011-dialog-sharoff-nivre.pdf) to
-[Ukrainian](publications/2016-HyTra.pdf).
+[Ukrainian](publications/2016-HyTra.pdf) or from [Telugu to
+Kannada](./publications/2011-clia-indian.pdf).
 
 Another aspect of Web corpus curation concerns developing frequency
 lists. While it is easy to count the number of times each word occurs in
 a corpus, this can lead to undesirable frequency bursts, as a word can
-be used too often in a small number of files. Please check my [reliable
-frequency lists](./frqc/) obtained for several corpora and several
-languages. See also the [pedagogical frequency lists](./kelly/) produced
-as the outcome of the [Kelly
+be used too often in a small number of files. Please see the paper and
+check my [reliable frequency lists](./frqc/) obtained for several
+corpora and several languages. See also the [pedagogical frequency
+lists](./kelly/) produced as the outcome of the [Kelly
 project](https://spraakbanken.gu.se/en/projects/kelly).
 
 Another example is [ASSIST](http://ucrel.lancs.ac.uk/projects/assist/),
@@ -55,7 +56,7 @@ corpora (consisting of texts which are not translations of each other).
 See a [series of BUCC workshops](https://comparable.limsi.fr/) and a
 [recent book](https://link.springer.com/book/10.1007/978-3-031-31384-4)
 on the topic. [Its introduction](publications/2023-bucc-intro.pdf) is
-available from my list of [publications](publications/list.html).
+available from my list of [publications](publications/).
 
 My approach in linguistics rests on the assumption that language is the
 resource for exchanging meanings. My interests in linguistics stretch
@@ -64,17 +65,20 @@ things in different ways in different languages) to corpus linguistics
 (how to study real uses of words in their contexts) to computational
 linguistics (how to dewsign computational models for natural language
 understanding and generation). See also the page with my tools for
-[corpus collection and processing](../webgenres/)
+[corpus collection and processing](../webgenres/).
 
 My interests in [communication studies](communication.html) focus on
 social practices of communities of language speakers, which result in
 creation and maintenance of meanings in the intersubjective space of
-people conducting communication. This is directly relevant to
-understanding when and how large language models are likely to fail in
-the form of biases and hallucinations, because via pre-training on very
-large corpora the LLMs have acquired very good knowledge of linguistic
-resources used for communication without understanding the conditions
-under which the corresponding texts have been produced.
+people conducting communication, primarily in the context of [Halliday's
+Systemic-Functional
+Linguistics](http://www.isfla.org/Systemics/definition.html). This is
+directly relevant to understanding when and how large language models
+are likely to fail in the form of biases and hallucinations, because via
+pre-training on very large corpora the LLMs have acquired very good
+knowledge of linguistic resources used for communication without
+understanding the conditions under which the corresponding texts have
+been produced.
 
 The most convenient access to the list of my publications is via [Google
 Scholar](https://scholar.google.com/citations?user=qcnf4QsAAAAJ&view_op=list_works&sortby=pubdate).
