@@ -20,14 +20,14 @@ This is the set of test files:
 
 | Languages | Wiki: texts | Median word length |   | Vikidia: texts | Median word length |
 |-----------+-------------+--------------------+---+----------------+--------------------|
-| [[./test-en.dat.xz][en]]        |        1734 |                185 |   |           1913 |                139 |
+| [[./test-en.dat.xz][en]]        |        1109 |                185 |   |           1913 |                139 |
 | [[./test-ca.dat.xz][ca]]        |         125 |                104 |   |            125 |                 77 |
 | [[./test-es.dat.xz][es]]        |        2739 |                145 |   |           2738 |                136 |
 | [[./test-fr.dat.xz][fr]]        |        2000 |                143 |   |           2000 |                140 |
 | [[./test-it.dat.xz][it]]        |        2457 |                177 |   |           2456 |                135 |
 | [[./test-ru.dat.xz][ru]]        |         104 |                 75 |   |            104 |                 54 |
 
-The format of the dataset is the same:
+The format of the dataset is the same for all languages:
 | vikidia  | Mountain A mountain is a rise in the earth's surface. The definition of how tall a mountain is varies, but .. |
 | wiki    | Nervous system Living arthropods have paired main nerve cords running along their bodies below the gut ... |
 
@@ -37,4 +37,4 @@ A multilingual BERT model can be trained using [[./bert-train.py]] and [[./wv-en
 After that the accuracy can be tested using [[./bert-test.py]] across languages as 
 ~python3 bert-test.py MODEL.pth TEST.dat.xz~
 
-You can also use these scripts with the Cambridge Readability dataset, which has been converted to the one-line format: [[./Readability_cup.ol.xz]]
+You can also use these scripts with the Cambridge Readability dataset, which has been converted to the same one-line format, so that it can be also used with the same training script: [[file:Readability_cup-snc4.ol.xz]]
