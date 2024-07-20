@@ -55,8 +55,8 @@
  + что? ::    什么？ Shénme?
 * Еда
 ** Питьё
- + буты́лка :: 
- + вино́ :: 
+ + буты́лка :: 瓶子 (píngzi), 并 side by side + 瓦 earthenware
+ + вино́ :: 葡萄酒 pútáojiǔ
  + вода́ :: 
  + молоко́ :: 
  + напи́ток :: 
@@ -251,5 +251,14 @@
  + 丌 :: pedestal
  + 青 :: growing + flesh
  + 夂 :: sole of foot
+ + 佥 :: all together (亼 + 吅 + 从)
+ + 亡 :: to die, to escape (/forget/ 忘)
+ + 已 :: to finish
+ + 平 :: level, equal
+ + 易 :: a filled container (/easy/)
+ + 禾 :: rice
+ + 止 :: foot \to stop (/walk/ 走)
+ + 更 :: to change
+ + 史 :: scribe \to history
 
 #+LATEX: \end{multicols}

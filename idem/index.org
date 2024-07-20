@@ -9,6 +9,7 @@
  + Project Co-Ordinator :: Horacio Saggion, Universitat Pompeu Fabra (UPF)
  + Principal Investigator at Leeds :: Serge Sharoff
  + Co-Investigator at Leeds :: Carlo Eugeni
+ + Research Fellow at Leeds :: Nouran Khallaf
  + Funding ::  EU Horizon
  + Time frame :: 2024-2026
 
@@ -39,6 +40,8 @@ This WP will research, develop and deliver the iDEM text simplification system a
  4. to integrate the components into an open-API cloud-based web-services platform to deliver the iDEM services and Text-simplification App.
 
 The WP will apply Deep Learning techniques to make the methods applicable to a range of different audiences, languages and domains. The solutions (algorithms and language resources) will be implemented as a freely available library for easy integration into Internet-based deliberative and participatory democratic spaces.
+
+One of the key features of this research is the focus on explainability, i.e. understanding of why the language models prefer to simplify a sentence, thus ensuring that our AI models make their decisions for the right reason.
 
   + T3.1 :: Text Difficulty Assessment and Classification Tool.
     *M1-M30.* Lead: UOLeeds. Participants: UPF, CAPITO
