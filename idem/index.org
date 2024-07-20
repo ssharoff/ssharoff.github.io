@@ -39,10 +39,12 @@ This WP will research, develop and deliver the iDEM text simplification system a
  3. to implement a text generation assistant in the content of deliberative democracy, and
  4. to integrate the components into an open-API cloud-based web-services platform to deliver the iDEM services and Text-simplification App.
 
-The WP will apply Deep Learning techniques to make the methods applicable to a range of different audiences, languages and domains. The solutions (algorithms and language resources) will be implemented as a freely available library for easy integration into Internet-based deliberative and participatory democratic spaces.
+The WP will apply Deep Learning techniques to make the methods applicable to a range of different audiences, languages and domains. The solutions (algorithms and language resources) will be implemented as a freely available library for easy integration into Internet-based deliberative and participatory democratic spaces.  In particular, we will investigate what makes texts and individual sentences difficult to specific audiences, how to make them more readable and how to detect whether this leads to distortions or hallucinations.
 
 One of the key features of this research is the focus on explainability, i.e. understanding of why the language models prefer to simplify a sentence, thus ensuring that our AI models make their decisions for the right reason.
 
+
+* Tasks in Workpackage 3
   + T3.1 :: Text Difficulty Assessment and Classification Tool.
     *M1-M30.* Lead: UOLeeds. Participants: UPF, CAPITO
   + T3.2 :: Multilingual Adaptable Text Simplification System.
