@@ -114,8 +114,6 @@ scheduler = get_linear_schedule_with_warmup(optimizer,
                                             num_training_steps=len(dataloader_train)*epochs)
 
 from sklearn.metrics import f1_score, confusion_matrix
-# import matplotlib.pyplot as plt
-# import seaborn as sns
 
 def f1_score_func(preds, labels):
     preds_flat = np.argmax(preds, axis=1).flatten()
@@ -209,7 +207,7 @@ def evaluate(dataloader_val):
     return loss_val_avg, predictions, true_vals
 
 beforetraining=int(time.time())
-print(f'Training/loading: {beforetraining-loadedtime} secs', file=sys.stderr)
+print(f'Loading: {beforetraining-loadedtime} secs', file=sys.stderr)
 
 for epoch in range(1, epochs+1):
     epochstart=int(time.time())
@@ -249,46 +247,6 @@ for epoch in range(1, epochs+1):
     val_f1 = f1_score_func(predictions, true_vals)
     print(f'Validation loss: {val_loss}')
     print(f'F1 Score (Weighted): {val_f1}')
-    #accuracy_per_class(predictions, true_vals)
+
     plot_confusion_matrix(predictions, true_vals, label_dict)
     metrics_per_class(predictions, true_vals, label_dict)
-
-for language in ['fr', 'en', 'it', 'ca', 'es', 'ru']:
-    teststart=int(time.time())
-    df = pd.read_csv(f'test-{language}.dat',sep='\t',names=['class','text'])
-    df['label'] = df['class'].replace(label_dict)
-    print(df.head(), file=sys.stderr)
-
-    tokenizer = BertTokenizer.from_pretrained(model_name, do_lower_case=True)
-
-    encoded_data_predict = tokenizer.batch_encode_plus(
-        df.text.values,
-        add_special_tokens=True,
-        return_attention_mask=True,
-        pad_to_max_length=True,
-        max_length=512,
-        truncation=True,
-        return_tensors='pt'
-    )
-
-    input_ids_predict = encoded_data_predict['input_ids']
-    attention_masks_predict = encoded_data_predict['attention_mask']
-    labels_predict = torch.tensor(df.label.values)
-
-    dataset_predict = TensorDataset(input_ids_predict, attention_masks_predict, labels_predict)
-
-
-    batch_size = 3
-
-    dataloader_predict = DataLoader(dataset_predict,
-                                  sampler=RandomSampler(dataset_predict),
-                                  batch_size=batch_size)
-
-    predict_loss, predictions, true_predict = evaluate(dataloader_predict)
-    predict_f1 = f1_score_func(predictions, true_predict)
-
-    print(f'{language} tested in {int(time.time())-teststart} sec')
-    print(f'Predictions loss: {predict_loss}')
-    print(f'F1 Score (Weighted): {predict_f1}')
-    plot_confusion_matrix(predictions, true_predict, label_dict)
-    metrics_per_class(predictions, true_predict, label_dict)
