@@ -18,6 +18,7 @@
 
 * 10 September:  [0/7]
  + [ ] Shanghai
+ + [ ] Talk at SISU
 
 * 11 September:  [0/4]
  + [ ] Teaching
@@ -25,9 +26,11 @@
    
 * 12 September:  [0/5]
  + [ ] Shanghai
+ + [ ] teaching
 
 * 13 September:  [0/3]
- + [ ] Shanghai: https://en.wikivoyage.org/wiki/Shanghai/Zhujiajiao
+ + [ ] Shanghai:
+ + [ ] Talk at Maritime
 
 * 14 September: Shanghai to Qufu [0/6]
  + [ ] https://en.wikivoyage.org/wiki/Qufu
@@ -51,7 +54,7 @@
  + [ ] ??
 
 * 20 September: Shanghai [0/2]
- + [ ] teaching
+ + [ ] https://en.wikivoyage.org/wiki/Shanghai/Zhujiajiao
 
 * 21 September: Suzhou [0/2]
  + [ ] ??
