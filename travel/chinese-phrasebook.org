@@ -240,25 +240,28 @@
  + я́сный :: 
 
 * Associations
- + 彔 :: filter (/green/)
- + 爪 :: claw (/colour/ 色)
- + 巴 :: knealing/snake (/colour/)
- + 疒 :: bed for the /sick/ 病
- + 丙 :: /third/ of stems
- + 目 :: /eye/ (眼睛)
- + 艮 :: look back /eye/
- + 自 :: nose (鼻)
+ + 丁 :: a nail
  + 丌 :: pedestal
- + 青 :: growing + flesh
- + 夂 :: sole of foot
- + 佥 :: all together (亼 + 吅 + 从)
+ + 丙 :: /third/ of stems
  + 亡 :: to die, to escape (/forget/ 忘)
+ + 佥 :: all together (亼 + 吅 + 从)
+ + 史 :: a scribe \to history
+ + 夂 :: sole of foot
  + 已 :: to finish
+ + 巴 :: knealing/snake (/colour/)
  + 平 :: level, equal
+ + 彔 :: filter (/green/)
+ + 攵 :: to hit
  + 易 :: a filled container (/easy/)
- + 禾 :: rice
- + 止 :: foot \to stop (/walk/ 走)
  + 更 :: to change
- + 史 :: scribe \to history
+ + 止 :: foot \to stop (/walk/ 走)
+ + 爪 :: claw (/colour/ 色)
+ + 疒 :: bed for the /sick/ 病
+ + 目 :: /eye/ (眼睛)
+ + 禾 :: rice
+ + 自 :: nose (鼻)
+ + 艮 :: look back /eye/
+ + 青 :: growing + flesh
+ + 页 :: page
 
 #+LATEX: \end{multicols}
