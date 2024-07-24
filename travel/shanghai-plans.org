@@ -9,10 +9,10 @@
 #+LATEX_HEADER: \newcommand{\ZHT}[1]{\begin{CJK}{UTF8}{bsmi}#1\end{CJK}}
 
 
-* 08 September: Arrival to Shanghai [0/3]
+* 08 September: Arrival to Shanghai [0/2]
  + [ ] Relax \Laughey[1.4]
  + [ ] ??
-* 09 September:  [0/7]
+* 09 September:  [0/2]
  + [ ] Teaching
  + [ ] dinner??
 
@@ -59,11 +59,11 @@
 * 21 September: Suzhou [0/2]
  + [ ] ??
 
-* Shanghai Food [0/8]
+* Shanghai Food [0/2]
     + [ ] Xiǎolóngbāo \ZH{小笼包} dumplings
     + [ ] \ZH{兰州拉面} Lánzhōu lāmiàn), hand-pulled noodles
     + ??
-* Beijing Food [0/4]
+* Beijing Food [0/6]
     + [ ] home-style noodles and baozi,
     + [ ] Peking Duck (\ZH{北京烤鸭}
     + [ ] fried sauce noodles (\ZH{炸酱面}
