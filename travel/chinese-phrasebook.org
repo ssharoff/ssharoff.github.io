@@ -261,7 +261,12 @@
  + 禾 :: rice
  + 自 :: nose (鼻)
  + 艮 :: look back /eye/
- + 青 :: growing + flesh
- + 页 :: page
+ + 青 :: growing + flesh \to blue-green
+ + 页 :: a page
+ + 殳 :: a handle, to rotate
+ + 舟 :: a boat
+ + 廾 廿 :: twenty or both hands
+ + 氏 :: clan, the root of a tree
+ + 贝 :: cowrie, money
 
 #+LATEX: \end{multicols}
