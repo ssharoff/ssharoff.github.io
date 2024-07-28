@@ -13,6 +13,7 @@
  + [ ] Relax \Laughey[1.4]
  + [ ] dinner in the neighbourhood at [[https://www.tripadvisor.com/Attraction_Review-g308272-d2220946-Reviews-China_Maritime_Museum-Shanghai.html#MAPVIEW][??]]
 
+
 ** Mon 09 Sep: New harbour City [0/2]
  + [ ] Teaching at Maritime University
  + [ ] ??
@@ -64,7 +65,8 @@
 * Shanghai
 ** Fri 20 Sep: Shanghai suburbs [0/2]
  + [ ] Train Beijing to Shanghai
- + [ ] https://en.wikivoyage.org/wiki/Shanghai/Zhujiajiao ??
+ + [ ] [[https://en.wikivoyage.org/wiki/Shanghai/Zhujiajiao][Zhujiajiao]] -- to far??
+ + [ ] [[https://english.shanghai.gov.cn/en-FestivalsCelebrations/20240613/aaded1813b0f42e1817aeadece62ba5e.html][International Light festival]] -- mostly at the [[http://www.shzlzx.com.cn/][Shanghai Exhibition Centre]]
 
 ** Sat 21 Sep: Suzhou [0/5]
  + [ ] [[http://www.szmuseum.com/][Suzhou Museum]]
