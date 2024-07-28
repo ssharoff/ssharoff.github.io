@@ -1,72 +1,87 @@
 #+TITLE: 
 #+AUTHOR: 
 #+DATE: 
-#+OPTIONS: toc:nil
+#+OPTIONS: toc:nil H:2
 #+LATEX_HEADER: \usepackage{tikzsymbols}
 
 #+LATEX_HEADER: \usepackage{CJKutf8}
 #+LATEX_HEADER: \newcommand{\ZH}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
 #+LATEX_HEADER: \newcommand{\ZHT}[1]{\begin{CJK}{UTF8}{bsmi}#1\end{CJK}}
 
-
-* 08 September: Arrival to Shanghai [0/2]
+* Shanghai
+** Sun 08 Sep: Arrival to Shanghai [0/2]
  + [ ] Relax \Laughey[1.4]
- + [ ] ??
-* 09 September:  [0/2]
- + [ ] Teaching
- + [ ] dinner??
+ + [ ] dinner in the neighbourhood at [[https://www.tripadvisor.com/Attraction_Review-g308272-d2220946-Reviews-China_Maritime_Museum-Shanghai.html#MAPVIEW][??]]
 
-* 10 September:  [0/7]
- + [ ] Shanghai
+** Mon 09 Sep: New harbour City [0/2]
+ + [ ] Teaching at Maritime University
+ + [ ] ??
+
+** Tue 10 Sep: Huangpu [0/3]
+ + [ ] [[https://www.yugarden.com.cn/][Yu Yuan Garden]]
+ + [ ] HSBC Building
  + [ ] Talk at SISU
 
-* 11 September:  [0/4]
- + [ ] Teaching
- + [ ] dinner??
+** Wed 11 Sep:  [0/2]
+ + [ ] Teaching at Maritime University
+ + [ ] [[https://www.tripadvisor.com/Attraction_Review-g308272-d2220946-Reviews-China_Maritime_Museum-Shanghai.html][China Maritime Museum]]
    
-* 12 September:  [0/5]
- + [ ] Shanghai
- + [ ] teaching
+** Thu 12 Sep: French Concession [0/3]
+ + [ ] [[http://www.shanghaimuseum.net/museum/frontend/en/index.action][Shanghai Museum]]
+ + [ ] [[https://en.wikipedia.org/wiki/Former_Residence_of_Zhou_Enlai_(Shanghai)][Zhou Enlai museum]]
+ + [ ] [[http://www.shanghaipropagandaart.com/home.asp?class=beautifuf_book][Shanghai Propaganda Poster and Art Centre]]
 
-* 13 September:  [0/3]
- + [ ] Shanghai:
- + [ ] Talk at Maritime
+** Fri 13 Sep:  [0/2]
+ + [ ] teaching at Maritime University
+ + [ ] Talk at Maritime University
 
-* 14 September: Shanghai to Qufu [0/6]
+** Sat 14 Sep: Pudong [0/2]
+ + [ ] Shanghai History Museum
+ + [ ] Train to Qufu
+
+* Qufu
+** Sun 15 Sep: Qufu [0/2]
  + [ ] https://en.wikivoyage.org/wiki/Qufu
-
-* 15 September: Qufu [0/4]
  + [ ] ??
 
-* 16 September: Beijing Centre [0/2]
+** Mon 16 Sep: Beijing Downtown [0/3]
+ + [ ] Train Qufu to Beijing
  + [ ] Palace Museum
- + [ ] National Art Museum
  + [ ] ??
 
-* 17 September: Beijing West [0/2]
+** Tue 17 Sep: Beijing West [0/2]
  + [ ] Capital Museum
  + [ ] ??
 
-* 18 September: Beijing [0/2]
+** Wed 18 Sep: Beijing [0/2]
+ + [ ] Talk at Beiwai
  + [ ] ??
 
-* 19 September: Beijing to Shanghai [0/2]
+** Thu 19 Sep: Beijing [0/2]
+ + [ ] National Art Museum
  + [ ] ??
 
-* 20 September: Shanghai [0/2]
- + [ ] https://en.wikivoyage.org/wiki/Shanghai/Zhujiajiao
+* Shanghai
+** Fri 20 Sep: Shanghai suburbs [0/2]
+ + [ ] Train Beijing to Shanghai
+ + [ ] https://en.wikivoyage.org/wiki/Shanghai/Zhujiajiao ??
 
-* 21 September: Suzhou [0/2]
+** Sat 21 Sep: Suzhou [0/5]
+ + [ ] [[http://www.szmuseum.com/][Suzhou Museum]]
+ + [ ] The Garden of the Master of the Nets \ZH{网师园}
+ + [ ] Embroidery Museum and Mountain Villa with Embracing Beauty \ZH{环秀山庄}
+ + [ ] The Lion Grove Garden \ZH{狮子林}
  + [ ] ??
 
-* Shanghai Food [0/2]
+* Food
+** \ZH{上海菜} [0/3]
     + [ ] Xiǎolóngbāo \ZH{小笼包} dumplings
     + [ ] \ZH{兰州拉面} Lánzhōu lāmiàn), hand-pulled noodles
-    + ??
-* Beijing Food [0/6]
-    + [ ] home-style noodles and baozi,
-    + [ ] Peking Duck (\ZH{北京烤鸭}
-    + [ ] fried sauce noodles (\ZH{炸酱面}
-    + [ ] cabbage dishes, \ZH{醋溜卷心菜} - vinegar cabbage
-    + [ ] jiǎozi \ZH{饺子} dumplings
     + [ ] ??
+
+** \ZH{北京菜} [0/5]
+    + [ ] home-style noodles and baozi,
+    + [ ] Peking Duck \ZH{北京烤鸭}
+    + [ ] fried sauce noodles \ZH{炸酱面}
+    + [ ] cabbage dishes, such as \ZH{醋溜卷心菜} - vinegar cabbage
+    + [ ] jiǎozi \ZH{饺子} dumplings
