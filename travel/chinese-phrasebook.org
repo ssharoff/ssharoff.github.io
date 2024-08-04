@@ -237,30 +237,31 @@
  + 丌 :: pedestal
  + 丙 :: /third/ of stems
  + 亡 :: to die, to escape (/forget/ 忘)
+ + 交 :: a hat with crossed legs
  + 佥 :: all together (亼 + 吅 + 从)
  + 史 :: a scribe \to history
  + 夂 :: sole of foot
+ + 攵 :: to hit
  + 已 :: to finish
  + 巴 :: knealing/snake (/colour/)
  + 平 :: level, equal
+ + 廾 廿 :: twenty or both hands
  + 彔 :: filter (/green/)
- + 攵 :: to hit
  + 易 :: a filled container (/easy/)
  + 更 :: to change
  + 止 :: foot \to stop (/walk/ 走)
+ + 殳 :: a handle, to rotate
+ + 氏 :: clan, the root of a tree
  + 爪 :: claw (/colour/ 色)
  + 疒 :: bed for the /sick/ 病
  + 目 :: /eye/ (眼睛)
  + 禾 :: rice
+ + 考 :: old man on a cane
  + 自 :: nose (鼻)
+ + 舟 :: a boat
  + 艮 :: look back /eye/
+ + 贝 :: cowrie, money
  + 青 :: growing + flesh \to blue-green
  + 页 :: a page
- + 殳 :: a handle, to rotate
- + 舟 :: a boat
- + 廾 廿 :: twenty or both hands
- + 氏 :: clan, the root of a tree
- + 贝 :: cowrie, money
- + 考 :: old man on a cane
 
 #+LATEX: \end{multicols}
