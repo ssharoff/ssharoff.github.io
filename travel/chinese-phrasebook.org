@@ -267,5 +267,6 @@
  + 青 :: growing + flesh \to blue-green
  + 页 :: a page
  + 𠫓 :: give birth
+ + 夫 :: grown-up
 
 #+LATEX: \end{multicols}
