@@ -20,6 +20,10 @@
 
 #+LATEX: \setlength{\columnsep}{8pt}
 #+LATEX: \begin{multicols}{3}
+* Интерфейсы
+ + Cancel :: 取消 qǔxiāo (fetch disappear)
+ + Favourite :: 收藏夹 shōucáng jiā (receive store squeeze between)
+ + To be used :: 待使用 dàishǐ (expect cause use)
 * Коммуникация
  + до свида́ния :: 再见 zàijiàn
  + доброе утро :: 早安 zǎo'ān
@@ -244,7 +248,7 @@
  + 佥 :: all together (亼 + 吅 + 从)
  + 史 :: a scribe \to history
  + 夂 :: sole of foot
- + 攵 :: to hit
+ + 攵,攴 :: to hit
  + 已 :: to finish
  + 巴 :: knealing/snake (/colour/)
  + 平 :: level, equal
@@ -268,5 +272,8 @@
  + 页 :: a page
  + 𠫓 :: give birth
  + 夫 :: grown-up
+ + 臣 :: slave
+ + ⺌ :: little
+ + 彳 :: left step
 
 #+LATEX: \end{multicols}
