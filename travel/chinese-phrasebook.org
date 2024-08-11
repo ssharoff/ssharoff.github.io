@@ -20,6 +20,10 @@
 
 #+LATEX: \setlength{\columnsep}{8pt}
 #+LATEX: \begin{multicols}{3}
+* Интерфейсы
+ + Cancel :: 取消 qǔxiāo (fetch disappear)
+ + Favourite :: 收藏夹 shōucáng jiā (receive store squeeze between)
+ + To be used :: 待使用 dàishǐ (expect cause use)
 * Коммуникация
  + до свида́ния :: 再见 zàijiàn
  + доброе утро :: 早安 zǎo'ān
@@ -108,6 +112,13 @@
  + ча́шка :: 	杯子	 bēizi
  + язык :: 	舌头 	 shétou
  + яйцо́ :: 	鸡蛋	 jīdàn
+ + crab :: 闸蟹 zháxiè (switch+loosen)
+ + eel :: 鳗鱼 mányú (long fish)
+ + lotus :: 荷 hé (man can carry)
+ + pancakes :: 夹饼 jiābǐng
+ + roast duck :: 烤鸭 kǎoyā
+ + shrimp :: 虾 xiā
+ + tiger skin peppers :: 虎皮尖椒 hǔpí jiānjiāo
 
 ** Фрукты и овощи
  + арбу́з ::     西瓜   xīguā
@@ -236,20 +247,24 @@
  + я́сный :: 
 
 * Associations
+ + ⺌ :: little
  + 丁 :: a nail
+ + 丂 :: axe
  + 丌 :: pedestal
  + 丙 :: /third/ of stems
  + 亡 :: to die, to escape (/forget/ 忘)
  + 交 :: a hat with crossed legs
  + 佥 :: all together (亼 + 吅 + 从)
  + 史 :: a scribe \to history
+ + 攵,攴 :: to hit
  + 夂 :: sole of foot
- + 攵 :: to hit
+ + 夫 :: grown-up
  + 已 :: to finish
  + 巴 :: knealing/snake (/colour/)
  + 平 :: level, equal
  + 廾 廿 :: twenty or both hands
  + 彔 :: filter (/green/)
+ + 彳 :: left step
  + 易 :: a filled container (/easy/)
  + 更 :: to change
  + 止 :: foot \to stop (/walk/ 走)
@@ -260,6 +275,7 @@
  + 目 :: /eye/ (眼睛)
  + 禾 :: rice
  + 考 :: old man on a cane
+ + 臣 :: slave
  + 自 :: nose (鼻)
  + 舟 :: a boat
  + 艮 :: look back /eye/
@@ -267,6 +283,7 @@
  + 青 :: growing + flesh \to blue-green
  + 页 :: a page
  + 𠫓 :: give birth
- + 夫 :: grown-up
+ + 角 :: horn
+ + 甲 :: turtle shell
 
 #+LATEX: \end{multicols}
