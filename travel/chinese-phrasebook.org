@@ -23,6 +23,8 @@
 * Интерфейсы
  + Cancel :: 取消 qǔxiāo (fetch disappear)
  + Favourite :: 收藏夹 shōucáng jiā (receive store squeeze between)
+ + Nearby :: 周边 zhōubiān (circle side)
+ + Share :: 分享 fēnxiǎng (divide enjoy)
  + To be used :: 待使用 dàishǐ (expect cause use)
 * Коммуникация
  + до свида́ния :: 再见 zàijiàn
