@@ -114,6 +114,7 @@
  + ча́шка :: 	杯子	 bēizi
  + язык :: 	舌头 	 shétou
  + яйцо́ :: 	鸡蛋	 jīdàn
+ + bean :: 豆 dòu
  + crab :: 闸蟹 zháxiè (switch+loosen)
  + eel :: 鳗鱼 mányú (long fish)
  + lotus :: 荷 hé (man can carry)
@@ -287,5 +288,7 @@
  + 𠫓 :: give birth
  + 角 :: horn
  + 甲 :: turtle shell
+ + 州 :: islet
+ + 户 :: flag
 
 #+LATEX: \end{multicols}
