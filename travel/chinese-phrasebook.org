@@ -258,22 +258,28 @@
  + 亡 :: to die, to escape (/forget/ 忘)
  + 交 :: a hat with crossed legs
  + 佥 :: all together (亼 + 吅 + 从)
+ + 刀 :: knife
+ + 力 :: power
  + 史 :: a scribe \to history
- + 攵,攴 :: to hit
- + 夂 :: sole of foot
  + 夫 :: grown-up
+ + 州 :: islet
  + 已 :: to finish
  + 巴 :: knealing/snake (/colour/)
  + 平 :: level, equal
  + 廾 廿 :: twenty or both hands
+ + 弟 :: wrapped spear, younger brother
  + 彔 :: filter (/green/)
  + 彳 :: left step
+ + 户 :: flag
+ + 攵,攴 :: to hit
+ + 夂 :: sole of foot
  + 易 :: a filled container (/easy/)
  + 更 :: to change
  + 止 :: foot \to stop (/walk/ 走)
  + 殳 :: a handle, to rotate
  + 氏 :: clan, the root of a tree
  + 爪 :: claw (/colour/ 色)
+ + 甲 :: turtle shell
  + 疒 :: bed for the /sick/ 病
  + 目 :: /eye/ (眼睛)
  + 禾 :: rice
@@ -282,13 +288,10 @@
  + 自 :: nose (鼻)
  + 舟 :: a boat
  + 艮 :: look back /eye/
+ + 角 :: horn
  + 贝 :: cowrie, money
  + 青 :: growing + flesh \to blue-green
  + 页 :: a page
  + 𠫓 :: give birth
- + 角 :: horn
- + 甲 :: turtle shell
- + 州 :: islet
- + 户 :: flag
 
 #+LATEX: \end{multicols}
