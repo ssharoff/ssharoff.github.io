@@ -245,7 +245,7 @@
 * Associations
  + ⺌ :: little
  + 丁 :: a nail
- + 丂 :: axe
+ + 丂,斤 :: axe
  + 丌 :: pedestal
  + 丙 :: /third/ of stems
  + 亡 :: to die, to escape (/forget/ 忘)
