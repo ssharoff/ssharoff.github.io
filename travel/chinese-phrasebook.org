@@ -21,9 +21,12 @@
 #+LATEX: \setlength{\columnsep}{8pt}
 #+LATEX: \begin{multicols}{3}
 * Интерфейсы
+ + Account :: 账户 zhànghù, 用户名 yònghùmíng
  + Cancel :: 取消 qǔxiāo (fetch disappear)
  + Favourite :: 收藏夹 shōucáng jiā (receive store squeeze between)
+ + Login :: 登录 dēnglù
  + Nearby :: 周边 zhōubiān (circle side)
+ + Password :: 密码 mìmǎ (secret/hidden code)
  + Share :: 分享 fēnxiǎng (divide enjoy)
  + To be used :: 待使用 dàishǐ (expect cause use)
 * Коммуникация
@@ -84,14 +87,13 @@
  + еда́ :: 	食物	 shíwù
  + жа́реный :: 	油炸	 yóu zhá
  + жир :: 	脂肪	 zhīfáng
+ + кислый ::  酸 suān
  + ку́рица :: 	鸡	 jī
  + кусо́чек :: 	件	 jiàn
  + ма́сло :: 	油	 yóu
  + моло́чный ::	牛奶	 niúnǎi
  + моро́женое :: 冰淇淋	 bīngqílín
  + мя́со :: 	肉	 ròu
- + нож :: 	刀	 dāo
- + обе́д :: 	午餐	 wǔcān
  + оре́х :: 	坚果	 jiānguǒ
  + почки :: 	肾脏	 shènzàng   
  + нут :: 	鹰嘴豆	 yīng zuǐ dòu
@@ -251,9 +253,14 @@
  + 亡 :: to die, to escape (/forget/ 忘)
  + 交 :: a hat with crossed legs
  + 佥 :: all together (亼 + 吅 + 从)
+ + 允 :: allow (private legs)
+ + 公 :: public
  + 刀 :: knife
  + 力 :: power
+ + 厶 :: private
  + 史 :: a scribe \to history
+ + 夂 :: sole of foot
+ + 攵,攴 :: to hit
  + 夫 :: grown-up
  + 州 :: islet
  + 已 :: to finish
@@ -263,9 +270,8 @@
  + 弟 :: wrapped spear, younger brother
  + 彔 :: filter (/green/)
  + 彳 :: left step
+ + 必 :: weapon handle \to surely
  + 户 :: flag
- + 攵,攴 :: to hit
- + 夂 :: sole of foot
  + 易 :: a filled container (/easy/)
  + 更 :: to change
  + 止 :: foot \to stop (/walk/ 走)
@@ -275,6 +281,7 @@
  + 甲 :: turtle shell
  + 疒 :: bed for the /sick/ 病
  + 目 :: /eye/ (眼睛)
+ + 矢 :: arrow
  + 禾 :: rice
  + 考 :: old man on a cane
  + 臣 :: slave
@@ -286,6 +293,5 @@
  + 青 :: growing + flesh \to blue-green
  + 页 :: a page
  + 𠫓 :: give birth
- + 矢 :: arrow
 
 #+LATEX: \end{multicols}
