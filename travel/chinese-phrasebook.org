@@ -117,13 +117,17 @@
  + язык :: 	舌头 	 shétou
  + яйцо́ :: 	鸡蛋	 jīdàn
  + bean :: 豆 dòu
+ + braised pork :: 卤肉饭 lǔròufàn
  + crab :: 闸蟹 zháxiè (switch+loosen)
  + eel :: 鳗鱼 mányú (long fish)
+ + kung pao :: 宫保 gōngbǎo (palace defend)
  + lotus :: 荷 hé (man can carry)
  + pancakes :: 夹饼 jiābǐng
  + roast duck :: 烤鸭 kǎoyā
+ + spring rolls :: 春卷 chūnjuǎn 
  + shrimp :: 虾 xiā
  + tiger skin peppers :: 虎皮尖椒 hǔpí jiānjiāo
+ + zongzi :: 粽 (rice temple)
 
 ** Фрукты и овощи
  + арбу́з ::     西瓜   xīguā
