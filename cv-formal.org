@@ -23,12 +23,16 @@
 
 * My research interests
 Artificial Intelligence and more specifically Large Language Models,
-such as ChatGPT, have recently made a profound impact on how we interact
-with the computer by providing the ability to produce new texts in
-response to prompts. Fundamental research in this area is at the core of
-my expertise, I've been doing this since my own PhD in the 1990s. This pre-dated LLMs, but the idea of linking language to meanings remains the same.
+such as ChatGPT, have recently made a profound impact on how we
+interact with the computer by providing the ability to produce new
+texts in response to prompts. Fundamental research in this area is at
+the core of my expertise, I've been doing this since my own PhD in the
+1990s (the topic was on building language models for information
+extraction). This pre-dated LLMs, but the idea of linking language to
+meanings remains the same.
 
 My current research interests focus on the relationship between linguistic structures and language technology, such as the capability of language technology to understand stylistic properties of texts beyond the keywords, how to use language technology to help language learners and professional translators, how to interpret the inner blackboxes of large language models via linguistic structures.
+
 * Research awards
   :PROPERTIES:
   :CUSTOM_ID: research-awards
@@ -77,18 +81,18 @@ My current research interests focus on the relationship between linguistic struc
   :CUSTOM_ID: academic-publications
   :CLASS: unnumbered
   :END:
-Over 140 academic publications with 4129 citations in total, see a separate list below.
+Over 140 academic publications with 4610 citations in total, see a separate list below.
 
 [[https://scholar.google.co.uk/citations?user=qcnf4QsAAAAJ]]
 
-I'm on the editorial board of Language Resources and Register Studies.
+I'm on the editorial board of Language Resources and Register Studies, as well as on the Programme Committte for a number of conferences.
 
 * PhD Supervision
   :PROPERTIES:
   :CUSTOM_ID: academic-publications-1
   :CLASS: unnumbered
   :END:
-19 students supervised to successful completion.
+22 students supervised to successful completion.
 
 ** COMMENT Invited presentations
    :PROPERTIES:
