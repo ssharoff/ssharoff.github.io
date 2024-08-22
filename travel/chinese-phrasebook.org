@@ -121,6 +121,7 @@
  + braised pork :: 卤肉饭 lǔròufàn
  + crab :: 闸蟹 zháxiè (switch+loosen)
  + eel :: 鳗鱼 mányú (long fish)
+ + fried sauce noodles :: 炸酱面 zhá jiàng miàn
  + kung pao :: 宫保 gōngbǎo (palace defend)
  + lotus :: 荷 hé (man can carry)
  + pancakes :: 夹饼 jiābǐng
@@ -128,6 +129,7 @@
  + spring rolls :: 春卷 chūnjuǎn 
  + shrimp :: 虾 xiā
  + tiger skin peppers :: 虎皮尖椒 hǔpí jiānjiāo
+ + vinegar cabbage :: 醋溜卷心菜 cùliūjuǎnxīncài
  + zongzi :: 粽 (rice temple)
 
 ** Фрукты и овощи
