@@ -73,6 +73,10 @@
  + пьяный :: 醉 zuì, (衣 /clothes/)
  + сок ::  果汁 guǒzhī 
  + Тост! :: 干杯 gānbēi (осушить стакан)
+ + bubble tea :: 珍珠奶茶 zhēnzhū nǎichá
+ + green tea :: 绿茶 lǜchá
+ + chrysanthemum tea :: 菊花茶 júhuā chá
+ + jasmine tea :: 茉莉花茶 mòlìhuā chá (莉: to reap 禾 with a 刀)
 
 ** Ресторан
  + Очень вкусно :: 非常好吃   fēicháng hào chī
@@ -300,5 +304,6 @@
  + 青 :: growing + flesh \to blue-green
  + 页 :: a page
  + 𠫓 :: give birth
+ + 朱 :: vermilion
 
 #+LATEX: \end{multicols}
