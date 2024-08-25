@@ -29,7 +29,7 @@
    
 ** Thu 12 Sep: French Concession [0/3]
  + [ ] [[http://www.shanghaimuseum.net/museum/frontend/en/index.action][Shanghai Museum]]
- + [ ] [[https://en.wikipedia.org/wiki/Former_Residence_of_Zhou_Enlai_(Shanghai)][Zhou Enlai museum]]
+ + [ ] [[https://en.wikipedia.org/wiki/Former_Residence_of_Zhou_Enlai_(Shanghai)][Zhou Enlai museum]
  + [ ] [[http://www.shanghaipropagandaart.com/home.asp?class=beautifuf_book][Shanghai Propaganda Poster and Art Centre]]
 
 ** Fri 13 Sep:  [0/2]
