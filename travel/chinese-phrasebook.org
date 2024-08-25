@@ -27,6 +27,8 @@
  + Login :: 登录 dēnglù
  + Nearby :: 周边 zhōubiān (circle side)
  + Password :: 密码 mìmǎ (secret/hidden code)
+ + QR code :: 二维码 èrwéimǎ (2-D)
+ + scan :: 扫描 sǎomiáo (/seedling/)
  + Share :: 分享 fēnxiǎng (divide enjoy)
  + To be used :: 待使用 dàishǐ (expect cause use)
 * Коммуникация
@@ -35,7 +37,7 @@
  + добрый вечер :: 晚上好 wǎnshàng hǎo
  + запрещено :: 禁止 jìnzhǐ
  + здравствуйте :: 你好 nǐ hǎo
- + извините :: 对不起 duìbuqǐ
+ + извините :: 对不起 duìbuqǐ, 不好意思
  + как поживаете? :: 你好吗？ nǐ hǎo ma?
  + мы заплатим :: 我来的付 wǒláifù
  + нам пора идти :: 我们该走了 wǒmen gāi zǒule
@@ -156,6 +158,8 @@
 * Магазин
  + дешево ::          便宜     piányí
  + дорого :: 	      昂贵     ángguì
+ + карточкой ::  刷卡 shuākǎ (brush)
+ + наличкой :: 现金 xiànjīn (visible)
  + не хочу :: 	      我不想   wǒ bùxiǎng
  + откройте :: 	      打开     dǎkāi
  + скидка будет? ::   会有折扣吗？ huì yǒu zhékòu ma? (decimate) 打折 dǎzhé 
@@ -164,10 +168,10 @@
 
 * Размер
  + короткий :: 短  duǎn
- + легки́й :: 
+ + легки́й :: 轻 qīng
  + приблизи́тельно :: 左右 zuǒyòu, 大概 dàgài (general \to tree+already)
-   大约|左右|将近|大致|或多或少|大概
  + половина :: 半 bàn
+ + сравнительно :: 比较 bǐjiào
  + стандарт :: 正常 zhèngcháng (normal \to hanged)
  + чуть-чуть :: 微 wēi wéi
 
