@@ -72,6 +72,7 @@
  + green tea :: 绿茶 lǜchá
  + chrysanthemum tea :: 菊花茶 júhuā chá
  + jasmine tea :: 茉莉花茶 mòlìhuā chá (莉: to reap 禾 with a 刀)
+ + soy milk :: 豆浆 dòujiāng (broth), 豆腐浆 dòufujiāng 
  + sweetness :: 甜度 tiándù
 
 ** Ресторан
@@ -92,9 +93,7 @@
  + ку́рица :: 	鸡	 jī
  + кусо́чек :: 	件	 jiàn
  + ма́сло :: 	油	 yóu
- + моло́чный ::	牛奶	 niúnǎi
  + моро́женое :: 冰淇淋	 bīngqílín
- + мя́со :: 	肉	 ròu
  + оре́х :: 	坚果	 jiānguǒ
  + почки :: 	肾脏	 shènzàng   
  + нут :: 	鹰嘴豆	 yīng zuǐ dòu
@@ -129,6 +128,7 @@
  + spring rolls :: 春卷 chūnjuǎn 
  + shrimp :: 虾 xiā
  + tiger skin peppers :: 虎皮尖椒 hǔpí jiānjiāo
+ + tofu :: 豆腐 dòufǔ (rotten\to govt flesh)
  + vinegar cabbage :: 醋溜卷心菜 cùliūjuǎnxīncài
  + zongzi :: 粽 (rice temple)
 
