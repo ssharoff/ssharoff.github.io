@@ -11,7 +11,7 @@
 * Shanghai
 ** Sun 08 Sep: Arrival to Shanghai [0/2]
  + [ ] Relax \Laughey[1.4]
- + [ ] dinner in the neighbourhood at [[https://www.tripadvisor.com/Attraction_Review-g308272-d2220946-Reviews-China_Maritime_Museum-Shanghai.html#MAPVIEW][??]]
+ + [ ] [[https://www.google.com/maps/d/edit?mid=1yrxh4BK5hpZBPv7qDaJ2qaWz0z-Bkno&ll=35.34776399519525%2C119.13082200000002&z=6][Custom maps for the trip]]
 
 
 ** Mon 09 Sep: New harbour City [0/2]
@@ -19,31 +19,34 @@
  + [ ] ??
 
 ** Tue 10 Sep: Huangpu [0/3]
- + [ ] [[https://www.yugarden.com.cn/][Yu Yuan Garden]]
- + [ ] HSBC Building
- + [ ] Talk at SISU
+ + [ ] 10am Talk at SISU, 
+ + [ ] Shanghai Old City
+ + [ ] Bund
 
 ** Wed 11 Sep:  [0/2]
  + [ ] Teaching at Maritime University
  + [ ] [[https://www.tripadvisor.com/Attraction_Review-g308272-d2220946-Reviews-China_Maritime_Museum-Shanghai.html][China Maritime Museum]]
    
-** Thu 12 Sep: French Concession [0/3]
+** Thu 12 Sep: French Concession [0/4]
  + [ ] [[http://www.shanghaimuseum.net/museum/frontend/en/index.action][Shanghai Museum]]
- + [ ] [[https://en.wikipedia.org/wiki/Former_Residence_of_Zhou_Enlai_(Shanghai)][Zhou Enlai museum]
+ + [ ] [[https://en.wikipedia.org/wiki/Former_Residence_of_Zhou_Enlai_(Shanghai)][Villa of Zhou Enlai]]
  + [ ] [[http://www.shanghaipropagandaart.com/home.asp?class=beautifuf_book][Shanghai Propaganda Poster and Art Centre]]
+ + [ ] 18:30: teaching at Maritime University
 
 ** Fri 13 Sep:  [0/2]
  + [ ] teaching at Maritime University
  + [ ] Talk at Maritime University
 
-** Sat 14 Sep: Pudong [0/2]
+** Sat 14 Sep: Pudong [0/3]
  + [ ] Shanghai History Museum
+ + [ ] Jinmao Tower
  + [ ] Train to Qufu
 
 * Qufu
-** Sun 15 Sep: Qufu [0/2]
+** Sun 15 Sep: Qufu [0/3]
  + [ ] https://en.wikivoyage.org/wiki/Qufu
- + [ ] ??
+ + [ ] [[http://www.kzbwg.cn/en][Confucius Museum]]
+ + [ ] [[https://maps.google.com/?cid=14506159276952720806][Kong Family Mansion]]
 
 ** Mon 16 Sep: Beijing Downtown [0/3]
  + [ ] Train Qufu to Beijing
@@ -55,25 +58,25 @@
  + [ ] ??
 
 ** Wed 18 Sep: Beijing [0/2]
- + [ ] Talk at Beiwai
  + [ ] ??
+ + [ ] Afternoon: Talk at Beiwai
 
 ** Thu 19 Sep: Beijing [0/2]
  + [ ] National Art Museum
  + [ ] ??
 
 * Shanghai
-** Fri 20 Sep: Shanghai suburbs [0/2]
- + [ ] Train Beijing to Shanghai
- + [ ] [[https://en.wikivoyage.org/wiki/Shanghai/Zhujiajiao][Zhujiajiao]] -- to far??
- + [ ] [[https://english.shanghai.gov.cn/en-FestivalsCelebrations/20240613/aaded1813b0f42e1817aeadece62ba5e.html][International Light festival]] -- mostly at the [[http://www.shzlzx.com.cn/][Shanghai Exhibition Centre]]
+** Fri 20 Sep: Suzhou [0/1]
+ + [ ] Train Beijing to Suzhou
+ + [ ] [[https://maps.google.com/?cid=12116311554028233593][Suzhou Market at night]]
 
-** Sat 21 Sep: Suzhou [0/5]
+** Sat 21 Sep: Suzhou [0/6]
  + [ ] [[http://www.szmuseum.com/][Suzhou Museum]]
  + [ ] The Garden of the Master of the Nets \ZH{网师园}
  + [ ] Embroidery Museum and Mountain Villa with Embracing Beauty \ZH{环秀山庄}
  + [ ] The Lion Grove Garden \ZH{狮子林}
- + [ ] ??
+ + [ ] Train Suzhou to Pudong
+ + [ ] [[https://english.shanghai.gov.cn/en-FestivalsCelebrations/20240613/aaded1813b0f42e1817aeadece62ba5e.html][International Light festival]] -- mostly at the [[http://www.shzlzx.com.cn/][Shanghai Exhibition Centre]]
 
 * Food
 ** \ZH{上海菜} [0/3]
