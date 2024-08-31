@@ -50,23 +50,22 @@
 
 ** Mon 16 Sep: Beijing Downtown [0/3]
  + [ ] Train Qufu to Beijing
- + [ ] Palace Museum
- + [ ] ??
+ + [ ] Forbidden City??
 
-** Tue 17 Sep: Beijing West [0/2]
- + [ ] Capital Museum
- + [ ] ??
-
-** Wed 18 Sep: Beijing [0/2]
- + [ ] ??
- + [ ] Afternoon: Talk at Beiwai
-
-** Thu 19 Sep: Beijing [0/2]
+** Tue 17 Sep: Beijing East [0/2]
+ + [ ] National Museum of China
  + [ ] National Art Museum
  + [ ] ??
 
+** Wed 18 Sep: Beijing West [0/2]
+ + [ ] Capital Museum
+ + [ ] Afternoon: Talk at CFAU \ZH{外交学院}
+
+** Thu 19 Sep: Beijing [0/2]
+ + [ ] Summer Palace
+
 * Shanghai
-** Fri 20 Sep: Suzhou [0/1]
+** Fri 20 Sep: Suzhou [0/2]
  + [ ] Train Beijing to Suzhou
  + [ ] [[https://maps.google.com/?cid=12116311554028233593][Suzhou Market at night]]
 
@@ -87,6 +86,6 @@
 ** \ZH{北京菜} [0/5]
     + [ ] home-style noodles and baozi,
     + [ ] Peking Duck \ZH{北京烤鸭}
-    + [ ] fried sauce noodles \ZH{炸酱面}
+    + [ ] fried sauce noodles, zhájiàngmiàn \ZH{炸酱面}
     + [ ] cabbage dishes, such as \ZH{醋溜卷心菜} - vinegar cabbage
     + [ ] jiǎozi \ZH{饺子} dumplings
