@@ -48,11 +48,11 @@
  + [ ] [[http://www.kzbwg.cn/en][Confucius Museum]]
  + [ ] [[https://maps.google.com/?cid=14506159276952720806][Kong Family Mansion]]
 
-** Mon 16 Sep: Beijing Downtown [0/3]
+** Mon 16 Sep: Beijing Downtown [0/2]
  + [ ] Train Qufu to Beijing
  + [ ] Forbidden City??
 
-** Tue 17 Sep: Beijing East [0/2]
+** Tue 17 Sep: Beijing East [0/3]
  + [ ] National Museum of China
  + [ ] National Art Museum
  + [ ] ??
@@ -61,7 +61,7 @@
  + [ ] Capital Museum
  + [ ] Afternoon: Talk at CFAU \ZH{外交学院}
 
-** Thu 19 Sep: Beijing [0/2]
+** Thu 19 Sep: Beijing [0/1]
  + [ ] Summer Palace
 
 * Shanghai

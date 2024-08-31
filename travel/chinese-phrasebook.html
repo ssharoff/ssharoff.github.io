@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-08-31 Sat 11:29 -->
+<!-- 2024-08-31 Sat 19:38 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Разговорник китайский</title>
@@ -39,7 +39,7 @@
   }
   pre.src {
     position: relative;
-    overflow: auto;
+    overflow: visible;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -51,7 +51,7 @@
     padding: 3px;
     border: 1px solid black;
   }
-  pre.src:hover:before { display: inline; margin-top: 14px;}
+  pre.src:hover:before { display: inline;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
@@ -194,33 +194,57 @@
 </style>
 <style>*{font-size: x-large;}</style>
 <script type="text/javascript">
-// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
 <!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
 </script>
 </head>
 <body>
 <div id="content">
 <h1 class="title">Разговорник китайский</h1>
-<div id="outline-container-org822d8d5" class="outline-2">
-<h2 id="org822d8d5"><span class="section-number-2">1</span> Интерфейсы</h2>
+<div id="outline-container-org525572c" class="outline-2">
+<h2 id="org525572c"><span class="section-number-2">1</span> Интерфейсы</h2>
 <div class="outline-text-2" id="text-1">
 <dl class="org-dl">
 <dt>Account</dt><dd>账户 zhànghù, 用户名 yònghùmíng</dd>
@@ -236,8 +260,8 @@
 </dl>
 </div>
 </div>
-<div id="outline-container-org4828138" class="outline-2">
-<h2 id="org4828138"><span class="section-number-2">2</span> Коммуникация</h2>
+<div id="outline-container-orgc4a0ba1" class="outline-2">
+<h2 id="orgc4a0ba1"><span class="section-number-2">2</span> Коммуникация</h2>
 <div class="outline-text-2" id="text-2">
 <dl class="org-dl">
 <dt>до свида́ния</dt><dd>再见 zàijiàn</dd>
@@ -265,16 +289,17 @@
 <dt>спаси́бо</dt><dd>谢谢 xièxie</dd>
 <dt>увидимся позже</dt><dd>回头见 huítóu jiàn</dd>
 <dt>signature</dt><dd>签名 qiānmíng (together)</dd>
+<dt>sorry, we are late</dt><dd>抱歉，我们迟到了 bàoqiàn, wǒmen chídàole</dd>
 </dl>
 </div>
 </div>
 
-<div id="outline-container-orgd5a8959" class="outline-2">
-<h2 id="orgd5a8959"><span class="section-number-2">3</span> Еда</h2>
+<div id="outline-container-org9687132" class="outline-2">
+<h2 id="org9687132"><span class="section-number-2">3</span> Еда</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org918469d" class="outline-3">
-<h3 id="org918469d"><span class="section-number-3">3.1</span> Питьё</h3>
+<div id="outline-container-org3f0f8ea" class="outline-3">
+<h3 id="org3f0f8ea"><span class="section-number-3">3.1</span> Питьё</h3>
 <div class="outline-text-3" id="text-3-1">
 <dl class="org-dl">
 <dt>буты́лка</dt><dd>瓶子 píngzi: 并 side by side + 瓦 earthenware</dd>
@@ -296,8 +321,8 @@
 </div>
 </div>
 
-<div id="outline-container-orgf73a257" class="outline-3">
-<h3 id="orgf73a257"><span class="section-number-3">3.2</span> Ресторан</h3>
+<div id="outline-container-orgdd9c68e" class="outline-3">
+<h3 id="orgdd9c68e"><span class="section-number-3">3.2</span> Ресторан</h3>
 <div class="outline-text-3" id="text-3-2">
 <dl class="org-dl">
 <dt>Очень вкусно</dt><dd>非常好吃   fēicháng hào chī</dd>
@@ -359,8 +384,8 @@
 </div>
 </div>
 
-<div id="outline-container-org760e131" class="outline-3">
-<h3 id="org760e131"><span class="section-number-3">3.3</span> Фрукты и овощи</h3>
+<div id="outline-container-org78f9ffa" class="outline-3">
+<h3 id="org78f9ffa"><span class="section-number-3">3.3</span> Фрукты и овощи</h3>
 <div class="outline-text-3" id="text-3-3">
 <dl class="org-dl">
 <dt>арбу́з</dt><dd>西瓜   xīguā</dd>
@@ -390,8 +415,8 @@
 </div>
 </div>
 
-<div id="outline-container-org23d6619" class="outline-2">
-<h2 id="org23d6619"><span class="section-number-2">4</span> Магазин</h2>
+<div id="outline-container-org7f61fb7" class="outline-2">
+<h2 id="org7f61fb7"><span class="section-number-2">4</span> Магазин</h2>
 <div class="outline-text-2" id="text-4">
 <dl class="org-dl">
 <dt>дешево</dt><dd>便宜     piányí</dd>
@@ -407,8 +432,8 @@
 </div>
 </div>
 
-<div id="outline-container-org4fd647e" class="outline-2">
-<h2 id="org4fd647e"><span class="section-number-2">5</span> Размер</h2>
+<div id="outline-container-org7675631" class="outline-2">
+<h2 id="org7675631"><span class="section-number-2">5</span> Размер</h2>
 <div class="outline-text-2" id="text-5">
 <dl class="org-dl">
 <dt>короткий</dt><dd>短  duǎn</dd>
@@ -422,8 +447,8 @@
 </div>
 </div>
 
-<div id="outline-container-org453e3fc" class="outline-2">
-<h2 id="org453e3fc"><span class="section-number-2">6</span> Город</h2>
+<div id="outline-container-org10cbc66" class="outline-2">
+<h2 id="org10cbc66"><span class="section-number-2">6</span> Город</h2>
 <div class="outline-text-2" id="text-6">
 <dl class="org-dl">
 <dt>банкома́т</dt><dd>自动提款机 zìdòng tí kuǎn jī:</dd>
@@ -435,8 +460,8 @@
 </dl>
 </div>
 </div>
-<div id="outline-container-org4819fcd" class="outline-2">
-<h2 id="org4819fcd"><span class="section-number-2">7</span> Погода</h2>
+<div id="outline-container-org8762844" class="outline-2">
+<h2 id="org8762844"><span class="section-number-2">7</span> Погода</h2>
 <div class="outline-text-2" id="text-7">
 <dl class="org-dl">
 <dt>бу́ря</dt><dd></dd>
@@ -494,8 +519,8 @@
 </div>
 </div>
 
-<div id="outline-container-orgba13f9d" class="outline-2">
-<h2 id="orgba13f9d"><span class="section-number-2">8</span> Associations</h2>
+<div id="outline-container-org7374614" class="outline-2">
+<h2 id="org7374614"><span class="section-number-2">8</span> Associations</h2>
 <div class="outline-text-2" id="text-8">
 <dl class="org-dl">
 <dt>⺌</dt><dd>little</dd>
@@ -512,9 +537,9 @@
 <dt>力</dt><dd>power</dd>
 <dt>厶</dt><dd>private</dd>
 <dt>史</dt><dd>a scribe &rarr; history</dd>
-<dt>夂</dt><dd>sole of foot</dd>
-<dt>攵,攴</dt><dd>to hit</dd>
 <dt>夫</dt><dd>grown-up</dd>
+<dt>寸</dt><dd>inch</dd>
+<dt>将</dt><dd>near future</dd>
 <dt>州</dt><dd>islet</dd>
 <dt>已</dt><dd>to finish</dd>
 <dt>巴</dt><dd>knealing/snake (<i>colour</i>)</dd>
@@ -525,6 +550,8 @@
 <dt>彳</dt><dd>left step</dd>
 <dt>必</dt><dd>weapon handle &rarr; surely</dd>
 <dt>户</dt><dd>door</dd>
+<dt>夂</dt><dd>sole of foot</dd>
+<dt>攵,攴</dt><dd>to hit</dd>
 <dt>易</dt><dd>a filled container (<i>easy</i>)</dd>
 <dt>更</dt><dd>to change</dd>
 <dt>朱</dt><dd>vermilion</dd>
@@ -532,6 +559,7 @@
 <dt>殳</dt><dd>a handle, to rotate</dd>
 <dt>氏</dt><dd>clan, the root of a tree</dd>
 <dt>爪</dt><dd>claw (<i>colour</i> 色)</dd>
+<dt>爿</dt><dd>small table</dd>
 <dt>甲</dt><dd>turtle shell</dd>
 <dt>疒</dt><dd>bed for the <i>sick</i> 病</dd>
 <dt>目</dt><dd><i>eye</i> (眼睛)</dd>
@@ -553,8 +581,8 @@
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2024-08-31 Sat 11:29</p>
-<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="date">Created: 2024-08-31 Sat 19:38</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>

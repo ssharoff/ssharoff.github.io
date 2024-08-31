@@ -57,6 +57,7 @@
  + спаси́бо :: 谢谢 xièxie
  + увидимся позже :: 回头见 huítóu jiàn
  + signature :: 签名 qiānmíng (together)
+ + sorry, we are late :: 抱歉，我们迟到了 bàoqiàn, wǒmen chídàole
 
 * Еда
 ** Питьё
@@ -227,9 +228,9 @@
  + 力 :: power
  + 厶 :: private
  + 史 :: a scribe \to history
- + 夂 :: sole of foot
- + 攵,攴 :: to hit
  + 夫 :: grown-up
+ + 寸 :: inch
+ + 将 :: near future
  + 州 :: islet
  + 已 :: to finish
  + 巴 :: knealing/snake (/colour/)
@@ -240,6 +241,8 @@
  + 彳 :: left step
  + 必 :: weapon handle \to surely
  + 户 :: door
+ + 夂 :: sole of foot
+ + 攵,攴 :: to hit
  + 易 :: a filled container (/easy/)
  + 更 :: to change
  + 朱 :: vermilion
@@ -247,6 +250,7 @@
  + 殳 :: a handle, to rotate
  + 氏 :: clan, the root of a tree
  + 爪 :: claw (/colour/ 色)
+ + 爿 :: small table
  + 甲 :: turtle shell
  + 疒 :: bed for the /sick/ 病
  + 目 :: /eye/ (眼睛)
