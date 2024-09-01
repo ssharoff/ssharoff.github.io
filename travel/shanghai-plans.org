@@ -16,32 +16,33 @@
 
 ** Mon 09 Sep: New harbour City [0/2]
  + [ ] Teaching at Maritime University
- + [ ] ??
 
 ** Tue 10 Sep: Huangpu [0/3]
  + [ ] 10am Talk at SISU, 
  + [ ] Shanghai Old City
  + [ ] Bund
+ + [ ] Jinmao at sunset
+ + [ ] Night view from Huangpu Park
 
 ** Wed 11 Sep:  [0/2]
  + [ ] Teaching at Maritime University
- + [ ] [[https://www.tripadvisor.com/Attraction_Review-g308272-d2220946-Reviews-China_Maritime_Museum-Shanghai.html][China Maritime Museum]]
+ + [ ] Talk at Maritime University
    
 ** Thu 12 Sep: French Concession [0/4]
- + [ ] [[http://www.shanghaimuseum.net/museum/frontend/en/index.action][Shanghai Museum]]
+ + [ ] [[http://www.shanghaimuseum.net/museum/frontend/en/index.action][Shanghai Museum]] ??
  + [ ] [[https://en.wikipedia.org/wiki/Former_Residence_of_Zhou_Enlai_(Shanghai)][Villa of Zhou Enlai]]
  + [ ] Tianzifang
  + [ ] Shanghai Museum of Arts and Crafts
  + [ ] [[http://www.shanghaipropagandaart.com/home.asp?class=beautifuf_book][Shanghai Propaganda Poster and Art Centre]]
- + [ ] 18:30: teaching at Maritime University
+ + [ ] 18:00: teaching at Maritime University
 
 ** Fri 13 Sep:  [0/2]
  + [ ] teaching at Maritime University
- + [ ] Talk at Maritime University
+ + [ ] [[https://www.tripadvisor.com/Attraction_Review-g308272-d2220946-Reviews-China_Maritime_Museum-Shanghai.html][China Maritime Museum]]
+ + [ ] city walk
 
 ** Sat 14 Sep: Pudong [0/3]
  + [ ] Shanghai History Museum
- + [ ] Jinmao Tower
  + [ ] Train to Qufu
 
 * Qufu
