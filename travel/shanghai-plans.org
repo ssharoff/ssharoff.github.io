@@ -11,7 +11,7 @@
 * Shanghai
 ** Sun 08 Sep: Arrival to Shanghai [0/2]
  + [ ] Relax \Laughey[1.4]
- + [ ] [[https://www.google.com/maps/d/edit?mid=1yrxh4BK5hpZBPv7qDaJ2qaWz0z-Bkno&ll=31.1124785873245%2C121.38586814672732&z=9][Custom maps for the trip]
+ + [ ] [[https://www.google.com/maps/d/edit?mid=1yrxh4BK5hpZBPv7qDaJ2qaWz0z-Bkno&ll=31.1124785873245%2C121.38586814672732&z=9][Custom maps for the trip]]
 
 
 ** Mon 09 Sep: New harbour City [0/2]
@@ -81,9 +81,13 @@
 
 * Food
 ** \ZH{上海菜} [0/3]
-    + [ ] Xiǎolóngbāo \ZH{小笼包} dumplings
-    + [ ] \ZH{兰州拉面} Lánzhōu lāmiàn), hand-pulled noodles
-    + [ ] ??
+    + [ ] \ZH{兰州拉面} Lánzhōu lāmiàn, hand-pulled noodles
+    + [ ] \ZH{卤肉饭} lǔròufàn braised pork
+    + [ ] \ZH{小笼包} xiǎolóngbāo dumplings
+    + [ ] \ZH{红烧鳝鱼} hóngshāoshànyú red sauce eel
+    + [ ] \ZH{虎皮尖椒} hǔpí jiānjiāo tiger skin peppers
+    + [ ] \ZH{魚香茄子} fish-like aubergines
+
 
 ** \ZH{北京菜} [0/5]
     + [ ] home-style noodles and baozi,
