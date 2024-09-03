@@ -51,9 +51,11 @@
  + [ ] [[http://www.kzbwg.cn/en][Confucius Museum]]
  + [ ] [[https://maps.google.com/?cid=14506159276952720806][Kong Family Mansion]]
 
-** Mon 16 Sep: Beijing Downtown [0/2]
+** Mon 16 Sep: Beijing Downtown [0/4]
  + [ ] Train Qufu to Beijing
- + [ ] Forbidden City??
+ + [ ] [[https://www.tripadvisor.co.uk/Attraction_Review-g294212-d1514063-Reviews-China_Nationalities_Museum_China_Ethnic_Culture_Park-Beijing.html][China Nationalities Museum (China Ethnic Culture Park)]]
+ + [ ] Bird's Nest stadium
+ + [ ] CCTV Headquarters
 
 ** Tue 17 Sep: Beijing East [0/3]
  + [ ] National Museum of China
