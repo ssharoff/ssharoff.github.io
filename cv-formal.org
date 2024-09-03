@@ -38,10 +38,10 @@ My current research interests focus on the relationship between linguistic struc
   :CUSTOM_ID: research-awards
   :CLASS: unnumbered
   :END:
-- 2024-2026 :: EU Horizon "Innovative and Inclusive Democratic Spaces for Deliberation and Participation" (PI for Leeds, €539,954)
+- 2024-2026 :: EU Horizon "Innovative and Inclusive Democratic Spaces for Deliberation and Participation" (PI for Leeds, €539,954) https://idemproject.eu/
 - 2020-2022 :: EPSRC "AI tracing for detecting COVID19 misinformation" (PI, £39,954)
 - 2019 :: EPSRC/Alan Turing Institute "Translation Workflow Automation by Determining Text Difficulty" (PI, £33,337), with UN and WTO.
-- 2014-2016 :: InnovateUK grant "Palodiem" (PI, £216,411)
+- 2014-2016 :: InnovateUK grant "Palodiem: Process Automation for Localisation of Dialogue in Entertainment Media" (PI, £216,411)
 - 2011-2014 :: EU Marie-Curie grant "HyghTra: High-quality Hybrid Machine Translation" (CoI, €541,575)
 - 2012 :: JISC grant "#IICT: Increasing Interoperability between Corpus Tools" (PI for Leeds, in collaboration with Coventry and Lancaster)
 - 2010-2011 :: AHRC grant "Intellitext: Intelligent Tools for Creating and Analysing Electronic Text Corpora" (CoI, £159,293)
@@ -81,7 +81,7 @@ My current research interests focus on the relationship between linguistic struc
   :CUSTOM_ID: academic-publications
   :CLASS: unnumbered
   :END:
-Over 140 academic publications with 4610 citations in total, see a separate list below.
+Over 150 academic publications with 4613 citations in total, see a separate list below.
 
 [[https://scholar.google.co.uk/citations?user=qcnf4QsAAAAJ]]
 
@@ -90,11 +90,8 @@ See also: [[./publications.pdf][publications.pdf]]
 I'm on the editorial board of Language Resources and Register Studies, as well as on the Programme Committte for a number of conferences.
 
 * PhD Supervision
-  :PROPERTIES:
-  :CUSTOM_ID: academic-publications-1
-  :CLASS: unnumbered
-  :END:
-22 students supervised to successful completion.
+
+  23 students supervised to successful completion. My past PhD sudents work in a range of jobs in academia and in industry over the entire world.
 
 ** COMMENT Invited presentations
    :PROPERTIES:
