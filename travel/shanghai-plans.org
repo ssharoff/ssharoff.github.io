@@ -63,10 +63,12 @@
  + [ ] ??
 
 ** Wed 18 Sep: Beijing West [0/2]
- + [ ] Capital Museum
+ + [ ] Forbidden City
+ + [ ] Capital Museum??
  + [ ] Afternoon: Talk at CFAU \ZH{外交学院}
 
 ** Thu 19 Sep: Beijing [0/1]
+ + [ ] [[https://www.thebeijinger.com/events/2017/feb/royal-canal-boat-tour-summer-palace-0][Royal Canal Boat to Summer Palace]]
  + [ ] Summer Palace
 
 * Shanghai
