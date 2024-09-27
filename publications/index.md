@@ -1,3 +1,4 @@
+-   [./2024-coling.pdf](./2024-coling.pdf)
 -   [./2024-ai-health.pdf](./2024-ai-health.pdf)
 -   [./2024-SociolinguisticVariation.pdf](./2024-SociolinguisticVariation.pdf)
 -   [./2024-deLite.pdf](./2024-deLite.pdf)
@@ -65,7 +66,7 @@
 -   [./2013-ACL.pdf](./2013-ACL.pdf)
 -   [./2012-TC.pdf](./2012-TC.pdf)
 -   [./2012-LREC-wikipedia-term-alignment.pdf](./2012-LREC-wikipedia-term-alignment.pdf)
--   [./2012-LREC_CREDISLAS.pdf](./2012-LREC_CREDISLAS.pdf)
+-   [./2012-LREC\_CREDISLAS.pdf](./2012-LREC_CREDISLAS.pdf)
 -   [./2012-IVACS.pdf](./2012-IVACS.pdf)
 -   [./2012-HAL.pdf](./2012-HAL.pdf)
 -   [./2011-tislid.pdf](./2011-tislid.pdf)
