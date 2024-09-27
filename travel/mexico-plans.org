@@ -1,0 +1,103 @@
+#+TITLE: 
+#+AUTHOR: 
+#+DATE: 
+#+OPTIONS: toc:nil H:2
+#+LATEX_HEADER: \usepackage{tikzsymbols}
+
+#+LATEX_HEADER: \usepackage{CJKutf8}
+#+LATEX_HEADER: \newcommand{\ZH}[1]{\begin{CJK}{UTF8}{gbsn}\large #1\end{CJK}}
+# +LATEX_HEADER: \newcommand{\ZHT}[1]{\begin{CJK}{UTF8}{bsmi}#1\end{CJK}}
+
+* Cancun
+** Tue 11 Mar: Arrival to Cancun [0/3]
+ + [ ] Landing 16:55;
+ + [ ] Trip to X
+ + [ ] Relax \Laughey[1.4]
+
+** Wed 12 Mar:  [0/2]
+ + [ ] 
+ + [ ] 
+   
+** Thu 13 Mar: [0/4]
+ + [ ] 
+ + [ ] 
+
+* Mexico city
+** Fri 14 Mar: Flight to Mexico City [0/2]
+ + [ ] 
+
+** Sat 15 Mar:  [0/3]
+ + [ ] 
+
+** Sun 16 Mar:  [0/3]
+ + [ ] 
+ + [ ] 
+ + [ ] 
+
+** Mon 17 Mar:  [0/4]
+ + [ ] 
+ + [ ] 
+ + [ ] 
+ + [ ] 
+
+** Tue 18 Mar: [0/3]
+ + [ ] 
+ + [ ] 
+ + [ ] 
+
+** Wed 19 Mar: [0/2]
+ + [ ] 
+ + [ ] 
+ + [ ] 
+
+** Thu 20 Mar: [0/1]
+ + [ ] 
+ + [ ] 
+
+* Yukatan
+** Fri 21 Mar: 
+ + [ ] 
+ + [ ] 
+
+** Sat 22 Mar: [0/6]
+ + [ ] 
+ + [ ] 
+ + [ ] 
+ + [ ] 
+ + [ ] 
+
+** Sun 23 Mar:  [0/3]
+ + [ ] 
+ + [ ] 
+ + [ ] 
+
+** Mon 24 Mar:  [0/4]
+ + [ ] 
+ + [ ] 
+ + [ ] 
+ + [ ] 
+
+** Tue 25 Mar: [0/3]
+ + [ ] 
+ + [ ] 
+ + [ ] 
+
+** Wed 26 Mar: [0/2]
+ + [ ] 
+ + [ ] 
+ + [ ] 
+
+** Thu 27 Mar: [0/1]
+ + [ ] 
+ + [ ] Flight to London, 17:55
+
+
+* Food
+** Mexican [0/3]
+    + [ ] 
+    + [ ] 
+    + [ ] 
+    + [ ] 
+    + [ ] 
+    + [ ] 
+
