@@ -93,11 +93,14 @@
 
 
 * Food
-** Mexican [0/3]
-    + [ ] 
-    + [ ] 
-    + [ ] 
-    + [ ] 
-    + [ ] 
-    + [ ] 
+** Mexican food [0/3]
+    + [ ] Carne asada -- thin-cut marinated beef steak
+    + [ ] Fajitas -- thinly sliced meat on a comal skillet
+    + [ ] Fideo -- Tomato soup with short noodles
+    + [ ] Menudo -- spicy stew made from tripe
+    + [ ] Nopal -- (prickly pears) - edible cactus
+    + [ ] Pozole -- nixtamalized maize and meat stew
+    + [ ] Tamales -- steamed rolls in cornmeal dough
+    + [ ] Tasajo -- thin-cut beef steak or pork, partially cured
+    + [ ] Tinga -- shredded meat in a smoky chipotle sauce
 
