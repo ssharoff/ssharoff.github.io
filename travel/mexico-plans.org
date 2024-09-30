@@ -8,54 +8,53 @@
 #+LATEX_HEADER: \newcommand{\ZH}[1]{\begin{CJK}{UTF8}{gbsn}\large #1\end{CJK}}
 # +LATEX_HEADER: \newcommand{\ZHT}[1]{\begin{CJK}{UTF8}{bsmi}#1\end{CJK}}
 
-* Cancun
+* Yucatan
 ** Tue 11 Mar: Arrival to Cancun [0/3]
  + [ ] Landing 16:55;
- + [ ] Trip to X
+ + [ ] Trip to Akumal
  + [ ] Relax \Laughey[1.4]
 
-** Wed 12 Mar:  [0/2]
- + [ ] 
- + [ ] 
+** Wed 12 Mar: Akumal [0/2]
+ + [ ] Snorkelling, turtles
+ + [ ] Cenotes
    
-** Thu 13 Mar: [0/4]
+** Thu 13 Mar: Akumal to Chetumal 4:20 [0/4]
+ + [ ] Tulum
+ + [ ] Chetumal
+
+** Fri 14 Mar: Chetumal to Calakmul 2:30  [0/2]
+ + [ ] 
+
+** Sat 15 Mar: Calakmul to Palenque 5:50 [0/3]
+ + [ ] 
+
+** Sun 16 Mar: Palenque [0/3]
+ + [ ] 
+ + [ ] 
+ + [ ] 
+
+** Mon 17 Mar: Palenque to Edzna 5:20 [0/4]
+ + [ ] 
+ + [ ] 
+ + [ ] 
+ + [ ] 
+
+** Tue 18 Mar: Edzna to Uxmal 2:20 [0/3]
+ + [ ] 
+ + [ ] 
+ + [ ] 
+
+** Wed 19 Mar: Uxmal to Chichen Itza 2:40 [0/2]
+ + [ ] Merida
+ + [ ] 
+ + [ ] 
+
+** Thu 20 Mar: Chichen Itza [0/1]
  + [ ] 
  + [ ] 
 
 * Mexico city
-** Fri 14 Mar: Flight to Mexico City [0/2]
- + [ ] 
-
-** Sat 15 Mar:  [0/3]
- + [ ] 
-
-** Sun 16 Mar:  [0/3]
- + [ ] 
- + [ ] 
- + [ ] 
-
-** Mon 17 Mar:  [0/4]
- + [ ] 
- + [ ] 
- + [ ] 
- + [ ] 
-
-** Tue 18 Mar: [0/3]
- + [ ] 
- + [ ] 
- + [ ] 
-
-** Wed 19 Mar: [0/2]
- + [ ] 
- + [ ] 
- + [ ] 
-
-** Thu 20 Mar: [0/1]
- + [ ] 
- + [ ] 
-
-* Yukatan
-** Fri 21 Mar: 
+** Fri 21 Mar: Flight to Mexico City
  + [ ] 
  + [ ] 
 
@@ -87,9 +86,9 @@
  + [ ] 
  + [ ] 
 
-** Thu 27 Mar: [0/1]
+** Thu 27 Mar: Flight to Cancun [0/1]
  + [ ] 
- + [ ] Flight to London, 17:55
+ + [ ] Flight to London, 18:05
 
 
 * Food
