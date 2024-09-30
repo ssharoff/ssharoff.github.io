@@ -11,47 +11,47 @@
 * Yucatan
 ** Tue 11 Mar: Arrival to Cancun [0/3]
  + [ ] Landing 16:55;
- + [ ] Trip to Akumal
+ + [ ] Trip to Puerto Morelos
  + [ ] Relax \Laughey[1.4]
 
-** Wed 12 Mar: Akumal [0/2]
- + [ ] Snorkelling, turtles
- + [ ] Cenotes
+** Wed 12 Mar: to Xcalacoop 2:40 [0/2]
+ + [ ] Valladolid
+ + [ ] 
    
-** Thu 13 Mar: Akumal to Chetumal 4:20 [0/4]
- + [ ] Tulum
- + [ ] Chetumal
+** Thu 13 Mar: to Uxmal 2:40 [0/4]
+ + [ ] Chichen Itza
+ + [ ] Temax \to Motul
+ + [ ] Merida
+ + [ ] Yaxcopoil
 
-** Fri 14 Mar: Chetumal to Calakmul 2:30  [0/2]
- + [ ] 
+** Fri 14 Mar: to Edzna 2:20  [0/2]
+ + [ ] Uxmal
+ + [ ] Tikul
+ + [ ] Oxkutzcab
 
-** Sat 15 Mar: Calakmul to Palenque 5:50 [0/3]
- + [ ] 
+** Sat 15 Mar: to Palenque 5:20 [0/3]
+ + [ ] Edzna
 
 ** Sun 16 Mar: Palenque [0/3]
- + [ ] 
- + [ ] 
- + [ ] 
-
-** Mon 17 Mar: Palenque to Edzna 5:20 [0/4]
- + [ ] 
- + [ ] 
+ + [ ] Palenque
  + [ ] 
  + [ ] 
 
-** Tue 18 Mar: Edzna to Uxmal 2:20 [0/3]
+** Mon 17 Mar: to Calakmul 5:50 [0/4]
  + [ ] 
+
+** Tue 18 Mar: Calakmul [0/3]
+ + [ ] Calakmul
  + [ ] 
  + [ ] 
 
-** Wed 19 Mar: Uxmal to Chichen Itza 2:40 [0/2]
- + [ ] Merida
+** Wed 19 Mar: to Akumal 7:40 [0/2]
  + [ ] 
  + [ ] 
 
-** Thu 20 Mar: Chichen Itza [0/1]
- + [ ] 
- + [ ] 
+** Thu 20 Mar: Akumal [0/1]
+ + [ ] Snorkelling, turtles
+ + [ ] Cenotes
 
 * Mexico city
 ** Fri 21 Mar: Flight to Mexico City
