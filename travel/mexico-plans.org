@@ -38,14 +38,15 @@
  + [ ] 
 
 ** Mon 17 Mar: to Calakmul 5:50 [0/4]
- + [ ] 
+ + [ ] at Colhuas exit take the turn off to the site.
+ + [ ] Stay at campamento-yaax-che-en-calakmul or Xpujil
 
 ** Tue 18 Mar: Calakmul [0/3]
- + [ ] Calakmul
- + [ ] 
+ + [ ] Calakmul (6:30 to 11:30)
+ + [ ] https://www.themayanruinswebsite.com/calakmul.html
  + [ ] 
 
-** Wed 19 Mar: to Akumal 7:40 [0/2]
+** Wed 19 Mar: to Akumal 5:20 [0/2]
  + [ ] 
  + [ ] 
 
@@ -81,14 +82,9 @@
  + [ ] 
  + [ ] 
 
-** Wed 26 Mar: [0/2]
+** Wed 26 Mar: Flight to Cancun [0/1]
  + [ ] 
- + [ ] 
- + [ ] 
-
-** Thu 27 Mar: Flight to Cancun [0/1]
- + [ ] 
- + [ ] Flight to London, 18:05
+ + [ ] Flight to London, 18:40
 
 
 * Food

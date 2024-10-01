@@ -23,6 +23,7 @@
 * Интерфейсы
  + Account :: 账户 zhànghù, 用户名 yònghùmíng
  + Cancel :: 取消 qǔxiāo (fetch disappear)
+ + Click :: 点击 diǎnjī (point hit)
  + Favourite :: 收藏夹 shōucáng jiā (receive store squeeze between)
  + Login :: 登录 dēnglù
  + Nearby :: 周边 zhōubiān (circle side)
@@ -247,7 +248,7 @@
  + 更 :: to change
  + 朱 :: vermilion
  + 止 :: foot \to stop (/walk/ 走)
- + 殳 :: a handle, to rotate
+ + 殳 :: a weapon, to rotate
  + 氏 :: clan, the root of a tree
  + 爪 :: claw (/colour/ 色)
  + 爿 :: small table
