@@ -9,11 +9,13 @@
  + Principal Investigator :: Anna-Grace Linton
  + Research Supervisor :: Serge Sharoff
  + Co-Investigator :: Leonid Bogachev
-# + Funding ::  AI Superconnector and EPSRC IAA
  + Time frame :: 2024-2025
+# + Funding ::  AI Superconnector and EPSRC IAA
 
 * Introduction
-The recent success of Large Language Models (LLMs) like ChatGPT has revolutionized generative Artificial Intelligence (AI). These models, trained on vast amounts of internet text, can produce realistic and coherent responses to various requests, mimicking human-like conversation. However, application of LLMs to legal proceedings require better understanding on how LLMs make their predictions and whether they make them for the right reasons.
+The recent success of Large Language Models (LLMs) like ChatGPT or Llama has revolutionized generative Artificial Intelligence (AI). These models, trained on vast amounts of internet text, can produce realistic and coherent responses to various requests, mimicking human-like conversation. However, application of LLMs to legal proceedings requires better understanding on how LLMs make their predictions and whether they make the right predictions for the right reasons.
+
+
 
 ** Practical motivation
   + An inordinate amount of time is spent “fact-finding” in preparation for a case this includes all evidence from both sides.​
