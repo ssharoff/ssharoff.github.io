@@ -34,9 +34,9 @@
  + [X] Annie Riggs Museum and Saloon https://maps.app.goo.gl/cyJvjwF5YHY4Na8S6
  + [X] McDonald observatory (9pm start) https://maps.app.goo.gl/jXnXH7dh5nbpumVM7
    
-* 06 April: Fort Davis to Dallas 8:00 [0/5]
+* 06 April: Fort Davis to Dallas 8:00 [3/6]
  + [X] Marfa: The Chinati Foundation https://maps.app.goo.gl/M3wMu81XX9SgTFAe6
- + [X] Museum of the Big Bend https://maps.app.goo.gl/ccrArZi7cAfqQpZC8
+ + [ ] Museum of the Big Bend https://maps.app.goo.gl/ccrArZi7cAfqQpZC8
  + [X] Angel restaurant at Marfa
  + [X] Odessa: Petroleum museum https://maps.app.goo.gl/spPufkhyytkb7t9u8
  + [ ] Odessa: Candilejas Mexican https://maps.app.goo.gl/M26tB4EPqKaNtSdS9
