@@ -1,0 +1,23 @@
+#+TITLE: Automated e-Discovery and Judgment Prediction Using AI and Machine Learning
+#+AUTHOR: 
+#+DATE: 
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \setlist{itemsep=5pt,parsep=0pt}
+#+HTML_HEAD_EXTRA: <style>*{font-size: large;}</style>
+
+ + Principal Investigator :: Anna-Grace Linton
+ + Research Supervisor :: Serge Sharoff
+ + Co-Investigator :: Leonid Bogachev
+ + Funding ::  AI Superconnector and EPSRC IAA
+ + Time frame :: 2024-2025
+
+* Introduction
+The recent success of Large Language Models (LLMs) like ChatGPT has revolutionized generative Artificial Intelligence (AI). These models, trained on vast amounts of internet text, can produce realistic and coherent responses to various requests, mimicking human-like conversation. However, application of LLMs to legal proceedings require better understanding on how LLMs make their predictions and whether they make them for the right reasons.
+
+** Practical motivation
+  + An inordinate amount of time is spent “fact-finding” in preparation for a case this includes all evidence from both sides.​
+  + There is a continuously growing body of case law and legislation that needs to be compared to the current case.​
+  + Any advice on the likelihood of the outcome is based primarily on the experience of the legal advisor rather than data itself.​
+  + \to :: This results in significant time and cost as well as elongating the emotional burden of the legal proceedings.
+
