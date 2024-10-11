@@ -1,0 +1,52 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="keywords" content="Chinese Mandarin tokeniser part-of-speech POS tagger segmentation corpus">
+
+<TITLE>Chinese tokenisation and tagging</TITLE>
+<STYLE>
+BODY, TABLE, INPUT, SELECT { font-family: Arial; font-size: 12pt; }
+TD.lex		{ background-color: #00bfff; }
+TD.gram	{ background-color: #00ffbf; }
+TR.oper TD	{ background-color: yellow; }
+</STYLE>
+</HEAD>
+
+<BODY>
+<h2>Chinese tokenisation and tagging</h2>
+
+<p>
+There are no orthographic boundaries between words in Chinese.   This is the main difficulty of working with Chinese computationally (in addition to the bewildering array of encodings used for Chinese and the simplified/traditional script controversy).  A Chinese word frequently consists of two, three or more characters, while the definition of what counts as a word in Chinese is the subject of intense debates (though the same is true for other languages, constructions like <i>as well as</i> or <i>give up</i> have all the properties of a single word, and names, like <i>White House</i>, also mean what they are supposed to mean only taken as a whole).  
+
+<p>You can download the following resources:
+<ol>
+<li><a href="zh-tokenise.tgz">Chinese tokeniser</a>
+<li><a href="tnt-lcmc.tgz">Parameter files</a> for <a href="http://www.coli.uni-saarland.de/~thorsten/tnt/">TnT</a>
+<li><a href="tt-lcmc.tgz">Parameter files</a> for <a href="http://www.ims.uni-stuttgart.de/projekte/corplex/TreeTagger/">TreeTagger</a>
+</ol>
+
+The tagset is described on the <a href="http://bowland-files.lancs.ac.uk/corplang/lcmc/LCMC/LCMC_tagset.htm">LCMC page</a>.  The accuracy of taggers is about 93-94%.  
+
+<p>
+The lack of a single accepted definition of words also creates problems for part-of-speech tagging: if words output by a segmenter do not match what a tagger thinks of being as a word, the accuracy of the latter drops substantially.  Four examples in question are: 
+<ol>
+<li>particles and suffixes: are they listed as individual tokens or kept together with corresponding verbs/nouns as a single word? (学习了&nbsp; or&nbsp; 学习&nbsp; 了, 专家们&nbsp; or&nbsp; 专家&nbsp; 们) 
+<li>measure words: are they separated as tokens? (两张&nbsp; 纸&nbsp; or&nbsp; 两&nbsp; 张&nbsp; 纸; this also applies to dates: 2007年7月2日)
+<li>names of people: are surnames combined with names or not? (邓小平 or 邓&nbsp; 小平)
+<li>compounds: do we treat organisation names as units or decompose them into their constituent words? (安全理事会&nbsp; or&nbsp; 安全&nbsp; 理事会)
+</ol>
+
+The parameter files listed above have been trained on the <a href="http://www.ling.lancs.ac.uk/corplang/lcmc/">Lancaster Corpus of Mandarin Chinese</a> (LCMC), so the decisions made in that corpus guide our segmentation rules.
+
+<p>The segmenter implements a simple longest word lookup algorithm with a couple of built-in heuristics for dealing with cases like 据报道 (when the first character is more likely to be a single token) and 就是 (when two characters may be a single word in some contexts).  The algorithm is simple, but it achieves the accuracy of 94-95% on the test files from the <a href="http://www.sighan.org">SIGHAN</a> 2005 Bakeoff competition.  Nevertheless, much more can be achieved by clever statistical techniques, such as those described by participants in the SIGHAN competition (see <a href="http://acl.ldc.upenn.edu/I/I05/I05-3017.pdf">the overview</a>).  The algorithm relies on the dictionary obtained from a segmented corpus, so its performance on out-of-vocabulary words is poor.  Please get in touch if you want to contribute to open-source development of the segmenting tool listed on this page.  
+
+<p>
+For the Internet and LCMC corpora I also computed their frequency lists: <a href="/frqc/internet-zh.num">Internet corpus</a> and <a href="/frqc/lcmc.num">LCMC corpus</a>.
+<p>
+The resources and tools downloadable from this page all use UTF-8.  They have been designed to work with the simplified script, though some provisions for the traditional script have been added as well.
+<p>
+The resources have been developed by Serge Sharoff; contact me at <strong>s.sharoff<img src="/img/at.gif">leeds.ac.uk</strong>, if you have further queries.  The tokeniser is based on the original code developed by Erik Peterson, <a href="http://www.mandarintools.com">Mandarin Tools</a>; advice on tagging provided by Martin Thomas and Daming Wu.  The tools are provided under the GNU General Public License.
+
+<a href="../index.html">Back to other tools</a>
+</BODY>
+</HTML>

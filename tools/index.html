@@ -1,0 +1,88 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="keywords" content="Chinese Mandarin tokeniser part-of-speech POS tagger segmentation corpus">
+
+<TITLE>Tools for processing corpora</TITLE>
+<STYLE>
+BODY, TABLE, INPUT, SELECT { font-family: Arial; font-size: 12pt; }
+TD.lex		{ background-color: #00bfff; }
+TD.gram	{ background-color: #00ffbf; }
+TR.oper TD	{ background-color: yellow; }
+</STYLE>
+</HEAD>
+
+<BODY>
+<H2>Tools for processing corpora</H2>
+This is a fairly antiquated page describing the tools I developed for corpus mining and processing.  They have been used for creating the corpora for: 
+<p>
+<strong>Sharoff, S.</strong> (2006) Open-source corpora: using the net to fish for linguistic data. In <i>International Journal of Corpus Linguistics</i> 11(4), 435-462, <a href="/serge/publications/ijcl06-11-4-proof.pdf">Prepublication draft</a>
+<p>
+
+The newer tools have been collected on my github <a href="https://github.com/ssharoff/">https://github.com/ssharoff/</a>.  
+
+<p>
+On this page I collected several tools I developed for processing corpora. Some of them are fairly obvious, but they are included for the sake of completeness.  Many tools imply the use of the IMS Corpus Workbench.
+
+<h3>Corpus mining tools</h3>
+<ol>
+  <li>Russian POS tagger, lemmatiser, syntactic parser and corpora are available from <a href="/mocky/">a separate page</a>
+  <li>Chinese tokenisation and tagging tools are available from <a href="zh/">a separate page</a>
+  <li>Italian parser developed by <a href="../marilena/">Marilena di Bari</a> on the basis of <a href="http://www.corpusitaliano.it/it/contents/description.html">Paisa</a>
+  <li><a href="kannada.tgz">Kannada tools</a> &mdash; tagger and lemmatiser for <a href="http://en.wikipedia.org/wiki/Kannada">Kannada</a> (one of the 30 most spoken languages in the world), developed primarily by <a href="http://sivareddy.in/">Siva Reddy<a/>.  It is described in our paper: Siva Reddy, Serge Sharoff. <a href="http://corpus.leeds.ac.uk/serge/publications/2011-CLIA.pdf">Cross Language POS Taggers (and other Tools) for Indian Languages: An Experiment with Kannada using Telugu Resources</a>. In <i>Proc CLIA 2011 at IJNCLP 2011</i>.
+  <li><a href="tnt-ka.tgz">Georgian tagger and lemmatiser</a> developed in collaboration with Sofia Daraselia and Marina Beridze.  It is described in our paper: Daraselia S. and Sharoff S. (2015) Error Analyses in Part-of-Speech Tagging in Georgian. International Conference - Language and Modern Technologies IV, Tbilisi, Georgia, 10-15 September, 2015.
+  <li><a href="http://csar.sourceforge.net">CSAR</a> &mdash; CGI interface to Corpus Workbench (supports concordances and collocation lists with filters)
+  <li><a href="flist2utf8.pl">flist2utf8.pl</a> &mdash; concatenates all html pages and converts them to utf8 (it relies on enca for Chinese and Russian)
+  <li><a href="html2text.pl">html2text.pl</a> &mdash; uses the BTE algorithm to extract the body of continuous text from html pages (a heavily modified version of Marco Baroni's tool)
+  <li><a href="PotaModule.pm">PotaModule.pm</a> &mdash; a perl library used by flist2utf8 and html2text 
+  <li><a href="cleanwords.pl">cleanwords.pl</a> &mdash; filters the list of retrieved pages by good/bad keywords and URLs
+  <li><a href="dedupes.pl">dedupes.pl</a> &mdash; finds duplicate texts by finding duplicate sentences (it is based on the idea from the <a href="http://www.drni.de/niels/cl/wac/">Wac toolkit</a> by Niels Ott)
+  <li><a href="make-frequency-list.pl">make-frequency-list.pl</a> &mdash; generates frequency lists for CWB corpora (it relies on the CWB frequency table)
+  <li><a href="make-subfrequency-list.pl">make-subfrequency-list.pl</a> &mdash;  generates frequency lists for subcorpora of CWB-encoded corpora (as it actually computes frequency data for subcorpora, it can also produce n-grams and similar things, but it is slower than the previous script)
+  <li><a href="mwedetect.pl">mwedetect.pl</a> &mdash; a tool for detecting multi-word expressions in CWB-encoded corpora, please refer to <i><a href="http://acl.ldc.upenn.edu/acl2004/mwe/">What is at Stake: a Case Study of Russian Expressions Starting with a Preposition</a></i>, Proceedings of the 2nd ACL Workshop on Multiword Expressions: Integrating Processing (MWE-2004)
+  <li><a href="getsimple.pl">getsimple.pl</a> and <a href="getsimple-cwb.pl">getsimple-cwb.pl</a> &mdash; tools for ranking Chinese texts (plain text or CWB) against a list of characters the student knows; <a href="learn-vocab.pl">learn-vocab.pl</a> is a version for Latin-based languages (it works with a list of words)
+</ol>
+
+<h3>Text classification tools</h3>
+<ol>
+  <li><a href="make-arff.pl">make-arff.pl</a> &mdash; makes an ARFF file of selected features to be used by <a href="http://weka.sourceforge.net">Weka</a>
+  <li><a href="arff2sparse.pl">arff2sparse.pl</a> &mdash; converts ARFF files to the sparse matrix format, inter alia used by <a href="http://glaros.dtc.umn.edu/gkhome/views/cluto">CLUTO</a>
+  <li><a href="arff2cw.pl">arff2cw.pl</a> &mdash; converts ARFF files to the graph format, used by <a href="http://wortschatz.informatik.uni-leipzig.de/~cbiemann/software/CW.html">Chinese Whispers</a>
+  <li><a href="make-keywords-cwb.pl">make-keywords-cwb.pl</a> &mdash; finds words more specific to individual documents in a corpus (useful for building keyword lists for new languages)
+  <li><a href="compare-fq-lists.pl">compare-fq-lists.pl</a> &mdash; finds words more specific to individual frequency lists (log-likelihood and log-odds scores are supported at the moment, the output can be a tab-separated file or LaTex table)
+</ol>
+
+
+<h3>Miscellaneous tools</h3>
+<ol>
+  <li><a href="cedict2dictd.pl">cedict2dictd.pl</a> &mdash; converts <a href="http://www.mandarintools.com/cedict.html">CEDICT</a> (a free Chinese-English dictionary) to the <a href="http://www.dict.org">DICTD</a> format and adds information from a frequency list
+  <li><a href="make-lcmc.pl">make-lcmc.pl</a>  &mdash; makes a CWB file from <a href="http://www.ling.lancs.ac.uk/corplang/lcmc/">LCMC</a> files
+  <li><a href="smallutils.pm">smallutils.pm</a>  &mdash; a collection of small functions for opening UTF8 files, operating with frequency lists, transliterating Cyrillic chars, etc
+  <li><a href="utf8-tokenize.pl">utf8-tokenize.pl</a>  &mdash; a tokeniser for utf8 files, it's a part of <a href="http://www.ims.uni-stuttgart.de/projekte/corplex/TreeTagger/">TreeTagger</a>, but useful for other purposes.
+</ol>
+
+<h3>Copyright notice</h3>
+
+The software downloadable from this page may be freely distributed and
+modified in terms of <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">
+the GNU General Public License</a> or under <a href="http://dev.perl.org/licenses/artistic.html">the Perl Artistic License</a>, and as per the license terms, the copyright notice at the top of each file must be retained. 
+
+<p>
+The software is provided in the hope
+that it can be useful. ABSOLUTELY NO warranty is given, in particular,
+with respect to its suitability for your specific purposes. 
+
+Please contact me for more details for getting this software under another license.
+
+<P>
+The resources have been developed by Serge Sharoff (Centre for Translation Studies, University of Leeds).  Get in touch <TT><A NAME="tex2html22"
+  HREF="/serge/">with me</A></TT> if you have any suggestions.
+
+<P>
+<BR><HR>
+<ADDRESS>
+Serge Sharoff
+2011-11-24
+</ADDRESS>
+</BODY>
+</HTML>
