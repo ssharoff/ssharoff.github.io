@@ -9,7 +9,7 @@
  + Principal Investigator :: Anna-Grace Linton
  + Research Supervisor :: Serge Sharoff
  + Co-Investigator :: Leonid Bogachev
- + Time frame :: 2024-2027
+ + Time frame :: 2024-2026
 # + Funding ::  AI Superconnector and EPSRC IAA
 
 * Introduction
