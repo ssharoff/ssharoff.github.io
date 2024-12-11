@@ -1,0 +1,232 @@
+#+TITLE: Gulf Arabic phrasebook
+#+AUTHOR: 
+#+DATE: 
+#+HTML_HEAD_EXTRA: <style>*{font-size: x-large;}</style>
+# +LATEX_CLASS_OPTIONS: [10pt,twocolumn]
+# +LATEX_HEADER: \usepackage{fullpage}
+#+LATEX_HEADER: \usepackage[margin=0.7cm]{geometry}
+
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \setmainfont{Noto Serif}
+#+LATEX_HEADER: \usepackage{xeCJK}
+#+LATEX_HEADER: \setCJKmainfont{Arial Unicode MS}
+# +LATEX_HEADER: \setmainfont{DejaVu Serif}
+# +LATEX_HEADER: \usepackage[english,russian]{babel}
+#+LATEX_HEADER: \usepackage{paralist}
+#+LATEX_HEADER: \let\enumerate\compactenum
+#+LATEX_HEADER: \let\description\compactdesc
+
+#+LATEX_HEADER: \usepackage{multicol}
+
+#+LATEX: \setlength{\columnsep}{8pt}
+#+LATEX: \begin{multicols}{3}
+
+
+* Greetings In Gulf Arabic
+
+#1 – Hello (Peace be upon you) – As-salaamu ‘alaykum – السلام عليكم
+
+#2 – Hello (and also with you) (response) – Wa ‘alaykum as-salaam –  و عليكم السلام 
+
+#3 – Hello – MarHaba – مرحبا
+
+#4 – Hello (response to “hello”) – MarHabtein – مرحبتين
+
+#5 – Hello/Welcome! – Ahlan wa Sahlan – أهلا و سهلا 
+
+#6 – Hi! – Ya hala – يا هلا
+
+#7 – Hi! – Hala – هلا
+
+#8 – Hello! – Ahlan beek/beech – اهلا بيك
+
+#9 – Greetings/God bless you (may God give you life) – Hayyak Allah- حياك الله
+
+#10 – Greetings (may God bless you) (response) – Allah yaHayyeek – الله يحييك 
+
+#11 – Hello? (on the phone) – Alo? – الو
+
+There’s also different greetings that you can use depending on the time of the day. And if you know any of the other Arabic dialects or have studied MSA, you’ll likely have learned these already: 
+
+#12 – Good morning – SabaH alkhayr – صباح الخير
+
+#13 – Good morning (response) – SabaH al-noor – صباح النور
+
+#14 – Good evening – Masa’ alkhayr – مساء الخير 
+
+#15 – Good evening (response) – Masa’ al-noor – مساء النور
+
+Make sure to keep your eyes and ears open to learn the responses to different greetings, which are not always the same.
+
+One time when I was first learning Arabic, I greeted someone first by saying “Sabah al-noor / صباح النور” (good morning (response)), which got some funny looks. 
+
+* Meeting People In Gulf Arabic
+
+People in the Gulf are very hospitable and welcoming, so from experience, I can say that in addition to a lot of eating, tea-drinking, and shopping, there’s a good chance that you’ll be doing a lot of small talk while meeting people. 
+
+Whether you’re walking around town or shopping in the souk (market), having these Gulf Arabic phrases up your sleeve will set you apart from other visitors, and will help you start to get to know your peers in the Gulf region.
+
+#16 – How are you? (in Kuwait and Qatar) – Shlonek?(masculine)/Ishlonik?(feminine)  – شلونك؟
+
+It’s good to note here that there are different conjugations for this phrase, as well as other phrases, depending on the gender or the number of people you are addressing. For example, if you want to ask a large group of people how they are doing, you’d say: 
+
+#17 – How are you? – shlonkum? – شلونكم؟ 
+
+There are also other phrases you can use to ask how people are doing, like: 
+
+#18 – How are you? (in UAE) – IshHalek?/IshHalik? – اشحالك؟
+
+#19 – How are you? – Keyf Halek?/Keyf Halik? – كيف حالك؟ 
+
+#20 – How are you? (in Saudi Arabia) – Wishlonak?/Wishlonek? – وشلونك؟
+
+#21 – How are you? (What’s new?) – Shoo khbarak?/Shoo khbarek? – شو خبارك؟ 
+
+#22 – Are things going well? – Umoor tayyiba? – أمور طيبة؟
+
+As you can see, there are variations on the question “how are you?” depending on which country in the Gulf you are in.
+
+To be safe, it’s worth learning all of them so that you can recognize them as you hear them, and to get a basic idea of which ones to use in different Gulf countries. 
+
+To respond to someone asking how you’re doing, you can use any one of these phrases: 
+
+#23 – Thanks be to God (all is well) – Alhamdulillah – الحمد الله
+
+#24 – Fine, thanks be to God – Bikhayr, alhamdulillah – بخير الحمد لله
+
+#25 – Fine, thanks be to God – Zayn, alhamdulillah – زين الحمد لله
+
+The last of these three (Zayn, alhamdulillah / زين الحمد لله) is the most ‘Gulf’-sounding of the three. I definitely get more positive reactions when I used this response compared to the others. 
+
+* Being Polite In Gulf Arabic
+
+Politeness is highly valued and regarded in any Arabic-speaking country, so it’ll always go a long way to know a few Gulf Arabic phrases that allow you to be polite and show respect towards the people around you. 
+
+Of all of the phrases to help you get around, you should definitely learn: 
+
+#26 – Thank you – Shookran – شكرا
+
+This is the simplest way to say “thank you”, but there are also other ways that you can express thanks or gratitude. Here’s a list of them, as well as the most standard responses to “thank you”: 
+
+#27 – Thanks – Mashkoor/a – مشكور/ة 
+
+#28 – Thanks (plural) – Mashkooreen – مشكورين
+
+#29 – Thanks to you – Shukran lak/lek – شكرا لك
+
+#30 – Thanks (Health to you) – Tislam/Tislami – تسلم/ي
+
+#31 – Thanks (Health to your hands) – Tislam/i Eedak/ek – تسلم/ي ايدك
+
+#32 – Thank you (May God bless you) – Ya’aTeek al’Aafi – يعطيك العافي
+
+#33 – Thank you very much – Shukran jazeelan – شكرا جزيلا
+
+#34 – You’re welcome – ‘afwan – عفوا 
+
+#35 – You’re welcome (Forgiveness) – Ela’afoo – العفو
+
+
+If you’re trying to sound the most local, then I’d definitely recommend that you say “Mashkoor/a / مشكور/ة”. The last time I was in a souq / سوق (market) in Kuwait, using this phrase helped me get a better bargain. 
+
+There are also other phrases that you can use to be respectful towards the people around you. For example: 
+
+#36 – Excuse me – Low samaht/samahti – لو سمحت/ي
+
+#37 – Excuse me – IsmaH lee – اسمح لي
+
+#38 – Please – Min FaDlak/FaDlech – من فضلك 
+
+#39 – I’m sorry – Aasif/aasifa – اسف
+
+#40 – Please (come in/go ahead) – TafaDal/i – تفضل/ي
+
+* Useful Everyday Gulf Arabic Phrases
+
+If you’re walking around in a country or city that uses Gulf Arabic, there are a number of sentences that are worth memorizing so that you can go about your everyday life. Here are some phrases to help you get through if you’re the only English speaker around: 
+
+#41 – How do I go to ___? – Shloon arooH ____? – شلون أروح _____؟ 
+
+#42 – Do you speak English? – Tatakallam inglizi? – تتكلم/ي انغليزي؟
+
+#43 – I want ___. – Abee ____. – أبي ____. 
+
+#44 – I don’t want ______. – Ma abee ____. – ما أبي ____. 
+
+#45 – I don’t understand Arabic. – Ma afham ‘arabi. – ما أفهم عربي
+
+#46 – I know a little bit of Arabic. – A’aref ‘arabi shway. – أعرف عربة شوي
+
+#47 – Can you say that again? – Mumkin ta’id marra thaniya? – ممكن تعد مرّة ثانية؟ 
+
+#48 – I’m ready to order. – Ana jahiz/a aTlab. – أنا جاهز/ة أطلب.
+
+#49 – Can I have the bill please? – El-Hisab low samaHt. – الحساب لو سمحت 
+
+#50 – Where is____? – Wayn____? –  وين ____؟ 
+
+#51 – How much does this cost? – Kam thaman hada? – كم ثمن هادا؟ 
+
+#52 – What’s the time? – Al-sa’aa kam? – الساعة كم؟ 
+
+While you might want to automatically say that you don’t speak or understand Arabic – in my experience, this has always turned off the potential for more conversation. 
+
+Instead, you can say that you know a little bit. That way, the locals can keep trying to practice speaking with you and you can improve your language skills. 
+
+There’s also plenty of one-word phrases that will help you communicate with the people around you. Here’s a short list to get you started: 
+
+#53 – Yes – Eeh – اي
+
+#54 – No – La – لا
+
+#55 – Yes, of course – Eeh, bala – اي بلى
+
+#56 – Sure – Akeed – أكيد
+
+#57 – Of course – Taba’an – طبعا  
+
+#58 – Exactly/precisely – BaDhabt – بضبط
+
+#59 – God willing (hopefully) – Inshallah – ان شاء الله 
+
+#60 – Let’s go – Yallah – يالا
+
+* Introductions And Getting To Know Each Other In Gulf Arabic
+
+To get to know a culture, you have to get to know the people who live in it! Here are some handy Gulf Arabic phrases that you can use to introduce yourself and to get to know the people around you. 
+
+#61 – What’s your name? – Eesh ismak/ismek? –  ايش اسمك؟
+
+#62 – My name is ___ – Ismi ___ – اسمي___
+
+#63 – Where are you from? – Min weyn ent/enti? – من وين انت/ي؟
+
+#64 – I’m from ___. – Ana min ___. – أنا من __.
+
+#65 – Where do you work? – Wayn tashtaghli? – وين تشتغل/ي؟
+
+#66 – I work at ____. – أشتغل في _____. 
+
+#67 – Where do you live? – Wayn sakin/e? – وين ساكن/ة؟ 
+
+#68 – I live in _____ – Sakin/Sakna fi  ____. – ساكن/ة في___. 
+
+#69 – Nice to meet you – Tasharrafna – تشرفنا 
+
+#70 – Nice to meet you too (the honor is mine) – Sharaf lana – شرف النا
+
+* Gulf Arabic Phrases To Say Goodbye
+If you’re ready to head home and get some rest after going around town and meeting some people, you’ll need to know how to say “goodbye”. 
+
+The best way to do this is to say: 
+
+#71 – Goodbye – Ma’asalaameh – مع السلامة
+
+#72 – Bye – Yalla bay – يلا باي
+
+#73 – God be with you – Allah Ma’ak – الله معك 
+
+#74 – See you (Hope to see you when it’s good) – Nshoofak ‘ala khayr – نشوفك على خير
+
+ 
+#+LATEX: \end{multicols}
