@@ -21,7 +21,7 @@
 ** Thu 13 Mar: to Uxmal 2:40 [0/4]
  + [ ] Chichen Itza
  + [ ] Temax \to Motul route
- + [ ] Merida Maya museum
+ + [ ] 6~Merida Maya museum
  + [ ] Yaxcopoil hacienda
 
 ** Fri 14 Mar: to Campeche 2:20  [0/2]
@@ -52,6 +52,7 @@
  + [ ] Sian Ka'an Biosphere Reserve
 
 ** Thu 20 Mar: Akumal [0/1]
+ + [ ] Tulum
  + [ ] turtles
  + [ ] Cenotes
 
