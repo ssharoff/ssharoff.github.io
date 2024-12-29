@@ -21,7 +21,7 @@
 ** Thu 13 Mar: to Uxmal 2:40 [0/4]
  + [ ] Chichen Itza
  + [ ] Temax \to Motul route
- + [ ] 6~Merida Maya museum
+ + [ ] Merida Maya museum
  + [ ] Yaxcopoil hacienda
 
 ** Fri 14 Mar: to Campeche 2:20  [0/2]
@@ -50,6 +50,7 @@
 
 ** Wed 19 Mar: to Akumal 3:20 [0/2]
  + [ ] Sian Ka'an Biosphere Reserve
+ + [ ] Swimming with manatees
 
 ** Thu 20 Mar: Akumal [0/1]
  + [ ] Tulum
@@ -57,16 +58,18 @@
  + [ ] Cenotes
 
 * Mexico city
-** Fri 21 Mar: Flight to Mexico City
+** Fri 21 Mar: Flight to Mexico City [0/3]
  + [ ] CUN-NLU, 13:50-15:20
  + [ ] Staying at Plaza Santo Domingo
+ + [ ] Centro Histórico: Palacio de Iturbide,
+ + [ ] Catedral Metropolitana de México
 
 ** Sat 22 Mar: [0/5]
+ + [ ] Zona Arquelógica Tlatelolco (Tlatelolco Archaeological Site) (entrance is on Lázaro Cárdenas)
+ + [ ] Museo Nacional de Arte, 
+ + [ ] Museo del Templo Mayor 
  + [ ] 
- + [ ] 
- + [ ] 
- + [ ] 
- + [ ] 
+ + [ ] Dinner at https://maps.app.goo.gl/YvLjVTTYuxwiyjxU9 or https://maps.app.goo.gl/c6x8zCnPWZvxKqsX9
 
 ** Sun 23 Mar:  [0/3]
  + [ ] 
@@ -84,12 +87,13 @@
  + [ ] 
  + [ ] 
 
-** Wed 26 Mar: Flight to Cancun [0/1]
+** Wed 26 Mar: Flight to Cancun [0/3]
  + [ ] MEX-CUN, 09:55-13:30
+ + [ ] Trip to Cancun if there is time
  + [ ] Flight to London, 18:40
 
 * Food
-** Mexican food [0/3]
+** Mexican food [0/9]
     + [ ] Carne asada -- thin-cut marinated beef steak
     + [ ] Fajitas -- thinly sliced meat on a comal skillet
     + [ ] Fideo -- Tomato soup with short noodles
