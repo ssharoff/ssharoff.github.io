@@ -53,7 +53,7 @@
  + [ ] Swimming with manatees
 
 ** Thu 20 Mar: Akumal [0/3]
- + [ ] Tulum / Xcaret
+ + [ ] Tulum / Xcaret, underground river / Xelha, butterfly museum
  + [ ] turtles
  + [ ] Cenotes
 
@@ -63,6 +63,7 @@
  + [ ] Staying at Plaza Santo Domingo
  + [ ] Centro Histórico: Palacio de Iturbide,
  + [ ] Catedral Metropolitana de México
+ + [ ] Zocalo and Aztec dances
 
 ** Sat 22 Mar: Chapultepec, Roma [0/3]
  + [ ] Museo de Anthropologia https://maps.google.com/?cid=9521483601320789284
@@ -79,6 +80,7 @@
  + [ ] Museo de Arte Popular, https://maps.google.com/?cid=2135336805215155084
  + [ ] Museo del Templo Mayor https://maps.google.com/?cid=10128805338444740272
  + [ ] Museum of Cultures https://maps.google.com/?cid=15938484738605529597
+ + [ ] Palacio Nacional
 
 ** Tue 25 Mar: [0/3]
  + [ ] ^? Museo Soumaya https://maps.google.com/?cid=10624803107852467379
