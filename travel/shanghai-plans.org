@@ -33,13 +33,13 @@
  + [X] [[https://www.tripadvisor.com/Attraction_Review-g308272-d2220946-Reviews-China_Maritime_Museum-Shanghai.html][China Maritime Museum]]
  + [X] 18:00: teaching at Maritime University
 
-** Fri 13 Sep:  [0/2]
- + [ ] [[http://www.shanghaimuseum.net/museum/frontend/en/index.action][Shanghai Museum]] ??
+** Fri 13 Sep:  [3/6]
+ + [ ] [[http://www.shanghaimuseum.net/museum/frontend/en/index.action][Shanghai Museum]]
  + [X] [[https://en.wikipedia.org/wiki/Former_Residence_of_Zhou_Enlai_(Shanghai)][Villa of Zhou Enlai]]
  + [X] Shanghai Museum of Arts and Crafts
+ + [X] city walk
  + [ ] [[http://www.shanghaipropagandaart.com/home.asp?class=beautifuf_book][Shanghai Propaganda Poster and Art Centre]]
  + [ ] Tianzifang
- + [X] city walk
 
 ** Sat 14 Sep: Pudong [0/3]
  + [X] Shanghai History Museum
@@ -61,12 +61,12 @@
  + [X] National Museum of China
  + [X] National Art Museum
 
-** Wed 18 Sep: Beijing West [0/2]
+** Wed 18 Sep: Beijing West [4/5]
  + [X] Forbidden City
- + [ ] Capital Museum??
  + [X] Afternoon: Talk at CFAU \ZH{外交学院}
- + [X] The Russian exhibition
+ + [X] The Russian exhibition hall
  + [X] Uyghur restaurant
+ + [ ] Capital Museum
 
 ** Thu 19 Sep: Beijing [3/5]
  + [ ] [[https://www.thebeijinger.com/events/2017/feb/royal-canal-boat-tour-summer-palace-0][Royal Canal Boat to Summer Palace]]
@@ -80,17 +80,16 @@
  + [X] Train Beijing to Suzhou
  + [X] [[https://maps.google.com/?cid=12116311554028233593][Suzhou Market at night]]
 
-** Sat 21 Sep: Suzhou [0/6]
+** Sat 21 Sep: Suzhou [3/6]
  + [X] [[http://www.szmuseum.com/][Suzhou Museum]]
  + [X] The Humble Administrator's Garden
  + [ ] The Garden of the Master of the Nets \ZH{网师园}
  + [ ] Embroidery Museum and Mountain Villa with Embracing Beauty \ZH{环秀山庄}
  + [ ] The Lion Grove Garden \ZH{狮子林}
- + [ ] Train Suzhou to Pudong
  + [ ] [[https://english.shanghai.gov.cn/en-FestivalsCelebrations/20240613/aaded1813b0f42e1817aeadece62ba5e.html][International Light festival]] -- mostly at the [[http://www.shzlzx.com.cn/][Shanghai Exhibition Centre]]
 
 * Food
-** \ZH{上海菜} [0/3]
+** \ZH{上海菜} [0/6]
     + [ ] \ZH{兰州拉面} Lánzhōu lāmiàn, hand-pulled noodles
     + [ ] \ZH{卤肉饭} lǔròufàn braised pork
     + [ ] \ZH{小笼包} xiǎolóngbāo dumplings
