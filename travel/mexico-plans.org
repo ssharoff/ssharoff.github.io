@@ -15,6 +15,7 @@
  + [ ] Relax \Laughey[1.4]
 
 ** Wed 12 Mar: to Xcalacoop 2:40 [0/2]
+ + [ ] Coba
  + [ ] Valladolid
  + [ ] Stay at Xcalacoop
    
@@ -34,6 +35,7 @@
 
 ** Sat 15 Mar: to Calakmul 4:00 [0/3]
  + [ ] Edzna
+ + [ ] Loltun
  + [ ] Stay at Xpujil
 
 ** Sun 16 Mar:  Calakmul [0/3]
@@ -42,7 +44,7 @@
  + [ ] Jungles
 
 ** Mon 17 Mar: to Mahahual 3:20 [0/3]
- + [ ] Ichkabal (close to Bacalar) or Dzibanché or Kohunlich
+ + [ ] Ichkabal (close to Bacalar) or Dzibanché or Kohunlich or Chacmool
    
 ** Tue 18 Mar: Mahahual [0/2]
  + [ ] Snorkelling
@@ -86,6 +88,11 @@
  + [ ] ^? Museo Soumaya https://maps.google.com/?cid=10624803107852467379
  + [ ] ^? Xochicalco + Cacahuamilpa https://maps.app.goo.gl/YTfWMkE5mdcYfyXdA 
  + [ ] 
+
+*** Possible day away
+ + [ ] Puebla: Cacaxtla or Cholula
+ + [ ] Tula de Allende
+ + [ ] Taxco: Cacahuamilpa caves and Xochicalco
 
 ** Wed 26 Mar: Flight to Cancun [0/3]
  + [ ] MEX-CUN, 09:55-13:30
