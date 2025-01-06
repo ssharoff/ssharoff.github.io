@@ -1,622 +1,216 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<!-- 2024-12-11 Wed 19:58 -->
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gulf Arabic phrasebook</title>
-<meta name="generator" content="Org Mode" />
-<style>
-  #content { max-width: 60em; margin: auto; }
-  .title  { text-align: center;
-             margin-bottom: .2em; }
-  .subtitle { text-align: center;
-              font-size: medium;
-              font-weight: bold;
-              margin-top:0; }
-  .todo   { font-family: monospace; color: red; }
-  .done   { font-family: monospace; color: green; }
-  .priority { font-family: monospace; color: orange; }
-  .tag    { background-color: #eee; font-family: monospace;
-            padding: 2px; font-size: 80%; font-weight: normal; }
-  .timestamp { color: #bebebe; }
-  .timestamp-kwd { color: #5f9ea0; }
-  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
-  .underline { text-decoration: underline; }
-  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
-  p.verse { margin-left: 3%; }
-  pre {
-    border: 1px solid #e6e6e6;
-    border-radius: 3px;
-    background-color: #f2f2f2;
-    padding: 8pt;
-    font-family: monospace;
-    overflow: auto;
-    margin: 1.2em;
-  }
-  pre.src {
-    position: relative;
-    overflow: auto;
-  }
-  pre.src:before {
-    display: none;
-    position: absolute;
-    top: -8px;
-    right: 12px;
-    padding: 3px;
-    color: #555;
-    background-color: #f2f2f299;
-  }
-  pre.src:hover:before { display: inline; margin-top: 14px;}
-  /* Languages per Org manual */
-  pre.src-asymptote:before { content: 'Asymptote'; }
-  pre.src-awk:before { content: 'Awk'; }
-  pre.src-authinfo::before { content: 'Authinfo'; }
-  pre.src-C:before { content: 'C'; }
-  /* pre.src-C++ doesn't work in CSS */
-  pre.src-clojure:before { content: 'Clojure'; }
-  pre.src-css:before { content: 'CSS'; }
-  pre.src-D:before { content: 'D'; }
-  pre.src-ditaa:before { content: 'ditaa'; }
-  pre.src-dot:before { content: 'Graphviz'; }
-  pre.src-calc:before { content: 'Emacs Calc'; }
-  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-fortran:before { content: 'Fortran'; }
-  pre.src-gnuplot:before { content: 'gnuplot'; }
-  pre.src-haskell:before { content: 'Haskell'; }
-  pre.src-hledger:before { content: 'hledger'; }
-  pre.src-java:before { content: 'Java'; }
-  pre.src-js:before { content: 'Javascript'; }
-  pre.src-latex:before { content: 'LaTeX'; }
-  pre.src-ledger:before { content: 'Ledger'; }
-  pre.src-lisp:before { content: 'Lisp'; }
-  pre.src-lilypond:before { content: 'Lilypond'; }
-  pre.src-lua:before { content: 'Lua'; }
-  pre.src-matlab:before { content: 'MATLAB'; }
-  pre.src-mscgen:before { content: 'Mscgen'; }
-  pre.src-ocaml:before { content: 'Objective Caml'; }
-  pre.src-octave:before { content: 'Octave'; }
-  pre.src-org:before { content: 'Org mode'; }
-  pre.src-oz:before { content: 'OZ'; }
-  pre.src-plantuml:before { content: 'Plantuml'; }
-  pre.src-processing:before { content: 'Processing.js'; }
-  pre.src-python:before { content: 'Python'; }
-  pre.src-R:before { content: 'R'; }
-  pre.src-ruby:before { content: 'Ruby'; }
-  pre.src-sass:before { content: 'Sass'; }
-  pre.src-scheme:before { content: 'Scheme'; }
-  pre.src-screen:before { content: 'Gnu Screen'; }
-  pre.src-sed:before { content: 'Sed'; }
-  pre.src-sh:before { content: 'shell'; }
-  pre.src-sql:before { content: 'SQL'; }
-  pre.src-sqlite:before { content: 'SQLite'; }
-  /* additional languages in org.el's org-babel-load-languages alist */
-  pre.src-forth:before { content: 'Forth'; }
-  pre.src-io:before { content: 'IO'; }
-  pre.src-J:before { content: 'J'; }
-  pre.src-makefile:before { content: 'Makefile'; }
-  pre.src-maxima:before { content: 'Maxima'; }
-  pre.src-perl:before { content: 'Perl'; }
-  pre.src-picolisp:before { content: 'Pico Lisp'; }
-  pre.src-scala:before { content: 'Scala'; }
-  pre.src-shell:before { content: 'Shell Script'; }
-  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
-  /* additional language identifiers per "defun org-babel-execute"
-       in ob-*.el */
-  pre.src-cpp:before  { content: 'C++'; }
-  pre.src-abc:before  { content: 'ABC'; }
-  pre.src-coq:before  { content: 'Coq'; }
-  pre.src-groovy:before  { content: 'Groovy'; }
-  /* additional language identifiers from org-babel-shell-names in
-     ob-shell.el: ob-shell is the only babel language using a lambda to put
-     the execution function name together. */
-  pre.src-bash:before  { content: 'bash'; }
-  pre.src-csh:before  { content: 'csh'; }
-  pre.src-ash:before  { content: 'ash'; }
-  pre.src-dash:before  { content: 'dash'; }
-  pre.src-ksh:before  { content: 'ksh'; }
-  pre.src-mksh:before  { content: 'mksh'; }
-  pre.src-posh:before  { content: 'posh'; }
-  /* Additional Emacs modes also supported by the LaTeX listings package */
-  pre.src-ada:before { content: 'Ada'; }
-  pre.src-asm:before { content: 'Assembler'; }
-  pre.src-caml:before { content: 'Caml'; }
-  pre.src-delphi:before { content: 'Delphi'; }
-  pre.src-html:before { content: 'HTML'; }
-  pre.src-idl:before { content: 'IDL'; }
-  pre.src-mercury:before { content: 'Mercury'; }
-  pre.src-metapost:before { content: 'MetaPost'; }
-  pre.src-modula-2:before { content: 'Modula-2'; }
-  pre.src-pascal:before { content: 'Pascal'; }
-  pre.src-ps:before { content: 'PostScript'; }
-  pre.src-prolog:before { content: 'Prolog'; }
-  pre.src-simula:before { content: 'Simula'; }
-  pre.src-tcl:before { content: 'tcl'; }
-  pre.src-tex:before { content: 'TeX'; }
-  pre.src-plain-tex:before { content: 'Plain TeX'; }
-  pre.src-verilog:before { content: 'Verilog'; }
-  pre.src-vhdl:before { content: 'VHDL'; }
-  pre.src-xml:before { content: 'XML'; }
-  pre.src-nxml:before { content: 'XML'; }
-  /* add a generic configuration mode; LaTeX export needs an additional
-     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
-  pre.src-conf:before { content: 'Configuration File'; }
-
-  table { border-collapse:collapse; }
-  caption.t-above { caption-side: top; }
-  caption.t-bottom { caption-side: bottom; }
-  td, th { vertical-align:top;  }
-  th.org-right  { text-align: center;  }
-  th.org-left   { text-align: center;   }
-  th.org-center { text-align: center; }
-  td.org-right  { text-align: right;  }
-  td.org-left   { text-align: left;   }
-  td.org-center { text-align: center; }
-  dt { font-weight: bold; }
-  .footpara { display: inline; }
-  .footdef  { margin-bottom: 1em; }
-  .figure { padding: 1em; }
-  .figure p { text-align: center; }
-  .equation-container {
-    display: table;
-    text-align: center;
-    width: 100%;
-  }
-  .equation {
-    vertical-align: middle;
-  }
-  .equation-label {
-    display: table-cell;
-    text-align: right;
-    vertical-align: middle;
-  }
-  .inlinetask {
-    padding: 10px;
-    border: 2px solid gray;
-    margin: 10px;
-    background: #ffffcc;
-  }
-  #org-div-home-and-up
-   { text-align: right; font-size: 70%; white-space: nowrap; }
-  textarea { overflow-x: auto; }
-  .linenr { font-size: smaller }
-  .code-highlighted { background-color: #ffff00; }
-  .org-info-js_info-navigation { border-style: none; }
-  #org-info-js_console-label
-    { font-size: 10px; font-weight: bold; white-space: nowrap; }
-  .org-info-js_search-highlight
-    { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { }
-</style>
-<style>*{font-size: x-large;}</style>
-</head>
-<body>
-<div id="content" class="content">
-<h1 class="title">Gulf Arabic phrasebook</h1>
-
-
-<div id="outline-container-orgba2f545" class="outline-2">
-<h2 id="orgba2f545"><span class="section-number-2">1.</span> Greetings In Gulf Arabic</h2>
-<div class="outline-text-2" id="text-1">
-<p>
-#1 – Hello (Peace be upon you) – As-salaamu ‘alaykum – السلام عليكم
-</p>
-
-<p>
-#2 – Hello (and also with you) (response) – Wa ‘alaykum as-salaam –  و عليكم السلام 
-</p>
-
-<p>
-#3 – Hello – MarHaba – مرحبا
-</p>
-
-<p>
-#4 – Hello (response to “hello”) – MarHabtein – مرحبتين
-</p>
-
-<p>
-#5 – Hello/Welcome! – Ahlan wa Sahlan – أهلا و سهلا 
-</p>
-
-<p>
-#6 – Hi! – Ya hala – يا هلا
-</p>
-
-<p>
-#7 – Hi! – Hala – هلا
-</p>
-
-<p>
-#8 – Hello! – Ahlan beek/beech – اهلا بيك
-</p>
-
-<p>
-#9 – Greetings/God bless you (may God give you life) – Hayyak Allah- حياك الله
-</p>
-
-<p>
-#10 – Greetings (may God bless you) (response) – Allah yaHayyeek – الله يحييك 
-</p>
-
-<p>
-#11 – Hello? (on the phone) – Alo? – الو
-</p>
-
-<p>
-There’s also different greetings that you can use depending on the time of the day. And if you know any of the other Arabic dialects or have studied MSA, you’ll likely have learned these already: 
-</p>
-
-<p>
-#12 – Good morning – SabaH alkhayr – صباح الخير
-</p>
-
-<p>
-#13 – Good morning (response) – SabaH al-noor – صباح النور
-</p>
-
-<p>
-#14 – Good evening – Masa’ alkhayr – مساء الخير 
-</p>
-
-<p>
-#15 – Good evening (response) – Masa’ al-noor – مساء النور
-</p>
-
-<p>
-Make sure to keep your eyes and ears open to learn the responses to different greetings, which are not always the same.
-</p>
-
-<p>
-One time when I was first learning Arabic, I greeted someone first by saying “Sabah al-noor / صباح النور” (good morning (response)), which got some funny looks. 
-</p>
-</div>
-</div>
-
-<div id="outline-container-orgae1480b" class="outline-2">
-<h2 id="orgae1480b"><span class="section-number-2">2.</span> Meeting People In Gulf Arabic</h2>
-<div class="outline-text-2" id="text-2">
-<p>
-People in the Gulf are very hospitable and welcoming, so from experience, I can say that in addition to a lot of eating, tea-drinking, and shopping, there’s a good chance that you’ll be doing a lot of small talk while meeting people. 
-</p>
-
-<p>
-Whether you’re walking around town or shopping in the souk (market), having these Gulf Arabic phrases up your sleeve will set you apart from other visitors, and will help you start to get to know your peers in the Gulf region.
-</p>
-
-<p>
-#16 – How are you? (in Kuwait and Qatar) – Shlonek?(masculine)/Ishlonik?(feminine)  – شلونك؟
-</p>
-
-<p>
-It’s good to note here that there are different conjugations for this phrase, as well as other phrases, depending on the gender or the number of people you are addressing. For example, if you want to ask a large group of people how they are doing, you’d say: 
-</p>
-
-<p>
-#17 – How are you? – shlonkum? – شلونكم؟ 
-</p>
-
-<p>
-There are also other phrases you can use to ask how people are doing, like: 
-</p>
-
-<p>
-#18 – How are you? (in UAE) – IshHalek?/IshHalik? – اشحالك؟
-</p>
-
-<p>
-#19 – How are you? – Keyf Halek?/Keyf Halik? – كيف حالك؟ 
-</p>
-
-<p>
-#20 – How are you? (in Saudi Arabia) – Wishlonak?/Wishlonek? – وشلونك؟
-</p>
-
-<p>
-#21 – How are you? (What’s new?) – Shoo khbarak?/Shoo khbarek? – شو خبارك؟ 
-</p>
-
-<p>
-#22 – Are things going well? – Umoor tayyiba? – أمور طيبة؟
-</p>
-
-<p>
-As you can see, there are variations on the question “how are you?” depending on which country in the Gulf you are in.
-</p>
-
-<p>
-To be safe, it’s worth learning all of them so that you can recognize them as you hear them, and to get a basic idea of which ones to use in different Gulf countries. 
-</p>
-
-<p>
-To respond to someone asking how you’re doing, you can use any one of these phrases: 
-</p>
-
-<p>
-#23 – Thanks be to God (all is well) – Alhamdulillah – الحمد الله
-</p>
-
-<p>
-#24 – Fine, thanks be to God – Bikhayr, alhamdulillah – بخير الحمد لله
-</p>
-
-<p>
-#25 – Fine, thanks be to God – Zayn, alhamdulillah – زين الحمد لله
-</p>
-
-<p>
-The last of these three (Zayn, alhamdulillah / زين الحمد لله) is the most ‘Gulf’-sounding of the three. I definitely get more positive reactions when I used this response compared to the others. 
-</p>
-</div>
-</div>
-
-<div id="outline-container-orge550903" class="outline-2">
-<h2 id="orge550903"><span class="section-number-2">3.</span> Being Polite In Gulf Arabic</h2>
-<div class="outline-text-2" id="text-3">
-<p>
-Politeness is highly valued and regarded in any Arabic-speaking country, so it’ll always go a long way to know a few Gulf Arabic phrases that allow you to be polite and show respect towards the people around you. 
-</p>
-
-<p>
-Of all of the phrases to help you get around, you should definitely learn: 
-</p>
-
-<p>
-#26 – Thank you – Shookran – شكرا
-</p>
-
-<p>
-This is the simplest way to say “thank you”, but there are also other ways that you can express thanks or gratitude. Here’s a list of them, as well as the most standard responses to “thank you”: 
-</p>
-
-<p>
-#27 – Thanks – Mashkoor/a – مشكور/ة 
-</p>
-
-<p>
-#28 – Thanks (plural) – Mashkooreen – مشكورين
-</p>
-
-<p>
-#29 – Thanks to you – Shukran lak/lek – شكرا لك
-</p>
-
-<p>
-#30 – Thanks (Health to you) – Tislam/Tislami – تسلم/ي
-</p>
-
-<p>
-#31 – Thanks (Health to your hands) – Tislam/i Eedak/ek – تسلم/ي ايدك
-</p>
-
-<p>
-#32 – Thank you (May God bless you) – Ya’aTeek al’Aafi – يعطيك العافي
-</p>
-
-<p>
-#33 – Thank you very much – Shukran jazeelan – شكرا جزيلا
-</p>
-
-<p>
-#34 – You’re welcome – ‘afwan – عفوا 
-</p>
-
-<p>
-#35 – You’re welcome (Forgiveness) – Ela’afoo – العفو
-</p>
-
-
-<p>
-If you’re trying to sound the most local, then I’d definitely recommend that you say “Mashkoor/a / مشكور/ة”. The last time I was in a souq / سوق (market) in Kuwait, using this phrase helped me get a better bargain. 
-</p>
-
-<p>
-There are also other phrases that you can use to be respectful towards the people around you. For example: 
-</p>
-
-<p>
-#36 – Excuse me – Low samaht/samahti – لو سمحت/ي
-</p>
-
-<p>
-#37 – Excuse me – IsmaH lee – اسمح لي
-</p>
-
-<p>
-#38 – Please – Min FaDlak/FaDlech – من فضلك 
-</p>
-
-<p>
-#39 – I’m sorry – Aasif/aasifa – اسف
-</p>
-
-<p>
-#40 – Please (come in/go ahead) – TafaDal/i – تفضل/ي
-</p>
-</div>
-</div>
-
-<div id="outline-container-org7ee82f9" class="outline-2">
-<h2 id="org7ee82f9"><span class="section-number-2">4.</span> Useful Everyday Gulf Arabic Phrases</h2>
-<div class="outline-text-2" id="text-4">
-<p>
-If you’re walking around in a country or city that uses Gulf Arabic, there are a number of sentences that are worth memorizing so that you can go about your everyday life. Here are some phrases to help you get through if you’re the only English speaker around: 
-</p>
-
-<p>
-#41 – How do I go to <span class="underline">_</span>? – Shloon arooH <span class="underline">__</span>? – شلون أروح _____؟ 
-</p>
-
-<p>
-#42 – Do you speak English? – Tatakallam inglizi? – تتكلم/ي انغليزي؟
-</p>
-
-<p>
-#43 – I want <span class="underline">_</span>. – Abee <span class="underline">__</span>. – أبي <span class="underline">__</span>. 
-</p>
-
-<p>
-#44 – I don’t want <span class="underline"><span class="underline">__</span></span>. – Ma abee <span class="underline">__</span>. – ما أبي <span class="underline">__</span>. 
-</p>
-
-<p>
-#45 – I don’t understand Arabic. – Ma afham ‘arabi. – ما أفهم عربي
-</p>
-
-<p>
-#46 – I know a little bit of Arabic. – A’aref ‘arabi shway. – أعرف عربة شوي
-</p>
-
-<p>
-#47 – Can you say that again? – Mumkin ta’id marra thaniya? – ممكن تعد مرّة ثانية؟ 
-</p>
-
-<p>
-#48 – I’m ready to order. – Ana jahiz/a aTlab. – أنا جاهز/ة أطلب.
-</p>
-
-<p>
-#49 – Can I have the bill please? – El-Hisab low samaHt. – الحساب لو سمحت 
-</p>
-
-<p>
-#50 – Where is____? – Wayn____? –  وين ____؟ 
-</p>
-
-<p>
-#51 – How much does this cost? – Kam thaman hada? – كم ثمن هادا؟ 
-</p>
-
-<p>
-#52 – What’s the time? – Al-sa’aa kam? – الساعة كم؟ 
-</p>
-
-<p>
-While you might want to automatically say that you don’t speak or understand Arabic – in my experience, this has always turned off the potential for more conversation. Instead, you can say that you know a little bit. That way, the locals can keep trying to practice speaking with you and you can improve your language skills. 
-</p>
-
-<p>
-There’s also plenty of one-word phrases that will help you communicate with the people around you. Here’s a short list to get you started: 
-</p>
-
-<p>
-#53 – Yes – Eeh – اي
-</p>
-
-<p>
-#54 – No – La – لا
-</p>
-
-<p>
-#55 – Yes, of course – Eeh, bala – اي بلى
-</p>
-
-<p>
-#56 – Sure – Akeed – أكيد
-</p>
-
-<p>
-#57 – Of course – Taba’an – طبعا  
-</p>
-
-<p>
-#58 – Exactly/precisely – BaDhabt – بضبط
-</p>
-
-<p>
-#59 – God willing (hopefully) – Inshallah – ان شاء الله 
-</p>
-
-<p>
-#60 – Let’s go – Yallah – يالا
-</p>
-</div>
-</div>
-
-<div id="outline-container-org3c5a207" class="outline-2">
-<h2 id="org3c5a207"><span class="section-number-2">5.</span> Introductions And Getting To Know Each Other In Gulf Arabic</h2>
-<div class="outline-text-2" id="text-5">
-<p>
-To get to know a culture, you have to get to know the people who live in it! Here are some handy Gulf Arabic phrases that you can use to introduce yourself and to get to know the people around you. 
-</p>
-
-<p>
-#61 – What’s your name? – Eesh ismak/ismek? –  ايش اسمك؟
-</p>
-
-<p>
-#62 – My name is <span class="underline">_</span> – Ismi <span class="underline">_</span> – اسمي___
-</p>
-
-<p>
-#63 – Where are you from? – Min weyn ent/enti? – من وين انت/ي؟
-</p>
-
-<p>
-#64 – I’m from <span class="underline">_</span>. – Ana min <span class="underline">_</span>. – أنا من __.
-</p>
-
-<p>
-#65 – Where do you work? – Wayn tashtaghli? – وين تشتغل/ي؟
-</p>
-
-<p>
-#66 – I work at <span class="underline">__</span>. – أشتغل في <span class="underline"><span class="underline">_</span></span>. 
-</p>
-
-<p>
-#67 – Where do you live? – Wayn sakin/e? – وين ساكن/ة؟ 
-</p>
-
-<p>
-#68 – I live in <span class="underline"><span class="underline">_</span></span> – Sakin/Sakna fi  <span class="underline">__</span>. – ساكن/ة في___. 
-</p>
-
-<p>
-#69 – Nice to meet you – Tasharrafna – تشرفنا 
-</p>
-
-<p>
-#70 – Nice to meet you too (the honor is mine) – Sharaf lana – شرف النا
-</p>
-</div>
-</div>
-
-<div id="outline-container-orgd0c3997" class="outline-2">
-<h2 id="orgd0c3997"><span class="section-number-2">6.</span> Gulf Arabic Phrases To Say Goodbye</h2>
-<div class="outline-text-2" id="text-6">
-<p>
-If you’re ready to head home and get some rest after going around town and meeting some people, you’ll need to know how to say “goodbye”. 
-</p>
-
-<p>
-The best way to do this is to say: 
-</p>
-
-<p>
-#71 – Goodbye – Ma’asalaameh – مع السلامة
-</p>
-
-<p>
-#72 – Bye – Yalla bay – يلا باي
-</p>
-
-<p>
-#73 – God be with you – Allah Ma’ak – الله معك 
-</p>
-
-<p>
-#74 – See you (Hope to see you when it’s good) – Nshoofak ‘ala khayr – نشوفك على خير
-</p>
-</div>
-</div>
-</div>
-<div id="postamble" class="status">
-<p class="date">Created: 2024-12-11 Wed 19:58</p>
-<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
-</div>
-</body>
-</html>
+<h1 id="greetings-in-gulf-arabic">Greetings In Gulf Arabic</h1>
+<ol>
+<li>Hello (Peace be upon you) – As-salaamu ‘alaykum – السلام عليكم</li>
+<li>Hello (and also with you) (response) – Wa ‘alaykum as-salaam – و
+عليكم السلام</li>
+<li>Hello – MarHaba – مرحبا</li>
+<li>Hello (response to “hello”) – MarHabtein – مرحبتين</li>
+<li>Hello/Welcome! – Ahlan wa Sahlan – أهلا و سهلا</li>
+<li>Hi! – Ya hala – يا هلا</li>
+<li>Hi! – Hala – هلا</li>
+<li>Hello! – Ahlan beek/beech – اهلا بيك</li>
+<li>Greetings/God bless you (may God give you life) – Hayyak Allah- حياك
+الله</li>
+<li>Greetings (may God bless you) (response) – Allah yaHayyeek – الله
+يحييك</li>
+<li>Hello? (on the phone) – Alo? – الو</li>
+<li>Good morning – SabaH alkhayr – صباح الخير</li>
+<li>Good morning (response) – SabaH al-noor – صباح النور</li>
+<li>Good evening – Masa’ alkhayr – مساء الخير</li>
+<li>Good evening (response) – Masa’ al-noor – مساء النور</li>
+</ol>
+<h1 id="meeting-people-in-gulf-arabic">Meeting People In Gulf
+Arabic</h1>
+<ol>
+<li>How are you? (in Kuwait and Qatar) – Shlonek?(masculine)/
+Ishlonik?(feminine) – شلونك؟</li>
+<li>How are you? – shlonkum? – شلونكم؟</li>
+</ol>
+<p>Other phrases:</p>
+<ol>
+<li>How are you? (in UAE) – IshHalek?/ IshHalik? – اشحالك؟</li>
+<li>How are you? – Keyf Halek?/Keyf Halik? – كيف حالك؟</li>
+<li>How are you? (in Saudi Arabia) – Wishlonak?/ Wishlonek? –
+وشلونك؟</li>
+<li>How are you? (What’s new?) – Shoo khbarak?/ Shoo khbarek? – شو
+خبارك؟</li>
+<li>Are things going well? – Umoor tayyiba? – أمور طيبة؟</li>
+</ol>
+<p>To respond to someone:</p>
+<ol>
+<li>Thanks be to God (all is well) – Alhamdulillah – الحمد الله</li>
+<li>Fine, thanks be to God – Bikhayr, alhamdulillah – بخير الحمد
+لله</li>
+<li>Fine, thanks be to God – Zayn, alhamdulillah – زين الحمد لله</li>
+</ol>
+<p>The last of these three (Zayn, alhamdulillah / زين الحمد لله) is the
+most ‘Gulf’-sounding of the three.</p>
+<h1 id="being-polite-in-gulf-arabic">Being Polite In Gulf Arabic</h1>
+<ol>
+<li>Thank you – Shookran – شكرا</li>
+<li>Thanks – Mashkoor/a – مشكور/ة</li>
+<li>Thanks (plural) – Mashkooreen – مشكورين</li>
+<li>Thanks to you – Shukran lak/lek – شكرا لك</li>
+<li>Thanks (Health to you) – Tislam/Tislami – تسلم/ي</li>
+<li>Thanks (Health to your hands) – Tislam/i Eedak/ek – تسلم/ي ايدك</li>
+<li>Thank you (May God bless you) – Ya’aTeek al’Aafi – يعطيك العافي</li>
+<li>Thank you very much – Shukran jazeelan – شكرا جزيلا</li>
+<li>You’re welcome – ‘afwan – عفوا</li>
+<li>You’re welcome (Forgiveness) – Ela’afoo – العفو</li>
+</ol>
+<p>Other phrases to be respectful:</p>
+<ol>
+<li>Excuse me – Low samaht/samahti – لو سمحت/ي</li>
+<li>Excuse me – IsmaH lee – اسمح لي</li>
+<li>Please – Min FaDlak/FaDlech – من فضلك</li>
+<li>I’m sorry – Aasif/aasifa – اسف</li>
+<li>Please (come in/go ahead) – TafaDal/i – تفضل/ي</li>
+</ol>
+<h1 id="everyday-gulf-arabic-phrases">Everyday Gulf Arabic Phrases</h1>
+<ol>
+<li>How do I go to <u>_</u>? – Shloon arooH <u>__</u>? – شلون أروح
+_____؟</li>
+<li>Do you speak English? – Tatakallam inglizi? – تتكلم/ي انغليزي؟</li>
+<li>I want <u>_</u>. – Abee <u>__</u>. – أبي <u>__</u>.</li>
+<li>I don’t want <u>____</u>. – Ma abee <u>__</u>. – ما أبي
+<u>__</u>.</li>
+<li>I don’t understand Arabic. – Ma afham ‘arabi. – ما أفهم عربي</li>
+<li>I know a little bit of Arabic. – A’aref ‘arabi shway. – أعرف عربة
+شوي</li>
+<li>Can you say that again? – Mumkin ta’id marra thaniya? – ممكن تعد مرّة
+ثانية؟</li>
+<li>I’m ready to order. – Ana jahiz/a aTlab. – أنا جاهز/ة أطلب.</li>
+<li>Can I have the bill please? – El-Hisab low samaHt. – الحساب لو
+سمحت</li>
+<li>Where is____? – Wayn____? – وين ____؟</li>
+<li>How much does this cost? – Kam thaman hada? – كم ثمن هادا؟</li>
+<li>What’s the time? – Al-sa’aa kam? – الساعة كم؟</li>
+</ol>
+<h1 id="one-word-phrases">One-word phrases</h1>
+<ol>
+<li>Yes – Eeh – اي</li>
+<li>No – La – لا</li>
+<li>Yes, of course – Eeh, bala – اي بلى</li>
+<li>Sure – Akeed – أكيد</li>
+<li>Of course – Taba’an – طبعا</li>
+<li>Exactly/precisely – BaDhabt – بضبط</li>
+<li>God willing (hopefully) – Inshallah – ان شاء الله</li>
+<li>Let’s go – Yallah – يالا</li>
+</ol>
+<h1 id="introductions-in-gulf-arabic">Introductions In Gulf Arabic</h1>
+<ol>
+<li>What’s your name? – Eesh ismak/ismek? – ايش اسمك؟</li>
+<li>My name is <u>_</u> – Ismi <u>_</u> – اسمي___</li>
+<li>Where are you from? – Min weyn ent/enti? – من وين انت/ي؟</li>
+<li>I’m from <u>_</u>. – Ana min <u>_</u>. – أنا من __.</li>
+<li>Where do you work? – Wayn tashtaghli? – وين تشتغل/ي؟</li>
+<li>I work at <u>__</u>. – أشتغل في <u>___</u>.</li>
+<li>Where do you live? – Wayn sakin/e? – وين ساكن/ة؟</li>
+<li>I live in <u>___</u> – Sakin/Sakna fi <u>__</u>. – ساكن/ة
+في___.</li>
+<li>Nice to meet you – Tasharrafna – تشرفنا</li>
+<li>Nice to meet you too (the honor is mine) – Sharaf lana – شرف
+النا</li>
+</ol>
+<h1 id="gulf-arabic-phrases-to-say-goodbye">Gulf Arabic Phrases To Say
+Goodbye</h1>
+<ol>
+<li>Goodbye – Ma’asalaameh – مع السلامة</li>
+<li>Bye – Yalla bay – يلا باي</li>
+<li>God be with you – Allah Ma’ak – الله معك</li>
+<li>See you (Hope to see you when it’s good) – Nshoofak ‘ala khayr –
+نشوفك على خير</li>
+</ol>
+<h1 id="restaurant-exchange">Restaurant exchange</h1>
+<dl>
+<dt>W</dt>
+<dd>
+أهلاً وسهلاً! كيف أقدر أساعدك اليوم؟ (Ahlan wa sahlan! Kayfa aqdiru
+asā‘iduka al-yawm?) (Welcome! How can I help you today?)
+</dd>
+<dt>C</dt>
+<dd>
+أريد أن آكل الآن. (Urid an ākul al-ān.) (I want to eat now.)
+</dd>
+<dt>W</dt>
+<dd>
+طبعاً، ما الذي تودّ تناوله؟ (Tab‘an, mā alladhī tawaddu tanāwulahu?) (Of
+course, what would you like to eat?)
+</dd>
+<dt>C</dt>
+<dd>
+أحب التبولة والمنسف. هل يمكنك أن توصي بشيء آخر؟ (Uhibb al-tabbouleh wa
+al-mansaf. Hal yumkinuka an tuwassi bishay' ākhar?) (I love tabbouleh
+and mansaf. Can you recommend something else?)
+</dd>
+<dt>W</dt>
+<dd>
+بالتأكيد! أنصحك بتجربة المشاوي اللبنانية أو الحمص. (Bittakīd! Anṣaḥuka
+bitajribati al-mashāwī al-lubnāniyyah aw al-ḥummuṣ.) (Certainly! I
+recommend trying Lebanese grilled dishes or hummus.)
+</dd>
+<dt>C</dt>
+<dd>
+هذا جيد جداً. ماذا يمكنني أن أطلب للحلوى؟ (Hadha jayid jiddan. Mādhā
+yumkinuni an aṭlub lil-ḥalwā?) (This is very good. What can I order for
+dessert?)
+</dd>
+<dt>W</dt>
+<dd>
+لدينا الكنافة، البقلاوة، وأصابع زينب. بماذا تود أن تبدأ؟ (Ladaynā
+al-kunāfah, al-baqlawā, wa aṣābi‘ Zaynab. Bimādhā tawaddu an tabda’?)
+(We have kunafa, baklava, and Zainab’s fingers. What would you like to
+start with?)
+</dd>
+<dt>C</dt>
+<dd>
+أريد الكنافة. (Urid al-kunafah.) (I want the kunafa.)
+</dd>
+<dt>W</dt>
+<dd>
+اختيار ممتاز! سأحضرها لك حالاً. (Ikhtiyār mumtāz! Sa’uḥaḍdiruhā laka
+ḥālan.) (Excellent choice! I’ll bring it to you right away.)
+</dd>
+<dt>C</dt>
+<dd>
+شُكراً. أيضاً أريد القهوة العربية. (Shukran. Aidan urid al-qahwa
+al-‘arabiyyah.) (Thank you. Also, I want the Arabic coffee.)
+</dd>
+<dt>W</dt>
+<dd>
+بالتأكيد! سأحضر لك القهوة العربية مع الكنافة. (Bittakīd! Sa’uḥaḍdiru
+laka al-qahwa al-‘arabiyyah ma‘a al-kunāfah.) (Certainly! I’ll bring you
+the Arabic coffee with the kunafa.)
+</dd>
+</dl>
+<h1 id="popular-dishes">Popular dishes</h1>
+<h2 id="appetizers-and-salads">Appetizers and Salads</h2>
+<ol>
+<li>تبولة (Tabbouleh)</li>
+<li>حمص (Hummus)</li>
+<li>بابا غنوج (Baba Ghanouj)</li>
+<li>ورق عنب (Waraq Enab) Stuffed grape leaves</li>
+<li>فلافل (Falafel)</li>
+</ol>
+<h2 id="main-dishes">Main Dishes</h2>
+<ol>
+<li>كبسة (Kabsa) A spiced rice dish</li>
+<li>منسف (Mansaf) Jordan’s dish with lamb</li>
+<li>مقلوبة (Maqluba) A "flipped" rice dish with layers</li>
+<li>مشاوي (Mashawi) Grilled meat, including shish tawook</li>
+<li>الفتة (Fatteh) A layered dish of bread, rice, and meat</li>
+<li>كوشاري (Koshari) Egypt’s dish of rice, lentils, pasta</li>
+</ol>
+<h2 id="desserts">Desserts</h2>
+<ol>
+<li>كنافة (Kunafa)</li>
+<li>بقلاوة (Baklava)</li>
+<li>أصابع زينب (Asabi‘ Zainab) Fried dough fingers</li>
+<li>مهلبية (Mahalabia) pudding with rosewater</li>
+<li>عوامة / لقمة القاضي (Awameh / Luqmat al-Qadi) Sweet dumplings</li>
+</ol>
+<h2 id="beverages">Beverages</h2>
+<ol>
+<li>قهوة عربية (Qahwa Arabiyya)</li>
+<li>شاي بالنعناع (Shay bil-Na‘na‘) Mint tea</li>
+</ol>
