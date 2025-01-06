@@ -1,6 +1,6 @@
-#+TITLE: Gulf Arabic phrasebook
-#+AUTHOR: 
-#+DATE: 
+#+TITLE: My personal Gulf Arabic phrasebook
+#+AUTHOR: Sections 1-7 from \footnotesize  https://storylearning.com/learn/arabic/arabic-tips/gulf-arabic-phrases
+#+DATE: Sections 8-9 from my exchange with ChatGPT
 #+HTML_HEAD_EXTRA: <style>*{font-size: x-large;}</style>
 # +LATEX_CLASS_OPTIONS: [10pt,twocolumn]
 # +LATEX_HEADER: \usepackage{fullpage}
@@ -16,7 +16,7 @@
 #+LATEX_HEADER: \usepackage{paralist}
 #+LATEX_HEADER: \let\enumerate\compactenum
 #+LATEX_HEADER: \let\description\compactdesc
-# https://storylearning.com/learn/arabic/arabic-tips/gulf-arabic-phrases
+
 #+LATEX_HEADER: \usepackage{multicol}
 
 #+LATEX: \setlength{\columnsep}{8pt}
