@@ -2,8 +2,6 @@
 #+AUTHOR: Sections 1-7 from \footnotesize  https://storylearning.com/learn/arabic/arabic-tips/gulf-arabic-phrases
 #+DATE: Sections 8-9 from my exchange with ChatGPT
 #+HTML_HEAD_EXTRA: <style>*{font-size: x-large;}</style>
-# +LATEX_CLASS_OPTIONS: [10pt,twocolumn]
-# +LATEX_HEADER: \usepackage{fullpage}
 #+LATEX_HEADER: \usepackage[margin=0.7cm]{geometry}
 
 #+LATEX_HEADER: \usepackage{fontspec}
@@ -164,3 +162,72 @@ Other phrases to be respectful:
 #+LATEX: \end{multicols}
 
 
+
+* Days of the Week
+ 1. Today – alyawm – اليوم
+ 1. Tomorrow – bacher – باچر
+ 1. Yesterday – ams – أمس
+ 1. Sunday – al-aHad – الأحد
+ 1. Monday – al-ithnayn – الاثنين
+ 1. Tuesday – ath-thulaatha’ – الثلاثاء
+ 1. Wednesday – al-arba‘a’ – الأربعاء
+ 1. Thursday – al-khamees – الخميس
+ 1. Friday – al-jum‘a – الجمعة
+ 1. Saturday – as-sabt – السبت
+ 1. my presentation is tomorrow: عَرْضي غداً (ArDi ghadan) or عَرْضي باچر (ArDi bacher)
+
+* Airport
+** General Phrases
+ 1. Airport – matar – مطار
+ 1. Flight – riHla – رحلة
+ 1. Passport – jawaz safar – جواز سفر
+ 1. Ticket – tathkara – تذكرة
+ 1. Gate – baab – باب
+ 1. Terminal – maHall rukuub – محل ركوب
+ 1. Baggage – Haqa’ib – حقائب
+ 1. Carry-on luggage – Haqeeba yadawiya – حقيبة يدوية
+ 1. Check-in – tasjeel – تسجيل
+ 1. Customs – jamarik – جمارك
+ 1. Immigration – jawazaat – جوازات
+
+** Questions
+ 1. Where is the airport? – Wain al-matar? – وين المطار؟
+ 1. Where is the check-in counter? – Wain kaawnter at-tasjeel? – وين كاونتر التسجيل؟
+ 1. Where is the gate? – Wain al-baab? – وين الباب؟
+ 1. Where is baggage claim? – Wain maHall al-Haqa’ib? – وين محل الحقائب؟
+ 1. When does the flight leave? – Mataa tughadir ar-riHla? – متى تغادر الرحلة؟
+ 1. What is the gate number? – Shu raqam al-baab? – شو رقم الباب؟
+
+* Emergencies
+Help! – Sa‘adni! – ساعدني!
+I lost my luggage – Dayya‘t Haqa’ibee – ضيعت حقائبي
+
+* Travel-Related Phrases
+**  Taxi
+ 1. Taxi – Taxi – تاكسي
+ 1. I need a taxi – Ahtaaj taxi – أحتاج تاكسي
+ 1. Where can I find a taxi? – Wain agdar alga taxi? – وين أقدر ألقى تاكسي؟
+ 1. How much does it cost to go to...? – Kam yikallif arrooHa ila...? – كم يكلّف الروحة إلى...؟
+ 1. Please take me to... – Min faDlak khuthni ila... – من فضلك خذني إلى...
+ 1. Can you wait for me here? – Tigdar tintiThirni hnee? – تقدر تنتظرني هنا؟
+ 1. I am in a hurry – Ana (musta‘jil) – أنا مستعجل
+ 1. Please drive slower – Min faDlak, soot akhaff – من فضلك، سوق أخفّ
+ 1. How long will it take to get there? – Kam yista‘riq alwaqt hataa wOsil? – كم يستغرق الوقت حتى أوصل؟
+
+** Directions
+ 1. Go straight – Saeed 3ala Tool – سيّد على طول
+ 1. Turn right – Liff yameen – لف يمين
+ 1. Turn left – Liff yasaar – لف يسار
+ 1. Stop here – Waqif hnee – وقف هنا
+ 1. Can you drop me off here? – Tigdar tanazzilni hnee? – تقدر تنزّلني هنا؟
+
+** Destinations
+ 1. Take me to the airport – Khuthni ila al-matar – خذني إلى المطار
+ 1. Take me to the hotel – Khuthni ila al-funduq – خذني إلى الفندق
+ 1. Take me to the city center – Khuthni ila markaz al-madina – خذني إلى مركز المدينة
+ 1. Take me to the mall – Khuthni ila al-mool – خذني إلى المول
+ 1. Take me to the hospital – Khuthni ila al-mustashfa – خذني إلى المستشفى
+** Problems and Questions
+ 1. This is not the right way – Hatha moo al-Tareeq al-saHeeH – هذا مو الطريق الصحيح
+ 1. Can you give me a receipt? – Tigdar ta‘Teeni iSaala? – تقدر تعطيني إيصال؟
+ 1. This is too expensive – Hatha ghaali jiddaan – هذا غالي جداً
