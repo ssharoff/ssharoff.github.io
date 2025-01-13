@@ -1,3 +1,6 @@
+   + [[./2025-wraicogs.pdf]]
+   + [[./2025-coling-ood.pdf]]
+   + [[./2025-coling-author.pdf]]
    + [[./2024-eamt.pdf]]
    + [[./2024-coling.pdf]]
    + [[./2024-ai-health.pdf]]
