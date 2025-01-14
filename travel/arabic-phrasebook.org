@@ -47,7 +47,7 @@ Other phrases:
  19. How are you? – Keyf Halek?/Keyf Halik? – كيف حالك؟ 
  20. How are you? (in Saudi Arabia) – Wishlonak?/ Wishlonek? – وشلونك؟
  21. How are you? (What’s new?) – Shoo khbarak?/ Shoo khbarek? – شو خبارك؟ 
- 22. Are things going well? – Umoor tayyiba? – أمور طيبة؟
+ 22. Are things going well? – Alomoor tayyiba? – أمور طيبة؟
 
 To respond to someone: 
  23. Thanks be to God (all is well) – Alhamdulillah – الحمد الله
@@ -235,8 +235,10 @@ I lost my luggage – Dayya‘t Haqa’ibee – ضيعت حقائبي
  1. Take me to the mall – Khuthni ila al-mool – خذني إلى المول
  1. Take me to the hospital – Khuthni ila al-mustashfa – خذني إلى المستشفى
 ** Problems and Questions
- 1. This is not the right way – Hatha moo al-Tareeq al-saHeeH – هذا مو الطريق الصحيح
- 1. Can you give me a receipt? – Tigdar ta‘Teeni iSaala? – تقدر تعطيني إيصال؟
- 1. This is too expensive – Hatha ghaali jiddaan – هذا غالي جداً
+1. This is not the right way -- Hatha moo al-Tareeq al-saH -- هذا مو
+   الطريق الصح
+2. Can you give me a receipt? -- Tigdar ta'Teeni iSal? -- تقدر تعطيني
+   إيصال؟
+3. This is too expensive -- Hatha ghaali marah -- هذا غالي مره
 #+LATEX: \end{multicols}
 
