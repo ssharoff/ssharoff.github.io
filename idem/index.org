@@ -75,3 +75,5 @@ One of the key features of this research is the focus on explainability, i.e. un
 
 
   
+* Preliminary dataset
+  See [[../kelly/dfly/][the webpage]] with our multilingual dataset derived from Vikidia, as well as the tools used to make text simplification models.
