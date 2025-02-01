@@ -25,9 +25,11 @@
 ** Thu 13 Mar: to Uxmal 2:40 [0/4]
  + [ ] Chichen Itza https://maps.google.com/?cid=8943762525109439898
  + [ ] Temax \to Motul route
- + [ ] Merida Maya museum (closed)\\
+ + [ ] Izamal https://maps.google.com/?cid=4654195024468678659
+ + [ ] Merida Gran Museo de Maya (closed)\\
        Merida Museo Regional de Antropología https://maps.google.com/?cid=5327836345381458369
  + [ ] Yaxcopoil https://maps.google.com/?cid=6353735009450878438
+ + [ ] Stay in Muna
 
 ** Fri 14 Mar: to Campeche 2:20  [1/6]
  + [ ] https://en.wikivoyage.org/wiki/Ruta_Puuc
@@ -48,24 +50,24 @@
  + [ ] https://www.themayanruinswebsite.com/calakmul.html
  + [ ] Jungles
 
-** Mon 17 Mar: to Mahahual 3:20 [0/3]
- + [ ] Ichkabal (close to Bacalar) or Dzibanché or Kohunlich or Chacmool
+** Mon 17 Mar: to Mahahual 3:50 [0/3]
+ + [ ] Kohunlich https://maps.google.com/?cid=8572165254962446644 or \\
+       Ichkabal (close to Bacalar) https://maps.app.goo.gl/RdgsxrBVgF9kLMK8A or \\
+       Dzibanché https://maps.google.com/?cid=576071547476253571 
    
 ** Tue 18 Mar: Mahahual [0/2]
  + [ ] Snorkelling
  + [ ] Relax \Laughey[1.4]
 
-** Wed 19 Mar: to Akumal 3:20 [0/2]
+** Wed 19 Mar: Mahahual [0/2]
  + [ ] Sian Ka'an Biosphere Reserve
  + [ ] Swimming with manatees
 
-** Thu 20 Mar: Akumal [0/3]
- + [ ] Tulum / Xcaret, underground river / Xelha, butterfly museum
- + [ ] turtles
- + [ ] Cenotes
+** Thu 20 Mar: Mahahual [1/1]
+ + [ ] Swimming with turtles
 
 * Mexico city
-** Fri 21 Mar: Flight to Mexico City [0/4]
+** Fri 21 Mar: To Cancun airport 4:10 [0/4]
  + [ ] CUN-NLU, 13:50-15:20
  + [ ] Staying at Plaza Santo Domingo
  + [ ] Centro Histórico: Palacio de Iturbide,
