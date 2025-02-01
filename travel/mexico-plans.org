@@ -14,20 +14,25 @@
  + [ ] Trip to Puerto Morelos
  + [ ] Relax \Laughey[1.4]
 
-** Wed 12 Mar: to Xcalacoop 2:40 [0/2]
- + [ ] Coba
+** Wed 12 Mar: to Xcalacoop 2:40 [1/4]
+ + [ ] Coba^? https://maps.google.com/?cid=14302297260168381406 or\\
+       Ek Balam https://maps.google.com/?cid=3209123517850082809
  + [ ] Valladolid
+ + [ ] Cenote Zaci https://maps.app.goo.gl/VHvHxEDxAVv7R28j8 or \\
+       Cenote Dzinup https://maps.app.goo.gl/92Zzc5UtwJiYHH588
  + [ ] Stay at Xcalacoop
    
 ** Thu 13 Mar: to Uxmal 2:40 [0/4]
- + [ ] Chichen Itza
+ + [ ] Chichen Itza https://maps.google.com/?cid=8943762525109439898
  + [ ] Temax \to Motul route
- + [ ] Merida Maya museum
- + [ ] Yaxcopoil hacienda
+ + [ ] Merida Maya museum (closed)\\
+       Merida Museo Regional de Antropología https://maps.google.com/?cid=5327836345381458369
+ + [ ] Yaxcopoil https://maps.google.com/?cid=6353735009450878438
 
-** Fri 14 Mar: to Campeche 2:20  [0/2]
- + [ ] Uxmal
- + [ ] Kabah
+** Fri 14 Mar: to Campeche 2:20  [1/6]
+ + [ ] https://en.wikivoyage.org/wiki/Ruta_Puuc
+ + [ ] Uxmal https://maps.google.com/?cid=77276175754351047
+ + [ ] Kabah https://maps.google.com/?cid=7680299886271278365
  + [ ] Ticul pottery
  + [ ] Oxkutzcab citrus town
  + [ ] Xlapak
