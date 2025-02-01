@@ -9,17 +9,39 @@
  + Principal Investigator :: Anna-Grace Linton
  + Research Supervisor :: Serge Sharoff
  + Co-Investigator :: Leonid Bogachev
- + Time frame :: 2024-2026
+ + Time frame :: 2025-2026
 # + Funding ::  AI Superconnector and EPSRC IAA
 
 * Introduction
 The recent success of Large Language Models (LLMs) like ChatGPT or Llama has revolutionized generative Artificial Intelligence (AI). These models, trained on vast amounts of internet text, can produce realistic and coherent responses to various requests, mimicking human-like conversation. However, application of LLMs to legal proceedings requires better understanding on how LLMs make their predictions and whether they make the right predictions for the right reasons.
 
 
-
-** Practical motivation
+* Practical motivation
   + An inordinate amount of time is spent “fact-finding” in preparation for a case this includes all evidence from both sides.​
   + There is a continuously growing body of case law and legislation that needs to be compared to the current case.​
   + Any advice on the likelihood of the outcome is based primarily on the experience of the legal advisor rather than data itself.​
   + \to :: This results in significant time and cost as well as elongating the emotional burden of the legal proceedings.
 
+* Dataset
+  We have collected a dataset of recent  Matrimonial Law cases in the UK and used Llama-3.2-8B-Instruct to apply the IRAC framework (Issue, Rule, Application, Conclusion), for example, by asking such prompts as:
+ + /Given the text above, using the IRAC framework (Issue - Rule - Application - Conclusion) please provide a summary of only the Rules, i.e. the main legal reasoning rules as used by the judge, also linking these rules to the statutes and precedents as mentioned by the judge. Do not output the Issue, Application and Conclusion./
+
+ /Link the reasoning rules to the statutes and precedents:/
+    1.  /The court must ensure the protection of children from serious physical harm, especially when a parent has inflicted such harm on one child and continues to deny it. (Children Act 1989, *s.1(1)*)/...
+    7. [@7] /The court should ensure that assessments fit the findings and are not based on fictional explanations. (Oxfordshire County Council v DP, RS and BS EWHC 1593 (Fam))./
+       
+  + /Provide a direct quote of the conclusion from this judgement/
+    -  /I have no choice but to postpone my final decision-making in this case. I am driven to accede to the application by the CG for the instruction of an Independent Social Worker.../
+  + /Summarise the conclusion from this judgement/
+    - /The judge postponed *her* final decision-making in the case and granted the application by the Children's Guardian for the instruction of an Independent Social Worker and a psychologist to undertake assessments of the parents./
+
+Statistics of available judgements:
+
+| Category   |   Words | Sentences |
+|------------+---------+-----------|
+| Judgement  | 7445342 |    283119 |
+| Issues     |  226141 |      8777 |
+| Rules      |  256001 |      8070 |
+| Arguments  |  226940 |     11959 |
+| Conclusion |  173244 |      6637 |
+| Summary    |   87068 |      2877 |
