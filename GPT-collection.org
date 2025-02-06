@@ -26,6 +26,30 @@ Sadly, Sharoff passed away in 2018 at the age of 57. Despite his untimely death,
 
 {{{red(An embellished track record with several inaccuracies)}}}
 
+** Serge Sharoff for DeepSeek
+Serge Sharoff is a prominent figure in the field of computational linguistics and natural language processing (NLP). He has made significant contributions to the development of language resources, tools, and methodologies for processing and analyzing text data. Sharoff's work often focuses on multilingual and cross-lingual approaches, aiming to bridge gaps between different languages and improve the accessibility of NLP technologies across diverse linguistic contexts.
+
+Key Achievements:
+Language Resource Development: Sharoff has been instrumental in creating and curating large-scale language corpora, which are essential for training and evaluating NLP models. His work includes the development of the Open Parallel Corpus (OPUS), a widely used resource for machine translation and multilingual text analysis.
+
+Machine Translation and Multilingual NLP: He has contributed to advancements in machine translation, particularly in low-resource languages, by developing methods to leverage existing resources and improve translation quality.
+
+Text Classification and Sentiment Analysis: Sharoff has conducted extensive research in text classification, sentiment analysis, and genre identification, often focusing on the challenges of applying these techniques across different languages and domains.
+
+Academic Contributions: As a professor and researcher, Sharoff has published numerous papers in top-tier conferences and journals, sharing insights on corpus linguistics, text mining, and multilingual NLP. He has also supervised and mentored students and researchers in the field.
+
+Open Science Advocacy: Sharoff is a strong advocate for open science and open access to research data and tools. His contributions to open resources like OPUS have had a lasting impact on the NLP community.
+
+Interdisciplinary Research: His work often intersects with digital humanities, social sciences, and other disciplines, demonstrating the broader applicability of NLP technologies.
+
+Current Role:
+Serge Sharoff is a Professor at the University of Leeds, where he continues to lead research in computational linguistics and NLP. He is actively involved in collaborative projects and initiatives aimed at advancing the field and addressing real-world challenges in language technology.
+
+Legacy:
+Sharoff's work has significantly influenced the NLP community, particularly in the areas of multilingualism and open resource development. His contributions have enabled researchers and practitioners to tackle language-related problems more effectively, fostering innovation and inclusivity in the field.
+
+{{{red(Far fewer inaccuracies.)}}}
+
 ** Jeremy Munday
 /Write a summary of life and achievements of Jeremy Munday/
 
