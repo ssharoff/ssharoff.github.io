@@ -3,10 +3,12 @@
 #+LATEX_HEADER: \usepackage{fullpage}
 #+HTML_HEAD_EXTRA: <style>*{font-size: x-large;}</style>
 #+OPTIONS: toc:t
-#+MACRO: red @@latex:{\color{red}@@$1@@latex:}@@
-#+MACRO: red @@html:<font color="red">$1</font>@@
+#+MACRO: red1 @@html:<font color="red">@@$1@@html:</font>@@
+#+MACRO: red @@html:<font color="red">$2</font>@@
+#+MACRO: color @@html:<font color="$1">$2</font>@@
 
-/My prompts to ChatGPT are in italics/. {{{red(My comments are in red.)}}}
+/My prompts to ChatGPT are in italics/. {{{color(red,My comments are in redd.)}}}
+
 
 * Biographies
 
@@ -24,7 +26,7 @@ Sharoff also authored numerous academic publications and co-authored several boo
 
 Sadly, Sharoff passed away in 2018 at the age of 57. Despite his untimely death, his legacy lives on through his influential work and the impact he had on the field of linguistics.
 
-{{{red(An embellished track record with several inaccuracies)}}}
+{{{color(red,An embellished track record with several inaccuracies)}}}
 
 ** Serge Sharoff for DeepSeek
 Serge Sharoff is a prominent figure in the field of computational linguistics and natural language processing (NLP). He has made significant contributions to the development of language resources, tools, and methodologies for processing and analyzing text data. Sharoff's work often focuses on multilingual and cross-lingual approaches, aiming to bridge gaps between different languages and improve the accessibility of NLP technologies across diverse linguistic contexts.
@@ -48,7 +50,7 @@ Serge Sharoff is a Professor at the University of Leeds, where he continues to l
 Legacy:
 Sharoff's work has significantly influenced the NLP community, particularly in the areas of multilingualism and open resource development. His contributions have enabled researchers and practitioners to tackle language-related problems more effectively, fostering innovation and inclusivity in the field.
 
-{{{red(Far fewer inaccuracies.)}}}
+{{{color(red,Far fewer inaccuracies.)}}}
 
 ** Jeremy Munday
 /Write a summary of life and achievements of Jeremy Munday/
@@ -85,7 +87,7 @@ It is essential to note that the allegations against Jimmy Savile are serious an
 
 The case of Jimmy Savile serves as a stark reminder of the importance of listening to victims, addressing allegations of abuse seriously, and holding individuals accountable for their actions, regardless of their fame or public standing.
 
-{{{red(It is still capable of criticising people.)}}}
+{{{color(red,It is still capable of criticising people.)}}}
 
 * Research papers
 ** Revision
@@ -101,7 +103,7 @@ Here's the revised paragraph with suggested improvements:
 
 
 
-{{{red(The infelicities of the original text are improved but not the argument. It does recognise uncommon Latex macros: acrshort and acrfull )}}}
+{{{color(red,The infelicities of the original text are improved but not the argument. It does recognise uncommon Latex macros: acrshort and acrfull )}}}
 
 
 ** Funny titles
@@ -140,7 +142,7 @@ In contrast, the Cardiff School, led by Robin Fawcett, has a more formalist appr
 
 While both schools share a commitment to the functional analysis of language, they differ in their focus and methods of analysis. The Sydney School emphasizes the social context of language use and the communicative functions of language, while the Cardiff School focuses on the structural properties of language and the grammatical rules that govern language use.
 
-{{{red(A convincing summary even though the theories are not well known)}}}
+{{{color(red,A convincing summary even though the theories are not well known)}}}
 
 *** Pro-drop
 /please illustrate the phenomenon of pro-drop in Spanish and how this can impact translation from Spanish into English/
@@ -210,7 +212,7 @@ English translation options:
 I like pizza.
 Pizza likes me. (less likely interpretation)
 
-{{{red(I was not able to force it to find non-trivial problems with translation of pro-drops.)}}}
+{{{color(red,I was not able to force it to find non-trivial problems with translation of pro-drops.)}}}
 
 /Translate from Japanese "このケーキは美味しい。気に入った？"/
 
@@ -220,7 +222,7 @@ The translation of "このケーキは美味しい。気に入った？" from Ja
 
 "This cake is delicious. Do you like it?"
 
-{{{red(This is more convincing than Google Translate which ignores the pro-drop and outputs /This cake is delicious. favorite?/)}}}
+{{{color(red,This is more convincing than Google Translate which ignores the pro-drop and outputs /This cake is delicious. favorite?/)}}}
 
 *** /What is the aim of Bertology/
 
@@ -235,7 +237,7 @@ The aim of BERTology, if it were a field of study, would be to explore and under
 Please note that my knowledge is based on information available up until September 2021, and there may have been developments or new concepts related to "Bertology" since then.
 
 
-{{{red(The description is not entirely correct even though the term was in use in 2021 referring to *better understanding of its predictions* rather than architecture. Anyway ChatGPT managed to invent a new field.)}}}
+{{{color(red,The description is not entirely correct even though the term was in use in 2021 referring to *better understanding of its predictions* rather than architecture. Anyway ChatGPT managed to invent a new field.)}}}
 
 * Translation-specific studies
 ** Translation essay topics
@@ -362,7 +364,7 @@ For instance, let's consider the translation of a literary text such as a novel.
 
 In addition to that, the skopos or the purpose of the translation also plays a crucial role in determining the quality of the translation. For instance, if the purpose of the translation is to provide a faithful rendering of the original text, then the translator may need to focus more on linguistic accuracy, even at the expense of stylistic or cultural nuances. On the other hand, if the purpose of the translation is to make the text accessible to a broader audience, then the translator may need to prioritize readability and
 
-{{{red(The passages do not address specific translation problems. However an essay of this kind can be considered as a pass as they do provide a summary of relevant studies.)}}}
+{{{color(red,The passages do not address specific translation problems. However an essay of this kind can be considered as a pass as they do provide a summary of relevant studies.)}}}
 
 ** Translation tasks
 *** Translation for UN
@@ -380,7 +382,7 @@ In addition to that, the skopos or the purpose of the translation also plays a c
 
 The word "figurant" in French means "appearing" or "featured". In this context, "figurant dans l'annexe iii" means "appearing in Annex III". In English, the most common way to express this is to use the word "listed", which means "included on a list". Therefore, "figurant dans l'annexe iii" can be accurately translated as "listed in Annex III".
 
-{{{red(The translation and the explanation are good.)}}}
+{{{color(red,The translation and the explanation are good.)}}}
 
 *** Hunting errors in French and Russian
 
@@ -404,7 +406,7 @@ The term I translated as "wine reserves" is "réserves de vin" in the original F
 
 I apologize for any confusion my previous response may have caused. You are correct that "wine reserves" is not a commonly used phrase in English. A more appropriate translation for "réserves de vin" in this context would be "wine cellar" or "wine storage area". So the sentence in English would read: "which referred to the person who managed the wine cellar in English courts during the Middle Ages."
 
-{{{red(When pointed at a problematic passage ChatGPT does recognise the problem.)}}}
+{{{color(red,When pointed at a problematic passage ChatGPT does recognise the problem.)}}}
 
 
 /Can you check again if there are any other mistakes in the translation above? Just list the phrases where you think you made mistakes./
@@ -451,7 +453,7 @@ Here is the translation of the given Russian sentence:
 
 "In the last years of his life, the scientist worked on the work "On the language of Javanese", which he did not manage to complete."
 
-{{{red(The specific name of the language from the island of Java is lost in translation.)}}}
+{{{color(red,The specific name of the language from the island of Java is lost in translation.)}}}
 
 /What is the Javanese language?/
 
@@ -507,7 +509,7 @@ You are correct. I apologize for the mistake. In English, it is more common to w
 
 No, there is no mistake in rendering "В. фон Гумбольдт" as "V. von Humboldt."
 
-{{{red(There was no way to force ChatGPT to producing /Wilhelm von Humboldt/. Also note V instead of W as coming from transliteration. )}}}
+{{{color(red,There was no way to force ChatGPT to producing /Wilhelm von Humboldt/. Also note V instead of W as coming from transliteration. )}}}
 
 *** DeepSeek for the same examples 
 /Translate "Dans les trois Academies étudiées, une même définition du terme butler est régulièrement répétée aux élèves par les fondateurs, les formatrices et les formateurs recruté·e·s pour leur donner cours : il proviendrait du mot français « bouteiller », celui qui gérait, au Moyen-Âge, les réserves de vin dans les cours anglaises. Plus tard, le butler serait devenu un homme de confiance qui sert, au quotidien, la noblesse anglaise. Les fondateurs des Academies assurent qu’il existait au Royaume-Uni un âge d’or des butlers, qui serait le premier quart du XXe siècle ; la série télévisée Downton Abbey, qui met en scène la vie d’une vingtaine de domestiques travaillant dans une maison noble entre 1912 et 1926, est systématiquement convoquée pour illustrer ce que devrait être aujourd’hui le service aux personnes fortunées. Les fondateurs des Butler Academies défendent ainsi un projet très clair : celui de perpétuer, au XXIe siècle, la tradition d’un·e « vrai·e » butler chez des personnes qui n’en auraient pas héritée."/
@@ -528,7 +530,7 @@ Here’s the revised translation of the relevant part:
 
 "it is said to derive from the French word 'bouteiller,' referring to the person who managed the wine cellars in English courts during the Middle Ages."
 
-{{{red(The same error of /wine reserces/ as with ChatGPT. However, DeepSeek is slightly better with collocations, e.g. /household/ instead of /house/ or /wealthy individuals/ instead of /wealthy people/ or /advocate a very clear mission/ instead of /defend a very clear project/. )}}}
+{{{color(red,The same error of /wine reserces/ as with ChatGPT. However DeepSeek is slightly better with collocations. For example /household/ instead of /house/ or /wealthy individuals/ instead of /wealthy people/ or /advocate a very clear mission/ instead of /defend a very clear project/. )}}}
 
 /Translate "Вопрос о связи гумбольдтовской теории с теми или иными философскими концепциями, в частности И. Канта, по разному трактуется историками науки."/
 
@@ -552,7 +554,7 @@ Alternatively, if you prefer a slightly different nuance:
 
 "This is undoubtedly the principal linguistic work of Wilhelm von Humboldt, in which his theoretical ideas are most fully developed."
 
-{{{red(Unlike ChatGPT DeepSeek renders /Wilhelm von Humboldt/ and /Immanuel Kant/ correctly. Also /Kawi/ is not omitted.)}}}
+{{{color(red,Unlike ChatGPT DeepSeek renders /Wilhelm von Humboldt/ and /Immanuel Kant/ correctly. Also /Kawi/ is not omitted.)}}}
 
 *** Terminology extraction
 For the following English sentence "Composite packaging waste consisting of mainly paper and some plastic [and aluminium], not containing residues" and its French translation "Déchets d'emballages composites principalement constitués de papier et de plastique [ et d'aluminium ] ne contenant pas de résidus", extract terms and type each English term and its French equivalent in separate lines.
@@ -616,7 +618,7 @@ Aluminium = Aluminium
 Residues = Résidus
 #+end_verse
 
-{{{red(Impressive! However it had to be guided to avoid useless function words.)}}}
+{{{color(red,Impressive! However it had to be guided to avoid useless function words.)}}}
 
 * Funny bits
 
@@ -644,7 +646,7 @@ Residues = Résidus
  - 4.1. Any individual whose socks have disappeared in the washing machine shall have the right to seek legal recourse against the manufacturer or laundry service provider responsible.
  - 4.2. The appropriate government agencies shall be responsible for enforcing this constitutional amendment and ensuring compliance with its provisions.
 
-{{{red(It outputs the linguistic constructions expected for a legal text even though on a frivolous topic.)}}}
+{{{color(red,It outputs the linguistic constructions expected for a legal text even though on a frivolous topic.)}}}
 
 ** Writing poetry
 *** The Turing Machine
@@ -713,7 +715,7 @@ Oh, Turing Machine, thy legacy profound,
 In realms of thought, your echoes still resound.
 #+end_verse
 
-{{{red(Rhyme and rythm are not ideal but still poetry output is impressive for a language model.)}}}
+{{{color(red,Rhyme and rythm are not ideal but still poetry output is impressive for a language model.)}}}
 
 *** French limerics
 S'il vous plaît écrivez un limerick sur la Machine de Turing.
@@ -746,7 +748,7 @@ The lines appear to be a part of a humorous and irreverent verse that juxtaposes
 
 Without more context or information, it's difficult to say who specifically wrote these lines or what inspired them to do so.
 
-{{{red(It completely lost the plot here. The poem is well known: published in The New York Times in 1992 and later widely re-printed. A Nobel Prize laureate is not "an unknown or unpublished author".)}}}
+{{{color(red,It completely lost the plot here. The poem is well known: published in The New York Times in 1992 and later widely re-printed. A Nobel Prize laureate is not "an unknown or unpublished author".)}}}
 
 # bibliography:references.bib,serge.bib
 # bibliographystyle:apalike
