@@ -3,14 +3,14 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-01-03 Wed 18:06 -->
+<!-- 2025-02-06 Thu 15:59 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Curated collection of GPT-3.5 outputs</title>
-<meta name="generator" content="Org mode" />
 <meta name="author" content="Serge Sharoff" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -31,8 +31,9 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -41,21 +42,21 @@
   pre.src {
     position: relative;
     overflow: auto;
-    padding-top: 1.2em;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
+    top: -8px;
+    right: 12px;
     padding: 3px;
-    border: 1px solid black;
+    color: #555;
+    background-color: #f2f2f299;
   }
   pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -190,111 +191,103 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { width: 90%; }
-  /*]]>*/-->
+  .org-svg { }
 </style>
 <style>*{font-size: x-large;}</style>
-<script type="text/javascript">
-// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
-<!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
 </script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
 
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
-<div id="content">
+<div id="content" class="content">
 <h1 class="title">Curated collection of GPT-3.5 outputs</h1>
-<div id="table-of-contents">
+<div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
-<div id="text-table-of-contents">
+<div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org1f6c01d">1. Biographies</a>
+<li><a href="#org82574ce">1. Biographies</a>
 <ul>
-<li><a href="#orgc7a4b5f">1.1. Serge Sharoff</a></li>
-<li><a href="#orgac36b8b">1.2. Jeremy Munday</a></li>
-<li><a href="#org8a76e30">1.3. Jimmy Savile</a></li>
+<li><a href="#org2a82f74">1.1. Serge Sharoff</a></li>
+<li><a href="#org62df78a">1.2. Jeremy Munday</a></li>
+<li><a href="#org02b13fd">1.3. Jimmy Savile</a></li>
 </ul>
 </li>
-<li><a href="#org29e5521">2. Research papers</a>
+<li><a href="#org8dc33ac">2. Research papers</a>
 <ul>
-<li><a href="#org1d13065">2.1. Revision</a>
+<li><a href="#orge695c9a">2.1. Revision</a>
 <ul>
-<li><a href="#org362364b">2.1.1. My student</a></li>
+<li><a href="#org6c9c3be">2.1.1. My student</a></li>
 </ul>
 </li>
-<li><a href="#org875e5ac">2.2. Funny titles</a>
+<li><a href="#org11d6267">2.2. Funny titles</a>
 <ul>
-<li><a href="#org87e61d9">2.2.1. (Chen, Eger, 2022) https://arxiv.org/abs/2212.10522</a></li>
-<li><a href="#org90dc1e7">2.2.2. (Dai, et al 2023)</a></li>
+<li><a href="#org3eddc10">2.2.1. (Chen, Eger, 2022) https://arxiv.org/abs/2212.10522</a></li>
+<li><a href="#orgd95a4dc">2.2.2. (Dai, et al 2023)</a></li>
 </ul>
 </li>
-<li><a href="#org96d1f5f">2.3. Research summaries</a>
+<li><a href="#org15149e9">2.3. Research summaries</a>
 <ul>
-<li><a href="#org47d52d1">2.3.1. Functional grammar</a></li>
-<li><a href="#orga5a4216">2.3.2. Pro-drop</a></li>
-<li><a href="#orge7842b0">2.3.3. <i>What is the aim of Bertology</i></a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#orgedc5fc9">3. Translation-specific studies</a>
-<ul>
-<li><a href="#org7cef065">3.1. Translation essay topics</a>
-<ul>
-<li><a href="#org77d721b">3.1.1. Quality and digital technologies</a></li>
-<li><a href="#orgdf8bc35">3.1.2. Translation for UN</a></li>
-<li><a href="#orgf7ab7a7">3.1.3. Hunting errors in French and Russian</a></li>
-<li><a href="#org1946be0">3.1.4. Terminology extraction</a></li>
+<li><a href="#org213f7d7">2.3.1. Functional grammar</a></li>
+<li><a href="#orgca3dfbe">2.3.2. Pro-drop</a></li>
+<li><a href="#org1970e85">2.3.3. <i>What is the aim of Bertology</i></a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org3b469c4">4. Funny bits</a>
+<li><a href="#orgbb4797d">3. Translation-specific studies</a>
 <ul>
-<li><a href="#org6cf2fbf">4.1. Amending the American constitution</a></li>
-<li><a href="#orge74dcb5">4.2. Writing poetry</a>
+<li><a href="#orgfa4557b">3.1. Translation essay topics</a>
 <ul>
-<li><a href="#org8b83e8f">4.2.1. The Turing Machine</a></li>
-<li><a href="#orgc154588">4.2.2. French limerics</a></li>
-<li><a href="#org9416517">4.2.3. Analysing Joseph Brodsky</a></li>
+<li><a href="#orgc1ce69d">3.1.1. Quality and digital technologies</a></li>
+</ul>
+</li>
+<li><a href="#org03a85ed">3.2. Translation tasks</a>
+<ul>
+<li><a href="#org03e67d2">3.2.1. Translation for UN</a></li>
+<li><a href="#orgf520612">3.2.2. Hunting errors in French and Russian</a></li>
+<li><a href="#orga13ded2">3.2.3. DeepSeek for the same examples</a></li>
+<li><a href="#org51089b9">3.2.4. Terminology extraction</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgf963227">4. Funny bits</a>
+<ul>
+<li><a href="#org6864e21">4.1. Amending the American constitution</a></li>
+<li><a href="#orgcb8cacb">4.2. Writing poetry</a>
+<ul>
+<li><a href="#org8a90017">4.2.1. The Turing Machine</a></li>
+<li><a href="#orga613fdd">4.2.2. French limerics</a></li>
+<li><a href="#org0da8451">4.2.3. Analysing Joseph Brodsky</a></li>
 </ul>
 </li>
 </ul>
@@ -303,15 +296,15 @@
 </div>
 </div>
 <p>
-<i>My prompts to ChatGPT are in italics</i>. <font color="red">My comments are in red.</font>
+<i>My prompts to ChatGPT are in italics</i>. My comments are in red.
 </p>
 
-<div id="outline-container-org1f6c01d" class="outline-2">
-<h2 id="org1f6c01d"><span class="section-number-2">1</span> Biographies</h2>
+<div id="outline-container-org82574ce" class="outline-2">
+<h2 id="org82574ce"><span class="section-number-2">1.</span> Biographies</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-orgc7a4b5f" class="outline-3">
-<h3 id="orgc7a4b5f"><span class="section-number-3">1.1</span> Serge Sharoff</h3>
+<div id="outline-container-org2a82f74" class="outline-3">
+<h3 id="org2a82f74"><span class="section-number-3">1.1.</span> Serge Sharoff</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 <i>Write a summary of life and achievements of Serge Sharoff</i>
@@ -339,13 +332,13 @@ Sadly, Sharoff passed away in 2018 at the age of 57. Despite his untimely death,
 </p>
 
 <p>
-<font color="red">An embellished track record with several inaccuracies</font>
+An embellished track record with several inaccuracies
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgac36b8b" class="outline-3">
-<h3 id="orgac36b8b"><span class="section-number-3">1.2</span> Jeremy Munday</h3>
+<div id="outline-container-org62df78a" class="outline-3">
+<h3 id="org62df78a"><span class="section-number-3">1.2.</span> Jeremy Munday</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 <i>Write a summary of life and achievements of Jeremy Munday</i>
@@ -381,8 +374,8 @@ Jeremy Munday's dedication to research, teaching, and practical application has 
 </div>
 </div>
 
-<div id="outline-container-org8a76e30" class="outline-3">
-<h3 id="org8a76e30"><span class="section-number-3">1.3</span> Jimmy Savile</h3>
+<div id="outline-container-org02b13fd" class="outline-3">
+<h3 id="org02b13fd"><span class="section-number-3">1.3.</span> Jimmy Savile</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 <i>Write about life and achievements of Jimmy Savile</i>
@@ -418,22 +411,22 @@ The case of Jimmy Savile serves as a stark reminder of the importance of listeni
 </p>
 
 <p>
-<font color="red">It is still capable of criticising people.</font>
+It is still capable of criticising people.
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org29e5521" class="outline-2">
-<h2 id="org29e5521"><span class="section-number-2">2</span> Research papers</h2>
+<div id="outline-container-org8dc33ac" class="outline-2">
+<h2 id="org8dc33ac"><span class="section-number-2">2.</span> Research papers</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org1d13065" class="outline-3">
-<h3 id="org1d13065"><span class="section-number-3">2.1</span> Revision</h3>
+<div id="outline-container-orge695c9a" class="outline-3">
+<h3 id="orge695c9a"><span class="section-number-3">2.1.</span> Revision</h3>
 <div class="outline-text-3" id="text-2-1">
 </div>
-<div id="outline-container-org362364b" class="outline-4">
-<h4 id="org362364b"><span class="section-number-4">2.1.1</span> My student</h4>
+<div id="outline-container-org6c9c3be" class="outline-4">
+<h4 id="org6c9c3be"><span class="section-number-4">2.1.1.</span> My student</h4>
 <div class="outline-text-4" id="text-2-1-1">
 <p>
 <i>Detect errors and suggest stylistic improvements to this paragraph "\\acrfull{MT} refers to the process of automatically translating text from one natural language to another while retaining the same meaning. It is a typical multi-edge interdisciplinary subject whose research involves many disciplines, such as linguistics, computer science, and mathematics. MT is also considered one of the important tasks of \\acrfull{NLP}, which is closely related to the disciplines of \\acrfull{NLG} and \\acrfull{NLU}. As the internet continues to expand and big data becomes more prevalent, there is a growing demand for the ability to process multilingual information. There is an increasing willingness among people to utilize MT to break down language barriers. However, MT is not just reliant on computing power but also requires additional human expertise, such as in linguistics and psychology. Creating a fully automated, high-quality machine translation system is still challenging, regardless of the amount of demand."</i>
@@ -455,19 +448,19 @@ Here's the revised paragraph with suggested improvements:
 
 
 <p>
-<font color="red">The infelicities of the original text are improved but not the argument. It does recognise uncommon Latex macros: acrshort and acrfull</font>
+The infelicities of the original text are improved but not the argument. It does recognise uncommon Latex macros: acrshort and acrfull
 </p>
 </div>
 </div>
 </div>
 
 
-<div id="outline-container-org875e5ac" class="outline-3">
-<h3 id="org875e5ac"><span class="section-number-3">2.2</span> Funny titles</h3>
+<div id="outline-container-org11d6267" class="outline-3">
+<h3 id="org11d6267"><span class="section-number-3">2.2.</span> Funny titles</h3>
 <div class="outline-text-3" id="text-2-2">
 </div>
-<div id="outline-container-org87e61d9" class="outline-4">
-<h4 id="org87e61d9"><span class="section-number-4">2.2.1</span> (Chen, Eger, 2022) <a href="https://arxiv.org/abs/2212.10522">https://arxiv.org/abs/2212.10522</a></h4>
+<div id="outline-container-org3eddc10" class="outline-4">
+<h4 id="org3eddc10"><span class="section-number-4">2.2.1.</span> (Chen, Eger, 2022) <a href="https://arxiv.org/abs/2212.10522">https://arxiv.org/abs/2212.10522</a></h4>
 <div class="outline-text-4" id="text-2-2-1">
 <p>
 <i>I want three funny titles for the following abstract "We consider the end-to-end abstract-to-title generation problem, exploring seven recent transformer based models (including ChatGPT) fine-tuned on more than 30k abstracttitle pairs from NLP and machine learning venues. As an extension, we also consider the harder problem of generating humorous paper titles. For the latter, we compile the first large-scale humor annotated dataset for scientific papers in the NLP/ML domains, comprising almost 2.5k titles. We evaluate all models using human and automatic metrics. Our human evaluation suggests that our best endto-end system performs similarly to human authors (but arguably slightly worse). Generating funny titles is more difficult, however, and our automatic systems clearly underperform relative to humans and often learn dataset artefacts of humor."</i>
@@ -486,8 +479,8 @@ Here's the revised paragraph with suggested improvements:
 </div>
 </div>
 
-<div id="outline-container-org90dc1e7" class="outline-4">
-<h4 id="org90dc1e7"><span class="section-number-4">2.2.2</span> (Dai, et al 2023)</h4>
+<div id="outline-container-orgd95a4dc" class="outline-4">
+<h4 id="orgd95a4dc"><span class="section-number-4">2.2.2.</span> (Dai, et al 2023)</h4>
 <div class="outline-text-4" id="text-2-2-2">
 <p>
 <i>I want three funny titles for the following abstract: "Graph Attention Network (GAT) is a novel graph neural network that can process and represent different linguistic information using a graph structure. Although GAT and syntactic knowledge can primarily be used in downstream tasks and help in performance improvement, there is still a lack of discussion on what syntactic knowledge GAT is good at learning compared to other neural networks. Therefore, we investigate the robustness of GAT for syntactic dependency prediction in three different languages in terms of attention heads and the number of model layers. We can obtain optimal results when the number of attention heads increases and the number of layers is 2. We also use paired t-test and F1-score to test the prediction of GAT and the pre-trained model BERT fine-tuned by the Machine Translation (MT) task for syntactic dependencies. We analyze their differences in syntactic dependencies and find that GAT is competitive in syntactic dependency prediction compared with BERT find-tuned by the MT task, which may reveal a better means of injecting explicit syntactic knowledge and the possibility of GAT and BERT combinations in MT tasks."</i>
@@ -507,12 +500,12 @@ Here's the revised paragraph with suggested improvements:
 </div>
 </div>
 
-<div id="outline-container-org96d1f5f" class="outline-3">
-<h3 id="org96d1f5f"><span class="section-number-3">2.3</span> Research summaries</h3>
+<div id="outline-container-org15149e9" class="outline-3">
+<h3 id="org15149e9"><span class="section-number-3">2.3.</span> Research summaries</h3>
 <div class="outline-text-3" id="text-2-3">
 </div>
-<div id="outline-container-org47d52d1" class="outline-4">
-<h4 id="org47d52d1"><span class="section-number-4">2.3.1</span> Functional grammar</h4>
+<div id="outline-container-org213f7d7" class="outline-4">
+<h4 id="org213f7d7"><span class="section-number-4">2.3.1.</span> Functional grammar</h4>
 <div class="outline-text-4" id="text-2-3-1">
 <p>
 <i>Compare the positions of the "Sydney School" and the "Cardiff School" in systemic-functional linguistics.</i>
@@ -539,13 +532,13 @@ While both schools share a commitment to the functional analysis of language, th
 </p>
 
 <p>
-<font color="red">A convincing summary even though the theories are not well known</font>
+A convincing summary even though the theories are not well known
 </p>
 </div>
 </div>
 
-<div id="outline-container-orga5a4216" class="outline-4">
-<h4 id="orga5a4216"><span class="section-number-4">2.3.2</span> Pro-drop</h4>
+<div id="outline-container-orgca3dfbe" class="outline-4">
+<h4 id="orgca3dfbe"><span class="section-number-4">2.3.2.</span> Pro-drop</h4>
 <div class="outline-text-4" id="text-2-3-2">
 <p>
 <i>please illustrate the phenomenon of pro-drop in Spanish and how this can impact translation from Spanish into English</i>
@@ -679,7 +672,7 @@ Pizza likes me. (less likely interpretation)
 </p>
 
 <p>
-<font color="red">I was not able to force it to find non-trivial problems with translation of pro-drops.</font>
+I was not able to force it to find non-trivial problems with translation of pro-drops.
 </p>
 
 <p>
@@ -699,13 +692,13 @@ The translation of "このケーキは美味しい。気に入った？" from Ja
 </p>
 
 <p>
-<font color="red">This is more convincing than Google Translate which ignores the pro-drop and outputs /This cake is delicious. favorite?/</font>
+This is more convincing than Google Translate which ignores the pro-drop and outputs /This cake is delicious. favorite?/
 </p>
 </div>
 </div>
 
-<div id="outline-container-orge7842b0" class="outline-4">
-<h4 id="orge7842b0"><span class="section-number-4">2.3.3</span> <i>What is the aim of Bertology</i></h4>
+<div id="outline-container-org1970e85" class="outline-4">
+<h4 id="org1970e85"><span class="section-number-4">2.3.3.</span> <i>What is the aim of Bertology</i></h4>
 <div class="outline-text-4" id="text-2-3-3">
 <p>
 <b>ChatGPT</b>
@@ -729,23 +722,23 @@ Please note that my knowledge is based on information available up until Septemb
 
 
 <p>
-<font color="red">The description is not entirely correct even though the term was in use in 2021 referring to *better understanding of its predictions* rather than architecture. Anyway ChatGPT managed to invent a new field.</font>
+The description is not entirely correct even though the term was in use in 2021 referring to <b>better understanding of its predictions</b> rather than architecture. Anyway ChatGPT managed to invent a new field.
 </p>
 </div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgedc5fc9" class="outline-2">
-<h2 id="orgedc5fc9"><span class="section-number-2">3</span> Translation-specific studies</h2>
+<div id="outline-container-orgbb4797d" class="outline-2">
+<h2 id="orgbb4797d"><span class="section-number-2">3.</span> Translation-specific studies</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org7cef065" class="outline-3">
-<h3 id="org7cef065"><span class="section-number-3">3.1</span> Translation essay topics</h3>
+<div id="outline-container-orgfa4557b" class="outline-3">
+<h3 id="orgfa4557b"><span class="section-number-3">3.1.</span> Translation essay topics</h3>
 <div class="outline-text-3" id="text-3-1">
 </div>
-<div id="outline-container-org77d721b" class="outline-4">
-<h4 id="org77d721b"><span class="section-number-4">3.1.1</span> Quality and digital technologies</h4>
+<div id="outline-container-orgc1ce69d" class="outline-4">
+<h4 id="orgc1ce69d"><span class="section-number-4">3.1.1.</span> Quality and digital technologies</h4>
 <div class="outline-text-4" id="text-3-1-1">
 <p>
 <i>Discuss the advantages and challenges for professional translators and/or interpreters brought about by the widespread adoption of digital technologies and online resources.</i>
@@ -985,14 +978,19 @@ In addition to that, the skopos or the purpose of the translation also plays a c
 </p>
 
 <p>
-<font color="red">The passages do not address specific translation problems. However an essay of this kind can be considered as a pass as they do provide a summary of relevant studies.</font>
+The passages do not address specific translation problems. However an essay of this kind can be considered as a pass as they do provide a summary of relevant studies.
 </p>
 </div>
 </div>
+</div>
 
-<div id="outline-container-orgdf8bc35" class="outline-4">
-<h4 id="orgdf8bc35"><span class="section-number-4">3.1.2</span> Translation for UN</h4>
-<div class="outline-text-4" id="text-3-1-2">
+<div id="outline-container-org03a85ed" class="outline-3">
+<h3 id="org03a85ed"><span class="section-number-3">3.2.</span> Translation tasks</h3>
+<div class="outline-text-3" id="text-3-2">
+</div>
+<div id="outline-container-org03e67d2" class="outline-4">
+<h4 id="org03e67d2"><span class="section-number-4">3.2.1.</span> Translation for UN</h4>
+<div class="outline-text-4" id="text-3-2-1">
 <p>
 <i>Translate from French "déchets d'emballages composites principalement constitués de papier et de plastique [ et d'aluminium ] ne contenant pas de résidus ni de matières visées à l'annexe i à des concentrations suffisantes pour présenter une des caractéristiques de danger figurant dans l'annexe iii"</i>
 </p>
@@ -1020,14 +1018,14 @@ The word "figurant" in French means "appearing" or "featured". In this context, 
 </p>
 
 <p>
-<font color="red">The translation and the explanation are good.</font>
+The translation and the explanation are good.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgf7ab7a7" class="outline-4">
-<h4 id="orgf7ab7a7"><span class="section-number-4">3.1.3</span> Hunting errors in French and Russian</h4>
-<div class="outline-text-4" id="text-3-1-3">
+<div id="outline-container-orgf520612" class="outline-4">
+<h4 id="orgf520612"><span class="section-number-4">3.2.2.</span> Hunting errors in French and Russian</h4>
+<div class="outline-text-4" id="text-3-2-2">
 <p>
 <i>Translate "Dans les trois Academies étudiées, une même définition du terme butler est régulièrement répétée aux élèves par les fondateurs, les formatrices et les formateurs recruté·e·s pour leur donner cours : il proviendrait du mot français « bouteiller », celui qui gérait, au Moyen-Âge, les réserves de vin dans les cours anglaises. Plus tard, le butler serait devenu un homme de confiance qui sert, au quotidien, la noblesse anglaise. Les fondateurs des Academies assurent qu’il existait au Royaume-Uni un âge d’or des butlers, qui serait le premier quart du XXe siècle ; la série télévisée Downton Abbey, qui met en scène la vie d’une vingtaine de domestiques travaillant dans une maison noble entre 1912 et 1926, est systématiquement convoquée pour illustrer ce que devrait être aujourd’hui le service aux personnes fortunées. Les fondateurs des Butler Academies défendent ainsi un projet très clair : celui de perpétuer, au XXIe siècle, la tradition d’un·e « vrai·e » butler chez des personnes qui n’en auraient pas héritée."</i>
 </p>
@@ -1067,7 +1065,7 @@ I apologize for any confusion my previous response may have caused. You are corr
 </p>
 
 <p>
-<font color="red">When pointed at a problematic passage ChatGPT does recognise the problem.</font>
+When pointed at a problematic passage ChatGPT does recognise the problem.
 </p>
 
 
@@ -1154,7 +1152,7 @@ Here is the translation of the given Russian sentence:
 </p>
 
 <p>
-<font color="red">The specific name of the language from the island of Java is lost in translation.</font>
+The specific name of the language from the island of Java is lost in translation.
 </p>
 
 <p>
@@ -1252,14 +1250,107 @@ No, there is no mistake in rendering "В. фон Гумбольдт" as "V. von 
 </p>
 
 <p>
-<font color="red">There was no way to force ChatGPT to producing /Wilhelm von Humboldt/. Also note V vs W as coming from transliteration.</font>
+There was no way to force ChatGPT to producing <i>Wilhelm von Humboldt</i>. Also note V instead of W as coming from transliteration.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org1946be0" class="outline-4">
-<h4 id="org1946be0"><span class="section-number-4">3.1.4</span> Terminology extraction</h4>
-<div class="outline-text-4" id="text-3-1-4">
+<div id="outline-container-orga13ded2" class="outline-4">
+<h4 id="orga13ded2"><span class="section-number-4">3.2.3.</span> DeepSeek for the same examples</h4>
+<div class="outline-text-4" id="text-3-2-3">
+<p>
+<i>Translate "Dans les trois Academies étudiées, une même définition du terme butler est régulièrement répétée aux élèves par les fondateurs, les formatrices et les formateurs recruté·e·s pour leur donner cours : il proviendrait du mot français « bouteiller », celui qui gérait, au Moyen-Âge, les réserves de vin dans les cours anglaises. Plus tard, le butler serait devenu un homme de confiance qui sert, au quotidien, la noblesse anglaise. Les fondateurs des Academies assurent qu’il existait au Royaume-Uni un âge d’or des butlers, qui serait le premier quart du XXe siècle ; la série télévisée Downton Abbey, qui met en scène la vie d’une vingtaine de domestiques travaillant dans une maison noble entre 1912 et 1926, est systématiquement convoquée pour illustrer ce que devrait être aujourd’hui le service aux personnes fortunées. Les fondateurs des Butler Academies défendent ainsi un projet très clair : celui de perpétuer, au XXIe siècle, la tradition d’un·e « vrai·e » butler chez des personnes qui n’en auraient pas héritée."</i>
+</p>
+
+<p>
+<b>DeepSeek</b>
+</p>
+
+<p>
+In the three Academies studied, the same definition of the term "butler" is regularly repeated to the students by the founders, trainers, and instructors hired to teach them: it is said to derive from the French word "bouteiller," referring to the person who managed wine reserves in English courts during the Middle Ages. Later, the butler evolved into a trusted figure who served the English nobility on a daily basis. The founders of the Academies claim that there was a golden age of butlers in the United Kingdom, which they identify as the first quarter of the 20th century. The television series Downton Abbey, which depicts the lives of around twenty servants working in a noble household between 1912 and 1926, is frequently cited as an illustration of what service to wealthy individuals should look like today. The founders of the Butler Academies thus advocate a very clear mission: to perpetuate, in the 21st century, the tradition of a "true" butler among individuals who have not inherited it.
+</p>
+
+<p>
+<i>Which term did you translate as "wine reserves"?</i>
+</p>
+
+<p>
+I translated the term "réserves de vin" as "wine reserves". This refers to the stored or stocked supply of wine managed by the "bouteiller" in medieval English courts. Let me know if you'd like further clarification!
+</p>
+
+<p>
+<i>This does not work in English. There is no expression "wine reserves".</i>
+</p>
+
+<p>
+You're absolutely correct—thank you for pointing that out! The term "réserves de vin" should be translated more naturally in English as "wine cellars" or "wine stocks", depending on the context. In this case, "wine cellars" would likely be the most appropriate translation, as it refers to the stored collection of wine managed by the "bouteiller" in medieval English courts.
+</p>
+
+<p>
+Here’s the revised translation of the relevant part:
+</p>
+
+<p>
+"it is said to derive from the French word 'bouteiller,' referring to the person who managed the wine cellars in English courts during the Middle Ages."
+</p>
+
+<p>
+The same error of <i>wine reserces</i> as with ChatGPT. However
+</p>
+
+<p>
+<i>Translate "Вопрос о связи гумбольдтовской теории с теми или иными философскими концепциями, в частности И. Канта, по разному трактуется историками науки."</i>
+</p>
+
+<p>
+The question of the connection between Humboldt's theory and various philosophical concepts, particularly those of Immanuel Kant, is interpreted differently by historians of science.
+</p>
+
+<p>
+<i>Translate "В последние году жизни ученый работал над трудом «О языке кави на острове Ява», который не успел завершить."</i>
+</p>
+
+<p>
+In the last years of his life, the scholar worked on the work "On the Kawi Language of the Island of Java," which he did not manage to complete.
+</p>
+
+<p>
+<i>Translate "Это безусловно главный лингвистический труд В. фон Гумбольдта, в котором наиболее полно изложена его теоретическая концепция."</i>
+</p>
+
+<p>
+This is undoubtedly the principal linguistic work of Wilhelm von Humboldt, in which his theoretical conception is most fully articulated.
+</p>
+
+<p>
+<i>"theoretical conception" does not work in English.</i>
+</p>
+
+<p>
+You're right—thank you for pointing that out! A more natural phrasing in English would be "theoretical framework" or "theoretical ideas". Here's the revised translation:
+</p>
+
+<p>
+"This is undoubtedly the principal linguistic work of Wilhelm von Humboldt, in which his theoretical framework is most fully articulated."
+</p>
+
+<p>
+Alternatively, if you prefer a slightly different nuance:
+</p>
+
+<p>
+"This is undoubtedly the principal linguistic work of Wilhelm von Humboldt, in which his theoretical ideas are most fully developed."
+</p>
+
+<p>
+Unlike ChatGPT DeepSeek renders <i>Wilhelm von Humboldt</i> and <i>Immanuel Kant</i> correctly. Also <i>Kawi</i> is not omitted.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org51089b9" class="outline-4">
+<h4 id="org51089b9"><span class="section-number-4">3.2.4.</span> Terminology extraction</h4>
+<div class="outline-text-4" id="text-3-2-4">
 <p>
 For the following English sentence "Composite packaging waste consisting of mainly paper and some plastic [and aluminium], not containing residues" and its French translation "Déchets d'emballages composites principalement constitués de papier et de plastique [ et d'aluminium ] ne contenant pas de résidus", extract terms and type each English term and its French equivalent in separate lines.
 </p>
@@ -1338,19 +1429,19 @@ Residues = Résidus<br />
 </p>
 
 <p>
-<font color="red">Impressive! However it had to be guided to avoid useless function words.</font>
+Impressive! However it had to be guided to avoid useless function words.
 </p>
 </div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org3b469c4" class="outline-2">
-<h2 id="org3b469c4"><span class="section-number-2">4</span> Funny bits</h2>
+<div id="outline-container-orgf963227" class="outline-2">
+<h2 id="orgf963227"><span class="section-number-2">4.</span> Funny bits</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-org6cf2fbf" class="outline-3">
-<h3 id="org6cf2fbf"><span class="section-number-3">4.1</span> Amending the American constitution</h3>
+<div id="outline-container-org6864e21" class="outline-3">
+<h3 id="org6864e21"><span class="section-number-3">4.1.</span> Amending the American constitution</h3>
 <div class="outline-text-3" id="text-4-1">
 <p>
 <i>Write an amendment to the American Constitution concerning socks disappearing in the washing machine</i>
@@ -1396,17 +1487,17 @@ Residues = Résidus<br />
 </ul>
 
 <p>
-<font color="red">It outputs the linguistic constructions expected for a legal text even though on a frivolous topic.</font>
+It outputs the linguistic constructions expected for a legal text even though on a frivolous topic.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orge74dcb5" class="outline-3">
-<h3 id="orge74dcb5"><span class="section-number-3">4.2</span> Writing poetry</h3>
+<div id="outline-container-orgcb8cacb" class="outline-3">
+<h3 id="orgcb8cacb"><span class="section-number-3">4.2.</span> Writing poetry</h3>
 <div class="outline-text-3" id="text-4-2">
 </div>
-<div id="outline-container-org8b83e8f" class="outline-4">
-<h4 id="org8b83e8f"><span class="section-number-4">4.2.1</span> The Turing Machine</h4>
+<div id="outline-container-org8a90017" class="outline-4">
+<h4 id="org8a90017"><span class="section-number-4">4.2.1.</span> The Turing Machine</h4>
 <div class="outline-text-4" id="text-4-2-1">
 <p>
 <i>Create a limerick on the Turing Machine.</i>
@@ -1486,13 +1577,13 @@ In realms of thought, your echoes still resound.<br />
 </p>
 
 <p>
-<font color="red">Rhyme and rythm are not ideal but still poetry output is impressive for a language model.</font>
+Rhyme and rythm are not ideal but still poetry output is impressive for a language model.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgc154588" class="outline-4">
-<h4 id="orgc154588"><span class="section-number-4">4.2.2</span> French limerics</h4>
+<div id="outline-container-orga613fdd" class="outline-4">
+<h4 id="orga613fdd"><span class="section-number-4">4.2.2.</span> French limerics</h4>
 <div class="outline-text-4" id="text-4-2-2">
 <p>
 S'il vous plaît écrivez un limerick sur la Machine de Turing.
@@ -1512,8 +1603,8 @@ Et l'infini lui semblait presque un jeu serein.<br />
 </div>
 </div>
 
-<div id="outline-container-org9416517" class="outline-4">
-<h4 id="org9416517"><span class="section-number-4">4.2.3</span> Analysing Joseph Brodsky</h4>
+<div id="outline-container-org0da8451" class="outline-4">
+<h4 id="org0da8451"><span class="section-number-4">4.2.3.</span> Analysing Joseph Brodsky</h4>
 <div class="outline-text-4" id="text-4-2-3">
 <p>
 <i>Who wrote "As you pour yourself a scotch" and why?</i>
@@ -1549,7 +1640,7 @@ Without more context or information, it's difficult to say who specifically wrot
 </p>
 
 <p>
-<font color="red">It completely lost the plot here. The poem is well known: published in The New York Times in 1992 and later widely re-printed. A Nobel Prize laureate is not "an unknown or unpublished author".</font>
+It completely lost the plot here. The poem is well known: published in The New York Times in 1992 and later widely re-printed. A Nobel Prize laureate is not "an unknown or unpublished author".
 </p>
 </div>
 </div>
@@ -1557,8 +1648,9 @@ Without more context or information, it's difficult to say who specifically wrot
 </div>
 </div>
 <div id="postamble" class="status">
+<p class="date">Date: Mostly May-August 2023. DeepSeek examples from Feb 2025</p>
 <p class="author">Author: Serge Sharoff</p>
-<p class="date">Created: 2024-01-03 Wed 18:06</p>
+<p class="date">Created: 2025-02-06 Thu 15:59</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

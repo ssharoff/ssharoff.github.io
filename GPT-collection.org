@@ -1,5 +1,5 @@
 #+TITLE: Curated collection of GPT-3.5 outputs
-#+DATE: 
+#+DATE: Mostly May-August 2023. DeepSeek examples from Feb 2025
 #+LATEX_HEADER: \usepackage{fullpage}
 #+HTML_HEAD_EXTRA: <style>*{font-size: x-large;}</style>
 #+OPTIONS: toc:t
@@ -340,6 +340,7 @@ In addition to that, the skopos or the purpose of the translation also plays a c
 
 {{{red(The passages do not address specific translation problems. However an essay of this kind can be considered as a pass as they do provide a summary of relevant studies.)}}}
 
+** Translation tasks
 *** Translation for UN
 /Translate from French "déchets d'emballages composites principalement constitués de papier et de plastique [ et d'aluminium ] ne contenant pas de résidus ni de matières visées à l'annexe i à des concentrations suffisantes pour présenter une des caractéristiques de danger figurant dans l'annexe iii"/
 
@@ -482,7 +483,52 @@ You are correct. I apologize for the mistake. In English, it is more common to w
 
 No, there is no mistake in rendering "В. фон Гумбольдт" as "V. von Humboldt."
 
-{{{red(There was no way to force ChatGPT to producing /Wilhelm von Humboldt/. Also note V vs W as coming from transliteration. )}}}
+{{{red(There was no way to force ChatGPT to producing /Wilhelm von Humboldt/. Also note V instead of W as coming from transliteration. )}}}
+
+*** DeepSeek for the same examples 
+/Translate "Dans les trois Academies étudiées, une même définition du terme butler est régulièrement répétée aux élèves par les fondateurs, les formatrices et les formateurs recruté·e·s pour leur donner cours : il proviendrait du mot français « bouteiller », celui qui gérait, au Moyen-Âge, les réserves de vin dans les cours anglaises. Plus tard, le butler serait devenu un homme de confiance qui sert, au quotidien, la noblesse anglaise. Les fondateurs des Academies assurent qu’il existait au Royaume-Uni un âge d’or des butlers, qui serait le premier quart du XXe siècle ; la série télévisée Downton Abbey, qui met en scène la vie d’une vingtaine de domestiques travaillant dans une maison noble entre 1912 et 1926, est systématiquement convoquée pour illustrer ce que devrait être aujourd’hui le service aux personnes fortunées. Les fondateurs des Butler Academies défendent ainsi un projet très clair : celui de perpétuer, au XXIe siècle, la tradition d’un·e « vrai·e » butler chez des personnes qui n’en auraient pas héritée."/
+
+*DeepSeek*
+
+In the three Academies studied, the same definition of the term "butler" is regularly repeated to the students by the founders, trainers, and instructors hired to teach them: it is said to derive from the French word "bouteiller," referring to the person who managed wine reserves in English courts during the Middle Ages. Later, the butler evolved into a trusted figure who served the English nobility on a daily basis. The founders of the Academies claim that there was a golden age of butlers in the United Kingdom, which they identify as the first quarter of the 20th century. The television series Downton Abbey, which depicts the lives of around twenty servants working in a noble household between 1912 and 1926, is frequently cited as an illustration of what service to wealthy individuals should look like today. The founders of the Butler Academies thus advocate a very clear mission: to perpetuate, in the 21st century, the tradition of a "true" butler among individuals who have not inherited it.
+
+/Which term did you translate as "wine reserves"?/
+
+I translated the term "réserves de vin" as "wine reserves". This refers to the stored or stocked supply of wine managed by the "bouteiller" in medieval English courts. Let me know if you'd like further clarification!
+
+/This does not work in English. There is no expression "wine reserves"./
+
+You're absolutely correct—thank you for pointing that out! The term "réserves de vin" should be translated more naturally in English as "wine cellars" or "wine stocks", depending on the context. In this case, "wine cellars" would likely be the most appropriate translation, as it refers to the stored collection of wine managed by the "bouteiller" in medieval English courts.
+
+Here’s the revised translation of the relevant part:
+
+"it is said to derive from the French word 'bouteiller,' referring to the person who managed the wine cellars in English courts during the Middle Ages."
+
+{{{red(The same error of /wine reserces/ as with ChatGPT. However, DeepSeek is slightly better with collocations, e.g. /household/ instead of /house/ or /wealthy individuals/ instead of /wealthy people/ or /advocate a very clear mission/ instead of /defend a very clear project/. )}}}
+
+/Translate "Вопрос о связи гумбольдтовской теории с теми или иными философскими концепциями, в частности И. Канта, по разному трактуется историками науки."/
+
+The question of the connection between Humboldt's theory and various philosophical concepts, particularly those of Immanuel Kant, is interpreted differently by historians of science.
+
+/Translate "В последние году жизни ученый работал над трудом «О языке кави на острове Ява», который не успел завершить."/
+
+In the last years of his life, the scholar worked on the work "On the Kawi Language of the Island of Java," which he did not manage to complete.
+
+/Translate "Это безусловно главный лингвистический труд В. фон Гумбольдта, в котором наиболее полно изложена его теоретическая концепция."/
+
+This is undoubtedly the principal linguistic work of Wilhelm von Humboldt, in which his theoretical conception is most fully articulated.
+
+/"theoretical conception" does not work in English./
+
+You're right—thank you for pointing that out! A more natural phrasing in English would be "theoretical framework" or "theoretical ideas". Here's the revised translation:
+
+"This is undoubtedly the principal linguistic work of Wilhelm von Humboldt, in which his theoretical framework is most fully articulated."
+
+Alternatively, if you prefer a slightly different nuance:
+
+"This is undoubtedly the principal linguistic work of Wilhelm von Humboldt, in which his theoretical ideas are most fully developed."
+
+{{{red(Unlike ChatGPT DeepSeek renders /Wilhelm von Humboldt/ and /Immanuel Kant/ correctly. Also /Kawi/ is not omitted.)}}}
 
 *** Terminology extraction
 For the following English sentence "Composite packaging waste consisting of mainly paper and some plastic [and aluminium], not containing residues" and its French translation "Déchets d'emballages composites principalement constitués de papier et de plastique [ et d'aluminium ] ne contenant pas de résidus", extract terms and type each English term and its French equivalent in separate lines.
