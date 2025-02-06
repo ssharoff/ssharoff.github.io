@@ -385,7 +385,7 @@ The word "figurant" in French means "appearing" or "featured". In this context, 
 {{{color(red,The translation and the explanation are good.)}}}
 
 *** Hunting errors in French and Russian
-
+label:trErrors
 /Translate "Dans les trois Academies étudiées, une même définition du terme butler est régulièrement répétée aux élèves par les fondateurs, les formatrices et les formateurs recruté·e·s pour leur donner cours : il proviendrait du mot français « bouteiller », celui qui gérait, au Moyen-Âge, les réserves de vin dans les cours anglaises. Plus tard, le butler serait devenu un homme de confiance qui sert, au quotidien, la noblesse anglaise. Les fondateurs des Academies assurent qu’il existait au Royaume-Uni un âge d’or des butlers, qui serait le premier quart du XXe siècle ; la série télévisée Downton Abbey, qui met en scène la vie d’une vingtaine de domestiques travaillant dans une maison noble entre 1912 et 1926, est systématiquement convoquée pour illustrer ce que devrait être aujourd’hui le service aux personnes fortunées. Les fondateurs des Butler Academies défendent ainsi un projet très clair : celui de perpétuer, au XXIe siècle, la tradition d’un·e « vrai·e » butler chez des personnes qui n’en auraient pas héritée."/
 
 *ChatGPT*
@@ -512,6 +512,8 @@ No, there is no mistake in rendering "В. фон Гумбольдт" as "V. von 
 {{{color(red,There was no way to force ChatGPT to producing /Wilhelm von Humboldt/. Also note V instead of W as coming from transliteration. )}}}
 
 *** DeepSeek for the same examples 
+label:trErrorsDeepSeek
+
 /Translate "Dans les trois Academies étudiées, une même définition du terme butler est régulièrement répétée aux élèves par les fondateurs, les formatrices et les formateurs recruté·e·s pour leur donner cours : il proviendrait du mot français « bouteiller », celui qui gérait, au Moyen-Âge, les réserves de vin dans les cours anglaises. Plus tard, le butler serait devenu un homme de confiance qui sert, au quotidien, la noblesse anglaise. Les fondateurs des Academies assurent qu’il existait au Royaume-Uni un âge d’or des butlers, qui serait le premier quart du XXe siècle ; la série télévisée Downton Abbey, qui met en scène la vie d’une vingtaine de domestiques travaillant dans une maison noble entre 1912 et 1926, est systématiquement convoquée pour illustrer ce que devrait être aujourd’hui le service aux personnes fortunées. Les fondateurs des Butler Academies défendent ainsi un projet très clair : celui de perpétuer, au XXIe siècle, la tradition d’un·e « vrai·e » butler chez des personnes qui n’en auraient pas héritée."/
 
 *DeepSeek*
