@@ -113,6 +113,23 @@
  + [ ] Trip to Cancun if there is time
  + [ ] Flight to London, 18:40
 
+* Maya phrasebook
+
+** Maya phrasebook
+ + Hello :: Bix túun; Bix a beel (informal)
+ + Fine, thank you :: Ma'alob, Nib óolal.
+ + Nice to meet you :: Ki'imak in wóol in k'ajóoltikech.
+ + Please :: Bawa
+ + Thank you :: Nib óolal
+ + You're welcome :: Mixba'aj
+ + Yes :: Jaaj
+ + No :: Ma'
+ + I'm sorry :: sa'asteni'
+ + Goodbye :: Tuláak' k'iin; Tak tuláak' k'iin  (informal)
+ + Good morning :: Ma'alob k'iin
+ + Good evening :: Ma'alob áak'ab
+ + Good night (to sleep) :: Weenel ma'alob
+   
 * Food
 ** Mexican food [0/9]
     + [ ] Carne asada -- thin-cut marinated beef steak
