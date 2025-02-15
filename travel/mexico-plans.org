@@ -16,10 +16,10 @@
  + Trip map: https://www.google.com/maps/d/u/0/edit?mid=1OFlbmWCOIUkgks7Tzxy2_ho0Ag5csIw
 
 ** Wed 12 Mar: to Valladolid 2:20 [1/5]
- + [ ] Coba^? https://maps.google.com/?cid=14302297260168381406 or\\
+ + [ ] Coba^? https://maps.google.com/?cid=14302297260168381406\\
        Ek Balam^? https://maps.google.com/?cid=3209123517850082809
  + [ ] Cenote Suytun https://maps.app.goo.gl/i2Pv3oNAkbiVZKedA
- + [ ] Cenote Zaci https://maps.app.goo.gl/VHvHxEDxAVv7R28j8 or \\
+ + [ ] Cenote Zaci https://maps.app.goo.gl/VHvHxEDxAVv7R28j8 \\
        Cenote Dzinup https://maps.app.goo.gl/92Zzc5UtwJiYHH588
  + [ ] Stay in Valladolid https://maps.google.com/?cid=14771480419104015041
  + [ ] ^? https://nochesdekukulkan.com.mx/evento/1 \\
@@ -101,9 +101,9 @@
 ** Tue 25 Mar: [0/3]
  + [ ] ^? Museo Soumaya https://maps.google.com/?cid=10624803107852467379
  + [ ] ^? Xochicalco + Cacahuamilpa https://maps.app.goo.gl/YTfWMkE5mdcYfyXdA 
- + [ ] 
 
 *** Possible day away
+ + [ ] Teotihuacán (del Norte, P. 8) https://maps.app.goo.gl/GKCyEQY65MUCFmJi6
  + [ ] Puebla: Cacaxtla or Cholula
  + [ ] Tula de Allende
  + [ ] Taxco: Cacahuamilpa caves and Xochicalco
@@ -113,7 +113,7 @@
  + [ ] Trip to Cancun if there is time
  + [ ] Flight to London, 18:40
 
-* Maya phrasebook
+* Maya
 
 ** Maya phrasebook
  + Hello :: Bix túun; Bix a beel (informal)
@@ -142,4 +142,5 @@
     + [ ] Tamales -- steamed rolls in cornmeal dough
     + [ ] Tasajo -- thin-cut beef steak or pork, partially cured
     + [ ] Tinga -- shredded meat in a smoky chipotle sauce
+    + [ ] Atole, atol de elote -- masa-based drink (champurrado, guava)
 
