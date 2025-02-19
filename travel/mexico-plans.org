@@ -83,13 +83,16 @@
 
 ** Sat 22 Mar: Chapultepec, Roma [0/3]
  + [ ] Museo de Anthropologia https://maps.google.com/?cid=9521483601320789284
+ + [ ] Museo Chapultepec Castle https://maps.google.com/?cid=12024611576922344242
  + [ ] Museo Tamayo https://maps.google.com/?cid=3230234349847254610
  + [ ] Dinner at https://maps.app.goo.gl/YvLjVTTYuxwiyjxU9 or https://maps.app.goo.gl/c6x8zCnPWZvxKqsX9
 
 ** Sun 23 Mar: Del Carmen [0/3]
  + [ ] Frida Kahlo https://maps.google.com/?cid=7062107075614930081
- + [ ] Leon Trotsky https://maps.google.com/?cid=1208596980699922418
- + [ ] 
+ + [ ] ^? Leon Trotsky https://maps.google.com/?cid=1208596980699922418
+ + [ ] Coyoacan Market https://maps.google.com/?cid=8638990294780037140
+ + [ ] ^? Museo Soumaya https://maps.google.com/?cid=10624803107852467379
+ + [ ] ^? Xochicalco + Cacahuamilpa https://maps.app.goo.gl/YTfWMkE5mdcYfyXdA 
 
 ** Mon 24 Mar:  [0/4]
  + [ ] Zona Arquelógica Tlatelolco (Tlatelolco Archaeological Site) (entrance is on Lázaro Cárdenas) https://maps.google.com/?cid=1701952053221864427
@@ -97,13 +100,11 @@
  + [ ] Museo del Templo Mayor https://maps.google.com/?cid=10128805338444740272
  + [ ] Museum of Cultures https://maps.google.com/?cid=15938484738605529597
  + [ ] Palacio Nacional
+ + [ ] Palacio de Bellas Artes https://maps.google.com/?cid=1718141752200063183
 
 ** Tue 25 Mar: [0/3]
- + [ ] ^? Museo Soumaya https://maps.google.com/?cid=10624803107852467379
- + [ ] ^? Xochicalco + Cacahuamilpa https://maps.app.goo.gl/YTfWMkE5mdcYfyXdA 
-
-*** Possible day away
  + [ ] Teotihuacán (del Norte, P. 8) https://maps.app.goo.gl/GKCyEQY65MUCFmJi6
+*** Future day away
  + [ ] Puebla: Cacaxtla or Cholula
  + [ ] Tula de Allende
  + [ ] Taxco: Cacahuamilpa caves and Xochicalco
