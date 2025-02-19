@@ -1,7 +1,3 @@
----
-author: Serge Sharoff
----
-
 |  |  |
 |----|----|
 | **Official homepage** | <https://ahc.leeds.ac.uk/languages/staff/1137/dr-serge-sharoff> |
