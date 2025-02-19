@@ -1,10 +1,14 @@
-|                       |                                                                 |
-|-----------------------|-----------------------------------------------------------------|
-| **Official homepage** | <https://ahc.leeds.ac.uk/languages/staff/1137/dr-serge-sharoff> |
-| **Google Scholar:**   | <https://scholar.google.co.uk/citations?user=qcnf4QsAAAAJ>      |
-| **Semantic Scholar:** | <https://www.semanticscholar.org/author/S.-Sharoff/2506104>     |
+---
+author: Serge Sharoff
+---
 
-## My research interests
+|  |  |
+|----|----|
+| **Official homepage** | <https://ahc.leeds.ac.uk/languages/staff/1137/dr-serge-sharoff> |
+| **Google Scholar:** | <https://scholar.google.co.uk/citations?user=qcnf4QsAAAAJ> |
+| **Semantic Scholar:** | <https://www.semanticscholar.org/author/S.-Sharoff/2506104> |
+
+# My research interests
 
 Artificial Intelligence and more specifically Large Language Models,
 such as ChatGPT, have recently made a profound impact on how we interact
@@ -24,7 +28,7 @@ My research interests are related to three domains: linguistics,
 computer science and cognitive science.
 
 Probably the most interesting bit in my recent research is in digital
-curation of corpora from the web, cf. the set of available large corpora
+curation of corpora from the web, see the set of available large corpora
 and the procedure described at
 <http://corpus.leeds.ac.uk/internet.html>, see [the full
 paper](./publications/2006-ijcl-proof.pdf). The current set of resources
@@ -50,14 +54,16 @@ corpora and several languages. See also the [pedagogical frequency
 lists](./kelly/) produced as the outcome of the [Kelly
 project](https://spraakbanken.gu.se/en/projects/kelly).
 
-Another example is [ASSIST](http://ucrel.lancs.ac.uk/projects/assist/),
-a joint project with Lancaster University, which is about an automatic
-procedure for finding translation equivalent using large comparable
-corpora (consisting of texts which are not translations of each other).
-See a [series of BUCC workshops](https://comparable.limsi.fr/) and a
-[recent book](https://link.springer.com/book/10.1007/978-3-031-31384-4)
-on the topic. [Its introduction](publications/2023-bucc-intro.pdf) is
-available from my list of [publications](publications/).
+Another example of research in multilinguality is
+[ASSIST](http://ucrel.lancs.ac.uk/projects/assist/), a joint project
+with Lancaster University, which is about an automatic procedure for
+finding translation equivalent using large comparable corpora
+(consisting of texts which are not translations of each other). See a
+[series of BUCC workshops](https://comparable.limsi.fr/) and a [recent
+book](https://link.springer.com/book/10.1007/978-3-031-31384-4) in the
+Springer Syntesis Library series on this topic. [Its
+introduction](publications/2023-bucc-intro.pdf) is available from my
+list of [publications](publications/).
 
 My approach in linguistics rests on the assumption that language is the
 resource for exchanging meanings. My interests in linguistics stretch
@@ -90,12 +96,12 @@ See my formal [CV](cv-formal.pdf) as well as my [academic
 genealogy](lineage.html) (the list through my supervisors can be traced
 back to Leibniz, Poisson and Gauss).
 
-## PhD projects
+# PhD projects
 
 I am happy to consider applications from prospective PhD students in the
 area of my expertise. The following general topics are preferable:
 
-### Automatic Text Classification for Translation
+## Automatic Text Classification for Translation
 
 Setting up a translation project usually involves assessing the amount
 of time required for translating a text and selecting the most suitable
@@ -108,18 +114,18 @@ foreign languages.
 
 *Background references*:
 
--   Serge Sharoff. [Genre Annotation for the Web: text-external and
-    text-internal perspectives](publications/2021-register.pdf).
-    *Register Studies*. 2021
--   Serge Sharoff. [Functional text dimensions for the annotation of Web
-    corpora](publications/2018-ftd.pdf). *Corpora*, 13(1):65–95, 2018
--   Yu Yuan and Serge Sharoff. [Sentence Level Human Translation Quality
-    Estimation with Attention-based Neural
-    Networks](publications/2020-LREC-htqe.pdf). In Proc International
-    Conference on Language Resources and Evaluation (LREC'20),
-    Marseilles, May 2020
+- Serge Sharoff. [Genre Annotation for the Web: text-external and
+  text-internal perspectives](publications/2021-register.pdf). *Register
+  Studies*. 2021
+- Serge Sharoff. [Functional text dimensions for the annotation of Web
+  corpora](publications/2018-ftd.pdf). *Corpora*, 13(1):65–95, 2018
+- Yu Yuan and Serge Sharoff. [Sentence Level Human Translation Quality
+  Estimation with Attention-based Neural
+  Networks](publications/2020-LREC-htqe.pdf). In Proc International
+  Conference on Language Resources and Evaluation (LREC'20), Marseilles,
+  May 2020
 
-### Language adaptation for improving models of lesser-resourced languages
+## Language adaptation for improving models of lesser-resourced languages
 
 A translation model needs to be applicable to a large number of
 languages, while the training resources or linguistic models are often
@@ -133,15 +139,15 @@ prediction, etc.
 
 *Background references:*
 
--   Serge Sharoff. [Finding next of kin: Cross-lingual embedding spaces
-    for related languages](publications/2019-jnle.pdf). *Journal of
-    Natural Language Engineering*, 25, 2019
--   Miguel Rios and Serge Sharoff. [Language adaptation for extending
-    post-editing estimates for closely related
-    languages](publications/2016-pbml.pdf). *The Prague Bulletin of
-    Mathematical Linguistics*, 106:181-192, 2016
+- Serge Sharoff. [Finding next of kin: Cross-lingual embedding spaces
+  for related languages](publications/2019-jnle.pdf). *Journal of
+  Natural Language Engineering*, 25, 2019
+- Miguel Rios and Serge Sharoff. [Language adaptation for extending
+  post-editing estimates for closely related
+  languages](publications/2016-pbml.pdf). *The Prague Bulletin of
+  Mathematical Linguistics*, 106:181-192, 2016
 
-### Non-parallel resources for translation
+## Non-parallel resources for translation
 
 Modern Machine Translation is based on "plagiarising" large amounts of
 existing translations, which usually come from institutions such as the
@@ -153,17 +159,17 @@ wire streams in different languages?
 
 *Background references:*
 
--   Serge Sharoff. [Know thy corpus! Robust methods for digital curation
-    of Web corpora](publications/2020-LREC-anatomy.pdf). In Proc LREC,
-    Marseilles, May 2020
--   Maria Kunilovskaya and Serge Sharoff. [Building functionally similar
-    corpus resources for translation
-    studies](publications/2019-RANLP.pdf). In Proc RANLP, Varna,
-    September 2019
--   Pierre Zweigenbaum, Serge Sharoff, and Reinhard Rapp. [A
-    multilingual dataset for evaluating parallel sentence extraction
-    from comparable corpora](publications/2018-lrec-bucc.pdf) In Proc
-    LREC, Miyazaki, Japan, May 2018
+- Serge Sharoff. [Know thy corpus! Robust methods for digital curation
+  of Web corpora](publications/2020-LREC-anatomy.pdf). In Proc LREC,
+  Marseilles, May 2020
+- Maria Kunilovskaya and Serge Sharoff. [Building functionally similar
+  corpus resources for translation
+  studies](publications/2019-RANLP.pdf). In Proc RANLP, Varna, September
+  2019
+- Pierre Zweigenbaum, Serge Sharoff, and Reinhard Rapp. [A multilingual
+  dataset for evaluating parallel sentence extraction from comparable
+  corpora](publications/2018-lrec-bucc.pdf) In Proc LREC, Miyazaki,
+  Japan, May 2018
 
 I have also prepared a [textbook on Comparable
 Corpora](https://link.springer.com/book/10.1007/978-3-031-31384-4)

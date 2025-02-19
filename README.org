@@ -15,28 +15,21 @@ Back to 2020s, one of my recent papers on the [[./publications/2020-LREC-anatomy
 
 My research interests are related to three domains: linguistics, computer science and cognitive science.
 
-Probably the most interesting bit in my recent research is in digital curation of corpora from the web, cf.
-the set of available large corpora and the procedure described at
-[[http://corpus.leeds.ac.uk/internet.html]], see [[./publications/2006-ijcl-proof.pdf][the full paper]].
+Probably the most interesting bit in my recent research is in digital curation of corpora from the web, see the set of available large corpora and the procedure described at [[http://corpus.leeds.ac.uk/internet.html]], see [[./publications/2006-ijcl-proof.pdf][the full paper]].
 The current set of resources includes multi-million word corpora for Chinese, English,
 French, German, Italian, Polish, Portuguese, Russian and Spanish.
 
-Web corpora can be curated in terms of domains and
-[[file:webgenres/][genres]], and also via automatic annotation for their linguistic properties, such as parts
-of speech, syntactic relations or named entities. The resources for
-developing statistical models are relatively modest for many languages,
-so I research methods for bootstraping them from related languages, for
-example, from [[file:publications/2011-dialog-sharoff-nivre.pdf][Russian]] to [[file:publications/2016-HyTra.pdf][Ukrainian]] or from [[./publications/2011-clia-indian.pdf][Telugu to Kannada]].
+Web corpora can be curated in terms of domains and [[file:webgenres/][genres]], and also via automatic annotation for their linguistic properties, such as parts of speech, syntactic relations or named entities. The resources for developing statistical models are relatively modest for many languages, so I research methods for bootstraping them from related languages, for example, from [[file:publications/2011-dialog-sharoff-nivre.pdf][Russian]] to [[file:publications/2016-HyTra.pdf][Ukrainian]] or from [[./publications/2011-clia-indian.pdf][Telugu to Kannada]].
 
 Another aspect of Web corpus curation concerns developing frequency lists. While it is easy to count the number of times each word occurs in a corpus, this can lead to undesirable frequency bursts, as a word can be used too often in a small number of files. Please see the paper and check my [[./frqc/][reliable frequency lists]]
 obtained for several corpora and several languages. See also the [[./kelly/][pedagogical frequency lists]] produced as the outcome of the [[https://spraakbanken.gu.se/en/projects/kelly][Kelly project]].
 
-Another example is [[http://ucrel.lancs.ac.uk/projects/assist/][ASSIST]], a joint project
+Another example of research in multilinguality is [[http://ucrel.lancs.ac.uk/projects/assist/][ASSIST]], a joint project
 with Lancaster University, which is about an automatic procedure for
 finding translation equivalent using large comparable corpora
 (consisting of texts which are not translations of each other). See a
 [[https://comparable.limsi.fr/][series of BUCC workshops]] and a
-[[https://link.springer.com/book/10.1007/978-3-031-31384-4][recent book]] on the topic. [[file:publications/2023-bucc-intro.pdf][Its introduction]] is available from my list of [[file:publications/][publications]].
+[[https://link.springer.com/book/10.1007/978-3-031-31384-4][recent book]] in the Springer Syntesis Library series on this topic. [[file:publications/2023-bucc-intro.pdf][Its introduction]] is available from my list of [[file:publications/][publications]].
 
 My approach in linguistics rests on the assumption that language is the
 resource for exchanging meanings. My interests in linguistics stretch
@@ -67,9 +60,7 @@ I am happy to consider applications from prospective PhD students in the
 area of my expertise. The following general topics are preferable:
 
 *** Automatic Text Classification for Translation
-    :PROPERTIES:
-    :CUSTOM_ID: automatic-text-classification-for-translation
-    :END:
+
 Setting up a translation project usually involves assessing the amount
 of time required for translating a text and selecting the most suitable
 translator. Modern approaches in Language Technology can do wonders with
@@ -86,9 +77,7 @@ foreign languages.
 - Yu Yuan and Serge Sharoff. [[file:publications/2020-LREC-htqe.pdf][Sentence Level Human Translation Quality Estimation with Attention-based Neural Networks]]. In Proc International Conference on Language Resources and Evaluation (LREC'20), Marseilles, May 2020
 
 *** Language adaptation for improving models of lesser-resourced languages
-    :PROPERTIES:
-    :CUSTOM_ID: language-adaptation-for-improving-models-of-lesser-resourced-languages
-    :END:
+
 A translation model needs to be applicable to a large number of
 languages, while the training resources or linguistic models are often
 better developed only for some languages. Language adaptation can be
@@ -105,9 +94,7 @@ prediction, etc.
 - Miguel Rios and Serge Sharoff. [[file:publications/2016-pbml.pdf][Language adaptation for extending post-editing estimates for closely  related languages]]. /The Prague Bulletin of Mathematical Linguistics/, 106:181-192, 2016
 
 *** Non-parallel resources for translation
-    :PROPERTIES:
-    :CUSTOM_ID: non-parallel-resources-for-translation
-    :END:
+
 Modern Machine Translation is based on "plagiarising" large amounts of
 existing translations, which usually come from institutions such as the
 United Nations or the European Parliament. This is not enough for many
