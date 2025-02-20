@@ -133,7 +133,7 @@
    
 * Food
 ** Mexican food [0/9]
-    + [ ] Carne asada -- thin-cut marinated beef steak
+    + [ ] Asado en Barbacoa -- cooked in a pit (Cochinita pibil in Yucatan for orange pork or mixiote in Mexico)
     + [ ] Fajitas -- thinly sliced meat on a comal skillet
     + [ ] Fideo -- Tomato soup with short noodles
     + [ ] Menudo -- spicy stew made from tripe
