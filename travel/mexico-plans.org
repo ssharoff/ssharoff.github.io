@@ -16,13 +16,13 @@
  + Trip map: https://www.google.com/maps/d/u/0/edit?mid=1OFlbmWCOIUkgks7Tzxy2_ho0Ag5csIw
 
 ** Wed 12 Mar: to Valladolid 2:20 [1/5]
- + [ ] Coba https://maps.google.com/?cid=14302297260168381406
- + [ ] Cenote Multum-ha https://maps.app.goo.gl/5wU2nCW267akNtjx8 \\
-       Choo-Ha https://maps.google.com/?cid=17376631898510673902   
+ + [ ] Coba https://maps.app.goo.gl/cUjqrZNwsN8X8Jd46
+ + [ ] Multum-ha https://maps.app.goo.gl/5wU2nCW267akNtjx8 \\
+       Choo-Ha https://maps.app.goo.gl/Drr8iGZW1dcALfkY8
  + [ ] Cenote Suytun https://maps.app.goo.gl/i2Pv3oNAkbiVZKedA
  + [ ] Cenote Zaci https://maps.app.goo.gl/VHvHxEDxAVv7R28j8 \\
        Cenote Dzinup https://maps.app.goo.gl/92Zzc5UtwJiYHH588
- + [ ] Stay in Valladolid https://maps.google.com/?cid=14771480419104015041
+ + [ ] Valladolid https://maps.app.goo.gl/Drr8iGZW1dcALfkY8
    
 ** Thu 13 Mar: to Uxmal 2:40 [1/6]
  + [ ] Chichen Itza https://maps.google.com/?cid=8943762525109439898
