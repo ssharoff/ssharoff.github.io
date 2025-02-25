@@ -11,18 +11,21 @@
 * Yucatan
 ** Tue 11 Mar: Arrival to Cancun [0/3]
  + [ ] Landing 16:55;
- + [ ] Stay in Puerto Morelos https://maps.app.goo.gl/qLufWPHGQPjrKYhU6
+ + [ ] Puerto Morelos https://maps.app.goo.gl/qLufWPHGQPjrKYhU6
  + [ ] Relax \Laughey[1.4]
+ + [ ] Dinner https://maps.app.goo.gl/v63bGJtfmcZemEQH7
  + Trip map: https://www.google.com/maps/d/u/0/edit?mid=1OFlbmWCOIUkgks7Tzxy2_ho0Ag5csIw
 
 ** Wed 12 Mar: to Valladolid 2:20 [1/5]
  + [ ] Coba https://maps.app.goo.gl/cUjqrZNwsN8X8Jd46
- + [ ] Multum-ha https://maps.app.goo.gl/5wU2nCW267akNtjx8 \\
-       Choo-Ha https://maps.app.goo.gl/Drr8iGZW1dcALfkY8
- + [ ] Cenote Suytun https://maps.app.goo.gl/i2Pv3oNAkbiVZKedA
- + [ ] Cenote Zaci https://maps.app.goo.gl/VHvHxEDxAVv7R28j8 \\
-       Cenote Dzinup https://maps.app.goo.gl/92Zzc5UtwJiYHH588
- + [ ] Valladolid https://maps.app.goo.gl/Drr8iGZW1dcALfkY8
+ + [ ] One of the cenotes:\\
+   Multum-ha https://maps.app.goo.gl/5wU2nCW267akNtjx8 \\
+   Choo-Ha https://maps.app.goo.gl/Drr8iGZW1dcALfkY8\\
+   Suytun https://maps.app.goo.gl/i2Pv3oNAkbiVZKedA\\
+   Zaci (right in Valladolid) https://maps.app.goo.gl/VHvHxEDxAVv7R28j8 \\
+   Dzinup https://maps.app.goo.gl/92Zzc5UtwJiYHH588
+ + [ ] Valladolid, restaurant: https://maps.google.com/?cid=16401549800031010712\\
+   https://maps.app.goo.gl/4zfDKYzsmpj99EG69
    
 ** Thu 13 Mar: to Uxmal 2:40 [1/6]
  + [ ] Chichen Itza https://maps.google.com/?cid=8943762525109439898
@@ -31,7 +34,7 @@
  + [ ] Merida Gran Museo de Maya (closed)\\
        Merida Museo Regional de Antropología https://maps.google.com/?cid=5327836345381458369
  + [ ] Yaxcopoil https://maps.google.com/?cid=6353735009450878438
- + [ ] Stay in Muna https://maps.app.goo.gl/mM6AER3ThMhVtM5y5
+ + [ ] Muna https://maps.app.goo.gl/mM6AER3ThMhVtM5y5
 
 ** Fri 14 Mar: to Campeche 2:20  [1/6]
  + [ ] https://en.wikivoyage.org/wiki/Ruta_Puuc
@@ -39,7 +42,7 @@
  + [ ] Kabah (masks) https://maps.google.com/?cid=7680299886271278365
  + [ ] Oxkutzcab citrus town https://maps.google.com/?cid=18395202836687022058
  + [ ] Ticul pottery https://maps.google.com/?cid=5940936315111076429
- + [ ] Stay in Campeche https://maps.google.com/?cid=12751977752877059312
+ + [ ] Campeche https://maps.google.com/?cid=12751977752877059312
 
 ** Sat 15 Mar: to Calakmul 4:00 [0/4]
  + [ ] Xmuch Garden https://maps.google.com/?cid=3533563304664637259
@@ -47,7 +50,7 @@
  + [ ] Edzna (canals and five-storied structures) https://maps.google.com/?cid=11460779793457169520
  + [ ] https://en.wikivoyage.org/wiki/Ruta_Rio_Bec
  + [ ] Becan https://maps.app.goo.gl/YUXBo6WFa1XeDktU7
- + [ ] Stay in Becan https://maps.google.com/?cid=17031082679048340135
+ + [ ] Becan https://maps.google.com/?cid=17031082679048340135
 
 ** Sun 16 Mar:  Calakmul [0/3]
  + [ ] Calakmul (6:30 to 11:30) at Colhuas exit take the turn off to the site https://maps.google.com/?cid=6883804212059906013
@@ -117,14 +120,14 @@
 
 ** Maya phrasebook
  + Hello :: Bix túun; Bix a beel (informal)
- + Fine, thank you :: Ma'alob, Nib óolal.
+ + Fine, thank you :: Ma'alob, nib óolal.
  + Nice to meet you :: Ki'imak in wóol in k'ajóoltikech.
  + Please :: Bawa
  + Thank you :: Nib óolal
  + You're welcome :: Mixba'aj
  + Yes :: Jaaj
  + No :: Ma'
- + I'm sorry :: sa'asteni'
+ + I'm sorry :: Sa'asteni'
  + Goodbye :: Tuláak' k'iin; Tak tuláak' k'iin  (informal)
  + Good morning :: Ma'alob k'iin
  + Good evening :: Ma'alob áak'ab
