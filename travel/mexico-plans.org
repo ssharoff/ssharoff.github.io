@@ -13,7 +13,7 @@
  + [ ] Landing 16:55;
  + [ ] Puerto Morelos https://maps.app.goo.gl/qLufWPHGQPjrKYhU6
  + [ ] Relax \Laughey[1.4]
- + [ ] Dinner https://maps.app.goo.gl/v63bGJtfmcZemEQH7
+ + [ ] Dinner https://maps.app.goo.gl/dFe1DRJUFiAucRkX9
  + Trip map: https://www.google.com/maps/d/u/0/edit?mid=1OFlbmWCOIUkgks7Tzxy2_ho0Ag5csIw
 
 ** Wed 12 Mar: to Valladolid 2:20 [1/5]
@@ -31,8 +31,8 @@
  + [ ] Chichen Itza https://maps.google.com/?cid=8943762525109439898
  + [ ] Izamal https://maps.google.com/?cid=4654195024468678659
  + [ ] Temax \to Motul route https://maps.app.goo.gl/zxJLDm6cDGyUZ8iG9
- + [ ] Merida Gran Museo de Maya (closed)\\
-       Merida Museo Regional de Antropología https://maps.google.com/?cid=5327836345381458369
+ + [ ] Gran Museo de Maya https://maps.app.goo.gl/JVgffEj3nRgPCSwH7\\
+       Museo Regional de Antropología https://maps.google.com/?cid=5327836345381458369
  + [ ] Yaxcopoil https://maps.google.com/?cid=6353735009450878438
  + [ ] Muna https://maps.app.goo.gl/mM6AER3ThMhVtM5y5
 
@@ -96,20 +96,20 @@
  + [ ] ^? Museo Soumaya https://maps.google.com/?cid=10624803107852467379
  + [ ] ^? Xochicalco + Cacahuamilpa https://maps.app.goo.gl/YTfWMkE5mdcYfyXdA 
 
-** Mon 24 Mar:  [0/4]
+** Mon 24 Mar: [0/3]
+ + [ ] Teotihuacán (del Norte, P. 8) https://maps.app.goo.gl/GKCyEQY65MUCFmJi6
+*** Future day away
+ + [ ] Puebla: Cacaxtla or Cholula
+ + [ ] Tula de Allende
+ + [ ] Taxco: Cacahuamilpa caves and Xochicalco
+
+** Tue 25 Mar:  [0/4]
  + [ ] Zona Arquelógica Tlatelolco (Tlatelolco Archaeological Site) (entrance is on Lázaro Cárdenas) https://maps.google.com/?cid=1701952053221864427
  + [ ] Museo de Arte Popular, https://maps.google.com/?cid=2135336805215155084
  + [ ] Museo del Templo Mayor https://maps.google.com/?cid=10128805338444740272
  + [ ] Museum of Cultures https://maps.google.com/?cid=15938484738605529597
  + [ ] Palacio Nacional
  + [ ] Palacio de Bellas Artes https://maps.google.com/?cid=1718141752200063183
-
-** Tue 25 Mar: [0/3]
- + [ ] Teotihuacán (del Norte, P. 8) https://maps.app.goo.gl/GKCyEQY65MUCFmJi6
-*** Future day away
- + [ ] Puebla: Cacaxtla or Cholula
- + [ ] Tula de Allende
- + [ ] Taxco: Cacahuamilpa caves and Xochicalco
 
 ** Wed 26 Mar: Flight to Cancun [0/3]
  + [ ] MEX-CUN, 09:55-13:30
@@ -123,10 +123,10 @@
  + Fine, thank you :: Ma'alob, nib óolal.
  + Nice to meet you :: Ki'imak in wóol in k'ajóoltikech.
  + Please :: Bawa
- + Thank you :: Nib óolal
- + You're welcome :: Mixba'aj
- + Yes :: Jaaj
- + No :: Ma'
+ + Thank you :: Nib óolal, yuum bo’otik
+ + You're welcome :: Mixba'al
+ + Yes :: Bey, jaaj
+ + No :: Ma', ma’atan, mix taan
  + I'm sorry :: Sa'asteni'
  + Goodbye :: Tuláak' k'iin; Tak tuláak' k'iin  (informal)
  + Good morning :: Ma'alob k'iin
