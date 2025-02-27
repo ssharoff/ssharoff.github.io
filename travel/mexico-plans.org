@@ -16,7 +16,8 @@
  + [ ] Dinner https://maps.app.goo.gl/dFe1DRJUFiAucRkX9
  + Trip map: https://www.google.com/maps/d/u/0/edit?mid=1OFlbmWCOIUkgks7Tzxy2_ho0Ag5csIw
 
-** Wed 12 Mar: to Valladolid 2:20 [1/5]
+** Wed 12 Mar: to Valladolid 2:20 [0/4]
+ + [ ] Puerto Morelos https://maps.app.goo.gl/ijYPiRuzdob434fSA
  + [ ] Coba https://maps.app.goo.gl/cUjqrZNwsN8X8Jd46
  + [ ] One of the cenotes:\\
    Multum-ha https://maps.app.goo.gl/5wU2nCW267akNtjx8 \\
@@ -25,7 +26,7 @@
    Zaci (right in Valladolid) https://maps.app.goo.gl/VHvHxEDxAVv7R28j8 \\
    Dzinup https://maps.app.goo.gl/92Zzc5UtwJiYHH588
  + [ ] Valladolid, restaurant: https://maps.google.com/?cid=16401549800031010712\\
-   https://maps.app.goo.gl/4zfDKYzsmpj99EG69
+   Stay https://maps.app.goo.gl/4zfDKYzsmpj99EG69
    
 ** Thu 13 Mar: to Uxmal 2:40 [1/6]
  + [ ] Chichen Itza https://maps.google.com/?cid=8943762525109439898
@@ -72,7 +73,7 @@
  + [ ] Sian Ka'an Biosphere Reserve
  + [ ] Swimming with manatees
 
-** Thu 20 Mar: Mahahual [0/0]
+** Thu 20 Mar: Mahahual [0/1]
  + [ ] Swimming with turtles
 
 * Mexico city
@@ -105,7 +106,7 @@
 
 ** Tue 25 Mar:  [0/4]
  + [ ] Zona Arquelógica Tlatelolco (Tlatelolco Archaeological Site) (entrance is on Lázaro Cárdenas) https://maps.google.com/?cid=1701952053221864427
- + [ ] Museo de Arte Popular, https://maps.google.com/?cid=2135336805215155084
+ + [ ] Museo de Arte Popular https://maps.google.com/?cid=2135336805215155084
  + [ ] Museo del Templo Mayor https://maps.google.com/?cid=10128805338444740272
  + [ ] Museum of Cultures https://maps.google.com/?cid=15938484738605529597
  + [ ] Palacio Nacional
