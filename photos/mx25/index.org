@@ -1,0 +1,217 @@
+Биш туун! На этот раз наш Марс оказался в майских краях: мы сделали круг по Юкатану.
+
+
+# #+ATTR_HTML: :alt 
+# [[https://ssharoff.github.io/photos/mx25/
+
+* Yucatan 
+** Wed 12 Mar: Coba
+#+ATTR_HTML: :alt Коба: Первая проверка кладки майя
+[[https://ssharoff.github.io/photos/mx25/Coba_20250312_134555979.jpg]]
+#+ATTR_HTML: :alt Коба: деревья вросли в руины
+[[https://ssharoff.github.io/photos/mx25/Coba_20250312_135056226_HDR.jpg]]
+#+ATTR_HTML: :alt Коба: поле для игры в мяч
+[[https://ssharoff.github.io/photos/mx25/Coba_20250312_152127426.jpg]]
+
+** Thu 13 Mar:
+ + Valladolid
+ + Chichen Itza
+
+#+ATTR_HTML: :alt Вальядолид: старый колониальный город
+[[https://ssharoff.github.io/photos/mx25/Val_20250313_073315025.jpg]]
+#+ATTR_HTML: :alt Вальядолид: католический собор Бернардина из камней майя
+[[https://ssharoff.github.io/photos/mx25/Val_20250313_075650217_HDR.jpg]]
+#+ATTR_HTML: :alt Вальядолид: майские художники внесли свои традиции
+[[https://ssharoff.github.io/photos/mx25/Val_20250313_075832489.jpg]]
+#+ATTR_HTML: :alt Вальядолид: росписи собора Бернардина 
+[[https://ssharoff.github.io/photos/mx25/Val_20250313_080023891.jpg]]
+#+ATTR_HTML: :alt Вальядолид: Бернардина 
+[[https://ssharoff.github.io/photos/mx25/Val_20250313_080150696.jpg]]
+#+ATTR_HTML: :alt Вальядолид: Бернардина Христос в переднике
+[[https://ssharoff.github.io/photos/mx25/Val_20250313_080443549.jpg]]
+#+ATTR_HTML: :alt Вальядолид: площадь перед собором
+[[https://ssharoff.github.io/photos/mx25/Val_20250313_080716953_HDR.jpg]]
+#+ATTR_HTML: :alt Чичен-Итца: птицы и ягуары
+[[https://ssharoff.github.io/photos/mx25/Chich_20250313_113500792.jpg]]
+
+
+** Fri 14 Mar: 
+ + Uxmal 
+ + Oxkutzcab citrus town  
+#+ATTR_HTML: :alt Деревня возле Ушмаля
+[[https://ssharoff.github.io/photos/mx25/Ux_20250313_193323555.jpg]]
+#+ATTR_HTML: :alt Ушмаль, птицы
+[[https://ssharoff.github.io/photos/mx25/Ux_20250314_082630322.jpg]]
+#+ATTR_HTML: :alt Ушмаль, в день весеннего равноденстия солнце проходит ровно через эту щель
+[[https://ssharoff.github.io/photos/mx25/Ux_20250314_083232912_HDR.jpg]]
+#+ATTR_HTML: :alt Ушмаль, Структура сводов
+[[https://ssharoff.github.io/photos/mx25/Ux_20250314_083658749_HDR.jpg]]
+#+ATTR_HTML: :alt Ушмаль, носы Чак-моля, бога дождя. 
+[[https://ssharoff.github.io/photos/mx25/Ux_20250314_083942519.jpg]]
+#+ATTR_HTML: :alt Ушмаль, каменный орнамент и носы Чак-моля
+[[https://ssharoff.github.io/photos/mx25/Ux_20250314_084243096.jpg]]
+#+ATTR_HTML: :alt Ушмаль, рот змеи - рождение, хвост змеи смерть.
+[[https://ssharoff.github.io/photos/mx25/Ux_20250314_085527370.jpg]]
+#+ATTR_HTML: :alt Ушмаль, большое административное здание
+[[https://ssharoff.github.io/photos/mx25/Ux_20250314_094524036_HDR.jpg]]
+#+ATTR_HTML: :alt Тикуль, католический собор и памятник майя
+[[https://ssharoff.github.io/photos/mx25/Oz_20250314_120353546.jpg]]
+#+ATTR_HTML: :alt Ошкускаб, Кладбище
+[[https://ssharoff.github.io/photos/mx25/Oz_20250314_122934631_HDR.jpg]]
+#+ATTR_HTML: :alt Ошкускаб, рынок
+[[https://ssharoff.github.io/photos/mx25/Oz_20250314_125206213_HDR.jpg]]
+#+ATTR_HTML: :alt Ошкускаб, собор
+[[https://ssharoff.github.io/photos/mx25/Oz_20250314_125533362_HDR.jpg]]
+
+** Sat 15 Mar:
+ + Campeche
+ + Edzna
+
+#+ATTR_HTML: :alt Кампече, панно на доме 1980-х годов
+[[https://ssharoff.github.io/photos/mx25/Cam_20250314_182155456.jpg]]
+#+ATTR_HTML: :alt Кампече, музей Сан-Мигель, майская матрёшка
+[[https://ssharoff.github.io/photos/mx25/Cam_20250315_100306294.jpg]]
+#+ATTR_HTML: :alt Кампече, музей Сан-Мигель, 
+[[https://ssharoff.github.io/photos/mx25/Cam_20250315_100913.jpg]]
+
+Циклы по 13*20=260 и 18*20+5=365
+#+ATTR_HTML: :alt Кампече, музей Сан-Мигель, схема двух календарей
+[[https://ssharoff.github.io/photos/mx25/Cam_20250315_102801280.jpg]]
+#+ATTR_HTML: :alt Кампече, музей Сан-Мигель, маска из захоронения в Калакмуле
+[[https://ssharoff.github.io/photos/mx25/Cam_20250315_104441.jpg]]
+#+ATTR_HTML: :alt Кампече, музей Сан-Мигель, бог старости
+[[https://ssharoff.github.io/photos/mx25/Cam_20250315_104948.jpg]]
+#+ATTR_HTML: :alt Кампече, музей Сан-Мигель, любовь к косоглазию и формы головы кукурузой
+[[https://ssharoff.github.io/photos/mx25/Cam_20250315_105308.jpg]]
+#+ATTR_HTML: :alt Эдзна, многоэтажное здание каменного века
+[[https://ssharoff.github.io/photos/mx25/Edz_20250315_133216.jpg]]
+#+ATTR_HTML: :alt Эдзна, маски 
+[[https://ssharoff.github.io/photos/mx25/Edz_20250315_134252502.jpg]]
+#+ATTR_HTML: :alt Эдзна, игуаны 
+[[https://ssharoff.github.io/photos/mx25/Edz_20250315_134944621.jpg]]
+
+** Sun 16 Mar
+ + Becan
+ + Calakmul
+ + Balamku
+  
+#+ATTR_HTML: :alt Бекан, Мемо, скульптура из черепа ягуара
+[[https://ssharoff.github.io/photos/mx25/Bec_20250315_191050074.jpg]]
+#+ATTR_HTML: :alt Бекан, Мемо, Бог дождя
+[[https://ssharoff.github.io/photos/mx25/Bec_20250315_192118772.jpg]]
+#+ATTR_HTML: :alt Бекан, наш дом с москитной сеткой
+[[https://ssharoff.github.io/photos/mx25/Bec_20250315_194735768.jpg]]
+#+ATTR_HTML: :alt Бекан, наш дом с лягушкой (и скорпионом)
+[[https://ssharoff.github.io/photos/mx25/Bec_20250316_202508220.jpg]]
+#+ATTR_HTML: :alt Калакмуль, 
+[[https://ssharoff.github.io/photos/mx25/Cal_20250316_093135242.jpg]]
+#+ATTR_HTML: :alt Калакмуль, на вершине одного из храмов
+[[https://ssharoff.github.io/photos/mx25/Cal_20250316_102117090_HDR.jpg]]
+#+ATTR_HTML: :alt Калакмуль, деревья на храмах
+[[https://ssharoff.github.io/photos/mx25/Cal_20250316_103041616_HDR.jpg]]
+#+ATTR_HTML: :alt Калакмуль, вид на Гватемалу
+[[https://ssharoff.github.io/photos/mx25/Cal_20250316_110220935_HDR.jpg]]
+#+ATTR_HTML: :alt Калакмуль, деревья на храмах
+[[https://ssharoff.github.io/photos/mx25/Cal_20250316_122822078_HDR.jpg]]
+#+ATTR_HTML: :alt Баламку, кубистский ягуар
+[[https://ssharoff.github.io/photos/mx25/Bal_20250316_150708754.jpg]]
+
+** Mon 17-20 Mar:
+ + Becan
+ + Mahahual 
+#+ATTR_HTML: :alt Бекан, Мемо, собаки
+[[https://ssharoff.github.io/photos/mx25/Bec_20250317_071945824.jpg]]
+#+ATTR_HTML: :alt Бекан, вид сверху
+[[https://ssharoff.github.io/photos/mx25/Bec_20250317_072304460_HDR.jpg]]
+#+ATTR_HTML: :alt Бекан, Мемо, собаки
+[[https://ssharoff.github.io/photos/mx25/Bec_20250317_075352987.jpg]]
+#+ATTR_HTML: :alt Махахуаль, Юля в раю
+[[https://ssharoff.github.io/photos/mx25/Mah_20250318_065256462_HDR.jpg]]
+#+ATTR_HTML: :alt Махахуаль, вид от номера
+[[https://ssharoff.github.io/photos/mx25/Mah_20250319_141039.jpg]]
+#+ATTR_HTML: :alt Махахуаль, вид с крыши
+[[https://ssharoff.github.io/photos/mx25/Mah_20250320_153749.jpg]]
+#+ATTR_HTML: :alt Махахуаль, пальмы с розетками
+[[https://ssharoff.github.io/photos/mx25/Mah_20250320_085524.jpg]]
+#+ATTR_HTML: :alt Махахуаль, пляжные радости
+[[https://ssharoff.github.io/photos/mx25/Mah_20250320_113522935.jpg]]
+#+ATTR_HTML: :alt Махахуаль, шляпы из моря
+[[https://ssharoff.github.io/photos/mx25/Mah_20250319_081111.jpg]]
+#+ATTR_HTML: :alt Махахуаль, панно из тапочек
+[[https://ssharoff.github.io/photos/mx25/Mah_20250320_181712.jpg]]
+#+ATTR_HTML: :alt Махахуаль, панно из крышек и вилок
+[[https://ssharoff.github.io/photos/mx25/Mah_20250320_195055790.jpg]]
+
+* Mexico city
+** Fri 21 Mar: To Cancun airport 4:50 [0/4]
+ + [ ] CUN-NLU, 13:50-15:20
+ + [ ] Staying at Plaza Santo Domingo
+ + [ ] Centro Histórico: Palacio de Iturbide,
+ + [ ] Catedral Metropolitana de México
+ + [ ] Zocalo and Aztec dances
+
+** Sat 22 Mar: Chapultepec, Roma [0/3]
+ + [ ] Museo de Anthropologia https://maps.google.com/?cid=9521483601320789284
+ + [ ] Museo Chapultepec Castle https://maps.google.com/?cid=12024611576922344242
+ + [ ] Museo Tamayo https://maps.google.com/?cid=3230234349847254610
+ + [ ] Dinner at https://maps.app.goo.gl/YvLjVTTYuxwiyjxU9 or https://maps.app.goo.gl/c6x8zCnPWZvxKqsX9
+
+** Sun 23 Mar: Del Carmen [0/3]
+ + [ ] Frida Kahlo https://maps.google.com/?cid=7062107075614930081
+ + [ ] ^? Leon Trotsky https://maps.google.com/?cid=1208596980699922418
+ + [ ] Coyoacan Market https://maps.google.com/?cid=8638990294780037140
+ + [ ] ^? Museo Soumaya https://maps.google.com/?cid=10624803107852467379
+ + [ ] ^? Xochicalco + Cacahuamilpa https://maps.app.goo.gl/YTfWMkE5mdcYfyXdA 
+
+** Mon 24 Mar: [0/3]
+ + [ ] Teotihuacán (del Norte, P. 8) https://maps.app.goo.gl/GKCyEQY65MUCFmJi6
+*** Future day away
+ + [ ] Puebla: Cacaxtla or Cholula
+ + [ ] Tula de Allende
+ + [ ] Taxco: Cacahuamilpa caves and Xochicalco
+
+** Tue 25 Mar:  [0/4]
+ + [ ] Zona Arquelógica Tlatelolco (Tlatelolco Archaeological Site) (entrance is on Lázaro Cárdenas) https://maps.google.com/?cid=1701952053221864427
+ + [ ] Museo de Arte Popular https://maps.google.com/?cid=2135336805215155084
+ + [ ] Museo del Templo Mayor https://maps.google.com/?cid=10128805338444740272
+ + [ ] Museum of Cultures https://maps.google.com/?cid=15938484738605529597
+ + [ ] Palacio Nacional
+ + [ ] Palacio de Bellas Artes https://maps.google.com/?cid=1718141752200063183
+
+** Wed 26 Mar: Flight to Cancun [0/3]
+ + [ ] MEX-CUN, 09:55-13:30
+ + [ ] Trip to Cancun if there is time
+ + [ ] Flight to London, 18:40
+
+
+* Maya
+
+** Maya phrasebook
+ + Hello :: Bix túun; Bix a beel (informal)
+ + Fine, thank you :: Ma'alob, nib óolal.
+ + Nice to meet you :: Ki'imak in wóol in k'ajóoltikech.
+ + Please :: Bawa
+ + Thank you :: Nib óolal, yuum bo’otik
+ + You're welcome :: Mixba'al
+ + Yes :: Bey, jaaj
+ + No :: Ma', ma’atan, mix taan
+ + I'm sorry :: Sa'asteni'
+ + Goodbye :: Tuláak' k'iin; Tak tuláak' k'iin  (informal)
+ + Good morning :: Ma'alob k'iin
+ + Good evening :: Ma'alob áak'ab
+ + Good night (to sleep) :: Weenel ma'alob
+   
+* Food
+** Mexican food [0/9]
+    + [ ] Asado en Barbacoa -- cooked in a pit (Cochinita pibil in Yucatan for orange pork or mixiote in Mexico)
+    + [ ] Fajitas -- thinly sliced meat on a comal skillet
+    + [ ] Fideo -- Tomato soup with short noodles
+    + [ ] Menudo -- spicy stew made from tripe
+    + [ ] Nopal -- (prickly pears) - edible cactus
+    + [ ] Pozole -- nixtamalized maize and meat stew
+    + [ ] Pulque -- fermented sap of the maguey (agave) plant
+    + [ ] Tamales -- steamed rolls in cornmeal dough
+    + [ ] Tasajo -- thin-cut beef steak or pork, partially cured
+    + [ ] Tinga -- shredded meat in a smoky chipotle sauce
+    + [ ] Atole, atol de elote -- masa-based drink (champurrado, guava)
+
