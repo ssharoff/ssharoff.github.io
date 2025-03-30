@@ -77,6 +77,9 @@
 [[https://ssharoff.github.io/photos/mx25/Cam_20250315_100913.jpg]]
 
 Циклы по 13*20=260 и 18*20+5=365
+
+405 lunations in 46 x 260 days (11,960 days), which makes it 29.53086 days (the modern value is 29.53059)
+
 #+ATTR_HTML: :alt Кампече, музей Сан-Мигель, схема двух календарей
 [[https://ssharoff.github.io/photos/mx25/Cam_20250315_102801280.jpg]]
 #+ATTR_HTML: :alt Кампече, музей Сан-Мигель, маска из захоронения в Калакмуле
