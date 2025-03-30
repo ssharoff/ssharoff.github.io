@@ -148,22 +148,118 @@
 * Mexico city
 ** Fri 21 Mar: 
  + Mexico, Zocalo 
+#+ATTR_HTML: :alt Мехико, Сокало, большой флаг
+[[https://ssharoff.github.io/photos/mx25/mx_20250321_183304726.jpg]]
+#+ATTR_HTML: :alt Мехико, памятник собакам
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_080824706_HDR.jpg]]
 
 ** Sat 22 Mar: 
  + Museo de Anthropologia
  + Dinner at Filigrana
 
+#+ATTR_HTML: :alt Мехико, антропологический музей, майя
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_114208.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический музей, динамика керамики, майя
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_120253.jpg]]
+#+ATTR_HTML: :alt Мехико, частая поза, майя
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_121758.jpg]]
+#+ATTR_HTML: :alt Мехико, бог старости, майя
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_122516.jpg]]
+#+ATTR_HTML: :alt Мехико, социальная иерархия, майя
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_122857.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический 
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_123132.jpg]]
+#+ATTR_HTML: :alt Мехико, дуализм жизни и смерти
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_132817704.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_135222.jpg]]
+#+ATTR_HTML: :alt Мехико, 
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_1357a.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический Трамп
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_135836.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_142108885.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_142725.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический, волхвы
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_143019620.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический, дудочки
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_145042867.jpg]]
+#+ATTR_HTML: :alt Мехико, торт ацтеков
+[[https://ssharoff.github.io/photos/mx25/mx_20250322_191245307_HDR.jpg]]
+
 ** Sun 23 Mar: Coyoacan
  + Leon Trotsky
  + Coyoacan Market
  + Casa de Tovar de Teresa
+#+ATTR_HTML: :alt Мехико, метро: от Аудитории до Трёх колосков
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_084130865.jpg]]
+#+ATTR_HTML: :alt Мехико, метро: британская станция, стена про рок
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_084414712.jpg]]
 
 ** Mon 24 Mar: Teotihuacán
+#+ATTR_HTML: :alt Мехико, шляпа
+[[https://ssharoff.github.io/photos/mx25/mx_20250324_101411161_HDR.jpg]]
+#+ATTR_HTML: :alt Мехико, Теотихуакан, панорама
+[[https://ssharoff.github.io/photos/mx25/mx_20250324_103640526.jpg]]
+#+ATTR_HTML: :alt Мехико, Теотихуакан, музей росписей
+[[https://ssharoff.github.io/photos/mx25/mx_20250324_133656253.jpg]]
+#+ATTR_HTML: :alt Мехико, Теотихуакан, музей росписей
+[[https://ssharoff.github.io/photos/mx25/mx_20250324_133724644.jpg]]
+#+ATTR_HTML: :alt Мехико, Теотихуакан, Храм Кецалькоатля
+[[https://ssharoff.github.io/photos/mx25/mx_20250324_151609748_HDR.jpg]]
+#+ATTR_HTML: :alt Мехико, Книжный магазин с кошками
+[[https://ssharoff.github.io/photos/mx25/mx_20250324_174409268.jpg]]
 
 ** Tue 25 Mar:
  + Museo de Anthropologia
  + Diego Rivera at the National Palace
  + National Art Museum
+#+ATTR_HTML: :alt Мехико, антропологический, серп и молот Теотихуакана
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_102037898.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_102617401.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический, череп смерти
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_105127394.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический, птица
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_105930.jpg]]
+#+ATTR_HTML: :alt Мехико, Элеанора Каррингтон, Загадочный мир майя
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_113224429.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический, керамика
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_120416210.jpg]]
+#+ATTR_HTML: :alt Мехико, антропологический, птица ест рыбу
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_122355.jpg]]
+#+ATTR_HTML: :alt Мехико, Ривера, Дворец президента
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_151534322.jpg]]
+#+ATTR_HTML: :alt Мехико, Ривера, Дворец президента
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_151620392.jpg]]
+#+ATTR_HTML: :alt Мехико, Ривера, Дворец президента
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_151805792.jpg]]
+#+ATTR_HTML: :alt Мехико, Ривера, Дворец президента, мы с пропуском
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_151846364.jpg]]
+#+ATTR_HTML: :alt Мехико, Ривера, Дворец президента
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_152527053.jpg]]
+#+ATTR_HTML: :alt Мехико, Ривера, Дворец президента
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_152836223.jpg]]
+#+ATTR_HTML: :alt Мехико, Ривера, Дворец президента, Кортес собирает дань
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_154038909.jpg]]
+#+ATTR_HTML: :alt Мехико, 
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_162523966.jpg]]
+#+ATTR_HTML: :alt Мехико, Журналы 20-х
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_163216736.jpg]]
+#+ATTR_HTML: :alt Мехико, 
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_163804921.jpg]]
+#+ATTR_HTML: :alt Мехико, 
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_164400457.jpg]]
+#+ATTR_HTML: :alt Мехико, Мексиканский Руссо
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_165512279.jpg]]
+#+ATTR_HTML: :alt Мехико, 
+[[https://ssharoff.github.io/photos/mx25/mx_20250325_170026595.jpg]]
+#+ATTR_HTML: :alt Мехико, Надень маску, Мексиканские авиалинии
+[[https://ssharoff.github.io/photos/mx25/mx_20250326_105656.jpg]]
+#+ATTR_HTML: :alt Мехико, Надень маску, Британские авиалинии
+[[https://ssharoff.github.io/photos/mx25/mx_20250326_184929.jpg]]
+
 
 * Maya
 
