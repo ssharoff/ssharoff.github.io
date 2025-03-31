@@ -372,6 +372,8 @@
 [[https://ssharoff.github.io/photos/mx25/mx_20250325_164400457.jpg]]
 #+ATTR_HTML: :alt Мехико, Мексиканский Руссо
 [[https://ssharoff.github.io/photos/mx25/mx_20250325_165512279.jpg]]
+
+Адольфо Бест Могард, Автопортрет:
 #+ATTR_HTML: :alt Мехико, 
 [[https://ssharoff.github.io/photos/mx25/mx_20250325_170026595.jpg]]
 
