@@ -1,0 +1,68 @@
+#+TITLE: 
+#+AUTHOR: 
+#+DATE: 
+#+OPTIONS: toc:nil H:2
+#+LATEX_HEADER: \usepackage{tikzsymbols}
+
+#+LATEX_HEADER: \usepackage[T2A]{fontenc}
+#+LATEX_HEADER: \usepackage{cmap}
+#+LATEX_HEADER: \usepackage{CJKutf8}
+#+LATEX_HEADER: \newcommand{\ZH}[1]{\begin{CJK}{UTF8}{gbsn}\large #1\end{CJK}}
+# +LATEX_HEADER: \newcommand{\ZHT}[1]{\begin{CJK}{UTF8}{bsmi}#1\end{CJK}}
+
+* Hungary
+** Tue 22 Apr: Keszthely [0/3]
+ + [ ] Train Budapest to Keszthely 9:35-12:11;
+ + [ ] Helicon Palace Museum (closes at 17:00)
+ + [ ] Relax \Laughey[1.4]
+
+** Wed 23 Apr: Keszthely [0/4]
+ + [ ]  Hévíz, https://en.wikivoyage.org/wiki/H%C3%A9v%C3%ADz
+ + [ ]  Шалфельд. Прогулка по деревне (очень венгерской), много придорожных крестов ( как раз пасхальная неделя), через короткий проход по полям и лесу - развлины паулинского монастыря
+ + [ ]  Тапольца+ Чобанс. В Тапольце озеро с большими рыбами, красивый проход по мельничному ручью. Пещера с подземным озером, прокатиться на лодочке. А потом доехать до руин крепости, залезть на холм, смотреть вокруг. такой комплекс, под землей и на гору.
+ + [ ] 17:00 Диалог Круглый стол
+
+** Thu 24 Apr: Pecs [0/5]
+ + [ ] Bus Keszthely to Pecs 7:35-11:10;
+ + [ ] Csontvary Museum, closes at 14:00
+ + [ ] Zsolnay village with pottery and gloves, closes at 18:00
+ + [ ] Winery??
+ + [ ] Evening??
+
+** Fri 25 Apr: Szeged [0/7]
+ + [ ] Best cafe in Pecs??
+ + [ ] Bus Pecs to Szeged 10:15-13:25;
+ + [ ] Castle Museum, closes at 18:00
+ + [ ] Ferenc Mora Art Museum, closes at 18:00
+ + [ ] Szegedy Dom (closes at 19:00)
+ + [ ] Demetrius Tower
+ + [ ] Anna Furdo
+** Sat 26 Apr: Novi Sad [0/3]
+ + [ ] ??
+
+** Sun 27 Apr: Novi Sad [0/1]
+ + [ ] Evening??
+** Mon 28 Apr: Novi Sad [0/2]
+ + [ ] Meeting Nouran 8:00 
+ + [ ] Evening??
+** Tue 28 Apr: Novi Sad [0/1]
+ + [ ] Evening??
+
+** Wed 29 Apr: Novi Sad [0/1]
+ + [ ] Evening??
+** Thu 30 Apr: Novi Sad [0/3]
+ + [ ] Evening??
+** Fri 1 May: Kecskemet [0/5]
+ + [ ] Bus Novi Sad to Kecskemet 11:40-15:30;
+ + [ ] Bosco Collection, closes at 17:00
+ + [ ] Kecskemet Gallery
+ + [ ] Old Synagogue
+ + [ ] Evening??
+
+** Sat 2 May:  [0/2]
+ + [ ] Train ??
+ + [ ] Flight BUD-MAN 13:05-14:30;
+
+** Hungarian food:  [0/2]
+ + [ ] Szamos marzipan
+ + [ ] Galuska
