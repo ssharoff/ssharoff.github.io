@@ -11,32 +11,33 @@
 # +LATEX_HEADER: \newcommand{\ZHT}[1]{\begin{CJK}{UTF8}{bsmi}#1\end{CJK}}
 
 * Hungary
-** Tue 22 Apr: Keszthely [0/3]
+** Tue 22 Apr: Keszthely [3/4]
  + [ ] Train Budapest to Keszthely 9:35-12:11;
- + [ ] Helicon Palace Museum (closes at 17:00)
- + [ ] Relax \Laughey[1.4]
+ + [X] Helicon Palace Museum (closes at 17:00)
+ + [X] Coach museum
+ + [X] Relax \Laughey[1.4]
 
-** Wed 23 Apr: Keszthely [0/4]
+** Wed 23 Apr: Keszthely [2/4]
+ + [X]  Тапольца+ Чобанс. В Тапольце озеро с большими рыбами, красивый проход по мельничному ручью. Пещера с подземным озером, прокатиться на лодочке. А потом доехать до руин крепости, залезть на холм, смотреть вокруг. такой комплекс, под землей и на гору.
  + [ ]  Hévíz, https://en.wikivoyage.org/wiki/H%C3%A9v%C3%ADz
  + [ ]  Шалфельд. Прогулка по деревне (очень венгерской), много придорожных крестов ( как раз пасхальная неделя), через короткий проход по полям и лесу - развлины паулинского монастыря
- + [ ]  Тапольца+ Чобанс. В Тапольце озеро с большими рыбами, красивый проход по мельничному ручью. Пещера с подземным озером, прокатиться на лодочке. А потом доехать до руин крепости, залезть на холм, смотреть вокруг. такой комплекс, под землей и на гору.
- + [ ] 17:00 Диалог Круглый стол
+ + [X] 17:00 Диалог Круглый стол
 
-** Thu 24 Apr: Pecs [0/5]
+** Thu 24 Apr: Pecs [3/5]
  + [ ] Bus Keszthely to Pecs 7:35-11:10;
- + [ ] Csontvary Museum, closes at 14:00
- + [ ] Zsolnay village with pottery and gloves, closes at 18:00
+ + [X] Csontvary Museum, closes at 14:00
+ + [X] Zsolnay village with pottery and gloves, closes at 18:00
  + [ ] Winery??
- + [ ] Evening??
+ + [X] Blöff Bisztro
 
-** Fri 25 Apr: Szeged [0/7]
+** Fri 25 Apr: Szeged [4/7]
  + [ ] Best cafe in Pecs??
  + [ ] Bus Pecs to Szeged 10:15-13:25;
  + [ ] Castle Museum, closes at 18:00
- + [ ] Ferenc Mora Art Museum, closes at 18:00
- + [ ] Szegedy Dom (closes at 19:00)
- + [ ] Demetrius Tower
- + [ ] Anna Furdo
+ + [X] Ferenc Mora Art Museum, closes at 18:00
+ + [X] Szegedy Dom (closes at 19:00)
+ + [X] Demetrius Tower
+ + [X] Anna Furdo
 ** Sat 26 Apr: Novi Sad [0/3]
  + [ ] ??
 
