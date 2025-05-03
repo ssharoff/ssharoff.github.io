@@ -30,8 +30,8 @@
  + [ ] Winery??
  + [X] Blöff Bisztro
 
-** Fri 25 Apr: Szeged [4/7]
- + [ ] Best cafe in Pecs??
+** Fri 25 Apr: Szeged [5/7]
+ + [X] Pasha Gazi Kászim Mosque/Church
  + [ ] Bus Pecs to Szeged 10:15-13:25;
  + [ ] Castle Museum, closes at 18:00
  + [X] Ferenc Mora Art Museum, closes at 18:00
