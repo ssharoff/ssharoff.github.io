@@ -1,7 +1,7 @@
 #+TITLE: Разговорник китайский
 #+AUTHOR: 
 #+DATE: 
-#+HTML_HEAD_EXTRA: <style>*{font-size: x-large;}</style>
+#+LATEX_COMPILER: xelatex
 # +LATEX_CLASS_OPTIONS: [10pt,twocolumn]
 # +LATEX_HEADER: \usepackage{fullpage}
 #+LATEX_HEADER: \usepackage[margin=0.7cm]{geometry}
@@ -17,6 +17,8 @@
 #+LATEX_HEADER: \let\description\compactdesc
 
 #+LATEX_HEADER: \usepackage{multicol}
+
+#+HTML_HEAD_EXTRA: <style>*{font-size: x-large;}</style>
 
 #+LATEX: \setlength{\columnsep}{8pt}
 #+LATEX: \begin{multicols}{3}
@@ -186,7 +188,7 @@
  + мост ::     桥	  qiáo (tall tree)	     	 	     
  + переу́лок :: 巷子	  xiàngzi 
  + у́лица ::    街道	  jiēdào
-* Погода
+* COMMENT Погода
  + бу́ря :: 
  + ве́тер :: 
  + град :: 
