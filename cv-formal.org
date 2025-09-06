@@ -1,6 +1,7 @@
-#+TITLE: Prof Serge Sharoff
-#+AUTHOR: 
+#+TITLE: Curriculum Vitae
+#+AUTHOR: Prof Serge Sharoff
 #+DATE: \today
+
 # +LATEX_HEADER: \usepackage{standard}
 #+LATEX_HEADER: \usepackage{times}
 #+LATEX_HEADER: \usepackage{fullpage}
@@ -13,7 +14,7 @@
   :CLASS: unnumbered
   :END:
 - Title :: Professor of Language Technology and Digital Humanities,
-- Address :: Centre for Translation Studies\\
+- Address :: Centre for Translation, Interpreting and Localisation Studies\\
   School of Languages, Cultures and Societies\\
   Faculty of Arts, Humanities and Cultures\\
   University of Leeds\\
@@ -22,6 +23,9 @@
 - e-mail :: s.sharoff@leeds.ac.uk
 
 * My research interests
+  :PROPERTIES:
+  :CUSTOM_ID: research-interests
+  :END:
 Artificial Intelligence and more specifically Large Language Models,
 such as ChatGPT, have recently made a profound impact on how we
 interact with the computer by providing the ability to produce new
@@ -36,7 +40,6 @@ My current research interests focus on the relationship between linguistic struc
 * Research awards
   :PROPERTIES:
   :CUSTOM_ID: research-awards
-  :CLASS: unnumbered
   :END:
 - 2024-2026 :: EU Horizon "iDem: Innovative and Inclusive Democratic Spaces for Deliberation and Participation" (PI for Leeds, €539,954) https://idemproject.eu/
 - 2020-2022 :: EPSRC "AI tracing for detecting COVID19 misinformation" (PI, £39,954)
@@ -81,17 +84,17 @@ My current research interests focus on the relationship between linguistic struc
   :CUSTOM_ID: academic-publications
   :CLASS: unnumbered
   :END:
-Over 150 academic publications with 4613 citations in total, see a separate list below.
+Over 150 academic publications with 4675 citations in total, see a separate list below.
 
 [[https://scholar.google.co.uk/citations?user=qcnf4QsAAAAJ]]
 
 See also: [[./publications.pdf][publications.pdf]]
 
-I'm on the editorial board of Language Resources and Register Studies, as well as on the Programme Committte for a number of conferences.
+I'm on the editorial board of the journals Language Resources and Register Studies, as well as on the Programme Committte for a number of conferences.
 
 * PhD Supervision
 
-  23 students supervised to successful completion. My past PhD sudents work in a range of jobs in academia and in industry over the entire world.
+  27 PhD students supervised to successful completion. My past PhD sudents work in a range of jobs in academia and in industry over the entire world.
 
 ** COMMENT Invited presentations
    :PROPERTIES:
