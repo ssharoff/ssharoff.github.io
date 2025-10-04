@@ -45,4 +45,13 @@
  + [ ] Landing MAN 11:45;
 * Food
 ** Local food [0/9]
-    + [ ] 
+    + [ ] Bacalao al pil-pil – Salted cod
+    + [ ] Bacalao a la vizcaína – with a thick red sauce
+    + [ ] Marmitako – fisherman’s stew
+    + [ ] Txangurro – Spider crab baked in its shell
+    + [ ] Besugo a la parrilla – Grilled sea bream
+    + [ ] Kokotxas – cheek of hake
+    + [ ] Txipirones en su tinta – Squid in its own ink
+    + [ ] Alubias – Black beans with blood sausage
+    + [ ] Pantxineta – Puff pastry with custard cream
+
