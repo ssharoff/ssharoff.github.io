@@ -1,0 +1,50 @@
+#+TITLE: Large open source corpora
+#+AUTHOR: Serge Sharoff
+#+DATE: 2006
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{times}
+#+LATEX_HEADER: \usepackage{apalike}
+#+HTML_HEAD_EXTRA: <style>*{font-size: large;}</style>
+
+* Corpus-building process
+ 1. Select about *500 words* from a list of the most frequent word forms in your language.  It is important that selected words are sufficiently general, i.e. they do not belong to a specific domain, but they are not function words.  For instance, /picture, extent, raised, events/ are good query words for English.  For German I experimented with lowercase wordforms only (i.e. adjectives, adverbs and verbs). [[./seeds-en]]
+ 2. Produce a list of *5000-6000 queries*, each of which consists of 3-4 words from the seed list.  You might wish to add a couple of very frequent function words that are *not* used in related languages (this reduces the probability of getting pages in those languages), for example, I added /має/ /її/ for Ukranian to prevent Bulgarian and Russian pages. [[./queries-en]]
+ 3. Collect the top *10-20 URLs* returned for each query by a search engine (I used Google in 2005, the API has been discontinued since then).  The list of successfully downloaded URLs constitutes an open-source corpus. [[./final-url-en.gz]]
+ 4. The set of downloaded HTML files requires further *postprocessing*, such as correction of encodings, conversion of all texts to Unicode, filtering out duplicate pages, removing boilerplate, etc, followed by lemmatisation and part-of-speech tagging.
+
+* Corpus format
+The resulting corpora below are encoded in CorpusWorkbench (CWB, see
+[[http://cwb.sf.net]]), so that each corpus is a large single indexed
+file, which has the positional attributes of 'word', 'pos' and 'lemma',
+as well as the structural attribute 'text', which has 'id' as the first
+annotation.
+
+Normally, a CWB corpus looks like:
+
+#+BEGIN_EXAMPLE
+  <text id="Alan Turing" category="English mathematicians|Computer scientists" iwiki="Алан Тьюринг">
+  <p>
+  Alan    NP  Alan
+  Mathison    NP  Mathison
+  Turing  NP  Turing
+  was VBD be
+  an  DT  an
+  English JJ  English
+  mathematician   NN  mathematician
+  and CC  and
+  computer    NN  computer
+  scientist   NN  scientist
+  .   SENT    .
+#+END_EXAMPLE
+
+Ids can have spaces and any other characters except quotes and tabs, and
+they need to be unique within a corpus.
+
+This is also the format output by popular taggers, such as TreeTagger.
+
+* Samples
+
+** Russian
+ 1. [[./i-ru-1.out.xz]]
+ 2. [[./i-ru-2.out.xz]]
+
