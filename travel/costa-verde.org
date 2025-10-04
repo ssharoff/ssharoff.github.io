@@ -11,6 +11,8 @@
 * Euskaria
 ** Thu 30 Jul, 18:40: Flight to Bilbao [0/3]
  + [ ] Landing 21:40;
+ + [ ] Hotel
+ + [ ] Relax \Laughey[1.4]
 ** Fri 31 Jul, Bilbao [0/3]
  + [ ] Guggenheim
    
@@ -39,6 +41,8 @@
 ** Wed 12 Aug, Solar eclipse [0/3]
  + [ ] Coast at Cabo Penas or Luarca
  + [ ] OR Monasterio de la Sierra
+ + [ ] http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2026_GoogleMapFull.html
+ + [ ] https://visualizadores.ign.es/eclipses/#/2026
 ** Thu 13 Aug,  [0/3]
  + [ ] 
 ** Fri 14 Aug, 10:40: Flight from Bilbao [0/3]
