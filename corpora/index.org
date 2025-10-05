@@ -6,17 +6,16 @@
 #+LATEX_HEADER: \usepackage{apalike}
 #+HTML_HEAD_EXTRA: <style>*{font-size: large;}</style>
 
-This page describes the process of building comparable corpora from the Web and lists some of the results.  For the full description please see
+This page describes the process of building comparable corpora from the Web and lists some of the results.  For the full description please see:
 
 Serge Sharoff. Open-source Corpora: using the net to fish for linguistic data. /International Journal of Corpus Linguistics/, *11*,
 435--462, 2006.
-
 [[../publications/2006-ijcl-proof.pdf]]
 
 * Corpus-building process
- 1. Select about *500 words* from a list of the most frequent word forms in your language.  It is important that selected words are sufficiently general, i.e. they do not belong to a specific domain, but they are not function words.  For instance, /picture, extent, raised, events/ are good query words for English.  For German I experimented with lowercase wordforms only (i.e. adjectives, adverbs and verbs). [[./seeds-en]]
- 2. Produce a list of *5000-6000 queries*, each of which consists of 3-4 words from the seed list.  You might wish to add a couple of very frequent function words that are *not* used in related languages (this reduces the probability of getting pages in those languages), for example, I added /має/ /її/ for Ukranian to prevent Bulgarian and Russian pages. [[./queries-en]]
- 3. Collect the top *10-20 URLs* returned for each query by a search engine (I used Google in 2005, the API has been discontinued since then).  The list of successfully downloaded URLs constitutes an open-source corpus. [[./final-url-en.gz]]
+ 1. Select about *500 words* from a list of the most frequent word forms in your language.  It is important that selected words are sufficiently general, i.e. they do not belong to a specific domain, but they are not function words.  For instance, /picture, extent, raised, events/ are good query words for English.  For German I experimented with lowercase wordforms only (i.e. adjectives, adverbs and verbs). Examples of seeds in [[./seeds-en][English]], [[./seeds-de][German]],  [[./seeds-ru][Russian]] and [[./seeds-zh][Chinese]].
+ 2. Produce a list of *5000-6000 queries*, each of which consists of 3-4 words from the seed list.  You might wish to add a couple of very frequent function words that are *not* used in related languages (this reduces the probability of getting pages in those languages), for example, I added /має/ and /її/ for Ukranian to prevent Bulgarian and Russian pages. Examples of queries in [[./queries-en.xz][English]], [[./queries-de.xz][German]],  [[./queries-ru.xz][Russian]] and [[./queries-zh.xz][Chinese]].
+ 3. Collect the top *10-20 URLs* returned for each query by a search engine (I used Google in 2005, the API has been discontinued since then).  The list of successfully downloaded URLs constitutes an open-source corpus. Lists of URLs in [[./final-urls-en.xz][English]], [[./final-urls-de.xz][German]],  [[./final-urls-ru.xz][Russian]] and [[./final-urls-zh.xz][Chinese]].
  4. The set of downloaded HTML files requires further *postprocessing*, such as correction of encodings, conversion of all texts to Unicode, filtering out duplicate pages, removing boilerplate, etc, followed by lemmatisation and part-of-speech tagging.
 
 * Corpus format
