@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-10-05 Sun 09:35 -->
+<!-- 2025-10-05 Sun 16:37 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Large open source corpora</title>
@@ -207,19 +207,19 @@ Serge Sharoff. Open-source Corpora: using the net to fish for linguistic data. <
 435&#x2013;462, 2006.
 <a href="../publications/2006-ijcl-proof.pdf">../publications/2006-ijcl-proof.pdf</a>
 </p>
-<div id="outline-container-org2628c6e" class="outline-2">
-<h2 id="org2628c6e"><span class="section-number-2">1.</span> Corpus-building process</h2>
+<div id="outline-container-org433470a" class="outline-2">
+<h2 id="org433470a"><span class="section-number-2">1.</span> Corpus-building process</h2>
 <div class="outline-text-2" id="text-1">
 <ol class="org-ol">
 <li>Select about <b>500 words</b> from a list of the most frequent word forms in your language.  It is important that selected words are sufficiently general, i.e. they do not belong to a specific domain, but they are not function words.  For instance, <i>picture, extent, raised, events</i> are good query words for English.  For German I experimented with lowercase wordforms only (i.e. adjectives, adverbs and verbs). Examples of seeds in <a href="./seeds-en">English</a>, <a href="./seeds-de">German</a>,  <a href="./seeds-ru">Russian</a> and <a href="./seeds-zh">Chinese</a>.</li>
-<li>Produce a list of <b>5000-6000 queries</b>, each of which consists of 3-4 words from the seed list.  You might wish to add a couple of very frequent function words that are <b>not</b> used in related languages (this reduces the probability of getting pages in those languages), for example, I added <i>має</i> and <i>її</i> for Ukranian to prevent Bulgarian and Russian pages. Examples of queries in <a href="./queries-en.xz">English</a>, <a href="./queries-de.xz">German</a>,  <a href="./queries-ru.xz">Russian</a> and <a href="./queries-zh.xz">Chinese</a>.</li>
+<li>Produce a list of <b>5000-6000 queries</b>, each of which consists of 3-4 words from the seed list.  You might wish to add a couple of very frequent function words that are <b>not</b> used in related languages (this reduces the probability of getting pages in those languages), for example, I added <i>має</i> and <i>її</i> for Ukranian to prevent Bulgarian and Russian pages from appearing in the Ukranian corpus. Examples of queries in <a href="./queries-en.xz">English</a>, <a href="./queries-de.xz">German</a>,  <a href="./queries-ru.xz">Russian</a> and <a href="./queries-zh.xz">Chinese</a>.</li>
 <li>Collect the top <b>10-20 URLs</b> returned for each query by a search engine (I used Google in 2005, the API has been discontinued since then).  The list of successfully downloaded URLs constitutes an open-source corpus. Lists of URLs in <a href="./final-urls-en.xz">English</a>, <a href="./final-urls-de.xz">German</a>,  <a href="./final-urls-ru.xz">Russian</a> and <a href="./final-urls-zh.xz">Chinese</a>.</li>
 <li>The set of downloaded HTML files requires further <b>postprocessing</b>, such as correction of encodings, conversion of all texts to Unicode, filtering out duplicate pages, removing boilerplate, etc, followed by lemmatisation and part-of-speech tagging.</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-org321d391" class="outline-2">
-<h2 id="org321d391"><span class="section-number-2">2.</span> Corpus format</h2>
+<div id="outline-container-orga1ae510" class="outline-2">
+<h2 id="orga1ae510"><span class="section-number-2">2.</span> Corpus format</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 The resulting corpora below are encoded in CorpusWorkbench (CWB, see
@@ -233,7 +233,7 @@ annotation.
 Normally, a CWB corpus looks like:
 </p>
 
-<pre class="example" id="org1ea3849">
+<pre class="example" id="org5e8b121">
 &lt;text id="Alan Turing" category="English mathematicians|Computer scientists" iwiki="Алан Тьюринг"&gt;
 &lt;p&gt;
 Alan    NP  Alan
@@ -259,12 +259,12 @@ This is also the format output by popular taggers, such as TreeTagger.
 </p>
 </div>
 </div>
-<div id="outline-container-org825058a" class="outline-2">
-<h2 id="org825058a"><span class="section-number-2">3.</span> Samples</h2>
+<div id="outline-container-org356de24" class="outline-2">
+<h2 id="org356de24"><span class="section-number-2">3.</span> Samples</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-orgd7643f1" class="outline-3">
-<h3 id="orgd7643f1"><span class="section-number-3">3.1.</span> Russian</h3>
+<div id="outline-container-orgb10038a" class="outline-3">
+<h3 id="orgb10038a"><span class="section-number-3">3.1.</span> Russian</h3>
 <div class="outline-text-3" id="text-3-1">
 <ol class="org-ol">
 <li><a href="./i-ru-1.out.xz">./i-ru-1.out.xz</a></li>
@@ -277,7 +277,7 @@ This is also the format output by popular taggers, such as TreeTagger.
 <div id="postamble" class="status">
 <p class="date">Date: 2006</p>
 <p class="author">Author: Serge Sharoff</p>
-<p class="date">Created: 2025-10-05 Sun 09:35</p>
+<p class="date">Created: 2025-10-05 Sun 16:37</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
