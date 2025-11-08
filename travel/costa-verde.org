@@ -12,14 +12,19 @@
 ** Thu 30 Jul, 18:40: Flight to Bilbao [0/3]
  + [ ] Landing 21:40;
  + [ ] Hotel
+ + [ ] [[https://www.google.com/maps/d/edit?mid=1wzRhy6JeL_9L2CAeMNekiyEIlRwz49k&ll=42.00743853435628%2C-3.1288914500000065&z=8][Maps for all places]]
  + [ ] Relax \Laughey[1.4]
 ** Fri 31 Jul, Bilbao [0/3]
  + [ ] Guggenheim
+ + [ ] [[https://maps.google.com/?cid=494037353585728349][Antxon Deunaren Eliza]]
    
 ** Sat 1 Aug, Donostia-San Sebastian [0/3]
- + [ ] 
+ + [ ] [[https://maps.google.com/?cid=11237706766897735082][Donostia-San Sebastián City Hall]]
+ + [ ] [[https://maps.google.com/?cid=5099131358334556946][Euskal Itsas Museoa]]
+ + [ ] [[https://maps.google.com/?cid=18386009213718801979][Motako Gaztelua]]
 ** Sun 2 Aug, Bilbao [0/3]
- + [ ] 
+ + [ ] [[https://maps.google.com/?cid=14778240576183090545][Museo Arqueológico, Etnográfico e Histórico Vasco]]
+ + [ ] [[https://maps.google.com/?cid=4639789911927495126][Bull-fighting museum]]
 ** Mon 3 Aug, Santander [0/3]
  + [ ] 
 ** Tue 4 Aug, Santander [0/3]
@@ -47,7 +52,7 @@
  + [ ] 
 ** Fri 14 Aug, 10:40: Flight from Bilbao [0/3]
  + [ ] Landing MAN 11:45;
-* Food
+* Local knowledge
 ** Local food [0/9]
     + [ ] Bacalao al pil-pil – Salted cod
     + [ ] Bacalao a la vizcaína – with a thick red sauce
@@ -58,6 +63,21 @@
     + [ ] Txipirones en su tinta – Squid in its own ink
     + [ ] Alubias – Black beans with blood sausage
     + [ ] Pantxineta – Puff pastry with custard cream
+** Basque language [0/9]
+ + [ ] /Hello./ Kaixo.
+ + [ ] /Hello./ (informal) Epa! or Iepa! or Aupa!
+ + [ ] /Good morning./ Egunon.
+ + [ ] /Good afternoon./ Arratsaldeon.
+ + [ ] /Good evening./ Gabon.
+ + [ ] /Goodbye./ Agur /Goodbye/ (informal) Aio
+ + [ ] /Please./ Mesedez.
+ + [ ] /Thank you./ Eskerrik asko.
+ + [ ] /Welcome./ Ongi etorri.
+ + [ ] /Yes./ Bai. /No./ Ez.
+ + [ ] /Excuse me./ (getting attention) Aizu!
+ + [ ] /Excuse me./ (begging pardon) Barkatu
+ + [ ] /I'm sorry./ Barkatu
+ + [ ] /Help!/ Lagundu!
 ** Links to places
  + https://en.wikivoyage.org/wiki/Camino_de_Santiago
  + https://en.wikivoyage.org/wiki/Asturias
