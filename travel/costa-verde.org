@@ -15,7 +15,7 @@
  + [ ] [[https://www.google.com/maps/d/edit?mid=1wzRhy6JeL_9L2CAeMNekiyEIlRwz49k&ll=42.00743853435628%2C-3.1288914500000065&z=8][Maps for all places]]
  + [ ] Relax \Laughey[1.4]
 ** Fri 31 Jul, Bilbao [0/3]
- + [ ] Guggenheim
+ + [ ] [[https://maps.google.com/?cid=5803050537506008493][Guggenheim Museum]]
  + [ ] [[https://maps.google.com/?cid=494037353585728349][Antxon Deunaren Eliza]]
    
 ** Sat 1 Aug, Donostia-San Sebastian [0/3]
@@ -26,13 +26,17 @@
  + [ ] [[https://maps.google.com/?cid=14778240576183090545][Museo Arqueológico, Etnográfico e Histórico Vasco]]
  + [ ] [[https://maps.google.com/?cid=4639789911927495126][Bull-fighting museum]]
 ** Mon 3 Aug, Santander [0/3]
- + [ ] 
+ + [ ] [[https://maps.google.com/?cid=13309628175425153688][Port of Castro-Urdiales]]
+ + [ ] [[https://maps.google.com/?cid=6109003021288858498][Playa de Arenillas]]
 ** Tue 4 Aug, Santander [0/3]
- + [ ] 
-** Wed 5 Aug, Santander [0/3]
- + [ ] 
-** Thu 6 Aug,  [0/3]
- + [ ] 
+ + [ ] [[https://maps.google.com/?cid=14715877244794706443][Museum of Archaeology]]
+ + [ ] [[https://maps.google.com/?cid=13788828261829391393][Muelle de las Carabelas]]
+** Wed 5 Aug, Oviedo [0/3]
+ + [ ] [[https://maps.google.com/?cid=7290119747409650700][Caves of Altamira]]
+ + [ ] [[https://maps.google.com/?cid=15434135812633679203][Playa Guadamia]]
+** Thu 6 Aug, Oviedo [0/3]
+ + [ ] [[https://maps.google.com/?cid=16701935266530180404][San Salvador]]
+ + [ ] [[https://maps.google.com/?cid=7785391120889032964][Iglesia Naranco]]
 ** Fri 7 Aug,  [0/3]
  + [ ] 
 ** Sat 8 Aug, [0/3]
@@ -44,10 +48,11 @@
 ** Tue 11 Aug,  [0/3]
  + [ ] 
 ** Wed 12 Aug, Solar eclipse [0/3]
- + [ ] Coast at Cabo Penas or Luarca
- + [ ] OR Monasterio de la Sierra
- + [ ] http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2026_GoogleMapFull.html
- + [ ] https://visualizadores.ign.es/eclipses/#/2026
+ + [ ] Coast at [[https://maps.google.com/?cid=16299055402080645484][Cabo Penas]] or [[https://maps.google.com/?cid=16958840623776683604][Luarca]]
+ + [ ] OR [[https://maps.google.com/?cid=8759911981912695964][Monasterio de la Sierra]]
+ + [ ] OR [[https://maps.google.com/?cid=14486398254811784580][San Miguel in Excelsis]]
+ +  http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2026_GoogleMapFull.html
+ + https://visualizadores.ign.es/eclipses/#/2026
 ** Thu 13 Aug,  [0/3]
  + [ ] 
 ** Fri 14 Aug, 10:40: Flight from Bilbao [0/3]
