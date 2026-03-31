@@ -1,3 +1,8 @@
+-   [./2026-LREC-uncertainty.pdf](./2026-LREC-uncertainty.pdf)
+-   [./2026-LREC-denoising.pdf](./2026-LREC-denoising.pdf)
+-   [./2026-adversarial-access.pdf](./2026-adversarial-access.pdf)
+-   [./2026-eacl-mh.pdf](./2026-eacl-mh.pdf)
+-   [./2026-stat.pdf](./2026-stat.pdf)
 -   [./2025-aidem.pdf](./2025-aidem.pdf)
 -   [./2025-mtsummit-e2r.pdf](./2025-mtsummit-e2r.pdf)
 -   [./2025-sfl-nlu.pdf](./2025-sfl-nlu.pdf)
