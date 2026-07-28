@@ -13,6 +13,9 @@
  + [ ] Landing 11:20;
  + [ ] [[https://maps.google.com/?q=Mazarredo+Zumarkalea,+17,+Abando,+48001+Bilbao,+Bizkaia,+Espainia&ftid=0xd4e4fdaec91eb23:0xb7bd8dc5e1887a15][Hotel, Alameda Mazarredo 17]]
  + [ ] [[https://www.google.com/maps/d/edit?mid=1wzRhy6JeL_9L2CAeMNekiyEIlRwz49k&ll=42.00743853435628%2C-3.1288914500000065&z=8][Maps for all places]]
+ + [ ] Víctor Montes: Pl. Berria, 8, Ibaiondo, 
+ + [ ] GildaToki: Estrauntza K., 1, Abando, 
+ + [ ] Iruna: Colón de Larreátegui K., 13, Abando, 
  + [ ] Relax \Laughey[1.4]
 ** Fri 31 Jul, Bilbao [0/3]
  + [ ] [[https://maps.google.com/?cid=5803050537506008493][Guggenheim Museum]]
