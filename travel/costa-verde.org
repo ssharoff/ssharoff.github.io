@@ -62,6 +62,7 @@
 ** Wed 12 Aug, Solar eclipse at Leon [0/3]
  + [ ]     [[https://maps.google.com/?cid=14951599655822230196][Gaudi Astorga]]
  + [ ] [[https://maps.google.com/?cid=8943352914398284204][Castrillo de los Polvazares]]
+ + [ ] OR [[https://maps.google.com/?cid=584984540197357858][Roman Villa La Olmeda]]
  # + [ ] Coast at [[https://maps.google.com/?cid=16299055402080645484][Cabo Penas]] or [[https://maps.google.com/?cid=16958840623776683604][Luarca]]
  # + [ ] OR Leon [[https://www.google.com/maps?cid=11981384142849531226][Zanetti]], [[https://maps.google.com/?cid=161007097211065983][Botines]], [[https://www.google.com/maps?cid=1401311441811005546][Cathedral]],
  # + [ ] OR [[https://maps.google.com/?cid=8759911981912695964][Monasterio de la Sierra]]
