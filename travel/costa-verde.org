@@ -37,13 +37,9 @@
  + [ ] Oviedo
 ** Wed 5 Aug, Altamira [0/3]
  + [ ] [[https://maps.google.com/?cid=7290119747409650700][Caves of Altamira]]
- + [ ] [[https://maps.google.com/?cid=10437023204301793768][Gaudi, Capricio]]
- + [ ] [[https://maps.google.com/?cid=15434135812633679203][Playa Guadamia]]
 ** Thu 6 Aug, Santander [0/3]
- + [ ] [[https://maps.google.com/?cid=14715877244794706443][Museum of Archaeology]]
- + [ ] [[https://maps.google.com/?cid=13788828261829391393][Muelle de las Carabelas]]
- + [ ] [[https://maps.google.com/?cid=11547090896548423102][Gastelugatxe]]
- + [ ] [[https://maps.google.com/?cid=6109003021288858498][Playa de Arenillas]]
+ + [ ] [[https://maps.google.com/?cid=10437023204301793768][Gaudi, Capricio]]
+ + [ ] Centro Botin
 ** Fri 7 Aug,  [0/3]
  + [ ] [[https://maps.google.com/?cid=11220614281060767090][Cave art Tito Bustillo]]
 ** Sat 8 Aug,  Ribadesella [0/3]
@@ -106,3 +102,9 @@
  + https://en.wikivoyage.org/wiki/Basque_Country
    + https://en.wikipedia.org/wiki/Gaztelugatxe
    + https://en.wikivoyage.org/wiki/Getaria
+** Missed, Santander [0/3]
+ + [ ] [[https://maps.google.com/?cid=14715877244794706443][Museum of Archaeology]]
+ + [ ] [[https://maps.google.com/?cid=13788828261829391393][Muelle de las Carabelas]]
+ + [ ] [[https://maps.google.com/?cid=11547090896548423102][Gastelugatxe]]
+ + [ ] [[https://maps.google.com/?cid=6109003021288858498][Playa de Arenillas]]
+ + [ ] [[https://maps.google.com/?cid=15434135812633679203][Playa Guadamia]]
