@@ -45,19 +45,22 @@
  + [ ] [[https://maps.app.goo.gl/NaAYaKN6ShGZVmD46][Playa de la Canal]]
 ** Sat 8 Aug [0/3]
  + Museum of Emigration
- + Playa de las islas
-** Sun 9 Aug, Oviedo [0/3]
+ + Playa de Torimbia
+** Sun 9 Aug, [0/3]
+ + [[https://maps.google.com/?cid=4907838194734647948][Playa de Ribadesella]] 
+ + OR Playa de Poo
+** Mon 10 Aug, Oviedo [0/3]
  + [ ] [[https://www.google.com/maps?cid=7457608306504540799][Cudillero]]
  + [ ] [[https://maps.google.com/?cid=8520806075641115429][Oscar Niemeyer Centre]]
  + [ ] [[https://maps.google.com/?cid=18205889720490256999][Playa del Silencio]]
-** Mon 10 Aug, [0/3]
- + [[https://maps.google.com/?cid=4907838194734647948][Playa de Ribadesella]] 
 ** Tue 11 Aug, Picos de Europa [0/3]
  + [ ] [[https://maps.google.com/?cid=11978870111061144138][Puente La Jaya]]
 ** Wed 12 Aug, Solar eclipse at Leon [0/3]
- + [ ]     [[https://maps.google.com/?cid=14951599655822230196][Gaudi Astorga]]
+ + [ ] Gaudi Casa Botines
+ + [ ] Leon Cathedral
  + [ ] [[https://maps.google.com/?cid=8943352914398284204][Castrillo de los Polvazares]]
  + [ ] OR [[https://maps.google.com/?cid=584984540197357858][Roman Villa La Olmeda]]
+ + [ ] OR Mining museum
  # + [ ] Coast at [[https://maps.google.com/?cid=16299055402080645484][Cabo Penas]] or [[https://maps.google.com/?cid=16958840623776683604][Luarca]]
  # + [ ] OR Leon [[https://www.google.com/maps?cid=11981384142849531226][Zanetti]], [[https://maps.google.com/?cid=161007097211065983][Botines]], [[https://www.google.com/maps?cid=1401311441811005546][Cathedral]],
  # + [ ] OR [[https://maps.google.com/?cid=8759911981912695964][Monasterio de la Sierra]]
