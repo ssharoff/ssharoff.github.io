@@ -46,15 +46,15 @@
 ** Sat 8 Aug [0/3]
  + Museum of Emigration
  + Playa de Torimbia
-** Sun 9 Aug, [0/3]
- + [[https://maps.google.com/?cid=4907838194734647948][Playa de Ribadesella]] 
- + OR Playa de Poo
-** Mon 10 Aug, Oviedo [0/3]
- + [ ] [[https://www.google.com/maps?cid=7457608306504540799][Cudillero]]
+** Sun 9 Aug, Llanes [0/3]
+ + Llanes centre
+ + Playa de Poo
+ + Playa el Portillu
+** Mon 10 Aug, Aviles [0/3]
  + [ ] [[https://maps.google.com/?cid=8520806075641115429][Oscar Niemeyer Centre]]
- + [ ] [[https://maps.google.com/?cid=18205889720490256999][Playa del Silencio]]
-** Tue 11 Aug, Picos de Europa [0/3]
- + [ ] [[https://maps.google.com/?cid=11978870111061144138][Puente La Jaya]]
+ + [ ] Playa de Rodiles
+** Tue 11 Aug, Ribadesella [0/3]
+ + [[https://maps.google.com/?cid=4907838194734647948][Playa de Ribadesella]] 
 ** Wed 12 Aug, Solar eclipse at Leon [0/3]
  + [ ] Gaudi Casa Botines
  + [ ] Leon Cathedral
@@ -106,9 +106,10 @@
  + https://en.wikivoyage.org/wiki/Basque_Country
    + https://en.wikipedia.org/wiki/Gaztelugatxe
    + https://en.wikivoyage.org/wiki/Getaria
-** Missed, Santander [0/3]
+** Missed [0/3]
  + [ ] [[https://maps.google.com/?cid=14715877244794706443][Museum of Archaeology]]
  + [ ] [[https://maps.google.com/?cid=13788828261829391393][Muelle de las Carabelas]]
  + [ ] [[https://maps.google.com/?cid=11547090896548423102][Gastelugatxe]]
  + [ ] [[https://maps.google.com/?cid=6109003021288858498][Playa de Arenillas]]
  + [ ] [[https://maps.google.com/?cid=15434135812633679203][Playa Guadamia]]
+ + [ ] [[https://maps.google.com/?cid=11978870111061144138][Puente La Jaya]]
