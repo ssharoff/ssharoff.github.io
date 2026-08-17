@@ -1,4 +1,5 @@
 -   [./2026-LREC-uncertainty.pdf](./2026-LREC-uncertainty.pdf)
+-   [./2026-watermarking.pdf](./2026-watermarking.pdf)
 -   [./2026-LREC-denoising.pdf](./2026-LREC-denoising.pdf)
 -   [./2026-adversarial-access.pdf](./2026-adversarial-access.pdf)
 -   [./2026-eacl-mh.pdf](./2026-eacl-mh.pdf)
