@@ -19,14 +19,13 @@ Syntactic Change	The members of the group talk among themselves. The moderator h
 Syntactic Change	The Scottish Governement helps the workforce by valuing them.	The Scotish Government helps the workforce to feel valued.
 Syntactic Change	We have started a feedback group of Easy Read users. 	We have started a group of Easy Read users who give us feedback.
 Syntactic Change	These people validate a document. They do this by reading and commenting it.	The validation team reads and comments the document.
-Synonymy	PraSyn	I live in the UK. 	I live in the United Kingdom. 	an acronym has been made explicit						
-Synonymy	PraSyn	Thatcher was the PM of the United Kingdom. 	Thatcher was the Prime Minister of the United Kingdom. 	an acronym has been made explicit						
-Synonymy	PraSyn	Britain left the EU in 2020	Britain left the European Union in 2020	an acronym has been made explicit						
-Synonymy	PraSyn	The UN are based in New York and Vienna	The United Nations are based in New York and Vienna	an acronym has been made explicit						
-Synonymy	PraSyn	In Italy footballers spread Nutella on a loaf of bread for breakfast	In Italy footballers spread chocolate cream on a loaf of bread for breakfast	the referent is used instead of the proper name						
-Synonymy	PraSyn	Sir Keir Starmer is the Leader of the Labour Party.	The Prime Minister of the United Kingdom is the leader of the Labour Party. 	The expression "sir Keir Starmer" is replaced by "the Prime Minister of the United Kingdom" which is a synonym at the day of the writing, but not before or after starmer's legislature as prime minister						
-Synonymy	SemSyn	We make sure that we value the faculty staff	We make sure that we value teachers	the more concrete hyponym (teachers) has been used to render the meaning of the abstract "faculty staff"						
-Synonymy	SemSyn	How did you become a bassist of the punk band Pertti Kurikan Nimipäivät?	How did you become a part of the punk band Pertti Kurikan Nimipäivät?	an Hypernym has been used to render the meaning						
+Synonymy	I live in the UK. 	I live in the United Kingdom. 	an acronym has been made explicit						
+Synonymy	Thatcher was the PM of the United Kingdom. 	Thatcher was the Prime Minister of the United Kingdom. 	an acronym has been made explicit						
+Synonymy	Britain left the EU in 2020.	Britain left the European Union in 2020.
+Synonymy	The UN are based in New York and Vienna.	The United Nations are based in New York and Vienna.
+Synonymy	In Italy footballers spread Nutella on a loaf of bread for breakfast.	In Italy footballers spread chocolate cream on a loaf of bread for breakfast.
+Synonymy	We make sure that we value the faculty staff.	We make sure that we value teachers.
+Synonymy	How did you become a bassist of the punk band Pertti Kurikan Nimipäivät?	How did you become a part of the punk band Pertti Kurikan Nimipäivät?
 Synonymy	Yes, I am running for the provincial elections!	Yes, I am running for the local elections!
 Synonymy	Starmer is the leader of the Labour Party. 	Starmer is the head of the Labour Party.
 Synonymy	Smyth is a British barrister. 	Smyth is a British lawyer.
@@ -36,7 +35,7 @@ Illocutionary Change	Making more use of technology in health.	Use more technolog
 Illocutionary Change	What worries you about the idea more care at your doctors surgery?	Tell us if you are worried about the idea of more care at your doctors surgery.
 Illocutionary Change	How you think this change can help people to staky healthy and independent for longer?	Tell us about any ways you think this change can help people to stay healthy and independent for longer.
 Illocutionary Change	Do you consider yourself as having a disability?	Are you disabled?
-Modulation	ModInf	Starmer is a British lawyer, politician, and the Prime Minister of the United Kingdom. 	Starmer is a British lawyer. Starmer is a politician. Starmer is the Prime Minister of the United Kingdom. 	The sentence is turned into as many sentences as it contained.						
+Modulation	Starmer is a British lawyer, politician, and the Prime Minister of the United Kingdom. 	Starmer is a British lawyer. Starmer is a politician. Starmer is the Prime Minister of the United Kingdom.
 Modulation	A focus group is an activity in which a small group of people talks about a topic.	A focus group is a small group of people. The focus group talks about a topic.
 Modulation	He joins in community activities as much as possible, supported by his assistants and his family.	He likes to take part in activities where he can meet people. He gets support from his assistants and his family.
 Modulation	One person, the moderator, helps the focus group.	One person helps the focus group. This person is called the moderator.
