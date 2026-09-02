@@ -44,17 +44,17 @@ My current research interests focus on the relationship between linguistic struc
 - 2024-2026 :: EU Horizon "iDem: Innovative and Inclusive Democratic Spaces for Deliberation and Participation" (PI for Leeds, €539,954) https://idemproject.eu/
 - 2020-2022 :: EPSRC "AI tracing for detecting COVID19 misinformation" (PI, £39,954)
 - 2019 :: EPSRC/Alan Turing Institute "Translation Workflow Automation by Determining Text Difficulty" (PI, £33,337), with UN and WTO.
-- 2014-2016 :: InnovateUK grant "Palodiem: Process Automation for Localisation of Dialogue in Entertainment Media" (PI, £216,411)
-- 2011-2014 :: EU Marie-Curie grant "HyghTra: High-quality Hybrid Machine Translation" (CoI, €541,575)
-- 2012 :: JISC grant "#IICT: Increasing Interoperability between Corpus Tools" (PI for Leeds, in collaboration with Coventry and Lancaster)
-- 2010-2011 :: AHRC grant "Intellitext: Intelligent Tools for Creating and Analysing Electronic Text Corpora" (CoI, £159,293)
-- 2010-2012 :: EU FP7 grant, "TTC: Terminology Extraction, Translation Tools and Comparable Corpora" (PI for Leeds, €369,786)
-- 2010-2012 :: EU FP7 grant, "Accurat: Machine Translation for Under-resourced languages" (CoI for Leeds, €340,174)
-- 2010-2011 :: EU LLP grant, "Kelly: Keywords for Language Learners" (PI for Leeds, €124,478)
+- 2014-2016 :: InnovateUK "Palodiem: Process Automation for Localisation of Dialogue in Entertainment Media" (PI, £216,411)
+- 2011-2014 :: EU Marie-Curie "HyghTra: High-quality Hybrid Machine Translation" (CoI, €541,575)
+- 2012 :: JISC "#IICT: Increasing Interoperability between Corpus Tools" (PI for Leeds, in collaboration with Coventry and Lancaster)
+- 2010-2011 :: AHRC "Intellitext: Intelligent Tools for Creating and Analysing Electronic Text Corpora" (CoI, £159,293)
+- 2010-2012 :: EU FP7, "TTC: Terminology Extraction, Translation Tools and Comparable Corpora" (PI for Leeds, €369,786)
+- 2010-2012 :: EU FP7, "Accurat: Machine Translation for Under-resourced languages" (CoI for Leeds, €340,174)
+- 2010-2011 :: EU LLP, "Kelly: Keywords for Language Learners" (PI for Leeds, €124,478)
 - 2009 :: Google Research Award for Automatic Web documents classification ($75,000)
-- 2005-2007 :: EPSRC grant "ASSIST: Automated assistance for translators" (CoI, £124,000, in collaboration with Lancaster)
+- 2005-2007 :: EPSRC "ASSIST: Automated assistance for translators" (CoI, £124,000, in collaboration with Lancaster)
 - 2000-2002 :: Fellowship from the Alexander von Humboldt Foundation, Germany
-- 1997-2000 :: EU INCO-Copernicus grant, "AGILE: Adaptive Multilingual Generation" (CoI)
+- 1997-2000 :: EU INCO-Copernicus "AGILE: Adaptive Multilingual Generation" (CoI)
 
 * Timeline of my academic history
   :PROPERTIES:
