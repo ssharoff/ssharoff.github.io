@@ -1,0 +1,43 @@
+#+TITLE: 
+#+AUTHOR: 
+#+DATE: 
+#+OPTIONS: toc:nil H:2
+#+LATEX_HEADER: \usepackage{tikzsymbols}
+
+# +LATEX_HEADER: \usepackage{CJKutf8}
+# +LATEX_HEADER: \newcommand{\ZH}[1]{\begin{CJK}{UTF8}{gbsn}\large #1\end{CJK}}
+# +LATEX_HEADER: \newcommand{\ZHT}[1]{\begin{CJK}{UTF8}{bsmi}#1\end{CJK}}
+
+* Rimini
+** Sat 17 Oct, 19:10: RK3930 to Rimini [0/3]
+ + [ ] [[https://maps.google.com/?cid=11216537014767445908][Hotel La Dolce Vita]]
+ + [ ] [[https://maps.google.com/?cid=17393085450282445750][Restaurante Sabbioni]]
+ + [ ] Relax \Laughey[1.4]
+* Ravenna
+** Sun 18 Oct, Rimini to Ravenna [0/3]
+ + [ ] [[https://maps.google.com/?cid=6451247821036048998][Hotel, Cento 19]]
+ + [ ] 
+ + [ ] 
+ + [ ] [[][Restaurant
+** Mon 19 Oct, Ravenna [0/3]
+ + [ ] Museo Arcivescovile & Battistero Neoniano 
+ + [ ] Basilica of Sant'Apollinare Nuovo
+ + [ ] Battistero degli Ariani
+** Tue 20 Oct, Ravenna
+ + [ ] Basilica of San Vitale
+ + [ ] Mausoleum of Galla Placidia
+ + [ ] Museo Nazionale di Ravenna
+** Wed 21 Oct, Ravenna to Rimini [0/3]
+ + [ ] 
+ + [ ] FR3931, Departure 16:50, Arrival to MAN 18:20
+* Local knowledge
+** Local food [0/9]
+    + [ ] 
+    + [ ] 
+    + [ ] 
+    + [ ] 
+    + [ ] 
+    + [ ] 
+    + [ ] 
+    + [ ] 
+    + [ ] 
