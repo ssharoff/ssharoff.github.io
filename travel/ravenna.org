@@ -10,27 +10,30 @@
 
 * Rimini
 ** Sat 17 Oct, 19:10: RK3930 to Rimini [0/3]
- + [ ] [[https://maps.google.com/?cid=11216537014767445908][Hotel La Dolce Vita]]
- + [ ] [[https://maps.google.com/?cid=3494915623704123642][Com'Una Volta]]
- + [ ] [[https://maps.google.com/?cid=4179830786404657976][Ristorante Gambero Rosso]]
+ + [ ] [[https://maps.google.com/?cid=6629529060479097438][Hotel Aldebaran]]
+ + [ ] [[https://maps.google.com/?cid=17393085450282445750][Restaurante Sabbioni]]
+ # + [ ] [[https://maps.google.com/?cid=3494915623704123642][Com'Una Volta]]
+ # + [ ] [[https://maps.google.com/?cid=4179830786404657976][Ristorante Gambero Rosso]]
  + [ ] Relax \Laughey[1.4]
 * Ravenna
 ** Sun 18 Oct, Rimini to Ravenna [0/3]
- + [ ] [[https://maps.google.com/?cid=17393085450282445750][Restaurante Sabbioni]]
- + [ ] [[https://maps.google.com/?cid=6451247821036048998][Hotel, Cento 19]]
- + [ ] 
+ + [ ] Swimming in Rimini
+ + [ ] Museo Frederico Fellini, Castel Sismondo
+ + [ ] Ravenna from 13.00 [[https://maps.google.com/?cid=6451247821036048998][Hotel, Cento 19]]
+ + [ ] Museo Nazionale di Ravenna
 ** Mon 19 Oct, Ravenna [0/3]
- + [ ] Museo Arcivescovile & Battistero Neoniano 
+ + [ ] Battistero Neoniano 
  + [ ] Basilica of Sant'Apollinare Nuovo
  + [ ] Battistero degli Ariani
+ + [ ] Swimming in Ravenna
  + [ ] [[https://maps.google.com/?cid=12591104877099841186][Portolano Trattoria]]
 ** Tue 20 Oct, Ravenna
  + [ ] Basilica of San Vitale
  + [ ] Mausoleum of Galla Placidia
- + [ ] Museo Nazionale di Ravenna
  + [ ] [[https://maps.google.com/?cid=11476293274355109926][Ristorante Il Brigantino]]
 ** Wed 21 Oct, Ravenna to Rimini [0/3]
- + [ ] 
+ + [ ] Ravenna: Museo Arcivescovile
+ + [ ] Rimini: Tempio Malatestiano
  + [ ] FR3931, Departure 16:50, Arrival to MAN 18:20
 * Local knowledge
 ** Local food [0/9]
