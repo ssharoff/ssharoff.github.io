@@ -20,16 +20,17 @@
  + [ ] Swimming in Rimini
  + [ ] Museo Frederico Fellini, Castel Sismondo
  + [ ] Ravenna from 13.00 [[https://maps.google.com/?cid=6451247821036048998][Hotel, Cento 19]]
- + [ ] Museo Nazionale di Ravenna
 ** Mon 19 Oct, Ravenna [0/3]
  + [ ] Battistero Neoniano 
  + [ ] Basilica of Sant'Apollinare Nuovo
  + [ ] Battistero degli Ariani
  + [ ] Swimming in Ravenna
- + [ ] [[https://maps.google.com/?cid=12591104877099841186][Portolano Trattoria]]
+ + [ ] Basilica of Sant'Apollinare in Classe
 ** Tue 20 Oct, Ravenna
  + [ ] Basilica of San Vitale
  + [ ] Mausoleum of Galla Placidia
+ + [ ] Museo Nazionale di Ravenna
+ + [ ] [[https://maps.google.com/?cid=12591104877099841186][Portolano Trattoria]]
  + [ ] [[https://maps.google.com/?cid=11476293274355109926][Ristorante Il Brigantino]]
 ** Wed 21 Oct, Ravenna to Rimini [0/3]
  + [ ] Ravenna: Museo Arcivescovile
