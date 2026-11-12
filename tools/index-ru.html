@@ -73,11 +73,13 @@ The current draft specification of the tagset is available from <TT><A NAME="tex
 
 <h2>Russian tagging resources</h2>
 <P>
-You can download the following resources:
+While the list below is mostly of historical reference, as modern neural approaches are likely to produce better accuracy of tagging and parsing (in particular Spacy and UDPipe), you can still compare the modern tools to the old n-gram models, such as TnT and TreeTagger.
+
+  You can download the following resources:
 
 <OL>
 <LI><TT><A NAME="tex2html6"
-  HREF="russian.par.gz">russian.par.gz</A></TT> - a parameter file to be used with TreeTagger, for using it you need a tokeniser and TreeTagger, available from <TT><A NAME="tex2html7"
+  HREF="russian.par.xz">russian.par.xz</A></TT> - a parameter file to be used with TreeTagger, for using it you need a tokeniser and TreeTagger, available from <TT><A NAME="tex2html7"
   HREF="http://www.ims.uni-stuttgart.de/projekte/corplex/TreeTagger/">http://www.ims.uni-stuttgart.de/projekte/corplex/TreeTagger/</A></TT>
 </LI>
 <LI><TT><A NAME="tex2html8"
@@ -92,18 +94,18 @@ You can download the following resources:
   HREF="ru-table.tab">ru-table.tab</A></TT> - a table mapping MSDs to a combination of POS categories (tab-separate file format);
 </LI>
 <LI><TT><A NAME="tex2html13"
-  HREF="i-ru-sample.txt.gz">i-ru-sample.txt.gz</A></TT> - a Russian corpus for tagging experiments.  It is a 5mln word subset from the Russian Internet Corpus (Sharoff, 2006 in <TT><A NAME="tex2html14"
+  HREF="i-ru-sample.txt.xz">i-ru-sample.txt.xz</A></TT> - a Russian corpus for tagging experiments.  It is a 5mln word subset from the Russian Internet Corpus (Sharoff, 2006 in <TT><A NAME="tex2html14"
   HREF="http://wackybook.sslmit.unibo.it/">http://wackybook.sslmit.unibo.it/</A></TT>);
 </LI>
 <LI>several tagged texts produced from the Russian sample by TreeTagger (<TT><A NAME="tex2html15"
-  HREF="i-ru-sample-tt.out.gz">i-ru-sample-tt.out.gz</A></TT>), TnT (<TT><A NAME="tex2html16"
-  HREF="i-ru-sample-tnt.out.gz">i-ru-sample-tnt.out.gz</A></TT>) and SVMTagger (Model 0, <TT><A NAME="tex2html17"
-  HREF="i-ru-sample-svm0.out.gz">i-ru-sample-svm0.out.gz</A></TT>; Model 2, <TT><A NAME="tex2html18"
-  HREF="i-ru-sample-svm2.out.gz">i-ru-sample-svm2.out.gz</A></TT>; Model 5, <TT><A NAME="tex2html19"
-  HREF="i-ru-sample-svm5.out.gz">i-ru-sample-svm5.out.gz</A></TT>)
+  HREF="i-ru-sample-tt.out.xz">i-ru-sample-tt.out.xz</A></TT>), TnT (<TT><A NAME="tex2html16"
+  HREF="i-ru-sample-tnt.out.xz">i-ru-sample-tnt.out.xz</A></TT>) and SVMTagger (Model 0, <TT><A NAME="tex2html17"
+  HREF="i-ru-sample-svm0.out.xz">i-ru-sample-svm0.out.xz</A></TT>; Model 2, <TT><A NAME="tex2html18"
+  HREF="i-ru-sample-svm2.out.xz">i-ru-sample-svm2.out.xz</A></TT>; Model 5, <TT><A NAME="tex2html19"
+  HREF="i-ru-sample-svm5.out.xz">i-ru-sample-svm5.out.xz</A></TT>)
 </LI>
 <LI><TT><A NAME="tex2html20"
-  HREF="russian-small.par.gz">russian-small.par.gz</A></TT> - a parameter file for TreeTagger that uses a small tagset (only the basic POS tags are distinguished according to the model of <TT><A NAME="tex2html21"
+  HREF="russian-small.par.xz">russian-small.par.xz</A></TT> - a parameter file for TreeTagger that uses a small tagset (only the basic POS tags are distinguished according to the model of <TT><A NAME="tex2html21"
   HREF="http://www.ruscorpora.ru/">http://www.ruscorpora.ru/</A></TT>)
 </LI>
 </OL>
@@ -117,7 +119,7 @@ The situation with lemmatisation in Russian is also complex.  Many wordforms can
 <P>
 The resources for TreeTagger can do lemmatisation by themselves, if you use <TT>-lemma</TT> for tagging (this is based on a form+pos-to-lemma lexicon).  However, this mechanism does not help with lemmatisation of unknown word forms.  Bart Jongejan and his colleagues from the Danish <a href="http://cst.ku.dk/">Center for Sprogteknologi</a> developed <a href="http://cst.dk/download/cstlemma/current/doc/cstlemma.pdf">CSTlemma</a>, a tool that learns morphosyntactic rules from form+pos+lemma triples.
 <P>
-My <a href="lemma-ru.tgz">lemmatisation tool</a> is a wrapper around CSTlemma (which has to be downloaded and installed separately).  The tool takes the output of TnT or TreeTagger, assigns lemmas from a dictionary in the TreeTagger format (which can be gzipped to save space) and uses cstlemma to guess unknown inflected forms (adjectives, nouns and verbs).  A remark for guessed forms is left in the fourth column.
+My <a href="lemma-ru.tar.xz">lemmatisation tool</a> is a wrapper around CSTlemma (which has to be downloaded and installed separately).  The tool takes the output of TnT or TreeTagger, assigns lemmas from a dictionary in the TreeTagger format (which can be gzipped to save space) and uses cstlemma to guess unknown inflected forms (adjectives, nouns and verbs).  A remark for guessed forms is left in the fourth column.
 
 <h1>Russian dependency parsing</h1>
 Statistical approaches can be also used to create parsers.  In cooperation with Joakim Nivre I have created a
