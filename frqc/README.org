@@ -178,9 +178,9 @@ For information about the log-likelihood score in keyword detection see
     :CUSTOM_ID: lists-of-word-forms
     :END:
 1. [[./bnc-clean2.tsv][BNC.]] This  is from the classic [[http://www.natcorp.ox.ac.uk/][British National Corpus.]]
-2. [[./ukwac-clean2.tsv.xz][ukWac.]] A corpus from the [[https://wacky.sslmit.unibo.it/doku.php][Wacky family.]]
-3. [[./wiki-en-clean2.tsv.xz][Wikipedia.]]
-4. [[./openwebtext-clean2.tsv.xz][OpenWebText.]] This is a clone of OpenAI's corpus used for training GPT-2, collected from upvoted links from Reddit, see [[https://github.com/jcpeterson/openwebtext][OpenWebText.]]
+2. [[./ukwac-clean2-biwt.tsv.xz][ukWac.]] A corpus from the [[https://wacky.sslmit.unibo.it/doku.php][Wacky family.]]
+3. [[./wiki/wiki-en-clean2.tsv.xz][Wikipedia.]]
+4. [[./openwebtext-clean2-biwt.tsv.xz][OpenWebText.]] This is a clone of OpenAI's corpus used for training GPT-2, collected from upvoted links from Reddit, see [[https://github.com/jcpeterson/openwebtext][OpenWebText.]]
 5. [[./ccnet-en-200-clean2-biwt.tsv.xz][CCNET.]] This is the English corpus from the Common Crawl cleaned for XLM-R, see [[https://aclanthology.org/2020.lrec-1.494/][their paper.]]
 
 ** Russian
@@ -216,7 +216,7 @@ BERT BPE lexicon.
 - [[./wiki/ru.-clean2-biwt.tsv.xz][Russian]]
 - [[./wiki/uk.-clean2-biwt.tsv.xz][Ukrainian]]
 
-ccnet-en-200-clean2-biwt.tsv.xz
+# ccnet-en-200-clean2-biwt.tsv.xz
 
-openwebtext-robust-R.tsv.xz
+# openwebtext-robust-R.tsv.xz
 
