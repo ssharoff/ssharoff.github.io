@@ -1,0 +1,86 @@
+#+title: simplification for different audiences
+#+options: toc:t
+* Source 2
+http://ambientecultura.it/territorio/langhe/museo-martina-di-monforte/
+
+/Il percorso museale, ospitato nella cornice architettonica dello storico palazzo Martina, ripercorre in sei sale la vita, le vicende e gli interessi di Paolo Domenico Martina, figura militare di rilievo durante il Risorgimento./
+
+** C
+*** IQ of 70
+Il museo si trova nello storico palazzo Martina. Il museo racconta la vita di Paolo Domenico Martina, un importante militare del periodo del Risorgimento. La sua storia e i suoi interessi sono raccontati in sei sale.
+
+*** B1 CEFR proficiency
+Il museo si trova nello storico palazzo Martina e racconta, in sei sale, la vita di Paolo Domenico Martina. Martina era un importante personaggio militare durante il Risorgimento. Il museo presenta anche le sue esperienze e i suoi interessi.
+
+*** Child who is 9-12 years old.
+Il museo si trova nel vecchio palazzo Martina. In sei sale puoi scoprire la vita di Paolo Domenico Martina. Era un importante militare durante il Risorgimento, il periodo in cui l’Italia è diventata un Paese unito. Nel museo puoi conoscere anche i suoi interessi e le cose che ha fatto.
+
+** G
+*** IQ of 70
+Questo museo si trova dentro lo storico Palazzo Martina. In sei stanze puoi scoprire la vita e le passioni di Paolo Domenico Martina. Lui era un soldato molto importante del passato, durante il periodo in cui l'Italia è diventata un Paese unico.
+*** B1
+Il percorso del museo si trova nello storico Palazzo Martina. In sei sale racconta la vita, la storia e gli interessi di Paolo Domenico Martina, un importante personaggio militare del Risorgimento.
+*** Child who is 9-12 years old.
+Il percorso del museo si trova nello storico Palazzo Martina. In sei stanze racconta la vita, le avventure e le passioni di Paolo Domenico Martina, un soldato molto importante del Risorgimento, il periodo in cui l'Italia è diventata un Paese unico.
+** S
+*** IQ of 70
+Il museo si trova dentro il vecchio palazzo Martina. In sei stanze racconta la vita, le storie e gli interessi di Paolo Domenico Martina. Lui è stato un importante militare durante il Risorgimento."
+*** B1 CEFR proficiency
+Il museo si trova nel bell'edificio storico che si chiama palazzo Martina. Il museo ha sei sale. In queste sale si racconta la vita di Paolo Domenico Martina, le sue vicende e i suoi interessi. Paolo Domenico Martina è stato un militare importante durante il Risorgimento.
+*** un bambino di 9-12 anni:
+Il museo è dentro un palazzo antico e importante: palazzo Martina. Il museo ha sei stanze. Qui si racconta la vita di Paolo Domenico Martina: le cose che gli sono successe e ciò che gli piaceva fare. Lui era un militare importante ai tempi del Risorgimento.
+
+* Source 3
+https://www.archivio.formatrieti.it/rieti-g7-delle-scuole
+
+/Lo scopo è quello di sensibilizzare le studentesse e gli studenti a prendere delle scelte consapevoli su tematiche centrali per la crescita e il futuro sostenibile del pianeta, acquisendo al contempo nuove competenze. /
+
+** C
+*** IQ of 70
+L'obiettivo è aiutare gli studenti a fare scelte giuste per proteggere il pianeta e il suo futuro. In questo modo, possono anche imparare cose nuove e sviluppare nuove capacità.
+*** B1
+L'obiettivo è aiutare le studentesse e gli studenti a fare scelte consapevoli su temi importanti per la crescita e il futuro sostenibile del pianeta. Allo stesso tempo, potranno imparare nuove cose e sviluppare nuove competenze.
+*** Child who is 9-12 years old.
+L'obiettivo è aiutare gli studenti a fare scelte che fanno bene al pianeta e al suo futuro. Durante queste attività, impareranno anche cose nuove e svilupperanno nuove capacità.
+** G
+*** IQ of 70
+L'obiettivo è aiutare gli studenti a fare scelte giuste per proteggere la Terra e il suo futuro. Mentre imparano queste cose, gli studenti ottengono anche nuove capacità utili.
+
+*** B1 CEFR proficiency
+L'obiettivo è aiutare gli studenti a fare scelte consapevoli su temi molto importanti, come la crescita e il futuro sostenibile del pianeta. Allo stesso tempo, questo percorso permette loro di acquisire nuove competenze.
+
+*** Child who is 9-12 years old.
+Lo scopo è aiutare i ragazzi e le ragazze a capire come fare scelte intelligenti per proteggere la Terra e il suo futuro. In questo modo, impareranno anche tante cose nuove e utili.
+
+** S
+*** IQ of 70
+Lo scopo è far capire alle studentesse e agli studenti quanto è importante fare scelte giuste. Queste scelte riguardano temi importanti per la crescita e per il futuro del pianeta. Allo stesso tempo, imparano cose nuove.
+*** B1 CEFR proficiency
+Lo scopo è aiutare le studentesse e gli studenti a fare scelte consapevoli. Queste scelte riguardano temi importanti per la crescita e per il futuro sostenibile del pianeta. Allo stesso tempo, gli studenti imparano nuove competenze.
+*** un bambino di 9-12 anni:
+Lo scopo è aiutare i ragazzi e le ragazze a fare scelte giuste. Queste scelte riguardano cose importanti per la crescita e per il futuro del pianeta. E allo stesso tempo imparano cose nuove.
+
+* Source 4
+
+//
+
+** C
+*** IQ of 70
+
+*** B1 CEFR proficiency
+
+*** Child who is 9-12 years old.
+
+** G
+*** IQ of 70
+
+*** B1
+
+*** Child who is 9-12 years old.
+
+** S
+*** IQ of 70
+
+*** B1 CEFR proficiency
+
+*** un bambino di 9-12 anni:
