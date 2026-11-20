@@ -1,5 +1,30 @@
 #+title: simplification for different audiences
 #+options: toc:t
+* Source 1
+
+/Il territorio di Monforte deve molto a questo personaggio poiché egli coltivò molteplici interessi di tipo naturalistico, musicale, letterario e agricolo che lo portarono a creare una scuola di agraria e a costruire alcune collezioni in parte giunte sino a noi e qui esposte./
+
+** C
+*** IQ of 70
+Monforte deve molto a questa persona. Egli amava la natura, la musica, la letteratura e l’agricoltura. Per questo, fondò una scuola di agraria e raccolse diversi oggetti e materiali. Alcune di queste collezioni sono arrivate fino a oggi e sono esposte qui.
+*** B1 CEFR proficiency
+Il territorio di Monforte deve molto a questa persona, che aveva molti interessi: la natura, la musica, la letteratura e l’agricoltura. Questi interessi lo spinsero a fondare una scuola di agraria e a creare alcune collezioni. Una parte di queste collezioni è arrivata fino a noi ed è esposta qui.
+*** un bambino di 9-12 anni:
+Questa persona ha fatto molto per il territorio di Monforte. Amava la natura, la musica, i libri e l’agricoltura. Per questo, ha fondato una scuola per insegnare l’agricoltura e ha raccolto tanti oggetti. Alcuni di questi oggetti sono ancora conservati e si possono vedere in questa mostra.
+** G
+*** IQ of 70
+Quest’uomo ha fatto molto per Monforte. Amava la natura, la musica, i libri e l’agricoltura. Grazie a queste passioni, ha aperto una scuola di agricoltura e ha raccolto molti oggetti che oggi puoi vedere in questa mostra.
+*** B1
+Il territorio di Monforte deve molto a quest'uomo, perché si interessava di natura, musica, letteratura e agricoltura. Grazie a queste passioni, fondò una scuola di agraria e raccolse diverse collezioni che sono arrivate fino a oggi e che ora sono esposte qui.
+*** Child who is 9-12 years old.
+Il territorio di Monforte deve molto a quest'uomo, perché era appassionato di natura, musica, libri e agricoltura. Grazie ai suoi interessi, ha aperto una scuola per insegnare a coltivare la terra e ha raccolto tanti oggetti particolari che si sono conservati fino a oggi e che ora sono esposti qui.
+** S
+*** IQ of 70
+La terra di Monforte deve molto a questo uomo. Lui amava tante cose: la natura, la musica, i libri e l'agricoltura. Per questo ha creato una scuola per contadini. Ha anche fatto delle collezioni. Alcune di queste collezioni esistono ancora oggi, e le puoi vedere qui.
+*** B1 CEFR proficiency
+Il territorio di Monforte deve molto a questa persona. Lei aveva molti interessi: la natura, la musica, la letteratura e l'agricoltura. Per questo ha creato una scuola di agraria e ha costruito alcune collezioni. Una parte di queste collezioni esiste ancora oggi ed è esposta qui.
+*** Child who is 9-12 years old.
+Monforte deve molto a questo signore. Lui amava tante cose diverse: la natura, la musica, i libri e l'agricoltura. Grazie a questi interessi ha fondato una scuola di agraria e ha creato delle collezioni. Alcune di queste collezioni esistono ancora oggi e le puoi vedere proprio qui.
 * Source 2
 http://ambientecultura.it/territorio/langhe/museo-martina-di-monforte/
 
