@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-11-26 Thu 09:15 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>simplification for different audiences</title>
+<meta name="author" content="Serge Sharoff" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">simplification for different audiences</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org5887131">1. Source 1</a>
+<ul>
+<li><a href="#org94ab710">1.1. IQ of 70</a>
+<ul>
+<li><a href="#orgbff6401">1.1.1. C</a></li>
+<li><a href="#orgb4f1b7e">1.1.2. G</a></li>
+<li><a href="#org54f3be4">1.1.3. S</a></li>
+</ul>
+</li>
+<li><a href="#org29e521f">1.2. B1 CEFR proficiency</a>
+<ul>
+<li><a href="#org585de9f">1.2.1. C</a></li>
+<li><a href="#orgde6460f">1.2.2. G</a></li>
+<li><a href="#org858ca91">1.2.3. S</a></li>
+</ul>
+</li>
+<li><a href="#orgf3de88f">1.3. Child who is 9-12 years old.</a>
+<ul>
+<li><a href="#orgb795c32">1.3.1. C</a></li>
+<li><a href="#org254f749">1.3.2. G</a></li>
+<li><a href="#org878bb77">1.3.3. S</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org88bad34">2. Source 2</a>
+<ul>
+<li><a href="#org820558a">2.1. IQ of 70</a>
+<ul>
+<li><a href="#org6cb57c0">2.1.1. C</a></li>
+<li><a href="#org40deae6">2.1.2. G</a></li>
+<li><a href="#orgfaf6754">2.1.3. S</a></li>
+</ul>
+</li>
+<li><a href="#org45fc853">2.2. B1 CEFR proficiency</a>
+<ul>
+<li><a href="#org071b5ab">2.2.1. C</a></li>
+<li><a href="#org9a557cb">2.2.2. G</a></li>
+<li><a href="#org227b339">2.2.3. S</a></li>
+</ul>
+</li>
+<li><a href="#org70f526c">2.3. Child who is 9-12 years old.</a>
+<ul>
+<li><a href="#org65fa208">2.3.1. C</a></li>
+<li><a href="#orgbe3cd60">2.3.2. G</a></li>
+<li><a href="#org259fd46">2.3.3. S</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org33cbf21">3. Source 3</a>
+<ul>
+<li><a href="#orgb032024">3.1. IQ of 70</a>
+<ul>
+<li><a href="#org4b5c8c6">3.1.1. C</a></li>
+<li><a href="#orgfd45d76">3.1.2. G</a></li>
+<li><a href="#orgfcdc6f9">3.1.3. S</a></li>
+</ul>
+</li>
+<li><a href="#orged92965">3.2. B1 CEFR proficiency</a>
+<ul>
+<li><a href="#org8d3bf56">3.2.1. C</a></li>
+<li><a href="#org68ab69c">3.2.2. G</a></li>
+<li><a href="#org1a56d16">3.2.3. S</a></li>
+</ul>
+</li>
+<li><a href="#orgf283a75">3.3. Child who is 9-12 years old.</a>
+<ul>
+<li><a href="#org4e5c0c5">3.3.1. C</a></li>
+<li><a href="#orgfe0f92f">3.3.2. G</a></li>
+<li><a href="#orgb219c97">3.3.3. S</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5887131" class="outline-2">
+<h2 id="org5887131"><span class="section-number-2">1.</span> Source 1</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+<i>The aerial scattering of cremated remains is rich in symbolism and meaning, and can be a beautiful part of a memorial service.</i>
+</p>
+</div>
+<div id="outline-container-org94ab710" class="outline-3">
+<h3 id="org94ab710"><span class="section-number-3">1.1.</span> IQ of 70</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-orgbff6401" class="outline-4">
+<h4 id="orgbff6401"><span class="section-number-4">1.1.1.</span> C</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<p>
+Scattering the ashes in the sky can have a special meaning. It can be a beautiful way to remember someone who has died.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb4f1b7e" class="outline-4">
+<h4 id="orgb4f1b7e"><span class="section-number-4">1.1.2.</span> G</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<p>
+Dropping ashes from a plane is a very special way to say goodbye to someone who has died. It can be a nice part of a service to remember them.
+</p>
+</div>
+</div>
+<div id="outline-container-org54f3be4" class="outline-4">
+<h4 id="org54f3be4"><span class="section-number-4">1.1.3.</span> S</h4>
+<div class="outline-text-4" id="text-1-1-3">
+<p>
+Scattering ashes from the air has deep meaning. It can be a beautiful part of saying goodbye.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org29e521f" class="outline-3">
+<h3 id="org29e521f"><span class="section-number-3">1.2.</span> B1 CEFR proficiency</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-org585de9f" class="outline-4">
+<h4 id="org585de9f"><span class="section-number-4">1.2.1.</span> C</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+Scattering cremated ashes in the air can have deep meaning. It can also be a beautiful part of a memorial service.
+</p>
+</div>
+</div>
+<div id="outline-container-orgde6460f" class="outline-4">
+<h4 id="orgde6460f"><span class="section-number-4">1.2.2.</span> G</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<p>
+Scattering a person's ashes from an aeroplane is full of deep meaning, and this tradition can be a beautiful part of a funeral service.
+</p>
+</div>
+</div>
+<div id="outline-container-org858ca91" class="outline-4">
+<h4 id="org858ca91"><span class="section-number-4">1.2.3.</span> S</h4>
+<div class="outline-text-4" id="text-1-2-3">
+<p>
+Scattering ashes in the air is full of meaning. It can be a beautiful part of a memorial service.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf3de88f" class="outline-3">
+<h3 id="orgf3de88f"><span class="section-number-3">1.3.</span> Child who is 9-12 years old.</h3>
+<div class="outline-text-3" id="text-1-3">
+</div>
+<div id="outline-container-orgb795c32" class="outline-4">
+<h4 id="orgb795c32"><span class="section-number-4">1.3.1.</span> C</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<p>
+Scattering someone's ashes in the air can be a special way to remember them. It can be a beautiful part of a service to say goodbye.
+</p>
+</div>
+</div>
+<div id="outline-container-org254f749" class="outline-4">
+<h4 id="org254f749"><span class="section-number-4">1.3.2.</span> G</h4>
+<div class="outline-text-4" id="text-1-3-2">
+<p>
+Scattering someone's ashes from an aeroplane has a lot of special meaning, and this act can be a lovely part of a funeral service.
+</p>
+</div>
+</div>
+<div id="outline-container-org878bb77" class="outline-4">
+<h4 id="org878bb77"><span class="section-number-4">1.3.3.</span> S</h4>
+<div class="outline-text-4" id="text-1-3-3">
+<p>
+Spreading ashes from the sky has a lot of meaning. It can be a lovely part of a funeral or memorial.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org88bad34" class="outline-2">
+<h2 id="org88bad34"><span class="section-number-2">2.</span> Source 2</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+<i>His body was still capable of absorbing the shock from standing on a sled encountering hundreds of  "rock solid"  tundra tussocks, which he likened in size and shape to the ottoman in his yurt, and he had become known for bringing a newly athletic approach to the musher's job.</i>
+</p>
+</div>
+<div id="outline-container-org820558a" class="outline-3">
+<h3 id="org820558a"><span class="section-number-3">2.1.</span> IQ of 70</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-org6cb57c0" class="outline-4">
+<h4 id="org6cb57c0"><span class="section-number-4">2.1.1.</span> C</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+His body could still cope with the bumps when his sled hit hundreds of hard lumps of earth. These lumps were as big and round as the footstool in his yurt. People knew him for using a new, more athletic way of driving a dog sled.
+</p>
+</div>
+</div>
+<div id="outline-container-org40deae6" class="outline-4">
+<h4 id="org40deae6"><span class="section-number-4">2.1.2.</span> G</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<p>
+He was still strong enough to ride his dog sled over hundreds of hard bumps in the snow. The bumps were as big as a small footstool in his tent. People knew him because he used a lot of energy and strength to drive his sled.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfaf6754" class="outline-4">
+<h4 id="orgfaf6754"><span class="section-number-4">2.1.3.</span> S</h4>
+<div class="outline-text-4" id="text-2-1-3">
+<p>
+His body could still take the bumps from standing on a sled. The sled went over hundreds of hard, rocky grass clumps. He said they were the size and shape of the ottoman in his tent. He became known for doing the musher's job in a new, athletic way.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org45fc853" class="outline-3">
+<h3 id="org45fc853"><span class="section-number-3">2.2.</span> B1 CEFR proficiency</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org071b5ab" class="outline-4">
+<h4 id="org071b5ab"><span class="section-number-4">2.2.1.</span> C</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<p>
+His body could still handle the strong bumps when his sled hit hundreds of very hard lumps of earth. He said they were similar in size and shape to the footstool in his yurt. He was also known for bringing a more athletic style to the work of driving a dog sled.
+</p>
+</div>
+</div>
+<div id="outline-container-org9a557cb" class="outline-4">
+<h4 id="org9a557cb"><span class="section-number-4">2.2.2.</span> G</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<p>
+His body was still strong enough to handle the heavy shaking from standing on a dog sled as it hit hundreds of hard bumps of frozen earth. He compared these bumps in size and shape to the low stool in his round tent, and he had become famous for bringing a more athletic style to driving sled dogs.
+</p>
+</div>
+</div>
+<div id="outline-container-org227b339" class="outline-4">
+<h4 id="org227b339"><span class="section-number-4">2.2.3.</span> S</h4>
+<div class="outline-text-4" id="text-2-2-3">
+<p>
+His body could still handle the shocks of standing on a sled as it went over hundreds of hard tundra grass clumps. He compared them in size and shape to the ottoman in his yurt. He became known for bringing a new, athletic style to the musher's job.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org70f526c" class="outline-3">
+<h3 id="org70f526c"><span class="section-number-3">2.3.</span> Child who is 9-12 years old.</h3>
+<div class="outline-text-3" id="text-2-3">
+</div>
+<div id="outline-container-org65fa208" class="outline-4">
+<h4 id="org65fa208"><span class="section-number-4">2.3.1.</span> C</h4>
+<div class="outline-text-4" id="text-2-3-1">
+<p>
+His body was still strong enough to cope with the big bumps when his sled hit hundreds of hard lumps of frozen ground. He said these lumps were about the same size and shape as the footstool in his tent. People knew him for using a more sporty and active style when driving a dog sled.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbe3cd60" class="outline-4">
+<h4 id="orgbe3cd60"><span class="section-number-4">2.3.2.</span> G</h4>
+<div class="outline-text-4" id="text-2-3-2">
+<p>
+His body was still strong enough to absorb the jolts from standing on a dog sled as it bounced over hundreds of rock-hard mounds of frozen grass. He said the mounds were the same size and shape as the footstool in his tent, and he had become well known for bringing a much more athletic style to driving a dog sled.
+</p>
+</div>
+</div>
+<div id="outline-container-org259fd46" class="outline-4">
+<h4 id="org259fd46"><span class="section-number-4">2.3.3.</span> S</h4>
+<div class="outline-text-4" id="text-2-3-3">
+<p>
+His body could still cope with the bumps of standing on a sled as it went over hundreds of hard clumps of tundra grass. He said they were the same size and shape as the footstool in his tent. He became famous for doing the musher's job in a new, sporty way.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org33cbf21" class="outline-2">
+<h2 id="org33cbf21"><span class="section-number-2">3.</span> Source 3</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+//
+</p>
+</div>
+<div id="outline-container-orgb032024" class="outline-3">
+<h3 id="orgb032024"><span class="section-number-3">3.1.</span> IQ of 70</h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+<div id="outline-container-org4b5c8c6" class="outline-4">
+<h4 id="org4b5c8c6"><span class="section-number-4">3.1.1.</span> C</h4>
+</div>
+<div id="outline-container-orgfd45d76" class="outline-4">
+<h4 id="orgfd45d76"><span class="section-number-4">3.1.2.</span> G</h4>
+</div>
+<div id="outline-container-orgfcdc6f9" class="outline-4">
+<h4 id="orgfcdc6f9"><span class="section-number-4">3.1.3.</span> S</h4>
+</div>
+</div>
+<div id="outline-container-orged92965" class="outline-3">
+<h3 id="orged92965"><span class="section-number-3">3.2.</span> B1 CEFR proficiency</h3>
+<div class="outline-text-3" id="text-3-2">
+</div>
+<div id="outline-container-org8d3bf56" class="outline-4">
+<h4 id="org8d3bf56"><span class="section-number-4">3.2.1.</span> C</h4>
+</div>
+<div id="outline-container-org68ab69c" class="outline-4">
+<h4 id="org68ab69c"><span class="section-number-4">3.2.2.</span> G</h4>
+</div>
+<div id="outline-container-org1a56d16" class="outline-4">
+<h4 id="org1a56d16"><span class="section-number-4">3.2.3.</span> S</h4>
+</div>
+</div>
+<div id="outline-container-orgf283a75" class="outline-3">
+<h3 id="orgf283a75"><span class="section-number-3">3.3.</span> Child who is 9-12 years old.</h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-org4e5c0c5" class="outline-4">
+<h4 id="org4e5c0c5"><span class="section-number-4">3.3.1.</span> C</h4>
+</div>
+<div id="outline-container-orgfe0f92f" class="outline-4">
+<h4 id="orgfe0f92f"><span class="section-number-4">3.3.2.</span> G</h4>
+</div>
+<div id="outline-container-orgb219c97" class="outline-4">
+<h4 id="orgb219c97"><span class="section-number-4">3.3.3.</span> S</h4>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Serge Sharoff</p>
+<p class="date">Created: 2026-11-26 Thu 09:15</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
